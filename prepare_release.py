@@ -28,7 +28,7 @@ tags:
   - onnx
   - depth-estimation
   - 3d-reconstruction
-short_description: MoGe-3 with sparse refinement running locally in your browser
+short_description: MoGe-3 with sparse refinement on WebGPU
 custom_headers:
   cross-origin-embedder-policy: require-corp
   cross-origin-opener-policy: same-origin

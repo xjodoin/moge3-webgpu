@@ -3,7 +3,7 @@
 An **unofficial, MIT-licensed browser port of MoGe-3 ViT-L**, including the original learned sparse 3D refinement stage. Upload a photo, run inference on your GPU and explore the reconstructed point cloud. No inference server or photo upload is involved.
 
 - Source: [xjodoin/moge3-webgpu](https://github.com/xjodoin/moge3-webgpu)
-- Demo: the Hugging Face static package is prepared and locally validated. Hosted publication is pending; run the local demo using the instructions below.
+- Demo: [Hugging Face Space](https://huggingface.co/spaces/xjodoin/moge3-webgpu)
 - Original model: [Microsoft MoGe](https://github.com/microsoft/MoGe) / [Ruicheng/moge-3-vitl](https://huggingface.co/Ruicheng/moge-3-vitl)
 
 This is an experimental port, not an official Microsoft release. The original FP32 learned weights are preserved; they are not quantized or retrained.
