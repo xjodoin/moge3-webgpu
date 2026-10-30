@@ -1,6 +1,7 @@
 // MoGe-3 sparse UNet: deterministic coordinate maps on CPU, learned operations
 // on WebGPU. Coordinates and kernel order follow Microsoft MoGe / MLX-VLM.
 import * as ort from 'onnxruntime-web/webgpu';
+import {modelUrl} from './model-location.js';
 const channels=[32,64,128,256,512];
 const evenRound=x=>{const f=Math.floor(x),d=x-f;return d===.5?(f%2===0?f:f+1):Math.round(x);};
 const key=(i,j,z,shape)=>(i*shape[1]+j)*shape[2]+z;
@@ -27,7 +28,7 @@ export async function refine(raw,encoder,log=()=>{},options={}){
  const sessions=new Map();
  async function run(name,feeds){
   log(`Loading refiner block ${name}`);
-  if(!sessions.has(name))sessions.set(name,await ort.InferenceSession.create(`/models/refiner/${name}.onnx`,{executionProviders:['webgpu'],extra:{session:{disable_cpu_ep_fallback:'1'}}}).catch(e=>{throw Error(`${name}: ${e.message}`)}));
+  if(!sessions.has(name))sessions.set(name,await ort.InferenceSession.create(modelUrl(`refiner/${name}.onnx`),{executionProviders:['webgpu'],extra:{session:{disable_cpu_ep_fallback:'1'}}}).catch(e=>{throw Error(`${name}: ${e.message}`)}));
   try{const result=await sessions.get(name).run(feeds);
    try{return new Float32Array(result.output.data);}finally{for(const tensor of Object.values(result))tensor.dispose();}
   }finally{for(const tensor of Object.values(feeds))tensor.dispose();}

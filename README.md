@@ -4,6 +4,7 @@ An **unofficial, MIT-licensed browser port of MoGe-3 ViT-L**, including the orig
 
 - Source: [xjodoin/moge3-webgpu](https://github.com/xjodoin/moge3-webgpu)
 - Demo: [Hugging Face Space](https://huggingface.co/spaces/xjodoin/moge3-webgpu)
+- Exported weights: [Hugging Face model repository](https://huggingface.co/xjodoin/moge-3-vitl-webgpu)
 - Original model: [Microsoft MoGe](https://github.com/microsoft/MoGe) / [Ruicheng/moge-3-vitl](https://huggingface.co/Ruicheng/moge-3-vitl)
 
 This is an experimental port, not an official Microsoft release. The original FP32 learned weights are preserved; they are not quantized or retrained.
@@ -94,12 +95,12 @@ console.table(results.map(r => ({profile: r.profile, photo: r.caseName, passed: 
 ### Prepare Hugging Face
 
 ```sh
-npm run build
+VITE_MODEL_BASE_URL=https://huggingface.co/xjodoin/moge-3-vitl-webgpu/resolve/64cf5edcfac57d146b57425f4fee541bf332a451 npm run build
 .venv/bin/python prepare_release.py
 python3 serve.py --directory release/space
 ```
 
-The generated `release/space` contains a static Space, the exported models, references, licenses and benchmarks. Static hosting needs no server GPU. Upload it with the Hugging Face CLI/SDK to a Space you own. Large model weights belong in Hugging Face storage; they are ignored by this source repository. The Space uses the documented [static SDK](https://huggingface.co/docs/hub/spaces-sdks-static) and [cross-origin isolation headers](https://huggingface.co/docs/hub/spaces-config-reference).
+The generated `release/space` contains the static app, references, licenses and benchmarks. Large ONNX files are fetched from the pinned model repository because the static Space has a 1 GB limit. `model-source.json` records the chosen model URL. To publish your own weights, run `.venv/bin/python prepare_model.py`, upload `release/model` to a model repository, then build with its revision-pinned URL in `VITE_MODEL_BASE_URL`. Static hosting needs no server GPU. Upload it with the Hugging Face CLI/SDK to a Space you own. Large model weights belong in Hugging Face storage; they are ignored by this source repository. The Space uses the documented [static SDK](https://huggingface.co/docs/hub/spaces-sdks-static) and [cross-origin isolation headers](https://huggingface.co/docs/hub/spaces-config-reference).
 
 ## Implementation notes and remaining work
 

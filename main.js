@@ -7,6 +7,7 @@ import {refine,remap} from './refiner.js';
 import {project} from './geometry.js';
 import {compare,passes} from './comparison.js';
 import {downloadModel} from './download.js';
+import {modelUrl} from './model-location.js';
 import {trackGpuBuffers} from './gpu-memory.js';
 const memory=globalThis.GPUDevice?trackGpuBuffers():null;
 ort.env.wasm.wasmPaths={wasm:wasmUrl,mjs:mjsUrl};
@@ -36,7 +37,7 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   if(!customInput)document.querySelector('#case').value=caseName;
   if(!customInput)document.querySelector('#photo').src=`${fixture}/photo.jpg`;
   log('Loading MoGe-3 dense weights (about 1.3 GB)…');const start=performance.now();
-  let modelData=await downloadModel(`${base}/moge3-dense.onnx`,meta.modelBytes,log);
+  let modelData=await downloadModel(modelUrl(profile==='legacy'?'moge3-dense.onnx':`profiles/${profile}/moge3-dense.onnx`),meta.modelBytes,log);
   session=await ort.InferenceSession.create(modelData,{executionProviders:['webgpu'],enableGraphCapture:false,extra:{session:{disable_cpu_ep_fallback:'1'}}});
   modelData=null;
   const loadMs=performance.now()-start;
