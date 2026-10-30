@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "provider": "Gemini image",
+  "model": "gemini-3.1-flash-image",
+  "prompt": "An ordinary natural smartphone photograph of the rear of a single-storey American red brick ranch house from a grassy narrow backyard, standing eye-level camera about 9 metres away and offset to the left so the facade recedes toward the right. White back door with a low concrete step, two windows, small shrubs at the far right and a fence. Empty lawn where a future low deck could go. No existing deck, furniture, pergola or people. Slightly uneven grass, convincing brick texture and natural overcast daylight. Whole doorway and enough surrounding ground visible. No text, logos, diagrams or measurements. Landscape 3:2, photographic realism, not a render or miniature.",
+  "inputKind": "generated test scene, not a real customer property",
+  "groundTruthMeasurements": false,
+  "seconds": 9.15
+}

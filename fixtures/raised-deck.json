@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "provider": "Gemini image",
+  "model": "gemini-3.1-flash-image",
+  "prompt": "A convincing ordinary homeowner smartphone photo of a cream-sided American two-storey suburban house with an existing elevated dark weathered timber deck, about 1.5 metres above the garden. Show the full old deck with timber posts and old guard rails, and a stair flight descending on the right to the lawn. A back door opens onto it. Full raised deck, support posts and staircase all visible in the lower-middle of the frame, with empty grass around and beneath it, trees at the side, white garden fence. Camera standing in yard about 12 metres away and slightly to the right. Neutral diffuse daylight, natural grass, realistic timber wear, no people. Not an architectural render or dollhouse. No text, dimension labels, logos or watermarks. Landscape 3:2.",
+  "inputKind": "generated test scene, not a real customer property",
+  "groundTruthMeasurements": false,
+  "seconds": 9.341
+}

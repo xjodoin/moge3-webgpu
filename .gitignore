@@ -1,0 +1,12 @@
+.venv/
+vendor/
+public/models/
+node_modules/
+results/
+public/ort/
+weights/
+dist/
+__pycache__/
+*.log
+.venv-native/
+release/

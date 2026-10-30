@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: photorealistic-natural. Asset type: synthetic residential backyard test photo for a photo-to-3D deck design application. Create a convincing ordinary smartphone photograph of the rear of a real modest American two-story house, light warm gray horizontal siding, white trim, a sliding glass back door and two windows, a visible concrete foundation, a small simple concrete step below the door, an empty reasonably level grassy yard extending several metres toward the camera where a future deck could be built. Weathered wood privacy fence at one edge, a few unmanicured shrubs and mature leafy trees, subtle patches in the grass, believable siding seams and reflections. No existing deck, pergola, outdoor furniture or people. Shoot from standing eye level in the yard, about 7 metres from the house, slightly oblique so the facade and ground depth are legible; the lower half shows foreground ground and the whole back door is unobstructed. Landscape 3:2 framing, natural 28mm-equivalent camera perspective with straight architectural lines, soft overcast daylight, neutral realistic colors, gentle natural imperfections, convincing photographic texture and detail. It should look like a homeowner's site photo, not a polished real-estate advertisement, 3D render, dollhouse, miniature, illustration or cinematic concept art. No text, dimensions, labels, arrows, logos or watermark. This is a generated test scene, not a photograph of an actual customer property.",
+  "tool": "ChatGPT built-in image generation",
+  "synthetic": true,
+  "original": "backyard-photorealistic-v1.png",
+  "webAsset": "sample-backyard.jpg",
+  "usage": "Synthetic photo-to-3D and UI smoke test. No known ground-truth dimensions.",
+  "created": "2026-10-28"
+}

@@ -1,0 +1,650 @@
+[
+  {
+    "profile": "fast",
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 2371505600,
+      "liveExplicitBufferBytes": 8388608,
+      "largestBufferBytes": 1040449536
+    },
+    "caseName": "sample-backyard",
+    "loadMs": 4957.454999923706,
+    "inferenceMs": 672.5049999952316,
+    "refinementMs": 4208.790000081062,
+    "cameraMs": 31.240000009536743,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.000029087066650390625,
+        "nrmse": 7.40190647729878e-7,
+        "maskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.00003199279308319092,
+        "nrmse": 0.0000014743261989943309,
+        "maskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.000005841255187988281,
+        "nrmse": 1.5225964696831367e-7,
+        "maskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.000004291534423828125,
+        "nrmse": 8.053296357368784e-7,
+        "maskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.000008344650268554688,
+        "nrmse": 6.724938301547633e-7,
+        "maskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.0001125335693359375,
+        "nrmse": 0.0000023052056997055725,
+        "maskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.0027161240577697754,
+        "nrmse": 0.000024397940924388257,
+        "maskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.0031583309173583984,
+        "nrmse": 0.00001850179122472878,
+        "maskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 0.016857624053955078,
+        "nrmse": 0.000020222097316192198,
+        "maskMismatches": 0
+      },
+      "native-points": {
+        "finite": true,
+        "maxAbs": 0.032253265380859375,
+        "nrmse": 0.000023677834611871124,
+        "maskMismatches": 0
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000016093254089355469,
+        "nrmse": 0.0000012671836169615135,
+        "maskMismatches": 0
+      }
+    },
+    "refineSteps": 1,
+    "numTokens": 1200,
+    "inputShape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "backend": "webgpu",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 0.8433337747212581,
+      "shift": -0.15002711924131512,
+      "intrinsics": [
+        0.50800203683138,
+        0,
+        0.5,
+        0,
+        0.756096054818798,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validated": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 2379894208,
+      "liveExplicitBufferBytes": 16777216,
+      "largestBufferBytes": 1040449536
+    },
+    "caseName": "brick-ranch",
+    "loadMs": 4054.0299999713898,
+    "inferenceMs": 678.4550000429153,
+    "refinementMs": 3740.960000038147,
+    "cameraMs": 12.734999895095825,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.00006437301635742188,
+        "nrmse": 0.000001301328119472499,
+        "maskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.000013776123523712158,
+        "nrmse": 0.0000016021830015825725,
+        "maskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.0000045299530029296875,
+        "nrmse": 3.0324952658738214e-7,
+        "maskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.00000476837158203125,
+        "nrmse": 8.565292885051029e-7,
+        "maskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.00001049041748046875,
+        "nrmse": 6.243345928401487e-7,
+        "maskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.00013780593872070312,
+        "nrmse": 0.000002630994253430001,
+        "maskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.0023598670959472656,
+        "nrmse": 0.000017335334580999644,
+        "maskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.006216526031494141,
+        "nrmse": 0.00003166565605202754,
+        "maskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 0.034637451171875,
+        "nrmse": 0.00003285707757177405,
+        "maskMismatches": 0
+      },
+      "native-points": {
+        "finite": false,
+        "maxAbs": 0.09446144104003906,
+        "nrmse": 0.00010669999221201802,
+        "maskMismatches": 3
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000050067901611328125,
+        "nrmse": 0.000003468939474684228,
+        "maskMismatches": 0
+      }
+    },
+    "refineSteps": 1,
+    "numTokens": 1200,
+    "inputShape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "backend": "webgpu",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 1.137294779309904,
+      "shift": -0.05751633327904579,
+      "intrinsics": [
+        0.6850763976079168,
+        0,
+        0.5,
+        0,
+        1.0196485917885274,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validated": true,
+    "passed": false
+  },
+  {
+    "profile": "fast",
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 2388282816,
+      "liveExplicitBufferBytes": 25165824,
+      "largestBufferBytes": 1040449536
+    },
+    "caseName": "raised-deck",
+    "loadMs": 4231.439999938011,
+    "inferenceMs": 677.9199999570847,
+    "refinementMs": 4303.069999933243,
+    "cameraMs": 25.054999947547913,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.0000667572021484375,
+        "nrmse": 8.693116405757296e-7,
+        "maskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.00001630745828151703,
+        "nrmse": 0.0000018113497501839887,
+        "maskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.000005662441253662109,
+        "nrmse": 2.604554063662207e-7,
+        "maskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.000006198883056640625,
+        "nrmse": 9.182189039517599e-7,
+        "maskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.000014066696166992188,
+        "nrmse": 7.077800436793878e-7,
+        "maskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.0005909204483032227,
+        "nrmse": 0.0000033871357648157167,
+        "maskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.007046937942504883,
+        "nrmse": 0.000049097583415615414,
+        "maskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.010906219482421875,
+        "nrmse": 0.00004019098753291368,
+        "maskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 0.07357406616210938,
+        "nrmse": 0.00004068713471515216,
+        "maskMismatches": 0
+      },
+      "native-points": {
+        "finite": true,
+        "maxAbs": 0.4100170135498047,
+        "nrmse": 0.00022238662880113302,
+        "maskMismatches": 0
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 7.152557373046875e-7,
+        "nrmse": 4.944612001950838e-7,
+        "maskMismatches": 0
+      }
+    },
+    "refineSteps": 1,
+    "numTokens": 1200,
+    "inputShape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "backend": "webgpu",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 1.2315405893154352,
+      "shift": -0.025323832198953754,
+      "intrinsics": [
+        0.7418475893717682,
+        0,
+        0.5,
+        0,
+        1.1041452492975152,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validated": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 2564435536,
+      "liveExplicitBufferBytes": 67108864,
+      "largestBufferBytes": 1534132224
+    },
+    "caseName": "sample-backyard",
+    "loadMs": 3208.6650000810623,
+    "inferenceMs": 1211.6100000143051,
+    "refinementMs": 4396.465000033379,
+    "cameraMs": 6.434999942779541,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.0000438690185546875,
+        "nrmse": 7.458006601926436e-7,
+        "maskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.000017762184143066406,
+        "nrmse": 0.000001551913475102508,
+        "maskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.000015676021575927734,
+        "nrmse": 2.6407172938936276e-7,
+        "maskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.000002384185791015625,
+        "nrmse": 4.258222713223689e-7,
+        "maskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.000014424324035644531,
+        "nrmse": 4.929009211091177e-7,
+        "maskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.00011348724365234375,
+        "nrmse": 0.0000020422909823863982,
+        "maskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.1349247694015503,
+        "nrmse": 0.0005586249716361642,
+        "maskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.3444786071777344,
+        "nrmse": 0.0007659412330487358,
+        "maskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 1.9287490844726562,
+        "nrmse": 0.0008303498277808609,
+        "maskMismatches": 0
+      },
+      "native-points": {
+        "finite": true,
+        "maxAbs": 1.9293098449707031,
+        "nrmse": 0.0009586986438896366,
+        "maskMismatches": 0
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000050067901611328125,
+        "nrmse": 0.000003941214528571141,
+        "maskMismatches": 0
+      }
+    },
+    "refineSteps": 2,
+    "numTokens": 1733,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "backend": "webgpu",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 0.8415107343685224,
+      "shift": -0.15248765286982582,
+      "intrinsics": [
+        0.5056850169365107,
+        0,
+        0.5,
+        0,
+        0.7585275254047661,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validated": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 2606378576,
+      "liveExplicitBufferBytes": 109051904,
+      "largestBufferBytes": 1534132224
+    },
+    "caseName": "brick-ranch",
+    "loadMs": 1896.1749999523163,
+    "inferenceMs": 1034.2250000238419,
+    "refinementMs": 4565.3949999809265,
+    "cameraMs": 3.75,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.00003910064697265625,
+        "nrmse": 7.54130244282778e-7,
+        "maskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.000026047229766845703,
+        "nrmse": 0.0000014874812640597145,
+        "maskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.000011444091796875,
+        "nrmse": 6.844987717514303e-7,
+        "maskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.000001430511474609375,
+        "nrmse": 2.5156485920669526e-7,
+        "maskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.000007748603820800781,
+        "nrmse": 4.445188837740229e-7,
+        "maskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.00014495849609375,
+        "nrmse": 0.000002445078186120154,
+        "maskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.01508176326751709,
+        "nrmse": 0.00013031821065247938,
+        "maskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.08280420303344727,
+        "nrmse": 0.0002500735406370445,
+        "maskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 0.4708671569824219,
+        "nrmse": 0.00025888163722820453,
+        "maskMismatches": 0
+      },
+      "native-points": {
+        "finite": true,
+        "maxAbs": 0.9033527374267578,
+        "nrmse": 0.00039870387619822577,
+        "maskMismatches": 0
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 1.1920928955078125e-7,
+        "nrmse": 9.784640141578248e-8,
+        "maskMismatches": 0
+      }
+    },
+    "refineSteps": 2,
+    "numTokens": 1733,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "backend": "webgpu",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 1.1186609479590934,
+      "shift": -0.06363652084131453,
+      "intrinsics": [
+        0.6722315679542774,
+        0,
+        0.5,
+        0,
+        1.0083473519314161,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validated": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 2648321616,
+      "liveExplicitBufferBytes": 150994944,
+      "largestBufferBytes": 1534132224
+    },
+    "caseName": "raised-deck",
+    "loadMs": 1861.9599999189377,
+    "inferenceMs": 996.0350000858307,
+    "refinementMs": 5173.205000042915,
+    "cameraMs": 3.819999933242798,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.00009489059448242188,
+        "nrmse": 0.0000012118787702908013,
+        "maskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.000020444393157958984,
+        "nrmse": 0.0000017972824405251375,
+        "maskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.000008225440979003906,
+        "nrmse": 3.208977668086924e-7,
+        "maskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.000003814697265625,
+        "nrmse": 5.591143572669456e-7,
+        "maskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.000019311904907226562,
+        "nrmse": 6.694754966352854e-7,
+        "maskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.0004334449768066406,
+        "nrmse": 0.0000030078979392602283,
+        "maskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.01073157787322998,
+        "nrmse": 0.00012420551847429925,
+        "maskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.01939868927001953,
+        "nrmse": 0.0000899557642212283,
+        "maskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 0.1323375701904297,
+        "nrmse": 0.00009097863155744902,
+        "maskMismatches": 0
+      },
+      "native-points": {
+        "finite": true,
+        "maxAbs": 0.5767555236816406,
+        "nrmse": 0.0010587559460561288,
+        "maskMismatches": 0
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 5.960464477539063e-8,
+        "nrmse": 3.325058367417182e-8,
+        "maskMismatches": 0
+      }
+    },
+    "refineSteps": 2,
+    "numTokens": 1733,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "backend": "webgpu",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 1.2082710359984639,
+      "shift": -0.03361338894473224,
+      "intrinsics": [
+        0.7260805291584095,
+        0,
+        0.5,
+        0,
+        1.0891207937376142,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validated": true,
+    "passed": false
+  }
+]

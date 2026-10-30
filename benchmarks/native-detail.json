@@ -1,0 +1,47 @@
+[
+  {
+    "case": "sample-backyard",
+    "profile": "detail",
+    "stageReferenceSeconds": 0.8907671669730917,
+    "nativeInferenceSeconds": 1.3614121660357341,
+    "mlxPeakBytes": 3597021049,
+    "tokens": 1733,
+    "refineSteps": 1,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ]
+  },
+  {
+    "case": "brick-ranch",
+    "profile": "detail",
+    "stageReferenceSeconds": 1.0358013329096138,
+    "nativeInferenceSeconds": 2.0205790830077603,
+    "mlxPeakBytes": 3597021049,
+    "tokens": 1733,
+    "refineSteps": 1,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ]
+  },
+  {
+    "case": "raised-deck",
+    "profile": "detail",
+    "stageReferenceSeconds": 0.8335054580820724,
+    "nativeInferenceSeconds": 1.4467316250083968,
+    "mlxPeakBytes": 3597021045,
+    "tokens": 1733,
+    "refineSteps": 1,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ]
+  }
+]

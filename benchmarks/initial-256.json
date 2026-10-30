@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-30",
+  "machine": "Apple M4 Pro, 24 GB unified memory",
+  "scope": "Localhost, warm browser/runtime caches; not network download timing",
+  "benchmarks": [
+    {
+      "caseName": "sample-backyard",
+      "loadMs": 3025.6999999284744,
+      "inferenceMs": 153.30000007152557,
+      "refinementMs": 621.1000000238419,
+      "cameraMs": 3.399999976158142,
+      "outputs": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.00001621246337890625,
+          "nrmse": 8.588374038757043e-7,
+          "maskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.000010060146450996399,
+          "nrmse": 0.0000015347990219185755,
+          "maskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.000004827976226806641,
+          "nrmse": 7.261834332157681e-8,
+          "maskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.00000858306884765625,
+          "nrmse": 0.0000018731738506179236,
+          "maskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.000004887580871582031,
+          "nrmse": 8.024233621006841e-7,
+          "maskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.00007104873657226562,
+          "nrmse": 0.000002504820583946192,
+          "maskMismatches": 0
+        },
+        "refined-raw": {
+          "finite": true,
+          "maxAbs": 0.0016725698951631784,
+          "nrmse": 0.00003697048112635766,
+          "maskMismatches": 0
+        },
+        "refined-points": {
+          "finite": true,
+          "maxAbs": 0.005347728729248047,
+          "nrmse": 0.000033870396219332184,
+          "maskMismatches": 0
+        },
+        "projected-points": {
+          "finite": true,
+          "maxAbs": 0.024461746215820312,
+          "nrmse": 0.00003550687099150437,
+          "maskMismatches": 0
+        }
+      },
+      "refineSteps": 1,
+      "numTokens": 300,
+      "inputShape": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "backend": "webgpu",
+      "cpuLearnedFallback": false,
+      "camera": {
+        "focal": 0.9488843344432847,
+        "shift": -0.11260483918467583,
+        "intrinsics": [
+          0.6709625474465305,
+          0,
+          0.5,
+          0,
+          0.6709625474465305,
+          0.5,
+          0,
+          0,
+          1
+        ]
+      },
+      "validated": true,
+      "passed": true
+    },
+    {
+      "caseName": "brick-ranch",
+      "loadMs": 3340.600000023842,
+      "inferenceMs": 232.59999990463257,
+      "refinementMs": 653.2000000476837,
+      "cameraMs": 3.200000047683716,
+      "outputs": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.000020503997802734375,
+          "nrmse": 0.0000012168544989221333,
+          "maskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.000007748603820800781,
+          "nrmse": 0.0000015573091923724474,
+          "maskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.0000044405460357666016,
+          "nrmse": 3.4042733344516595e-7,
+          "maskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.000003814697265625,
+          "nrmse": 8.164354164376821e-7,
+          "maskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.0000064373016357421875,
+          "nrmse": 8.338567384710422e-7,
+          "maskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.000133514404296875,
+          "nrmse": 0.0000026400839953312136,
+          "maskMismatches": 0
+        },
+        "refined-raw": {
+          "finite": true,
+          "maxAbs": 0.0067331790924072266,
+          "nrmse": 0.00004416270102105425,
+          "maskMismatches": 0
+        },
+        "refined-points": {
+          "finite": true,
+          "maxAbs": 0.00868844985961914,
+          "nrmse": 0.00004016292043383475,
+          "maskMismatches": 0
+        },
+        "projected-points": {
+          "finite": true,
+          "maxAbs": 0.040587425231933594,
+          "nrmse": 0.000040937548782924923,
+          "maskMismatches": 0
+        }
+      },
+      "refineSteps": 1,
+      "numTokens": 300,
+      "inputShape": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "backend": "webgpu",
+      "cpuLearnedFallback": false,
+      "camera": {
+        "focal": 1.1001369656945779,
+        "shift": -0.05930824617172063,
+        "intrinsics": [
+          0.7779143086766283,
+          0,
+          0.5,
+          0,
+          0.7779143086766283,
+          0.5,
+          0,
+          0,
+          1
+        ]
+      },
+      "validated": true,
+      "passed": true
+    },
+    {
+      "caseName": "raised-deck",
+      "loadMs": 2859.399999976158,
+      "inferenceMs": 195.79999995231628,
+      "refinementMs": 659.8000000715256,
+      "cameraMs": 4.700000047683716,
+      "outputs": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.000026226043701171875,
+          "nrmse": 0.000001178582176618457,
+          "maskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.000014126300811767578,
+          "nrmse": 0.000001719935984775509,
+          "maskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.000004589557647705078,
+          "nrmse": 1.1735090189197256e-7,
+          "maskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.000001430511474609375,
+          "nrmse": 2.51553426258287e-7,
+          "maskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.000005841255187988281,
+          "nrmse": 7.416339365381773e-7,
+          "maskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.00009870529174804688,
+          "nrmse": 0.000002683890351948533,
+          "maskMismatches": 0
+        },
+        "refined-raw": {
+          "finite": true,
+          "maxAbs": 0.0020867586135864258,
+          "nrmse": 0.00003410711550135707,
+          "maskMismatches": 0
+        },
+        "refined-points": {
+          "finite": true,
+          "maxAbs": 0.002011537551879883,
+          "nrmse": 0.000020936756960531895,
+          "maskMismatches": 0
+        },
+        "projected-points": {
+          "finite": true,
+          "maxAbs": 0.011442184448242188,
+          "nrmse": 0.00002160551263148313,
+          "maskMismatches": 0
+        }
+      },
+      "refineSteps": 1,
+      "numTokens": 300,
+      "inputShape": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "backend": "webgpu",
+      "cpuLearnedFallback": false,
+      "camera": {
+        "focal": 1.0840678126715084,
+        "shift": -0.07061726600790806,
+        "intrinsics": [
+          0.7665517016060915,
+          0,
+          0.5,
+          0,
+          0.7665517016060915,
+          0.5,
+          0,
+          0,
+          1
+        ]
+      },
+      "validated": true,
+      "passed": true
+    }
+  ],
+  "refinerIsolation": {
+    "maxAbs": 0.000001430511474609375,
+    "nrmse": 7.768978598472034e-8
+  },
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "device": "",
+    "description": ""
+  }
+}

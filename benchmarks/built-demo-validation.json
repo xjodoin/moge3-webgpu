@@ -1,0 +1,184 @@
+{
+  "reference": {
+    "profile": "detail",
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 2539269712,
+      "liveExplicitBufferBytes": 41943040,
+      "largestBufferBytes": 1534132224
+    },
+    "caseName": "raised-deck",
+    "loadMs": 4070.2599999904633,
+    "inferenceMs": 1159.0249999761581,
+    "refinementMs": 4158.570000052452,
+    "cameraMs": 6.25,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.00009489059448242188,
+        "nrmse": 0.0000012118787702908013,
+        "p99Abs": 0.000008106231689453125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.000020444393157958984,
+        "nrmse": 0.0000017972824405251375,
+        "p99Abs": 0.0000037550926208496094,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.000008225440979003906,
+        "nrmse": 3.208977668086924e-7,
+        "p99Abs": 0.0000012516975402832031,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.000003814697265625,
+        "nrmse": 5.591143572669456e-7,
+        "p99Abs": 0.000003814697265625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.000019311904907226562,
+        "nrmse": 6.694754966352854e-7,
+        "p99Abs": 0.0000010728836059570312,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.0004334449768066406,
+        "nrmse": 0.0000030078979392602283,
+        "p99Abs": 0.000026702880859375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.007406830787658691,
+        "nrmse": 0.00004159362516895785,
+        "p99Abs": 0.000017583370208740234,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.01519465446472168,
+        "nrmse": 0.000028664528503193386,
+        "p99Abs": 0.00005459785461425781,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 0.1036834716796875,
+        "nrmse": 0.000029332388644901204,
+        "p99Abs": 0.000362396240234375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "native-points": {
+        "finite": true,
+        "maxAbs": 0.36624908447265625,
+        "nrmse": 0.000974671716661402,
+        "p99Abs": 0.010541915893554688,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 1.1920928955078125e-7,
+        "nrmse": 9.40483512064722e-8,
+        "p99Abs": 1.1920928955078125e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    "refineSteps": 1,
+    "numTokens": 1733,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "backend": "webgpu",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 1.2082350629663796,
+      "shift": -0.03366363000267225,
+      "intrinsics": [
+        0.7260589120564572,
+        0,
+        0.5,
+        0,
+        1.089088368084686,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validated": true,
+    "passed": true
+  },
+  "uploaded": {
+    "profile": "detail",
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 2581212752,
+      "liveExplicitBufferBytes": 83886080,
+      "largestBufferBytes": 1534132224
+    },
+    "caseName": "uploaded-photo",
+    "loadMs": 2401.139999985695,
+    "inferenceMs": 1158.3500000238419,
+    "refinementMs": 2452.579999923706,
+    "cameraMs": 7.245000004768372,
+    "outputs": {},
+    "refineSteps": 1,
+    "numTokens": 1733,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "backend": "webgpu",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 0.8390153120477875,
+      "shift": -0.15370512926722624,
+      "intrinsics": [
+        0.5041854547479528,
+        0,
+        0.5,
+        0,
+        0.7562781821219292,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validated": false,
+    "passed": null
+  }
+}
