@@ -1,0 +1,1120 @@
+{
+  "rows": [
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 38356,
+      "candidates": [
+        {
+          "config": {
+            "rows": 32,
+            "cols": 64,
+            "k": 32,
+            "skip": "mask"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            25.886719999999997,
+            25.55904,
+            26.148863999999996,
+            25.821184,
+            25.952256
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            70.844416,
+            73.596928,
+            73.59692799999999,
+            72.08959999999999,
+            70.844416
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            202.571776,
+            208.73216,
+            207.814656,
+            201.98195199999998,
+            203.620352
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            68.8128,
+            72.155136,
+            72.02406400000001,
+            69.00940800000001,
+            71.43423999999999
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            239.337472,
+            243.269632,
+            246.153216,
+            237.89568000000003,
+            244.187136
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            72.941568,
+            77.33248,
+            77.135872,
+            75.95622399999999,
+            78.118912
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            192.151552,
+            200.278016,
+            200.081408,
+            200.146944,
+            198.18086399999999
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 10865,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            33.161215999999996,
+            32.768,
+            32.636928,
+            32.899072,
+            33.030144
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            87.22841600000001,
+            87.687168,
+            87.49056,
+            87.621632,
+            87.359488
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            251.789312,
+            256.24576,
+            255.655936,
+            257.09772799999996,
+            257.032192
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            83.755008,
+            86.704128,
+            86.44198399999999,
+            81.723392,
+            86.57305600000001
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            294.322176,
+            303.955968,
+            303.10400000000004,
+            292.74931200000003,
+            307.494912
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            88.53913600000001,
+            91.619328,
+            90.112,
+            87.88377600000001,
+            92.667904
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            227.7376,
+            236.781568,
+            229.70368,
+            225.378304,
+            235.27424
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.4.0",
+      "channels": 512,
+      "rows": 2890,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            37.486592,
+            37.35552,
+            37.02784,
+            37.35552,
+            36.896768
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            96.796672,
+            93.585408,
+            93.782016,
+            94.896128,
+            93.51987199999999
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            285.671424,
+            273.743872,
+            277.74156800000003,
+            283.639808,
+            269.746176
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            97.97631999999999,
+            94.240768,
+            98.697216,
+            98.041856,
+            93.323264
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            336.33075199999996,
+            324.993024,
+            330.30144,
+            328.859648,
+            320.14336000000003
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            102.170624,
+            100.663296,
+            99.61472,
+            99.680256,
+            96.66560000000001
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            249.430016,
+            249.167872,
+            248.70911999999998,
+            248.25036799999998,
+            246.874112
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 52918,
+      "candidates": [
+        {
+          "config": {
+            "rows": 32,
+            "cols": 64,
+            "k": 32,
+            "skip": "mask"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            35.913728,
+            35.586048,
+            35.979264,
+            35.323904,
+            35.913728
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            102.170624,
+            101.449728,
+            101.122048,
+            101.449728,
+            100.663296
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            283.31212800000003,
+            285.540352,
+            285.999104,
+            294.322176,
+            284.295168
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            96.141312,
+            99.28703999999999,
+            98.893824,
+            100.401152,
+            98.697216
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            331.087872,
+            338.16576,
+            333.971456,
+            343.40864,
+            335.347712
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            100.335616,
+            104.52992,
+            100.466688,
+            106.16832,
+            105.971712
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            270.073856,
+            274.59583999999995,
+            264.24115199999994,
+            263.979008,
+            274.530304
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 14957,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            45.21984,
+            45.285376,
+            44.826624,
+            44.826624,
+            45.350912
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            120.324096,
+            120.45516800000001,
+            120.455168,
+            120.520704,
+            119.668736
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            351.731712,
+            352.976896,
+            350.814208,
+            353.632256,
+            353.37011199999995
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            117.178368,
+            118.48908800000001,
+            117.571584,
+            117.70265599999999,
+            117.83372800000001
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            419.299328,
+            411.369472,
+            419.823616,
+            407.502848,
+            419.233792
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            124.649472,
+            119.734272,
+            125.50144,
+            117.70265599999999,
+            124.977152
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            316.997632,
+            315.88352,
+            316.801024,
+            317.8496,
+            321.32300799999996
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.4.0",
+      "channels": 512,
+      "rows": 3940,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            50.135040000000004,
+            50.003968,
+            50.200576,
+            50.921472,
+            49.74182400000001
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            129.89235200000002,
+            130.41663999999997,
+            130.613248,
+            129.236992,
+            127.7952
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            391.970816,
+            386.53132800000003,
+            383.320064,
+            393.150464,
+            378.535936
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            129.236992,
+            131.858432,
+            126.353408,
+            131.006464,
+            126.091264
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            450.625536,
+            463.929344,
+            442.564608,
+            459.603968,
+            442.761216
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            134.283264,
+            136.577024,
+            129.10592,
+            134.02112,
+            134.545408
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            337.77254400000004,
+            349.765632,
+            348.717056,
+            349.569024,
+            347.01312
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "raised-deck",
+      "step": 0,
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 67537,
+      "candidates": [
+        {
+          "config": {
+            "rows": 32,
+            "cols": 64,
+            "k": 32,
+            "skip": "mask"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            47.84128,
+            47.05484799999999,
+            47.5136,
+            47.775743999999996,
+            47.185919999999996
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            131.72736,
+            130.220032,
+            133.169152,
+            132.907008,
+            133.36576
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            376.373248,
+            367.132672,
+            373.5552,
+            369.885184,
+            373.293056
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            133.103616,
+            128.843776,
+            133.30022400000001,
+            128.18841600000002,
+            132.64486399999998
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            453.05036800000005,
+            445.841408,
+            451.34643200000005,
+            440.40192,
+            451.411968
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            142.999552,
+            142.409728,
+            142.5408,
+            136.249344,
+            142.278656
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            374.603776,
+            372.768768,
+            371.58912,
+            371.326976,
+            372.965376
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "raised-deck",
+      "step": 0,
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 21591,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": []
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": []
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 8,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": []
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": []
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 16,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": []
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 32,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": []
+        },
+        {
+          "config": {
+            "kind": "subgroup",
+            "rows": 32,
+            "cols": 64,
+            "k": 8
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": []
+        }
+      ]
+    }
+  ],
+  "done": false,
+  "support": {
+    "supported": true,
+    "sizes": [
+      32
+    ],
+    "active": [
+      32
+    ],
+    "subgroupMinSize": 32,
+    "subgroupMaxSize": 32,
+    "reason": "One complete 32-lane subgroup"
+  },
+  "error": "AbortError: Failed to execute 'mapAsync' on 'GPUBuffer': Device was lost before MapAsync completed."
+}

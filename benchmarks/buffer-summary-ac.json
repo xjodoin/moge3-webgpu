@@ -1,0 +1,288 @@
+{
+  "powerSource": "AC verified throughout run",
+  "powerSamples": 75,
+  "date": "2026-10-30T19:06:25.627Z",
+  "device": "Apple M4 Pro 24 GB, Chrome 156 Metal-3",
+  "method": "Same production build; reuse disabled and enabled; group order counterbalanced by resolution. One warmup per configuration, three repeats per photo. Compute excludes loading, validation and rendering. Timestamp-profiling runs are separate and deliberately synchronized; GPU timestamps measure shader execution, ONNX linear timings include CPU dispatch and GPU completion. Baseline disabled retains the same capacity rounding to isolate reuse.",
+  "performanceDecision": "Reuse remains opt-in: allocation count falls, but observed latency does not improve consistently and retained buffers increase memory.",
+  "defaultReuse": false,
+  "profiles": [
+    {
+      "profile": "fast",
+      "refineSteps": 1,
+      "disabled": {
+        "computeMs": 991.3949999809265,
+        "refinementMs": 418.1650000810623,
+        "createdBuffers": 97,
+        "reusedBuffers": 0,
+        "peakTrackedGpuBytes": 2726940592,
+        "worstPointsNrmse": 0.0003349385405136117,
+        "maskMismatches": 0
+      },
+      "enabled": {
+        "computeMs": 999.914999961853,
+        "refinementMs": 417.710000038147,
+        "createdBuffers": 34,
+        "reusedBuffers": 63,
+        "peakTrackedGpuBytes": 3003084640,
+        "worstPointsNrmse": 0.0003349385405136117,
+        "maskMismatches": 0
+      },
+      "maxNrmseChangeAcrossReuseModes": 0,
+      "latencyReductionPercent": -0.8593950928833083
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 2,
+      "disabled": {
+        "computeMs": 1497.2849999666214,
+        "refinementMs": 827.3049999475479,
+        "createdBuffers": 194,
+        "reusedBuffers": 0,
+        "peakTrackedGpuBytes": 2726940592,
+        "worstPointsNrmse": 0.0007103017689260219,
+        "maskMismatches": 0
+      },
+      "enabled": {
+        "computeMs": 1383.9700000286102,
+        "refinementMs": 803.2599999904633,
+        "createdBuffers": 52,
+        "reusedBuffers": 142,
+        "peakTrackedGpuBytes": 3000371696,
+        "worstPointsNrmse": 0.0007103017689260219,
+        "maskMismatches": 0
+      },
+      "maxNrmseChangeAcrossReuseModes": 0,
+      "latencyReductionPercent": 7.5680314663232
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 3,
+      "disabled": {
+        "computeMs": 1774.6750000715256,
+        "refinementMs": 1199.5,
+        "createdBuffers": 291,
+        "reusedBuffers": 0,
+        "peakTrackedGpuBytes": 2726940592,
+        "worstPointsNrmse": 0.0009413059419531438,
+        "maskMismatches": 0
+      },
+      "enabled": {
+        "computeMs": 1783.0049999952316,
+        "refinementMs": 1206.3849999904633,
+        "createdBuffers": 74,
+        "reusedBuffers": 217,
+        "peakTrackedGpuBytes": 3002660880,
+        "worstPointsNrmse": 0.0009413059419531438,
+        "maskMismatches": 0
+      },
+      "maxNrmseChangeAcrossReuseModes": 0,
+      "latencyReductionPercent": -0.4693817134613587
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 1,
+      "disabled": {
+        "computeMs": 1481.835000038147,
+        "refinementMs": 569.2250000238419,
+        "createdBuffers": 97,
+        "reusedBuffers": 0,
+        "peakTrackedGpuBytes": 3266447328,
+        "worstPointsNrmse": 0.0002887960802053227,
+        "maskMismatches": 0
+      },
+      "enabled": {
+        "computeMs": 1500.7949999570847,
+        "refinementMs": 575.8300000429153,
+        "createdBuffers": 35,
+        "reusedBuffers": 62,
+        "peakTrackedGpuBytes": 3500665008,
+        "worstPointsNrmse": 0.0002887960802053227,
+        "maskMismatches": 0
+      },
+      "maxNrmseChangeAcrossReuseModes": 0,
+      "latencyReductionPercent": -1.2794946750785074
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 2,
+      "disabled": {
+        "computeMs": 2030.4500000476837,
+        "refinementMs": 1115.6749999523163,
+        "createdBuffers": 194,
+        "reusedBuffers": 0,
+        "peakTrackedGpuBytes": 3266447328,
+        "worstPointsNrmse": 0.0008415597114219503,
+        "maskMismatches": 0
+      },
+      "enabled": {
+        "computeMs": 2045.3949999809265,
+        "refinementMs": 1134.045000076294,
+        "createdBuffers": 54,
+        "reusedBuffers": 140,
+        "peakTrackedGpuBytes": 3501008656,
+        "worstPointsNrmse": 0.0008415597114219503,
+        "maskMismatches": 0
+      },
+      "maxNrmseChangeAcrossReuseModes": 0,
+      "latencyReductionPercent": -0.7360437308425061
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 3,
+      "disabled": {
+        "computeMs": 2681.0350000858307,
+        "refinementMs": 1685.335000038147,
+        "createdBuffers": 291,
+        "reusedBuffers": 0,
+        "peakTrackedGpuBytes": 3266447328,
+        "worstPointsNrmse": 0.0009430723759879896,
+        "maskMismatches": 0
+      },
+      "enabled": {
+        "computeMs": 2686.9649999141693,
+        "refinementMs": 1667.9150000810623,
+        "createdBuffers": 80,
+        "reusedBuffers": 211,
+        "peakTrackedGpuBytes": 3501326768,
+        "worstPointsNrmse": 0.0009430723759879896,
+        "maskMismatches": 0
+      },
+      "maxNrmseChangeAcrossReuseModes": 0,
+      "latencyReductionPercent": -0.22118323066087076
+    }
+  ],
+  "gpuLayers": [
+    {
+      "profile": "detail",
+      "layer": "down_stages.4.0",
+      "medianGpuMsAcrossThreePasses": 181.338112
+    },
+    {
+      "profile": "detail",
+      "layer": "bottleneck_stage.0",
+      "medianGpuMsAcrossThreePasses": 180.09292799999997
+    },
+    {
+      "profile": "detail",
+      "layer": "down_stages.3.0",
+      "medianGpuMsAcrossThreePasses": 163.77446399999997
+    },
+    {
+      "profile": "detail",
+      "layer": "up_stages.0.0",
+      "medianGpuMsAcrossThreePasses": 163.05356799999998
+    },
+    {
+      "profile": "detail",
+      "layer": "down_stages.2.0",
+      "medianGpuMsAcrossThreePasses": 142.802944
+    },
+    {
+      "profile": "detail",
+      "layer": "up_stages.1.0",
+      "medianGpuMsAcrossThreePasses": 142.016512
+    },
+    {
+      "profile": "fast",
+      "layer": "down_stages.4.0",
+      "medianGpuMsAcrossThreePasses": 130.482176
+    },
+    {
+      "profile": "fast",
+      "layer": "bottleneck_stage.0",
+      "medianGpuMsAcrossThreePasses": 129.499136
+    },
+    {
+      "profile": "fast",
+      "layer": "down_stages.3.0",
+      "medianGpuMsAcrossThreePasses": 117.243904
+    },
+    {
+      "profile": "fast",
+      "layer": "up_stages.0.0",
+      "medianGpuMsAcrossThreePasses": 117.243904
+    },
+    {
+      "profile": "detail",
+      "layer": "down_stages.1.0",
+      "medianGpuMsAcrossThreePasses": 116.19532799999999
+    },
+    {
+      "profile": "detail",
+      "layer": "up_stages.2.0",
+      "medianGpuMsAcrossThreePasses": 114.884608
+    },
+    {
+      "profile": "fast",
+      "layer": "down_stages.2.0",
+      "medianGpuMsAcrossThreePasses": 101.384192
+    },
+    {
+      "profile": "fast",
+      "layer": "up_stages.1.0",
+      "medianGpuMsAcrossThreePasses": 100.27008000000001
+    },
+    {
+      "profile": "detail",
+      "layer": "up_stages.3.0",
+      "medianGpuMsAcrossThreePasses": 83.689472
+    },
+    {
+      "profile": "detail",
+      "layer": "down_stages.0.0",
+      "medianGpuMsAcrossThreePasses": 82.57536000000002
+    },
+    {
+      "profile": "fast",
+      "layer": "down_stages.1.0",
+      "medianGpuMsAcrossThreePasses": 80.412672
+    },
+    {
+      "profile": "fast",
+      "layer": "up_stages.2.0",
+      "medianGpuMsAcrossThreePasses": 79.95392000000001
+    },
+    {
+      "profile": "fast",
+      "layer": "up_stages.3.0",
+      "medianGpuMsAcrossThreePasses": 55.967743999999996
+    },
+    {
+      "profile": "fast",
+      "layer": "down_stages.0.0",
+      "medianGpuMsAcrossThreePasses": 55.508992
+    },
+    {
+      "profile": "detail",
+      "layer": "gather",
+      "medianGpuMsAcrossThreePasses": 30.867455999999997
+    },
+    {
+      "profile": "fast",
+      "layer": "gather",
+      "medianGpuMsAcrossThreePasses": 21.233664
+    },
+    {
+      "profile": "detail",
+      "layer": "upsampleAdd",
+      "medianGpuMsAcrossThreePasses": 10.616832
+    },
+    {
+      "profile": "fast",
+      "layer": "upsampleAdd",
+      "medianGpuMsAcrossThreePasses": 7.4711039999999995
+    },
+    {
+      "profile": "detail",
+      "layer": "pool",
+      "medianGpuMsAcrossThreePasses": 5.439487999999999
+    },
+    {
+      "profile": "fast",
+      "layer": "pool",
+      "medianGpuMsAcrossThreePasses": 3.5389440000000003
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,1541 @@
+{
+  "rows": [
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 38356,
+      "candidates": [
+        {
+          "config": {
+            "rows": 32,
+            "cols": 64,
+            "k": 32,
+            "skip": "mask"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            25.952256,
+            25.821184,
+            25.690112,
+            25.755648,
+            25.55904
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            25.690112,
+            25.690112,
+            25.55904,
+            25.362432,
+            25.55904
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            62.58688,
+            61.734911999999994,
+            61.800448,
+            61.210624,
+            61.997056
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            34.209792,
+            33.816576,
+            34.013184,
+            33.947648,
+            33.947648
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            14.876672,
+            14.876672,
+            14.942208,
+            14.811136000000001,
+            14.876672
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            19.595264,
+            19.660800000000002,
+            19.6608,
+            20.119552,
+            19.6608
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 10865,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            33.226752000000005,
+            32.571392,
+            32.44032,
+            33.09568,
+            33.09568
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            32.964608,
+            32.505856,
+            32.11264,
+            32.964608,
+            32.899072000000004
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            77.922304,
+            78.24998400000001,
+            77.266944,
+            78.708736,
+            77.33248
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            46.596096,
+            45.54752,
+            45.809664,
+            46.20288,
+            46.137344
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            19.00544,
+            18.153472,
+            19.33312,
+            18.546688,
+            19.202047999999998
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            23.461888000000002,
+            25.493504,
+            24.117247999999996,
+            24.182783999999998,
+            25.034751999999997
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.4.0",
+      "channels": 512,
+      "rows": 2890,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            36.241408,
+            36.110336000000004,
+            36.110336000000004,
+            37.289984000000004,
+            37.814272
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            36.0448,
+            36.306944,
+            36.306944,
+            37.35552,
+            37.35552
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            104.464384,
+            105.971712,
+            102.30169599999999,
+            101.515264,
+            102.56384
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            62.455808000000005,
+            61.603840000000005,
+            63.307776000000004,
+            62.062592,
+            62.58688
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            22.413311999999998,
+            22.085632,
+            22.60992,
+            24.838144,
+            22.478848
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            29.4912,
+            30.736384,
+            33.292288,
+            32.702464,
+            31.850496
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 52918,
+      "candidates": [
+        {
+          "config": {
+            "rows": 32,
+            "cols": 64,
+            "k": 32,
+            "skip": "mask"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            35.38944,
+            35.586048,
+            35.258368000000004,
+            35.454976,
+            35.38944
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            35.520512,
+            35.586048,
+            35.323904,
+            35.192831999999996,
+            35.192831999999996
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            85.917696,
+            86.57305600000001,
+            86.37644800000001,
+            85.06572800000001,
+            84.475904
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            47.120384,
+            47.448064,
+            47.120384,
+            46.596096,
+            46.727168
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            20.840448000000002,
+            20.971519999999998,
+            20.64384,
+            20.447232,
+            21.168128000000003
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            29.097984,
+            29.097984,
+            27.328512000000003,
+            27.656191999999997,
+            27.262976000000002
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 14957,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            45.350912,
+            44.892160000000004,
+            44.892160000000004,
+            44.695552,
+            45.023232
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            44.957696,
+            45.350912,
+            44.892160000000004,
+            45.219840000000005,
+            44.826624
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            108.00332800000001,
+            108.331008,
+            108.00332800000001,
+            107.61011200000002,
+            108.331008
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            63.307776,
+            63.569919999999996,
+            63.242239999999995,
+            61.669376,
+            63.635456
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            25.034751999999997,
+            26.345472,
+            25.493504,
+            26.017792,
+            26.017792
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            33.816576,
+            33.619968,
+            32.768,
+            33.09568,
+            33.03014399999999
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "step": 0,
+      "name": "down_stages.4.0",
+      "channels": 512,
+      "rows": 3940,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            49.020928,
+            50.200576,
+            50.331648,
+            50.266112,
+            50.528256
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            49.348608,
+            50.331648,
+            50.724864000000004,
+            50.003968,
+            50.462720000000004
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            137.101312,
+            140.050432,
+            140.77132799999998,
+            139.39507200000003,
+            139.001856
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            84.606976,
+            84.672512,
+            83.951616,
+            83.099648,
+            83.23071999999999
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            33.030144,
+            32.833535999999995,
+            31.588352,
+            31.457279999999997,
+            31.850496
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            40.108032,
+            40.173568,
+            40.042496,
+            42.139648,
+            40.697856
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "raised-deck",
+      "step": 0,
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 67537,
+      "candidates": [
+        {
+          "config": {
+            "rows": 32,
+            "cols": 64,
+            "k": 32,
+            "skip": "mask"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            47.120384,
+            47.448064,
+            47.382528,
+            47.5136,
+            47.448064
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            47.120384,
+            47.185919999999996,
+            47.382528,
+            47.316992,
+            46.858239999999995
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            101.64633599999999,
+            102.957056,
+            104.660992,
+            103.2192,
+            104.52992
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            58.9824,
+            60.29312,
+            60.686336,
+            60.096512000000004,
+            61.276160000000004
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            26.804224,
+            27.131904,
+            27.131904,
+            27.787264,
+            27.721728
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            36.175872,
+            35.717119999999994,
+            37.6832,
+            38.076415999999995,
+            38.207488
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "raised-deck",
+      "step": 0,
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 21591,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            67.960832,
+            69.14048,
+            68.8128,
+            69.14048,
+            69.00940800000001
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            67.17439999999999,
+            67.436544,
+            68.747264,
+            69.14048,
+            69.074944
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            148.635648,
+            148.504576,
+            154.468352,
+            153.157632,
+            154.533888
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            88.866816,
+            90.243072,
+            92.930048,
+            93.323264,
+            92.602368
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            36.896767999999994,
+            36.765696,
+            38.469632,
+            38.141952,
+            38.076415999999995
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            49.348608,
+            49.217535999999996,
+            50.462720000000004,
+            50.266112,
+            51.249151999999995
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "raised-deck",
+      "step": 0,
+      "name": "down_stages.4.0",
+      "channels": 512,
+      "rows": 5937,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            79.101952,
+            80.216064,
+            80.674816,
+            78.774272,
+            77.98784
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            78.31551999999999,
+            80.15052800000001,
+            80.412672,
+            80.674816,
+            77.59462400000001
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            236.453888,
+            223.87097599999998,
+            224.722944,
+            223.28115200000002,
+            243.46624000000003
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            131.26860800000003,
+            132.05504,
+            130.547712,
+            130.809856,
+            132.05504000000002
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            52.887552,
+            52.232192,
+            52.232192,
+            51.511296,
+            50.266112
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            62.455808000000005,
+            65.20832,
+            63.766528,
+            62.980096,
+            59.441152
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "brick-ranch",
+      "step": 2,
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 51766,
+      "candidates": [
+        {
+          "config": {
+            "rows": 32,
+            "cols": 64,
+            "k": 32,
+            "skip": "mask"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            35.520512,
+            35.323904,
+            35.323904,
+            35.38944,
+            35.782656
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            35.258368,
+            35.258368,
+            35.127296,
+            35.258368000000004,
+            35.38944
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            87.09734399999999,
+            86.638592,
+            87.031808,
+            85.85216,
+            86.704128
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            48.758784000000006,
+            48.365567999999996,
+            48.627712,
+            48.758784,
+            48.82432
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            21.168128000000003,
+            21.233664,
+            21.102592,
+            20.709376,
+            20.97152
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            27.918336,
+            29.16352,
+            28.114944,
+            28.049408,
+            28.966912
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "brick-ranch",
+      "step": 2,
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 14590,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            43.712512000000004,
+            43.515904,
+            43.974655999999996,
+            44.761088,
+            44.630016
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            43.712512000000004,
+            43.646975999999995,
+            44.630016,
+            45.088768,
+            44.695552
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            102.89152000000001,
+            103.54688,
+            106.75814400000002,
+            106.49600000000001,
+            106.16832000000001
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            61.997056,
+            61.276160000000004,
+            63.438848,
+            63.242239999999995,
+            62.2592
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            24.510464,
+            25.362432,
+            25.88672,
+            25.493504,
+            26.083328
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            31.784959999999998,
+            31.981568000000003,
+            32.44032,
+            32.309248,
+            32.899072000000004
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "detail",
+      "photo": "brick-ranch",
+      "step": 2,
+      "name": "down_stages.4.0",
+      "channels": 512,
+      "rows": 4004,
+      "candidates": [
+        {
+          "config": {
+            "rows": 16,
+            "cols": 32,
+            "k": 32,
+            "skip": "group"
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            52.887552,
+            52.822016000000005,
+            51.970048000000006,
+            52.953088,
+            52.559872
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-norm",
+            "convolution": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group"
+            }
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            53.08416,
+            52.363264,
+            51.11808,
+            52.822016000000005,
+            53.215232
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 2,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            140.967936,
+            149.35654399999999,
+            150.274048,
+            142.01651199999998,
+            142.40972799999997
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 4,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            89.65324799999999,
+            89.65324799999999,
+            90.308608,
+            86.114304,
+            86.310912
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 8,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            32.243712,
+            32.505856,
+            33.685504,
+            34.013183999999995,
+            34.930688
+          ]
+        },
+        {
+          "config": {
+            "kind": "subgroup-broadcast",
+            "rows": 16,
+            "cols": 128,
+            "k": 32
+          },
+          "parity": {
+            "nrmse": 0,
+            "maxAbs": 0
+          },
+          "gpuMs": [
+            40.370176,
+            39.387136,
+            43.515904000000006,
+            42.991616,
+            46.268416
+          ]
+        }
+      ]
+    }
+  ],
+  "done": true,
+  "support": {
+    "supported": true,
+    "sizes": [
+      32
+    ],
+    "active": [
+      32
+    ],
+    "subgroupMinSize": 32,
+    "subgroupMaxSize": 32,
+    "reason": "One complete 32-lane subgroup"
+  }
+}

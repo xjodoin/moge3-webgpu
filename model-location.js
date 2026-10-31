@@ -2,3 +2,6 @@
 // Local development defaults to the exported models in public/models.
 const base=(import.meta.env.VITE_MODEL_BASE_URL||'/models').replace(/\/$/,'');
 export const modelUrl=path=>`${base}/${path}`;
+// New WGSL weights are bundled locally until a model revision contains them.
+const sparseBase=(import.meta.env.VITE_SPARSE_MODEL_BASE_URL||'/models').replace(/\/$/,'');
+export const sparseModelUrl=path=>`${sparseBase}/${path}`;

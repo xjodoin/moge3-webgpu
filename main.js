@@ -6,9 +6,10 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {refine,remap} from './refiner.js';
 import {project} from './geometry.js';
 import {compare,passes} from './comparison.js';
-import {downloadModel} from './download.js';
-import {modelUrl} from './model-location.js';
+import {denseSession,releaseSessions,sessionStats,setSparseVariant as selectSparseVariant,getIndexingBackend,setIndexingBackend as selectIndexingBackend,setDenseGraphCapture as selectDenseGraphCapture} from './runtime.js';
 import {trackGpuBuffers} from './gpu-memory.js';
+import {gpuOps,gpuBufferStats,setBufferReuse} from './gpu-ops.js';
+import {GpuProfiler} from './gpu-profiler.js';
 const memory=globalThis.GPUDevice?trackGpuBuffers():null;
 ort.env.wasm.wasmPaths={wasm:wasmUrl,mjs:mjsUrl};
 ort.env.wasm.numThreads=1;
@@ -18,49 +19,66 @@ const read=async url=>{const r=await fetch(url);if(!r.ok)throw Error(`${r.status
 let running=false,upload=null;
 const showFixture=()=>{upload=null;document.querySelector('#upload').value='';document.querySelector('#photo').src=`/models/profiles/${document.querySelector('#profile').value}/cases/${document.querySelector('#case').value}/photo.jpg`;};
 document.querySelector('#profile').onchange=showFixture;
-window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=null,profile='fast')=>{
+window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=null,profile='fast',sparseBackend='wgsl',refineSteps=1,validateOriginal=true,diagnostics={})=>{
  if(running)throw Error('Inference is already running');
- running=true;for(const id of ['run','case','upload','profile'])document.querySelector('#'+id).disabled=true;
- let session;
+ running=true;for(const id of ['run','case','upload','profile','steps','unload'])document.querySelector('#'+id).disabled=true;
+ let inputTensor,out,profiler,ops,failed=true;
  try{
   const adapter=await navigator.gpu?.requestAdapter();if(!adapter)throw Error('This browser has no WebGPU adapter. Try a current Chrome browser on a supported computer.');
   memory?.reset();
   const base=profile==='legacy'?'/models':`/models/profiles/${profile}`;
   const meta=await (await fetch(`${base}/manifest.json`)).json();
-  const [,,height,width]=meta.inputShape,n=width*height,options={grid:meta.grid??[272,272],width,height};
-  const steps=meta.refineSteps||1;
+  if(!['wgsl','onnx'].includes(sparseBackend))throw Error('Unknown sparse backend');
+  const [,,height,width]=meta.inputShape,n=width*height,options={grid:meta.grid??[272,272],width,height,sparseBackend,indexingBackend:getIndexingBackend()};
+  if(!Number.isInteger(refineSteps)||refineSteps<1||refineSteps>3)throw Error('Refinement passes must be 1, 2 or 3');
+  const steps=refineSteps;
+  document.querySelector('#steps').value=String(steps);
   const gatherBytes=options.grid[0]*options.grid[1]*27*32*4;
-  if(adapter.limits.maxStorageBufferBindingSize<gatherBytes)throw Error('This profile requires larger GPU buffers than your device supports. Select a lower resolution.');
+  if(sparseBackend==='onnx'&&adapter.limits.maxStorageBufferBindingSize<gatherBytes)throw Error('This profile requires larger GPU buffers than your device supports. Select a lower resolution.');
   const fixture=`${base}/cases/${caseName}`;
   document.querySelector('#profile').value=profile;
   const input=customInput??new Float32Array(await read(`${fixture}/input.f32`));
   if(!customInput)document.querySelector('#case').value=caseName;
   if(!customInput)document.querySelector('#photo').src=`${fixture}/photo.jpg`;
-  log('Loading MoGe-3 dense weights (about 1.3 GB)…');const start=performance.now();
-  let modelData=await downloadModel(modelUrl(profile==='legacy'?'moge3-dense.onnx':`profiles/${profile}/moge3-dense.onnx`),meta.modelBytes,log);
-  session=await ort.InferenceSession.create(modelData,{executionProviders:['webgpu'],enableGraphCapture:false,extra:{session:{disable_cpu_ep_fallback:'1'}}});
-  modelData=null;
+  log('Preparing model…');const start=performance.now(),before=sessionStats();
+  const session=await denseSession(profile,meta,log,sparseBackend);
   const loadMs=performance.now()-start;
-  const t=performance.now();const out=await session.run({image:new ort.Tensor('float32',input,meta.inputShape)});
+  inputTensor=new ort.Tensor('float32',input,meta.inputShape);
+  const bufferBefore=gpuBufferStats();
+  ops=gpuOps(await ort.env.webgpu.device);
+  if(diagnostics.profileGpu){profiler=new GpuProfiler(await ort.env.webgpu.device);ops.profiler=profiler;options.profiler=profiler;}
+  const t=performance.now();
+  out=await session.run({image:inputTensor});
+  const cpuOutputs=['raw_coord','mask','metric_scale'];
+  const values=await Promise.all(cpuOutputs.map(name=>out[name].getData()));
+  const data=Object.fromEntries(cpuOutputs.map((name,i)=>[name,values[i]]));
+  // Include required CPU output readbacks in both paths for comparable timing.
   const inferenceMs=performance.now()-t;
-  // Copy before releasing the dense session to lower peak GPU memory.
-  const data=Object.fromEntries(Object.entries(out).map(([name,tensor])=>[name,new Float32Array(tensor.data)]));
-  for(const tensor of Object.values(out))tensor.dispose();
-  await session.release();session=null;
   const outputs={};
   async function check(name,actual){
-   if(!customInput)outputs[name]=compare(actual,new Float32Array(await read(`${fixture}/reference-${name}.f32`)),name==='native-points'?{boundaryMask:data.mask}:{});
+   const path=steps>1&&/^(refined-|projected-|native-)/.test(name)?`${fixture}/passes/${steps}`:fixture;
+   if(!customInput)outputs[name]=compare(actual,new Float32Array(await read(`${path}/reference-${name}.f32`)),name==='native-points'?{boundaryMask:data.mask}:{});
   }
-  for(const [name,actual] of Object.entries(data))await check(name,actual);
-  let refinementMs=0,points=data.points;
+  let refinementMs=0,points,raw=data.raw_coord;
+  const transfers={},perPassTransfers=[];
   if(withRefinement){
-   const t=performance.now();let raw=data.raw_coord;
-   for(let step=0;step<steps;step++)raw=await refine(raw,data.encoder_feature,log,options);
+   const t=performance.now();
+   for(let step=0;step<steps;step++){
+    options.pass=step+1;if(profiler)profiler.prefix=`pass${step+1}/`;options.telemetry={};raw=await refine(raw,out.encoder_feature,log,options);
+    perPassTransfers.push(options.telemetry);
+    for(const [key,value] of Object.entries(options.telemetry))transfers[key]=(transfers[key]??0)+value;
+   }
    points=remap(raw,options);refinementMs=performance.now()-t;
-   await check('refined-raw',raw);await check('refined-points',points);
-  }
+  }else points=await out.points.getData();
   const cameraStart=performance.now(),geometry=project(points,data.mask,data.metric_scale[0],width,height);
   const cameraMs=performance.now()-cameraStart;
+  // Validation downloads are outside compute timings and never run for uploads.
+  const gpuProfile=profiler?await profiler.finish():undefined;
+  const validationStart=performance.now();
+  if(!customInput){
+   for(const [name,tensor] of Object.entries(out))await check(name,await tensor.getData());
+   if(withRefinement){await check('refined-raw',raw);await check('refined-points',points);}
+  }
   if(withRefinement){
    await check('projected-points',geometry.points);
    if(profile!=='legacy'){
@@ -68,14 +86,47 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
     await check('native-intrinsics',new Float32Array(geometry.intrinsics));
    }
   }
-  const result={profile,gpuMemory:memory?.report(),caseName:customInput?'uploaded-photo':caseName,loadMs,inferenceMs,refinementMs,cameraMs,outputs,
-   refineSteps:withRefinement?steps:0,numTokens:meta.numTokens,inputShape:meta.inputShape,backend:'webgpu',cpuLearnedFallback:false,
+  let original;
+  if(validateOriginal&&withRefinement&&!customInput&&profile!=='legacy'){
+   const originalBase=`/original-cuda/${profile}/${caseName}/${steps}`;
+   const originalPoints=new Float32Array(await read(`${originalBase}/points.f32`));
+   const originalIntrinsics=new Float32Array(await read(`${originalBase}/intrinsics.f32`));
+   const originalMask=new Uint8Array(await read(`${originalBase}/mask.u8`));
+   const points=compare(geometry.points,originalPoints,{boundaryMask:data.mask});
+   const intrinsics=compare(new Float32Array(geometry.intrinsics),originalIntrinsics);
+   let maskMismatches=0,unexplainedMaskMismatches=0;
+   if(originalMask.length!==geometry.mask.length)throw Error('Original mask shape mismatch');
+   for(let i=0;i<originalMask.length;i++)if(Boolean(originalMask[i])!==Boolean(geometry.mask[i])){
+    maskMismatches++;if(Math.abs(data.mask[i]-.5)>1e-5)unexplainedMaskMismatches++;
+   }
+   original={points,intrinsics,maskMismatches,unexplainedMaskMismatches,
+    passed:passes(points)&&passes(intrinsics)&&maskMismatches/originalMask.length<=.00001&&unexplainedMaskMismatches===0};
+  }
+  const denseNames=['points','normal','mask','metric_scale','raw_coord','encoder_feature'];
+  const densePassed=denseNames.every(name=>outputs[name]&&passes(outputs[name]));
+  const diagnosticPassed=!customInput&&Object.values(outputs).every(passes);
+  const after=sessionStats();
+  const result={profile,gpuProfile,buffers:{before:bufferBefore,after:gpuBufferStats()},sessions:{...after,createdThisRun:after.created-before.created},transfers,perPassTransfers,original,validationMs:performance.now()-validationStart,gpuMemory:memory?.report(),caseName:customInput?'uploaded-photo':caseName,loadMs,inferenceMs,refinementMs,cameraMs,outputs,
+   refineSteps:withRefinement?steps:0,numTokens:meta.numTokens,inputShape:meta.inputShape,backend:'webgpu',sparseBackend,cpuLearnedFallback:false,
    camera:{focal:geometry.focal,shift:geometry.shift,intrinsics:geometry.intrinsics},
-   validated:!customInput,passed:customInput?null:Object.values(outputs).every(passes)};
-  window.lastResult=result;log(JSON.stringify(result,null,2));render(geometry.points,geometry.mask,input,geometry.intrinsics,n);return result;
- }finally{if(session)await session.release();running=false;for(const id of ['run','case','upload','profile'])document.querySelector('#'+id).disabled=false;}
+   validationReference:customInput?null:original?'original-cuda-strict-fp32':'pytorch-mlx-diagnostics',diagnosticPassed,
+   validated:!customInput,passed:customInput?null:original?(original.passed&&densePassed):diagnosticPassed};
+  failed=false;window.lastResult=result;log(JSON.stringify(result,null,2));render(geometry.points,geometry.mask,input,geometry.intrinsics,n);return result;
+ }finally{
+  if(ops)ops.profiler=null;profiler?.dispose();
+  inputTensor?.dispose();if(out)for(const tensor of Object.values(out))tensor.dispose();
+  try{if(failed)await releaseSessions();}finally{running=false;for(const id of ['run','case','upload','profile','steps','unload'])document.querySelector('#'+id).disabled=false;}
+ }
 };
-document.querySelector('#run').onclick=()=>window.runTest(true,document.querySelector('#case').value,upload,document.querySelector('#profile').value).catch(e=>{window.lastError=String(e);log(String(e));});
+window.releaseModels=async()=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();log('Model unloaded. GPU sessions released.');return sessionStats();}finally{running=false;}};
+window.setDenseGraphCapture=async value=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();selectDenseGraphCapture(value);return sessionStats();}finally{running=false;}};
+window.setIndexingBackend=async value=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();selectIndexingBackend(value);return sessionStats();}finally{running=false;}};
+window.setSparseVariant=async value=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();selectSparseVariant(value);return sessionStats();}finally{running=false;}};
+window.bufferPoolStats=gpuBufferStats;
+window.setBufferReuse=async enabled=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();setBufferReuse(Boolean(enabled));return gpuBufferStats();}finally{running=false;}};
+document.querySelector('#unload').onclick=()=>window.releaseModels().catch(e=>log(String(e)));
+if(import.meta.hot)import.meta.hot.dispose(()=>{disposePreview();void releaseSessions();});
+document.querySelector('#run').onclick=()=>window.runTest(true,document.querySelector('#case').value,upload,document.querySelector('#profile').value,'wgsl',Number(document.querySelector('#steps').value),true).catch(e=>{window.lastError=String(e);log(String(e));});
 document.querySelector('#case').onchange=showFixture;
 document.querySelector('#upload').onchange=async event=>{
  try{

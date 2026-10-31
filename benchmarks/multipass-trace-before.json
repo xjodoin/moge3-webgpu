@@ -1,0 +1,320 @@
+{
+  "browser": [
+    {
+      "step": 0,
+      "seed": "browser",
+      "voxelMismatches": 105,
+      "shape": [
+        544,
+        816,
+        697
+      ],
+      "expectedShape": [
+        544,
+        816,
+        697
+      ],
+      "maxZ": 0.000034809112548828125,
+      "maxIndex": 13377,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.000034809112548828125,
+        "nrmse": 0.0000021970574585546763,
+        "p99Abs": 0.0000035762786865234375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 1,
+      "seed": "browser",
+      "voxelMismatches": 2913,
+      "shape": [
+        544,
+        816,
+        691
+      ],
+      "expectedShape": [
+        544,
+        816,
+        691
+      ],
+      "maxZ": 0.03985905647277832,
+      "maxIndex": 16632,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.03985905647277832,
+        "nrmse": 0.00035333363200685104,
+        "p99Abs": 0.00010395050048828125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 2,
+      "seed": "browser",
+      "voxelMismatches": 7291,
+      "shape": [
+        544,
+        816,
+        705
+      ],
+      "expectedShape": [
+        544,
+        816,
+        703
+      ],
+      "maxZ": 0.06333720684051514,
+      "maxIndex": 16635,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.06333720684051514,
+        "nrmse": 0.0007824628638420329,
+        "p99Abs": 0.0003396570682525635,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 3,
+      "seed": "browser",
+      "voxelMismatches": 12528,
+      "shape": [
+        544,
+        816,
+        702
+      ],
+      "expectedShape": [
+        544,
+        816,
+        690
+      ],
+      "maxZ": 0.09192073345184326,
+      "maxIndex": 16635,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.09192073345184326,
+        "nrmse": 0.0011720509532318682,
+        "p99Abs": 0.0006371736526489258,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    }
+  ],
+  "native": [
+    {
+      "step": 0,
+      "seed": "native",
+      "voxelMismatches": 0,
+      "shape": [
+        544,
+        816,
+        697
+      ],
+      "expectedShape": [
+        544,
+        816,
+        697
+      ],
+      "maxZ": 0,
+      "maxIndex": 0,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0,
+        "nrmse": 0,
+        "p99Abs": 0,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 1,
+      "seed": "native",
+      "voxelMismatches": 1,
+      "shape": [
+        544,
+        816,
+        691
+      ],
+      "expectedShape": [
+        544,
+        816,
+        691
+      ],
+      "maxZ": 0.0000017881393432617188,
+      "maxIndex": 32574,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.0000017881393432617188,
+        "nrmse": 2.5762533438328248e-8,
+        "p99Abs": 4.470348358154297e-8,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 2,
+      "seed": "native",
+      "voxelMismatches": 5,
+      "shape": [
+        544,
+        816,
+        703
+      ],
+      "expectedShape": [
+        544,
+        816,
+        703
+      ],
+      "maxZ": 0.0006680488586425781,
+      "maxIndex": 70110,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.0006680488586425781,
+        "nrmse": 0.0000018925983934056565,
+        "p99Abs": 5.960464477539063e-8,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 3,
+      "seed": "native",
+      "voxelMismatches": 38,
+      "shape": [
+        544,
+        816,
+        690
+      ],
+      "expectedShape": [
+        544,
+        816,
+        690
+      ],
+      "maxZ": 0.0012952685356140137,
+      "maxIndex": 41530,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.0012952685356140137,
+        "nrmse": 0.0000075001639037748435,
+        "p99Abs": 1.1920928955078125e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    }
+  ],
+  "torch": [
+    {
+      "step": 0,
+      "seed": "torch",
+      "voxelMismatches": 107,
+      "shape": [
+        544,
+        816,
+        697
+      ],
+      "expectedShape": [
+        544,
+        816,
+        697
+      ],
+      "maxZ": 0.00005042552947998047,
+      "maxIndex": 1126,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.00005042552947998047,
+        "nrmse": 0.0000021782391153145388,
+        "p99Abs": 0.0000037550926208496094,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 1,
+      "seed": "torch",
+      "voxelMismatches": 2897,
+      "shape": [
+        544,
+        816,
+        691
+      ],
+      "expectedShape": [
+        544,
+        816,
+        691
+      ],
+      "maxZ": 0.03985929489135742,
+      "maxIndex": 16632,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.03985929489135742,
+        "nrmse": 0.00035136788212706014,
+        "p99Abs": 0.00009900331497192383,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 2,
+      "seed": "torch",
+      "voxelMismatches": 7221,
+      "shape": [
+        544,
+        816,
+        705
+      ],
+      "expectedShape": [
+        544,
+        816,
+        703
+      ],
+      "maxZ": 0.06333649158477783,
+      "maxIndex": 16635,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.06333649158477783,
+        "nrmse": 0.0007827742306712551,
+        "p99Abs": 0.0003361701965332031,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    {
+      "step": 3,
+      "seed": "torch",
+      "voxelMismatches": 12222,
+      "shape": [
+        544,
+        816,
+        702
+      ],
+      "expectedShape": [
+        544,
+        816,
+        690
+      ],
+      "maxZ": 0.09192001819610596,
+      "maxIndex": 16635,
+      "metrics": {
+        "finite": true,
+        "maxAbs": 0.09192001819610596,
+        "nrmse": 0.0011412615129515649,
+        "p99Abs": 0.0005960166454315186,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    }
+  ]
+}

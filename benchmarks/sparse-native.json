@@ -1,0 +1,380 @@
+[
+  {
+    "profile": "fast",
+    "caseName": "sample-backyard",
+    "repeat": 0,
+    "inferenceMs": 661.384665989317,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "brick-ranch",
+    "repeat": 0,
+    "inferenceMs": 665.964666986838,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "raised-deck",
+    "repeat": 0,
+    "inferenceMs": 721.397666959092,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "sample-backyard",
+    "repeat": 1,
+    "inferenceMs": 647.8782501071692,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "brick-ranch",
+    "repeat": 1,
+    "inferenceMs": 664.355874992907,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "raised-deck",
+    "repeat": 1,
+    "inferenceMs": 722.9070409666747,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "sample-backyard",
+    "repeat": 2,
+    "inferenceMs": 651.7702920828015,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "brick-ranch",
+    "repeat": 2,
+    "inferenceMs": 669.9571670033038,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "raised-deck",
+    "repeat": 2,
+    "inferenceMs": 739.9890000233427,
+    "mlxPeakBytes": 3423335029,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "sample-backyard",
+    "repeat": 0,
+    "inferenceMs": 905.3339170059189,
+    "mlxPeakBytes": 3713264597,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "brick-ranch",
+    "repeat": 0,
+    "inferenceMs": 931.9219160825014,
+    "mlxPeakBytes": 3713264597,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "raised-deck",
+    "repeat": 0,
+    "inferenceMs": 1028.9041249779984,
+    "mlxPeakBytes": 3603917781,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "sample-backyard",
+    "repeat": 1,
+    "inferenceMs": 912.8630419727415,
+    "mlxPeakBytes": 3713264597,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "brick-ranch",
+    "repeat": 1,
+    "inferenceMs": 953.9068751037121,
+    "mlxPeakBytes": 3603917781,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "raised-deck",
+    "repeat": 1,
+    "inferenceMs": 1020.1067919842899,
+    "mlxPeakBytes": 3713264597,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "sample-backyard",
+    "repeat": 2,
+    "inferenceMs": 911.5120420465246,
+    "mlxPeakBytes": 3713264597,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "brick-ranch",
+    "repeat": 2,
+    "inferenceMs": 935.7460000319406,
+    "mlxPeakBytes": 3713264597,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "raised-deck",
+    "repeat": 2,
+    "inferenceMs": 1030.4587919963524,
+    "mlxPeakBytes": 3603917781,
+    "outputs": {
+      "points": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      },
+      "intrinsics": {
+        "nrmse": 0.0,
+        "maskEqual": true,
+        "passed": true
+      }
+    },
+    "maskEqual": true,
+    "passed": true
+  }
+]

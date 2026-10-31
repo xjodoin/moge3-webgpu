@@ -1,0 +1,710 @@
+{
+  "date": "2026-10-31T01:24:14.427Z",
+  "device": "Apple M4 Pro 24 GB, Chrome 156 Metal-3",
+  "defaultVariant": "subgroup",
+  "fallbackVariant": "optimized",
+  "defaultUiCheckPassed": true,
+  "powerSource": "AC verified throughout both runs",
+  "browserPowerSamples": 71,
+  "nativePowerSamples": 9,
+  "method": "Native MLX runs completed before browser GPU work, with exact fixture hashes, token counts and 1/2/3 passes; no native tracing or per-step output. Browser A/B uses the same production build, buffer reuse and GPU indexing enabled, graph capture disabled. Three warmups per configuration and three repeats per photo. Mode order counterbalanced by resolution. Profiling separate from latency. Browser timing includes input upload and CPU camera recovery; MLX inputs are preloaded on GPU. Loading, validation and rendering excluded. Memory counters are explicit browser buffers versus MLX allocator peaks, not comparable RSS measurements. Grouped trials on one device.",
+  "accuracy": {
+    "subgroupComparisons": 54,
+    "browserComparisons": 108,
+    "nativeReferenceChecks": 54,
+    "allMasksMatch": true,
+    "worstCudaPointsNrmse": 0.0009430723759879896,
+    "maxNrmseChange": 0
+  },
+  "selectedConfig": {
+    "kind": "subgroup-broadcast",
+    "rows": 8,
+    "cols": 128,
+    "k": 32,
+    "channels": [
+      128,
+      256,
+      512
+    ],
+    "narrowLayers": "existing kernels",
+    "normalization": "existing 64-lane FP32 tree",
+    "requires": "Enabled subgroups, adapter min/max subgroup size 32, verified complete 32-lane workgroup; otherwise existing GPU kernels"
+  },
+  "profiles": [
+    {
+      "profile": "fast",
+      "refineSteps": 1,
+      "optimized": {
+        "computeMs": 918.4300000667572,
+        "denseMs": 577.6850000619888,
+        "refinementMs": 336.835000038147,
+        "peakTrackedGpuBytes": 2952955200,
+        "worstPointsNrmse": 0.0003349385405136117,
+        "maskMismatches": 0
+      },
+      "subgroup": {
+        "computeMs": 826.0099999904633,
+        "denseMs": 576.3049999475479,
+        "refinementMs": 244.76499998569489,
+        "peakTrackedGpuBytes": 2961343808,
+        "worstPointsNrmse": 0.0003349385405136117,
+        "maskMismatches": 0
+      },
+      "mlx": {
+        "computeMs": 640.3730839956552,
+        "peakBytes": 3423335029
+      },
+      "latencyReductionPercent": 10.062824610430443,
+      "refinementReductionPercent": 27.33385783603991,
+      "browserToMlxRatio": 1.2898886924424007,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 2,
+      "optimized": {
+        "computeMs": 1220.5900000333786,
+        "denseMs": 572.625,
+        "refinementMs": 646.8949999809265,
+        "peakTrackedGpuBytes": 2952380160,
+        "worstPointsNrmse": 0.0007103017689260219,
+        "maskMismatches": 0
+      },
+      "subgroup": {
+        "computeMs": 1055.1849999427795,
+        "denseMs": 579.3649998903275,
+        "refinementMs": 476.45499992370605,
+        "peakTrackedGpuBytes": 2960768768,
+        "worstPointsNrmse": 0.0007103017689260219,
+        "maskMismatches": 0
+      },
+      "mlx": {
+        "computeMs": 988.9835000503808,
+        "peakBytes": 3423335053
+      },
+      "latencyReductionPercent": 13.551233426955477,
+      "refinementReductionPercent": 26.34739796446809,
+      "browserToMlxRatio": 1.06693893264046,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 3,
+      "optimized": {
+        "computeMs": 1531.4099999666214,
+        "denseMs": 574.0499999523163,
+        "refinementMs": 951.4700000286102,
+        "peakTrackedGpuBytes": 2948647088,
+        "worstPointsNrmse": 0.0009413059419531438,
+        "maskMismatches": 0
+      },
+      "subgroup": {
+        "computeMs": 1272.3899999856949,
+        "denseMs": 571.6000000238419,
+        "refinementMs": 698.7400000095367,
+        "peakTrackedGpuBytes": 2957035696,
+        "worstPointsNrmse": 0.0009413059419531438,
+        "maskMismatches": 0
+      },
+      "mlx": {
+        "computeMs": 1529.4100840110332,
+        "peakBytes": 3423335073
+      },
+      "latencyReductionPercent": 16.913824513786125,
+      "refinementReductionPercent": 26.56205660835066,
+      "browserToMlxRatio": 0.8319482219240526,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 1,
+      "optimized": {
+        "computeMs": 1390.0999999046326,
+        "denseMs": 915.25,
+        "refinementMs": 473.3050000667572,
+        "peakTrackedGpuBytes": 3492428672,
+        "worstPointsNrmse": 0.0002887960802053227,
+        "maskMismatches": 0
+      },
+      "subgroup": {
+        "computeMs": 1253.1850000619888,
+        "denseMs": 910.7400000095367,
+        "refinementMs": 342.54500007629395,
+        "peakTrackedGpuBytes": 3458874240,
+        "worstPointsNrmse": 0.0002887960802053227,
+        "maskMismatches": 0
+      },
+      "mlx": {
+        "computeMs": 979.9682500306517,
+        "peakBytes": 3713264597
+      },
+      "latencyReductionPercent": 9.849291407239535,
+      "refinementReductionPercent": 27.62700583598742,
+      "browserToMlxRatio": 1.278801634668053,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 2,
+      "optimized": {
+        "computeMs": 1832.295000076294,
+        "denseMs": 917.9900000095367,
+        "refinementMs": 907.3999999761581,
+        "peakTrackedGpuBytes": 3492924464,
+        "worstPointsNrmse": 0.0008415597114219503,
+        "maskMismatches": 0
+      },
+      "subgroup": {
+        "computeMs": 1628.4049999713898,
+        "denseMs": 915.8799999952316,
+        "refinementMs": 685.3849999904633,
+        "peakTrackedGpuBytes": 3459370032,
+        "worstPointsNrmse": 0.0008415597114219503,
+        "maskMismatches": 0
+      },
+      "mlx": {
+        "computeMs": 1443.651666981168,
+        "peakBytes": 3713264597
+      },
+      "latencyReductionPercent": 11.127574986364886,
+      "refinementReductionPercent": 24.467158914649367,
+      "browserToMlxRatio": 1.1279763929317943,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 3,
+      "optimized": {
+        "computeMs": 2263.4199999570847,
+        "denseMs": 919.579999923706,
+        "refinementMs": 1340.679999947548,
+        "peakTrackedGpuBytes": 3492361616,
+        "worstPointsNrmse": 0.0009430723759879896,
+        "maskMismatches": 0
+      },
+      "subgroup": {
+        "computeMs": 1947.0299999713898,
+        "denseMs": 921.0299999713898,
+        "refinementMs": 1019.8300000429153,
+        "peakTrackedGpuBytes": 3458807184,
+        "worstPointsNrmse": 0.0009430723759879896,
+        "maskMismatches": 0
+      },
+      "mlx": {
+        "computeMs": 1924.5790829882026,
+        "peakBytes": 3713264597
+      },
+      "latencyReductionPercent": 13.978404361174412,
+      "refinementReductionPercent": 23.931885305754196,
+      "browserToMlxRatio": 1.0116653647447569,
+      "maxNrmseChange": 0
+    }
+  ],
+  "gpuLayers": [
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "index/quantize",
+      "gpuMs": 0.131072
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "index/initial",
+      "gpuMs": 0.065536
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "index/neighbors",
+      "gpuMs": 3.60448
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "index/count",
+      "gpuMs": 0.32767999999999997
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "index/scan",
+      "gpuMs": 0.131072
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "index/addScan",
+      "gpuMs": 0
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "index/fill",
+      "gpuMs": 0.39321599999999995
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "index/encoderIndex",
+      "gpuMs": 0
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "down_stages.0.0",
+      "gpuMs": 55.64006400000001
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "pool8",
+      "gpuMs": 2.5559040000000004
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "down_stages.1.0",
+      "gpuMs": 80.019456
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "down_stages.2.0",
+      "gpuMs": 74.776576
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "down_stages.3.0",
+      "gpuMs": 94.76505600000002
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "down_stages.4.0",
+      "gpuMs": 108.396544
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "gather",
+      "gpuMs": 17.825792
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "bottleneck_stage.0",
+      "gpuMs": 106.62707200000001
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "upsampleAdd",
+      "gpuMs": 7.405568
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "up_stages.0.0",
+      "gpuMs": 94.63398400000001
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "up_stages.1.0",
+      "gpuMs": 75.03872
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "up_stages.2.0",
+      "gpuMs": 79.29856000000001
+    },
+    {
+      "profile": "fast",
+      "variant": "optimized",
+      "stage": "up_stages.3.0",
+      "gpuMs": 55.90220799999999
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "index/quantize",
+      "gpuMs": 0.131072
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "index/initial",
+      "gpuMs": 0.131072
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "index/neighbors",
+      "gpuMs": 3.538944
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "index/count",
+      "gpuMs": 0.262144
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "index/scan",
+      "gpuMs": 0.262144
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "index/addScan",
+      "gpuMs": 0.065536
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "index/fill",
+      "gpuMs": 0.32767999999999997
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "index/encoderIndex",
+      "gpuMs": 0
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "down_stages.0.0",
+      "gpuMs": 55.967743999999996
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "pool8",
+      "gpuMs": 2.818048
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "down_stages.1.0",
+      "gpuMs": 79.691776
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "down_stages.2.0",
+      "gpuMs": 43.450368000000005
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "down_stages.3.0",
+      "gpuMs": 53.673984000000004
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "down_stages.4.0",
+      "gpuMs": 64.88064
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "gather",
+      "gpuMs": 0.786432
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "bottleneck_stage.0",
+      "gpuMs": 65.077248
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "upsampleAdd",
+      "gpuMs": 7.405568
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "up_stages.0.0",
+      "gpuMs": 53.280768
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "up_stages.1.0",
+      "gpuMs": 43.515904000000006
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "up_stages.2.0",
+      "gpuMs": 79.95392
+    },
+    {
+      "profile": "fast",
+      "variant": "subgroup",
+      "stage": "up_stages.3.0",
+      "gpuMs": 55.902208
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "index/quantize",
+      "gpuMs": 0.32767999999999997
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "index/initial",
+      "gpuMs": 0.131072
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "index/neighbors",
+      "gpuMs": 5.242879999999999
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "index/count",
+      "gpuMs": 0.45875199999999994
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "index/scan",
+      "gpuMs": 0.196608
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "index/addScan",
+      "gpuMs": 0.065536
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "index/fill",
+      "gpuMs": 0.39321599999999995
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "index/encoderIndex",
+      "gpuMs": 0
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "down_stages.0.0",
+      "gpuMs": 84.34483200000001
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "pool8",
+      "gpuMs": 4.521984
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "down_stages.1.0",
+      "gpuMs": 116.523008
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "down_stages.2.0",
+      "gpuMs": 103.41580800000001
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "down_stages.3.0",
+      "gpuMs": 135.135232
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "down_stages.4.0",
+      "gpuMs": 151.977984
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "gather",
+      "gpuMs": 22.872063999999998
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "bottleneck_stage.0",
+      "gpuMs": 150.99494399999998
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "upsampleAdd",
+      "gpuMs": 11.206656
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "up_stages.0.0",
+      "gpuMs": 134.41433600000002
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "up_stages.1.0",
+      "gpuMs": 103.612416
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "up_stages.2.0",
+      "gpuMs": 116.129792
+    },
+    {
+      "profile": "detail",
+      "variant": "optimized",
+      "stage": "up_stages.3.0",
+      "gpuMs": 84.344832
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "index/quantize",
+      "gpuMs": 0.131072
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "index/initial",
+      "gpuMs": 0.196608
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "index/neighbors",
+      "gpuMs": 5.242879999999999
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "index/count",
+      "gpuMs": 0.524288
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "index/scan",
+      "gpuMs": 0.196608
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "index/addScan",
+      "gpuMs": 0.065536
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "index/fill",
+      "gpuMs": 0.32767999999999997
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "index/encoderIndex",
+      "gpuMs": 0
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "down_stages.0.0",
+      "gpuMs": 85.45894399999999
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "pool8",
+      "gpuMs": 4.980735999999999
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "down_stages.1.0",
+      "gpuMs": 116.78515200000001
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "down_stages.2.0",
+      "gpuMs": 62.980096
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "down_stages.3.0",
+      "gpuMs": 77.66016
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "down_stages.4.0",
+      "gpuMs": 96.46899199999999
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "gather",
+      "gpuMs": 15.400960000000001
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "bottleneck_stage.0",
+      "gpuMs": 97.517568
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "upsampleAdd",
+      "gpuMs": 10.747904
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "up_stages.0.0",
+      "gpuMs": 78.905344
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "up_stages.1.0",
+      "gpuMs": 64.094208
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "up_stages.2.0",
+      "gpuMs": 121.50374399999998
+    },
+    {
+      "profile": "detail",
+      "variant": "subgroup",
+      "stage": "up_stages.3.0",
+      "gpuMs": 86.966272
+    }
+  ],
+  "passed": true
+}

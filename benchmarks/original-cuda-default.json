@@ -1,0 +1,273 @@
+{
+  "sourceCommit": "74fbce054ebed49800de42d0ad0e83495065719a",
+  "checkpointRevision": "184008f877d7ad1ad4c2cd2182a9bd1f63d0e5be",
+  "checkpointSha256": "9b41b7b9f65ad80aab7ad686f5e9cc0d1fd33f1964022618dfbcd52fc1fb7925",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cuda": "12.8",
+  "python": "3.11.13",
+  "torch": "2.11.0+cu128",
+  "packages": {
+    "flex-gemm": "1.0.0",
+    "triton": "3.6.0",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1"
+  },
+  "precision": "FP32; torch TF32 disabled; sparse TF32 allowed (original default)",
+  "sparseAllowTf32": true,
+  "autotuneMode": "never",
+  "nvidiaSmi": "Fri Oct 30 15:38:40 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 4090        On  |   00000000:01:00.0 Off |                  Off |\n|  0%   31C    P2             74W /  450W |    1824MiB /  24564MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            1022      C   python                                 1814MiB |\n+-----------------------------------------------------------------------------------------+\n",
+  "runs": [
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 1,
+      "inputSha256": "72a78a720f90ed9ba2bf92f3f49d612eaffdfdf8ba0c0b5bc95e341614322b30",
+      "warmupSeconds": 4.331201839999267,
+      "seconds": [
+        0.07751737299986416,
+        0.07627859100102796,
+        0.07550435699886293
+      ],
+      "medianSeconds": 0.07627859100102796,
+      "peakAllocatedBytes": 1905784832
+    },
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 2,
+      "inputSha256": "72a78a720f90ed9ba2bf92f3f49d612eaffdfdf8ba0c0b5bc95e341614322b30",
+      "warmupSeconds": 0.10106086699670414,
+      "seconds": [
+        0.09937401900242548,
+        0.09928722800032119,
+        0.5066615059986361
+      ],
+      "medianSeconds": 0.09937401900242548,
+      "peakAllocatedBytes": 1905784832
+    },
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 3,
+      "inputSha256": "72a78a720f90ed9ba2bf92f3f49d612eaffdfdf8ba0c0b5bc95e341614322b30",
+      "warmupSeconds": 0.12508678100130055,
+      "seconds": [
+        0.12597589000142762,
+        0.12544152299960842,
+        0.12777467699925182
+      ],
+      "medianSeconds": 0.12597589000142762,
+      "peakAllocatedBytes": 1905784832
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 1,
+      "inputSha256": "5e5af95d50002943f38b904ced5a1851be626349d6b7e9f73e44520d5a170ce3",
+      "warmupSeconds": 0.079949000999477,
+      "seconds": [
+        0.07959567099896958,
+        0.0799978020004346,
+        0.07986249899840914
+      ],
+      "medianSeconds": 0.07986249899840914,
+      "peakAllocatedBytes": 1926845440
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 2,
+      "inputSha256": "5e5af95d50002943f38b904ced5a1851be626349d6b7e9f73e44520d5a170ce3",
+      "warmupSeconds": 0.10523681999984547,
+      "seconds": [
+        0.10529409599985229,
+        0.10439660200063372,
+        0.10487379199912539
+      ],
+      "medianSeconds": 0.10487379199912539,
+      "peakAllocatedBytes": 1926845440
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 3,
+      "inputSha256": "5e5af95d50002943f38b904ced5a1851be626349d6b7e9f73e44520d5a170ce3",
+      "warmupSeconds": 0.13178729499850306,
+      "seconds": [
+        0.13092334199973266,
+        0.13021100299738464,
+        0.12927965499693528
+      ],
+      "medianSeconds": 0.13021100299738464,
+      "peakAllocatedBytes": 1926845440
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 1,
+      "inputSha256": "68c33262cbecb05c256cdb18237e35c774d4c56f1016054fdad87d0737db2409",
+      "warmupSeconds": 0.07622082400121144,
+      "seconds": [
+        0.07622606299992185,
+        0.07429497999692103,
+        0.07543826300025103
+      ],
+      "medianSeconds": 0.07543826300025103,
+      "peakAllocatedBytes": 1897285632
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 2,
+      "inputSha256": "68c33262cbecb05c256cdb18237e35c774d4c56f1016054fdad87d0737db2409",
+      "warmupSeconds": 0.10236359700138564,
+      "seconds": [
+        0.0998759260000952,
+        0.0997097860017675,
+        0.09969156199804274
+      ],
+      "medianSeconds": 0.0997097860017675,
+      "peakAllocatedBytes": 1899547648
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 3,
+      "inputSha256": "68c33262cbecb05c256cdb18237e35c774d4c56f1016054fdad87d0737db2409",
+      "warmupSeconds": 0.12649241400140454,
+      "seconds": [
+        0.12594501200146624,
+        0.12561806200028514,
+        0.1245328969998809
+      ],
+      "medianSeconds": 0.12561806200028514,
+      "peakAllocatedBytes": 1899547648
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 1,
+      "inputSha256": "33fb61ebee682a850ca02e6962196a5f8026766ad80ad143722379ec28762331",
+      "warmupSeconds": 0.11323025599995162,
+      "seconds": [
+        0.1101836000016192,
+        0.11022696100189933,
+        0.11130403200149885
+      ],
+      "medianSeconds": 0.11022696100189933,
+      "peakAllocatedBytes": 2085881856
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 2,
+      "inputSha256": "33fb61ebee682a850ca02e6962196a5f8026766ad80ad143722379ec28762331",
+      "warmupSeconds": 0.1703410990012344,
+      "seconds": [
+        0.1475823990003846,
+        0.1462415969981521,
+        0.14515455900254892
+      ],
+      "medianSeconds": 0.1462415969981521,
+      "peakAllocatedBytes": 2085881856
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 3,
+      "inputSha256": "33fb61ebee682a850ca02e6962196a5f8026766ad80ad143722379ec28762331",
+      "warmupSeconds": 0.17486153500067303,
+      "seconds": [
+        0.17598151399943163,
+        0.1773668589994486,
+        0.17724399999860907
+      ],
+      "medianSeconds": 0.17724399999860907,
+      "peakAllocatedBytes": 2085881856
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 1,
+      "inputSha256": "097b32552a691a76279b552fa0ff9ab05521e8ac2f055c2db8f6049c1e929a38",
+      "warmupSeconds": 0.1142916359967785,
+      "seconds": [
+        0.11566026999935275,
+        0.11446965899813222,
+        0.11474196600102005
+      ],
+      "medianSeconds": 0.11474196600102005,
+      "peakAllocatedBytes": 2116866048
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 2,
+      "inputSha256": "097b32552a691a76279b552fa0ff9ab05521e8ac2f055c2db8f6049c1e929a38",
+      "warmupSeconds": 0.15394291900156531,
+      "seconds": [
+        0.15204438499858952,
+        0.1506210090010427,
+        0.15087244900132646
+      ],
+      "medianSeconds": 0.15087244900132646,
+      "peakAllocatedBytes": 2116866048
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 3,
+      "inputSha256": "097b32552a691a76279b552fa0ff9ab05521e8ac2f055c2db8f6049c1e929a38",
+      "warmupSeconds": 0.18755638400034513,
+      "seconds": [
+        0.18885664000117686,
+        0.18685621799886576,
+        0.18743406599969603
+      ],
+      "medianSeconds": 0.18743406599969603,
+      "peakAllocatedBytes": 2116866048
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 1,
+      "inputSha256": "9d4637de0fbcd650c92795c6a39ee0594f4faf29dad162838b8835c19941580d",
+      "warmupSeconds": 0.1090964620016166,
+      "seconds": [
+        0.10947710199980065,
+        0.10872831499727909,
+        0.10988782899949001
+      ],
+      "medianSeconds": 0.10947710199980065,
+      "peakAllocatedBytes": 2077918720
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 2,
+      "inputSha256": "9d4637de0fbcd650c92795c6a39ee0594f4faf29dad162838b8835c19941580d",
+      "warmupSeconds": 0.14016820300093968,
+      "seconds": [
+        0.1421725440013688,
+        0.1422556990000885,
+        0.14166003799982718
+      ],
+      "medianSeconds": 0.1421725440013688,
+      "peakAllocatedBytes": 2078582272
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 3,
+      "inputSha256": "9d4637de0fbcd650c92795c6a39ee0594f4faf29dad162838b8835c19941580d",
+      "warmupSeconds": 0.17328262800219818,
+      "seconds": [
+        0.17345254500105511,
+        0.17256702300073812,
+        0.17493806700076675
+      ],
+      "medianSeconds": 0.17345254500105511,
+      "peakAllocatedBytes": 2078577664
+    }
+  ]
+}

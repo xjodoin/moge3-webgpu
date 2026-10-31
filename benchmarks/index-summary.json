@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-30T20:02:10.555Z",
+  "device": "Apple M4 Pro 24 GB, Chrome 156 Metal-3",
+  "powerSource": "AC verified throughout run",
+  "powerSamples": 67,
+  "method": "Same production build; CPU vs GPU voxel indexing with optimized wide kernels and buffer reuse enabled. Order counterbalanced by resolution, warmup plus three repeats per photo/configuration. Compute excludes loading, validation and rendering; profiling runs separate. Index byte counts are logical payloads, excluding GPU allocation padding and driver granularity. GPU index preparation wall time includes CPU dispatch and scalar sizing fences. CPU final depth update, interpolation and camera geometry remain.",
+  "exactMapLevels": 115,
+  "profiles": [
+    {
+      "profile": "fast",
+      "refineSteps": 1,
+      "cpu": {
+        "computeMs": 963.125,
+        "refinementMs": 378.6100000143051,
+        "cpuCoordinateMs": 75.93499994277954,
+        "gpuIndexPreparationWallMs": 0,
+        "indexUploadBytes": 56537588,
+        "indexParameterUploadBytes": 0,
+        "shapeReadbackBytes": 0,
+        "peakTrackedGpuBytes": 2952940560,
+        "worstPointsNrmse": 0.0003349385405136117,
+        "maskMismatches": 0
+      },
+      "gpu": {
+        "computeMs": 937.3650000095367,
+        "refinementMs": 350.0550000667572,
+        "cpuCoordinateMs": 0,
+        "gpuIndexPreparationWallMs": 5.090000033378601,
+        "indexUploadBytes": 0,
+        "indexParameterUploadBytes": 964,
+        "shapeReadbackBytes": 16,
+        "peakTrackedGpuBytes": 2961619360,
+        "worstPointsNrmse": 0.0003349385405136117,
+        "maskMismatches": 0
+      },
+      "latencyReductionPercent": 2.674626864681451,
+      "refinementReductionPercent": 7.5420617380600135,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 2,
+      "cpu": {
+        "computeMs": 1311.3899999856949,
+        "refinementMs": 730.7999999523163,
+        "cpuCoordinateMs": 149.64499986171722,
+        "gpuIndexPreparationWallMs": 0,
+        "indexUploadBytes": 112288180,
+        "indexParameterUploadBytes": 0,
+        "shapeReadbackBytes": 0,
+        "peakTrackedGpuBytes": 2953085360,
+        "worstPointsNrmse": 0.0007103017689260219,
+        "maskMismatches": 0
+      },
+      "gpu": {
+        "computeMs": 1251.8650000095367,
+        "refinementMs": 664.4300000667572,
+        "cpuCoordinateMs": 0,
+        "gpuIndexPreparationWallMs": 9.65999984741211,
+        "indexUploadBytes": 0,
+        "indexParameterUploadBytes": 1928,
+        "shapeReadbackBytes": 32,
+        "peakTrackedGpuBytes": 2960905728,
+        "worstPointsNrmse": 0.0007103017689260219,
+        "maskMismatches": 0
+      },
+      "latencyReductionPercent": 4.53907685561179,
+      "refinementReductionPercent": 9.08182811848517,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 3,
+      "cpu": {
+        "computeMs": 1669.539999961853,
+        "refinementMs": 1087.7250000238419,
+        "cpuCoordinateMs": 238.42500019073486,
+        "gpuIndexPreparationWallMs": 0,
+        "indexUploadBytes": 167899232,
+        "indexParameterUploadBytes": 0,
+        "shapeReadbackBytes": 0,
+        "peakTrackedGpuBytes": 2953377808,
+        "worstPointsNrmse": 0.0009413059419531438,
+        "maskMismatches": 0
+      },
+      "gpu": {
+        "computeMs": 1588.4649999141693,
+        "refinementMs": 999.8100000619888,
+        "cpuCoordinateMs": 0,
+        "gpuIndexPreparationWallMs": 15.199999928474426,
+        "indexUploadBytes": 0,
+        "indexParameterUploadBytes": 2892,
+        "shapeReadbackBytes": 48,
+        "peakTrackedGpuBytes": 2961230000,
+        "worstPointsNrmse": 0.0009413059419531438,
+        "maskMismatches": 0
+      },
+      "latencyReductionPercent": 4.856128038234253,
+      "refinementReductionPercent": 8.082465693068198,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 1,
+      "cpu": {
+        "computeMs": 1442.6800000667572,
+        "refinementMs": 522.4800000190735,
+        "cpuCoordinateMs": 110.92999994754791,
+        "gpuIndexPreparationWallMs": 0,
+        "indexUploadBytes": 81297360,
+        "indexParameterUploadBytes": 0,
+        "shapeReadbackBytes": 0,
+        "peakTrackedGpuBytes": 3492649424,
+        "worstPointsNrmse": 0.0002887960802053227,
+        "maskMismatches": 0
+      },
+      "gpu": {
+        "computeMs": 1409.4700000286102,
+        "refinementMs": 474.90499997138977,
+        "cpuCoordinateMs": 0,
+        "gpuIndexPreparationWallMs": 6.580000042915344,
+        "indexUploadBytes": 0,
+        "indexParameterUploadBytes": 964,
+        "shapeReadbackBytes": 16,
+        "peakTrackedGpuBytes": 3459253200,
+        "worstPointsNrmse": 0.0002887960802053227,
+        "maskMismatches": 0
+      },
+      "latencyReductionPercent": 2.301965788436122,
+      "refinementReductionPercent": 9.105611706849437,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 2,
+      "cpu": {
+        "computeMs": 1919.1349999904633,
+        "refinementMs": 1000.7649999856949,
+        "cpuCoordinateMs": 218.82000029087067,
+        "gpuIndexPreparationWallMs": 0,
+        "indexUploadBytes": 161673248,
+        "indexParameterUploadBytes": 0,
+        "shapeReadbackBytes": 0,
+        "peakTrackedGpuBytes": 3492805408,
+        "worstPointsNrmse": 0.0008415597114219503,
+        "maskMismatches": 0
+      },
+      "gpu": {
+        "computeMs": 1830.8899999856949,
+        "refinementMs": 908.579999923706,
+        "cpuCoordinateMs": 0,
+        "gpuIndexPreparationWallMs": 14.389999985694885,
+        "indexUploadBytes": 0,
+        "indexParameterUploadBytes": 1928,
+        "shapeReadbackBytes": 32,
+        "peakTrackedGpuBytes": 3458509744,
+        "worstPointsNrmse": 0.0008415597114219503,
+        "maskMismatches": 0
+      },
+      "latencyReductionPercent": 4.598165319542757,
+      "refinementReductionPercent": 9.211453244598534,
+      "maxNrmseChange": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 3,
+      "cpu": {
+        "computeMs": 2404.960000038147,
+        "refinementMs": 1487.695000052452,
+        "cpuCoordinateMs": 336.3099995851517,
+        "gpuIndexPreparationWallMs": 0,
+        "indexUploadBytes": 241811636,
+        "indexParameterUploadBytes": 0,
+        "shapeReadbackBytes": 0,
+        "peakTrackedGpuBytes": 3492938160,
+        "worstPointsNrmse": 0.0009430723759879896,
+        "maskMismatches": 0
+      },
+      "gpu": {
+        "computeMs": 2263.8300000429153,
+        "refinementMs": 1342,
+        "cpuCoordinateMs": 0,
+        "gpuIndexPreparationWallMs": 22.005000114440918,
+        "indexUploadBytes": 0,
+        "indexParameterUploadBytes": 2892,
+        "shapeReadbackBytes": 48,
+        "peakTrackedGpuBytes": 3458807184,
+        "worstPointsNrmse": 0.0009430723759879896,
+        "maskMismatches": 0
+      },
+      "latencyReductionPercent": 5.8682888693779915,
+      "refinementReductionPercent": 9.793338019373277,
+      "maxNrmseChange": 0
+    }
+  ],
+  "passed": true
+}
