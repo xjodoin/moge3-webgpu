@@ -1,0 +1,146 @@
+[
+  {
+    "profile": "fast",
+    "photo": "sample-backyard",
+    "step": 0,
+    "before": 375.957542,
+    "after": 80.06425100000001,
+    "exact": true
+  },
+  {
+    "profile": "fast",
+    "photo": "sample-backyard",
+    "step": 1,
+    "before": 401.7772079999999,
+    "after": 66.79329199999995,
+    "exact": true
+  },
+  {
+    "profile": "fast",
+    "photo": "sample-backyard",
+    "step": 2,
+    "before": 407.99062500000025,
+    "after": 77.44520899999998,
+    "exact": true
+  },
+  {
+    "profile": "fast",
+    "photo": "brick-ranch",
+    "step": 0,
+    "before": 430.3498749999999,
+    "after": 72.87591700000007,
+    "exact": true
+  },
+  {
+    "profile": "fast",
+    "photo": "brick-ranch",
+    "step": 1,
+    "before": 439.40429200000017,
+    "after": 70.09433399999944,
+    "exact": true
+  },
+  {
+    "profile": "fast",
+    "photo": "brick-ranch",
+    "step": 2,
+    "before": 444.1045420000005,
+    "after": 79.17900199999985,
+    "exact": true
+  },
+  {
+    "profile": "fast",
+    "photo": "raised-deck",
+    "step": 0,
+    "before": 457.9443749999991,
+    "after": 85.0912500000004,
+    "exact": true
+  },
+  {
+    "profile": "fast",
+    "photo": "raised-deck",
+    "step": 1,
+    "before": 466.5690020000002,
+    "after": 80.77620900000011,
+    "exact": true
+  },
+  {
+    "profile": "fast",
+    "photo": "raised-deck",
+    "step": 2,
+    "before": 447.37583500000164,
+    "after": 72.32000100000096,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "sample-backyard",
+    "step": 0,
+    "before": 665.2121649999999,
+    "after": 99.4320000000007,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "sample-backyard",
+    "step": 1,
+    "before": 662.7092929999999,
+    "after": 96.28029300000162,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "sample-backyard",
+    "step": 2,
+    "before": 652.485415000001,
+    "after": 91.90762399999949,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "brick-ranch",
+    "step": 0,
+    "before": 692.4997919999996,
+    "after": 99.76720900000055,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "brick-ranch",
+    "step": 1,
+    "before": 692.5972499999998,
+    "after": 99.94637499999953,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "brick-ranch",
+    "step": 2,
+    "before": 680.5965830000005,
+    "after": 93.80708100000084,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "raised-deck",
+    "step": 0,
+    "before": 736.4038330000003,
+    "after": 120.42987500000163,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "raised-deck",
+    "step": 1,
+    "before": 712.1778320000012,
+    "after": 108.75679200000195,
+    "exact": true
+  },
+  {
+    "profile": "detail",
+    "photo": "raised-deck",
+    "step": 2,
+    "before": 683.3408749999999,
+    "after": 102.85283199999867,
+    "exact": true
+  }
+]

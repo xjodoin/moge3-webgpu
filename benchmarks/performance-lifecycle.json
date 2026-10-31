@@ -1,0 +1,354 @@
+{
+  "warmups": [
+    {
+      "profile": "fast",
+      "sessions": {
+        "profile": "fast",
+        "created": 22,
+        "hits": 0,
+        "retained": 22,
+        "createdThisRun": 22
+      },
+      "transfers": {
+        "featureReadbacks": 1,
+        "featureReadbackBytes": 1204224,
+        "indexUploadBytes": 55396512,
+        "coordinateMs": 484.65500020980835
+      },
+      "validationMs": 1442.8250000476837,
+      "gpuMemory": {
+        "peakExplicitBufferBytes": 3910035696,
+        "liveExplicitBufferBytes": 2754300288,
+        "largestBufferBytes": 1040449536
+      },
+      "caseName": "sample-backyard",
+      "loadMs": 4034.8849999904633,
+      "inferenceMs": 720.8950001001358,
+      "refinementMs": 1871.6699999570847,
+      "cameraMs": 5.25,
+      "outputs": {
+        "points": {
+          "finite": true,
+          "maxAbs": 2.9087066650390625e-05,
+          "nrmse": 7.40190647729878e-07,
+          "p99Abs": 4.649162292480469e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 3.199279308319092e-05,
+          "nrmse": 1.4743261989943309e-06,
+          "p99Abs": 3.557652235031128e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 5.841255187988281e-06,
+          "nrmse": 1.5225964696831367e-07,
+          "p99Abs": 2.980232238769531e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 4.291534423828125e-06,
+          "nrmse": 8.053296357368784e-07,
+          "p99Abs": 4.291534423828125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 8.344650268554688e-06,
+          "nrmse": 6.724938301547633e-07,
+          "p99Abs": 1.0728836059570312e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.0001125335693359375,
+          "nrmse": 2.3052056997055725e-06,
+          "p99Abs": 2.5391578674316406e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "refined-raw": {
+          "finite": true,
+          "maxAbs": 0.0027161240577697754,
+          "nrmse": 2.4397942296906865e-05,
+          "p99Abs": 1.2367963790893555e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "refined-points": {
+          "finite": true,
+          "maxAbs": 0.0031583309173583984,
+          "nrmse": 1.850157970772797e-05,
+          "p99Abs": 6.99758529663086e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "projected-points": {
+          "finite": true,
+          "maxAbs": 0.016857624053955078,
+          "nrmse": 2.0222003813674217e-05,
+          "p99Abs": 0.0003604888916015625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "native-points": {
+          "finite": true,
+          "maxAbs": 0.032253265380859375,
+          "nrmse": 2.3677511033185187e-05,
+          "p99Abs": 0.0002694129943847656,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "native-intrinsics": {
+          "finite": true,
+          "maxAbs": 1.6093254089355469e-06,
+          "nrmse": 1.2671836169615135e-06,
+          "p99Abs": 1.6093254089355469e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      "refineSteps": 1,
+      "numTokens": 1200,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ],
+      "backend": "webgpu",
+      "cpuLearnedFallback": false,
+      "camera": {
+        "focal": 0.8433337752032909,
+        "shift": -0.1500271190416473,
+        "intrinsics": [
+          0.5080020371217439,
+          0,
+          0.5,
+          0,
+          0.7560960552509675,
+          0.5,
+          0,
+          0,
+          1
+        ]
+      },
+      "validated": true,
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "sessions": {
+        "profile": "detail",
+        "created": 44,
+        "hits": 198,
+        "retained": 22,
+        "createdThisRun": 22
+      },
+      "transfers": {
+        "featureReadbacks": 1,
+        "featureReadbackBytes": 1775616,
+        "indexUploadBytes": 80252520,
+        "coordinateMs": 621.8100000619888
+      },
+      "validationMs": 2400.3550000190735,
+      "gpuMemory": {
+        "peakExplicitBufferBytes": 4455313616,
+        "liveExplicitBufferBytes": 2816420192,
+        "largestBufferBytes": 1534132224
+      },
+      "caseName": "sample-backyard",
+      "loadMs": 2251.880000114441,
+      "inferenceMs": 1157.3349999189377,
+      "refinementMs": 1804.9650000333786,
+      "cameraMs": 20.365000009536743,
+      "outputs": {
+        "points": {
+          "finite": true,
+          "maxAbs": 4.38690185546875e-05,
+          "nrmse": 7.458006601926436e-07,
+          "p99Abs": 4.0531158447265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 1.7762184143066406e-05,
+          "nrmse": 1.551913475102508e-06,
+          "p99Abs": 3.5762786865234375e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 1.5676021575927734e-05,
+          "nrmse": 2.6407172938936276e-07,
+          "p99Abs": 4.172325134277344e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 2.384185791015625e-06,
+          "nrmse": 4.258222713223689e-07,
+          "p99Abs": 2.384185791015625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 1.4424324035644531e-05,
+          "nrmse": 4.929009211091177e-07,
+          "p99Abs": 9.5367431640625e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.00011348724365234375,
+          "nrmse": 2.0422909823863982e-06,
+          "p99Abs": 2.2590160369873047e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "refined-raw": {
+          "finite": true,
+          "maxAbs": 0.06701254844665527,
+          "nrmse": 0.00020919466606479612,
+          "p99Abs": 8.52346420288086e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "refined-points": {
+          "finite": true,
+          "maxAbs": 0.17082452774047852,
+          "nrmse": 0.000263701834081478,
+          "p99Abs": 4.4345855712890625e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "projected-points": {
+          "finite": true,
+          "maxAbs": 0.9564571380615234,
+          "nrmse": 0.0002866391550927547,
+          "p99Abs": 0.0002574920654296875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "native-points": {
+          "finite": true,
+          "maxAbs": 0.9563083648681641,
+          "nrmse": 0.0002997013003851315,
+          "p99Abs": 0.000988006591796875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "native-intrinsics": {
+          "finite": true,
+          "maxAbs": 5.364418029785156e-07,
+          "nrmse": 4.222777682160328e-07,
+          "p99Abs": 5.364418029785156e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      "refineSteps": 1,
+      "numTokens": 1733,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ],
+      "backend": "webgpu",
+      "cpuLearnedFallback": false,
+      "camera": {
+        "focal": 0.8414889827526129,
+        "shift": -0.15262065100176314,
+        "intrinsics": [
+          0.5056719458420963,
+          0,
+          0.5,
+          0,
+          0.7585079187631445,
+          0.5,
+          0,
+          0,
+          1
+        ]
+      },
+      "validated": true,
+      "passed": true
+    }
+  ],
+  "unloaded": {
+    "profile": null,
+    "created": 44,
+    "hits": 396,
+    "retained": 0
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "kernels": {
+    "passed": true,
+    "pool": [
+      0,
+      4,
+      9,
+      8
+    ],
+    "upsampleAdd": [
+      10,
+      10,
+      3,
+      8,
+      14,
+      14
+    ],
+    "gather": [
+      9,
+      8,
+      100000000,
+      2
+    ]
+  },
+  "uploadCheck": {
+    "firstCreatedSessions": 22,
+    "secondCreatedSessions": 0,
+    "secondModelRequests": 0,
+    "secondFeatureReadbacks": 1,
+    "validated": false,
+    "diagnosticOutputs": {},
+    "invalidInputError": "Tensor's size(528384) does not match data length(1).",
+    "retainedAfterErrorCleanup": 0
+  }
+}

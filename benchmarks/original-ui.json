@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-30",
+  "productionPreview": "http://127.0.0.1:5182/",
+  "sample": {
+    "profile": "detail",
+    "caseName": "raised-deck",
+    "refineSteps": 3,
+    "selectedThroughUI": true,
+    "controlsDisabledDuringInference": true,
+    "controlsEnabledAfterInference": true,
+    "passed": true,
+    "validationReference": "original-cuda-strict-fp32",
+    "diagnosticPassed": false,
+    "featureReadbacks": 3,
+    "sparseKernelBlocks": 30,
+    "perPassTelemetryEntries": 3
+  },
+  "upload": {
+    "file": "fixtures/brick-ranch.jpg",
+    "profile": "fast",
+    "refineSteps": 2,
+    "selectedThroughUI": true,
+    "caseName": "uploaded-photo",
+    "error": null,
+    "validated": false,
+    "passed": null,
+    "featureReadbacks": 2,
+    "sparseKernelBlocks": 20
+  },
+  "unload": {
+    "retained": 0
+  },
+  "externalModelBuild": {
+    "bytes": 648408578,
+    "goldensMatchDownloadedCudaOutputs": true,
+    "traceTensorsExcluded": true,
+    "checkpointSha256MatchesExport": true
+  }
+}

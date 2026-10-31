@@ -1,0 +1,799 @@
+{
+  "date": "2026-10-30T15:48:32.720Z",
+  "cudaHardware": "NVIDIA GeForce RTX 4090",
+  "browserHardware": "Apple M4 Pro 24 GB, Chrome 156 Metal-3",
+  "methodology": "Same FP32 inputs, weights, tokens and pass counts. One warmup per configuration; three measured repeats per photo. CUDA synchronized wall time includes original infer camera recovery. Browser compute includes dense, refinement and camera recovery; excludes loading, reference validation and rendering. Different hardware: speed ratios are not implementation-only comparisons. MLX references are preserved separately.",
+  "profiles": [
+    {
+      "profile": "fast",
+      "refineSteps": 1,
+      "cudaMedianMs": 194.58082200071658,
+      "cudaDefaultSparseTf32MedianMs": 76.27859100102796,
+      "browserMedianMs": 1288.1999999284744,
+      "browserToCudaRatio": 6.6203852295563355,
+      "passedBrowserRuns": 9,
+      "browserRuns": 9,
+      "worstPointsNrmse": 0.0003349385405136117,
+      "worstIntrinsicsNrmse": 7.039911349259289e-7,
+      "maxMaskMismatches": 0,
+      "cudaPeakAllocatedBytes": 1926845440
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 2,
+      "cudaMedianMs": 338.2297309981368,
+      "cudaDefaultSparseTf32MedianMs": 99.8759260000952,
+      "browserMedianMs": 2011.094999909401,
+      "browserToCudaRatio": 5.9459438825041655,
+      "passedBrowserRuns": 9,
+      "browserRuns": 9,
+      "worstPointsNrmse": 0.0007103017689260219,
+      "worstIntrinsicsNrmse": 8.98994967258701e-7,
+      "maxMaskMismatches": 0,
+      "cudaPeakAllocatedBytes": 1926845440
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 3,
+      "cudaMedianMs": 481.8980680029199,
+      "cudaDefaultSparseTf32MedianMs": 125.97589000142762,
+      "browserMedianMs": 2732.6299999952316,
+      "browserToCudaRatio": 5.670556039620134,
+      "passedBrowserRuns": 9,
+      "browserRuns": 9,
+      "worstPointsNrmse": 0.0009413059419531438,
+      "worstIntrinsicsNrmse": 0.0000012130420082128352,
+      "maxMaskMismatches": 0,
+      "cudaPeakAllocatedBytes": 1926845440
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 1,
+      "cudaMedianMs": 276.60874300272553,
+      "cudaDefaultSparseTf32MedianMs": 110.22696100189933,
+      "browserMedianMs": 2151.979999899864,
+      "browserToCudaRatio": 7.779869777574818,
+      "passedBrowserRuns": 9,
+      "browserRuns": 9,
+      "worstPointsNrmse": 0.0002887960802053227,
+      "worstIntrinsicsNrmse": 8.251962395944674e-7,
+      "maxMaskMismatches": 0,
+      "cudaPeakAllocatedBytes": 2116866048
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 2,
+      "cudaMedianMs": 465.5478469976515,
+      "cudaDefaultSparseTf32MedianMs": 146.2415969981521,
+      "browserMedianMs": 2979.969999909401,
+      "browserToCudaRatio": 6.400996200771677,
+      "passedBrowserRuns": 9,
+      "browserRuns": 9,
+      "worstPointsNrmse": 0.0008415597114219503,
+      "worstIntrinsicsNrmse": 0.0000010394993871883079,
+      "maxMaskMismatches": 0,
+      "cudaPeakAllocatedBytes": 2116866048
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 3,
+      "cudaMedianMs": 653.8995750015602,
+      "cudaDefaultSparseTf32MedianMs": 177.24399999860907,
+      "browserMedianMs": 3958.7699999809265,
+      "browserToCudaRatio": 6.054094774371862,
+      "passedBrowserRuns": 9,
+      "browserRuns": 9,
+      "worstPointsNrmse": 0.0009430723759879896,
+      "worstIntrinsicsNrmse": 0.0000013752544810763614,
+      "maxMaskMismatches": 0,
+      "cudaPeakAllocatedBytes": 2116866048
+    }
+  ],
+  "mlxComparisons": [
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.06429290771484375,
+        "nrmse": 0.00009370742175250368,
+        "p99Abs": 0.00101470947265625,
+        "maskMismatches": 3,
+        "maskMismatchFraction": 0.000005677688953488372,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000050067901611328125,
+        "nrmse": 0.0000034881253686634778,
+        "p99Abs": 0.0000050067901611328125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.23823928833007812,
+        "nrmse": 0.0002351389983539244,
+        "p99Abs": 0.0034389495849609375,
+        "maskMismatches": 3,
+        "maskMismatchFraction": 0.000005677688953488372,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 8.344650268554688e-7,
+        "nrmse": 5.911738500955509e-7,
+        "p99Abs": 8.344650268554688e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.3672752380371094,
+        "nrmse": 0.00045247634371390965,
+        "p99Abs": 0.0083770751953125,
+        "maskMismatches": 3,
+        "maskMismatchFraction": 0.000005677688953488372,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 8.344650268554688e-7,
+        "nrmse": 5.718865121907044e-7,
+        "p99Abs": 8.344650268554688e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.4196586608886719,
+        "nrmse": 0.00034252059622111,
+        "p99Abs": 0.002434253692626953,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 2.384185791015625e-7,
+        "nrmse": 1.648204200231683e-7,
+        "p99Abs": 2.384185791015625e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.92626953125,
+        "nrmse": 0.0008664222061513532,
+        "p99Abs": 0.010517120361328125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 3.5762786865234375e-7,
+        "nrmse": 2.3770526383537489e-7,
+        "p99Abs": 3.5762786865234375e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 1.3831748962402344,
+        "nrmse": 0.0012274603669367198,
+        "p99Abs": 0.022342681884765625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 2.384185791015625e-7,
+        "nrmse": 1.6481744463213564e-7,
+        "p99Abs": 2.384185791015625e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": false
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.032154083251953125,
+        "nrmse": 0.000016698213301700946,
+        "p99Abs": 0.00020503997802734375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 7.152557373046875e-7,
+        "nrmse": 5.63192907940743e-7,
+        "p99Abs": 7.152557373046875e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.06528091430664062,
+        "nrmse": 0.00004427210361676558,
+        "p99Abs": 0.0004749298095703125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0,
+        "nrmse": 0,
+        "p99Abs": 0,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.10270118713378906,
+        "nrmse": 0.00008830463975685397,
+        "p99Abs": 0.0010671615600585938,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 5.960464477539063e-8,
+        "nrmse": 3.904920389798428e-8,
+        "p99Abs": 5.960464477539063e-8,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.4287910461425781,
+        "nrmse": 0.00006350028007089784,
+        "p99Abs": 0.000675201416015625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000011920928955078125,
+        "nrmse": 8.251962395944674e-7,
+        "p99Abs": 0.0000011920928955078125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.8934135437011719,
+        "nrmse": 0.0002649569110055545,
+        "p99Abs": 0.002773284912109375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000013113021850585938,
+        "nrmse": 9.020998200956634e-7,
+        "p99Abs": 0.0000013113021850585938,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 1.2093620300292969,
+        "nrmse": 0.0004727954986787189,
+        "p99Abs": 0.006855010986328125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000010728836059570312,
+        "nrmse": 7.297565667393403e-7,
+        "p99Abs": 0.0000010728836059570312,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.36608123779296875,
+        "nrmse": 0.0009744313234937564,
+        "p99Abs": 0.01091766357421875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 2.384185791015625e-7,
+        "nrmse": 1.4870351601989487e-7,
+        "p99Abs": 2.384185791015625e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.5759658813476562,
+        "nrmse": 0.0010832136067816902,
+        "p99Abs": 0.020183563232421875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 1.1920928955078125e-7,
+        "nrmse": 7.435056939240764e-8,
+        "p99Abs": 1.1920928955078125e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": false
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 1.7509536743164062,
+        "nrmse": 0.0012013922231848715,
+        "p99Abs": 0.021477699279785156,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.000003337860107421875,
+        "nrmse": 0.0000022317286821809735,
+        "p99Abs": 0.000003337860107421875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": false
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.10314559936523438,
+        "nrmse": 0.00008361881658703207,
+        "p99Abs": 0.000640869140625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 4.76837158203125e-7,
+        "nrmse": 3.6829886926671586e-7,
+        "p99Abs": 4.76837158203125e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 1.9724102020263672,
+        "nrmse": 0.0007189140532137701,
+        "p99Abs": 0.0031194686889648438,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000036954879760742188,
+        "nrmse": 0.000002901798562500244,
+        "p99Abs": 0.0000036954879760742188,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 2.151050567626953,
+        "nrmse": 0.0009720182864723186,
+        "p99Abs": 0.005062103271484375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.000003933906555175781,
+        "nrmse": 0.0000030751625060479424,
+        "p99Abs": 0.000003933906555175781,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    }
+  ],
+  "sparseTf32Comparisons": [
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.026325225830078125,
+        "nrmse": 0.000045677402542965076,
+        "p99Abs": 0.001674652099609375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.7140464782714844,
+        "nrmse": 0.00027660483821058266,
+        "p99Abs": 0.005588531494140625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "brick-ranch",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.47446632385253906,
+        "nrmse": 0.0003817333275792821,
+        "p99Abs": 0.00951385498046875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.05364990234375,
+        "nrmse": 0.00006681378627423664,
+        "p99Abs": 0.00250244140625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.9539451599121094,
+        "nrmse": 0.0006977022318749404,
+        "p99Abs": 0.009616851806640625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "raised-deck",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 3.0971298217773438,
+        "nrmse": 0.0011697759037268083,
+        "p99Abs": 0.01731109619140625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": false
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.026734352111816406,
+        "nrmse": 0.0000564803218778973,
+        "p99Abs": 0.0015850067138671875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.4402503967285156,
+        "nrmse": 0.0005303048919458043,
+        "p99Abs": 0.004795074462890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "caseName": "sample-backyard",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.8088264465332031,
+        "nrmse": 0.0007963273158965701,
+        "p99Abs": 0.006865024566650391,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.018505096435546875,
+        "nrmse": 0.00004063504336983784,
+        "p99Abs": 0.00156402587890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.5281944274902344,
+        "nrmse": 0.00030890263771732654,
+        "p99Abs": 0.0059719085693359375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "brick-ranch",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.9765892028808594,
+        "nrmse": 0.0005047982511681815,
+        "p99Abs": 0.009435653686523438,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.06047248840332031,
+        "nrmse": 0.00006756623087275156,
+        "p99Abs": 0.0026836395263671875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 1.5282859802246094,
+        "nrmse": 0.0006365772734881248,
+        "p99Abs": 0.013203620910644531,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "raised-deck",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 7.262733459472656,
+        "nrmse": 0.0016202522597453465,
+        "p99Abs": 0.01812744140625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": false
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 1,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.02280426025390625,
+        "nrmse": 0.00006318056059096764,
+        "p99Abs": 0.001888275146484375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 2,
+      "points": {
+        "finite": true,
+        "maxAbs": 0.5449924468994141,
+        "nrmse": 0.00046533298418172526,
+        "p99Abs": 0.005518436431884766,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "caseName": "sample-backyard",
+      "refineSteps": 3,
+      "points": {
+        "finite": true,
+        "maxAbs": 1.849752426147461,
+        "nrmse": 0.001175776932870613,
+        "p99Abs": 0.008309364318847656,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "passed": false
+    }
+  ],
+  "passed": true
+}

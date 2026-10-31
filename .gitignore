@@ -1,6 +1,7 @@
 .venv/
 vendor/
 public/models/
+public/original-cuda*/
 node_modules/
 results/
 public/ort/

@@ -1,0 +1,425 @@
+{
+  "done": true,
+  "rows": [
+    {
+      "name": "down_stages.0.0",
+      "channels": 32,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "baseline": true,
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "none"
+      },
+      "finite": true,
+      "maxAbs": 4.76837158203125e-7,
+      "nrmse": 9.259308015915511e-8,
+      "p99Abs": 3.5762786865234375e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.0.0",
+      "channels": 32,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "baseline": true,
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "none"
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.1.0",
+      "channels": 64,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "baseline": true,
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "none"
+      },
+      "finite": true,
+      "maxAbs": 7.152557373046875e-7,
+      "nrmse": 1.4332626629492394e-7,
+      "p99Abs": 4.76837158203125e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.1.0",
+      "channels": 64,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "baseline": true,
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "none"
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "rows": 32,
+        "cols": 64,
+        "k": 32,
+        "skip": "mask",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 9.5367431640625e-7,
+      "nrmse": 1.330930413992342e-7,
+      "p99Abs": 5.364418029785156e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.2.0",
+      "channels": 128,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "rows": 32,
+        "cols": 64,
+        "k": 32,
+        "skip": "mask",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "group",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 9.5367431640625e-7,
+      "nrmse": 1.341381967135016e-7,
+      "p99Abs": 4.76837158203125e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.3.0",
+      "channels": 256,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "group",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.4.0",
+      "channels": 512,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "group",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 0.0000011920928955078125,
+      "nrmse": 1.449514804460037e-7,
+      "p99Abs": 4.76837158203125e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "down_stages.4.0",
+      "channels": 512,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "group",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "bottleneck_stage.0",
+      "channels": 512,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "group",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 0.000001430511474609375,
+      "nrmse": 1.6324886056449336e-7,
+      "p99Abs": 7.152557373046875e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "bottleneck_stage.0",
+      "channels": 512,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "group",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "up_stages.0.0",
+      "channels": 256,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "group",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 9.5367431640625e-7,
+      "nrmse": 1.480138807493258e-7,
+      "p99Abs": 5.364418029785156e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "up_stages.0.0",
+      "channels": 256,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "group",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "up_stages.1.0",
+      "channels": 128,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "rows": 32,
+        "cols": 64,
+        "k": 32,
+        "skip": "mask",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 8.344650268554688e-7,
+      "nrmse": 1.3856563788710386e-7,
+      "p99Abs": 4.76837158203125e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "up_stages.1.0",
+      "channels": 128,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "rows": 32,
+        "cols": 64,
+        "k": 32,
+        "skip": "mask",
+        "baseline": false
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "up_stages.2.0",
+      "channels": 64,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "baseline": true,
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "none"
+      },
+      "finite": true,
+      "maxAbs": 7.152557373046875e-7,
+      "nrmse": 1.2604081458917597e-7,
+      "p99Abs": 4.76837158203125e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "up_stages.2.0",
+      "channels": 64,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "baseline": true,
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "none"
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "up_stages.3.0",
+      "channels": 32,
+      "rows": 19,
+      "empty": false,
+      "config": {
+        "baseline": true,
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "none"
+      },
+      "finite": true,
+      "maxAbs": 5.364418029785156e-7,
+      "nrmse": 1.1477526653617549e-7,
+      "p99Abs": 4.76837158203125e-7,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    {
+      "name": "up_stages.3.0",
+      "channels": 32,
+      "rows": 19,
+      "empty": true,
+      "config": {
+        "baseline": true,
+        "rows": 16,
+        "cols": 32,
+        "k": 32,
+        "skip": "none"
+      },
+      "finite": true,
+      "maxAbs": 0,
+      "nrmse": 0,
+      "p99Abs": 0,
+      "maskMismatches": 0,
+      "maskMismatchFraction": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    }
+  ]
+}

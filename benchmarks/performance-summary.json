@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-30",
+  "hardware": "Apple M4 Pro, 24 GB",
+  "baselineCommit": "ed81ea22b5a4455db2449e35ef34e7342c27dee7",
+  "method": "Sequential local production builds, one warmup then three repetitions of each of three fixtures per profile. MLX run separately, same FP32 inputs, token counts and one refinement pass. Timings exclude reference validation, rendering and fixture reads. Browser request adds session preparation; compute includes inference, refinement and camera. Native includes full infer and synchronization. Network cold-start is not benchmarked.",
+  "profiles": {
+    "fast": {
+      "baseline": {
+        "medianRequestMs": 3761.145000100136,
+        "medianComputeMs": 2325.185000181198,
+        "medianRefinementMs": 1602.414999961853,
+        "minComputeMs": 2075.2549999952316,
+        "maxComputeMs": 2620.7900000810623,
+        "peakTrackedBufferBytes": 2447003072,
+        "worstNativePointsNrmse": 0.00022238662880113302,
+        "passedRuns": 9
+      },
+      "optimized": {
+        "medianRequestMs": 1394.3649998903275,
+        "medianComputeMs": 1394.2649999856949,
+        "medianRefinementMs": 784.4700000286102,
+        "minComputeMs": 1348.5199999809265,
+        "maxComputeMs": 1495.2450000047684,
+        "peakTrackedBufferBytes": 4048841088,
+        "worstNativePointsNrmse": 0.0002223860901310157,
+        "passedRuns": 9
+      },
+      "native": {
+        "medianInferenceMs": 661.5821248851717,
+        "passedRuns": 9
+      },
+      "requestSpeedup": 2.697389134405959,
+      "computeSpeedup": 1.6676779523297611,
+      "browserToMlxRatio": 2.1074707848669463
+    },
+    "detail": {
+      "baseline": {
+        "medianRequestMs": 4777.424999952316,
+        "medianComputeMs": 3454.524999976158,
+        "medianRefinementMs": 2217.564999938011,
+        "minComputeMs": 3190.204999923706,
+        "maxComputeMs": 3834.610000014305,
+        "peakTrackedBufferBytes": 3000643152,
+        "worstNativePointsNrmse": 0.000974671716661402,
+        "passedRuns": 9
+      },
+      "optimized": {
+        "medianRequestMs": 2196.5349999666214,
+        "medianComputeMs": 2194.7599999904633,
+        "medianRefinementMs": 1228.6549999713898,
+        "minComputeMs": 2104.7000000476837,
+        "maxComputeMs": 2413.0349999666214,
+        "peakTrackedBufferBytes": 4687507808,
+        "worstNativePointsNrmse": 0.000974671357363667,
+        "passedRuns": 9
+      },
+      "native": {
+        "medianInferenceMs": 974.1404999513179,
+        "passedRuns": 9
+      },
+      "requestSpeedup": 2.1749824154975514,
+      "computeSpeedup": 1.5739875886161443,
+      "browserToMlxRatio": 2.253022023106672
+    }
+  }
+}

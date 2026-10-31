@@ -1,0 +1,190 @@
+{
+  "rows": [
+    {
+      "name": "odd-ties-1x1",
+      "levels": 5,
+      "indexParameterUploadBytes": 644,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "odd-ties-3x5",
+      "levels": 5,
+      "indexParameterUploadBytes": 644,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "odd-ties-17x19",
+      "levels": 5,
+      "indexParameterUploadBytes": 644,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "odd-ties-33x35",
+      "levels": 5,
+      "indexParameterUploadBytes": 708,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "odd-ties-65x65",
+      "levels": 5,
+      "indexParameterUploadBytes": 772,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/sample-backyard/0",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/sample-backyard/1",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/sample-backyard/2",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/brick-ranch/0",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/brick-ranch/1",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/brick-ranch/2",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/raised-deck/0",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/raised-deck/1",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "fast/raised-deck/2",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/sample-backyard/0",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/sample-backyard/1",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/sample-backyard/2",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/brick-ranch/0",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/brick-ranch/1",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/brick-ranch/2",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/raised-deck/0",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/raised-deck/1",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    },
+    {
+      "name": "detail/raised-deck/2",
+      "levels": 5,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "exact": true
+    }
+  ],
+  "startedAt": 1793389576617,
+  "done": true
+}

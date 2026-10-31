@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-30",
+  "device": "Apple M4 Pro, 24 GB, Chrome 156 / Metal-3",
+  "method": "Same production build, explicit ONNX and WGSL backends, one warmup per profile and three repetitions of three images. Synchronized MLX runs performed separately on identical FP32 input, tokens and one refinement pass. Compute excludes model preparation, validation downloads and rendering; includes dense inference, refinement, camera recovery. First download/startup is not measured. Buffer counters are explicit allocations, not RSS or driver memory.",
+  "profiles": {
+    "fast": {
+      "onnx": {
+        "medianComputeMs": 1365.8700000047684,
+        "meanComputeMs": 1375.7022221883137,
+        "medianRefinementMs": 788.2999999523163,
+        "peakExplicitBufferBytes": 4048841088,
+        "largestBufferBytesIncludingWarmup": 1040449536,
+        "worstNativePointsNrmse": 0.0002223860901310157,
+        "passedRuns": 9
+      },
+      "wgsl": {
+        "medianComputeMs": 1258.0650000572205,
+        "meanComputeMs": 1280.0505555735695,
+        "medianRefinementMs": 680.8999999761581,
+        "peakExplicitBufferBytes": 2755947776,
+        "largestBufferBytesIncludingWarmup": 134217728,
+        "worstNativePointsNrmse": 0.0002223861805196731,
+        "passedRuns": 9
+      },
+      "nativeMlxMedianMs": 665.964666986838,
+      "peakBufferReductionPercent": 31.932429154403998,
+      "refinementReductionPercent": 13.624254723158025
+    },
+    "detail": {
+      "onnx": {
+        "medianComputeMs": 2026.2300000190735,
+        "meanComputeMs": 2082.5661111275354,
+        "medianRefinementMs": 1116.125,
+        "peakExplicitBufferBytes": 4687507808,
+        "largestBufferBytesIncludingWarmup": 1534132224,
+        "worstNativePointsNrmse": 0.000974671357363667,
+        "passedRuns": 9
+      },
+      "wgsl": {
+        "medianComputeMs": 2044.125,
+        "meanComputeMs": 2051.0238889058433,
+        "medianRefinementMs": 1054.0049999952316,
+        "peakExplicitBufferBytes": 3262333920,
+        "largestBufferBytesIncludingWarmup": 192654400,
+        "worstNativePointsNrmse": 0.0009746704997432632,
+        "passedRuns": 9
+      },
+      "nativeMlxMedianMs": 935.7460000319406,
+      "peakBufferReductionPercent": 30.403658967089232,
+      "refinementReductionPercent": 5.565684847554564
+    }
+  },
+  "accuracy": "All 18 dedicated runs pass the unchanged <0.1% NRMSE gate and mask/finite checks. All 10 isolated sparse blocks pass a stricter <0.001% NRMSE comparison against ONNX. Fresh native outputs reproduce saved references exactly. Detail aggregate median is essentially unchanged; no broad end-to-end speedup claim."
+}

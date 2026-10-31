@@ -1,0 +1,86 @@
+[
+  {
+    "profile": "fast",
+    "caseName": "sample-backyard",
+    "refineSteps": 2,
+    "nativeSeconds": 1.3849654999794438,
+    "diagnosticTracing": false
+  },
+  {
+    "profile": "fast",
+    "caseName": "sample-backyard",
+    "refineSteps": 3,
+    "nativeSeconds": 2.0568686249898747,
+    "diagnosticTracing": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "brick-ranch",
+    "refineSteps": 2,
+    "nativeSeconds": 2.008269750047475,
+    "diagnosticTracing": false
+  },
+  {
+    "profile": "fast",
+    "caseName": "brick-ranch",
+    "refineSteps": 3,
+    "nativeSeconds": 2.47295566694811,
+    "diagnosticTracing": true
+  },
+  {
+    "profile": "fast",
+    "caseName": "raised-deck",
+    "refineSteps": 2,
+    "nativeSeconds": 1.361538958037272,
+    "diagnosticTracing": false
+  },
+  {
+    "profile": "fast",
+    "caseName": "raised-deck",
+    "refineSteps": 3,
+    "nativeSeconds": 1.5437587919877842,
+    "diagnosticTracing": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "sample-backyard",
+    "refineSteps": 2,
+    "nativeSeconds": 1.3544279580237344,
+    "diagnosticTracing": false
+  },
+  {
+    "profile": "detail",
+    "caseName": "sample-backyard",
+    "refineSteps": 3,
+    "nativeSeconds": 1.8313858750043437,
+    "diagnosticTracing": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "brick-ranch",
+    "refineSteps": 2,
+    "nativeSeconds": 1.390700540971011,
+    "diagnosticTracing": false
+  },
+  {
+    "profile": "detail",
+    "caseName": "brick-ranch",
+    "refineSteps": 3,
+    "nativeSeconds": 1.9401539579266682,
+    "diagnosticTracing": true
+  },
+  {
+    "profile": "detail",
+    "caseName": "raised-deck",
+    "refineSteps": 2,
+    "nativeSeconds": 1.5708852909738198,
+    "diagnosticTracing": false
+  },
+  {
+    "profile": "detail",
+    "caseName": "raised-deck",
+    "refineSteps": 3,
+    "nativeSeconds": 2.3123622499406338,
+    "diagnosticTracing": true
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-30T16:30:00.757Z",
+  "hardware": "Apple M4 Pro 24 GB, Chrome 156 Metal-3",
+  "method": "Production build, local unchanged model files, warmup and three repetitions per photo, original CUDA strict FP32 goldens. Compute includes dense, refinement and camera; excludes loading, validation and rendering. Baseline is the preceding original-browser benchmark on the same hardware, not interleaved A/B trials.",
+  "accuracy": "All 54 runs pass the original CUDA gate. All 90 map levels across 18 saved refinement inputs match the historical implementation exactly, including pooling child order.",
+  "profiles": [
+    {
+      "profile": "fast",
+      "refineSteps": 1,
+      "beforeMs": 1288.1999999284744,
+      "afterMs": 1013.1849999427795,
+      "speedup": 1.2714361148272295,
+      "reductionPercent": 21.348781245223158,
+      "beforeCoordinateMs": 372.8949998617172,
+      "afterCoordinateMs": 78.69999980926514,
+      "worstOriginalPointsNrmse": 0.0003349385405136117,
+      "maxPointsNrmseChangeFromBefore": 0,
+      "maskMismatches": 0
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 2,
+      "beforeMs": 2011.094999909401,
+      "afterMs": 1417.1949999332428,
+      "speedup": 1.4190672419844368,
+      "reductionPercent": 29.531175802381938,
+      "beforeCoordinateMs": 786.2599999904633,
+      "afterCoordinateMs": 163.58999979496002,
+      "worstOriginalPointsNrmse": 0.0007103017689260219,
+      "maxPointsNrmseChangeFromBefore": 0,
+      "maskMismatches": 0
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 3,
+      "beforeMs": 2732.6299999952316,
+      "afterMs": 1815.7749999761581,
+      "speedup": 1.504938662571691,
+      "reductionPercent": 33.55210914103532,
+      "beforeCoordinateMs": 1209.8549993038177,
+      "afterCoordinateMs": 239.3200000524521,
+      "worstOriginalPointsNrmse": 0.0009413059419531438,
+      "maxPointsNrmseChangeFromBefore": 0,
+      "maskMismatches": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 1,
+      "beforeMs": 2151.979999899864,
+      "afterMs": 1543.7450000047684,
+      "speedup": 1.3939996566098787,
+      "reductionPercent": 28.263970851188127,
+      "beforeCoordinateMs": 620.6999996900558,
+      "afterCoordinateMs": 118.51999986171722,
+      "worstOriginalPointsNrmse": 0.0002887960802053227,
+      "maxPointsNrmseChangeFromBefore": 0,
+      "maskMismatches": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 2,
+      "beforeMs": 2979.969999909401,
+      "afterMs": 2049.0049999952316,
+      "speedup": 1.4543497941275574,
+      "reductionPercent": 31.24075074388243,
+      "beforeCoordinateMs": 1157.3849999904633,
+      "afterCoordinateMs": 230.5200001001358,
+      "worstOriginalPointsNrmse": 0.0008415597114219503,
+      "maxPointsNrmseChangeFromBefore": 0,
+      "maskMismatches": 0
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 3,
+      "beforeMs": 3958.7699999809265,
+      "afterMs": 2752.2300000190735,
+      "speedup": 1.4383863267072488,
+      "reductionPercent": 30.477648359658836,
+      "beforeCoordinateMs": 1702.480000257492,
+      "afterCoordinateMs": 328.6100000143051,
+      "worstOriginalPointsNrmse": 0.0009430723759879896,
+      "maxPointsNrmseChangeFromBefore": 0,
+      "maskMismatches": 0
+    }
+  ],
+  "passed": true
+}
