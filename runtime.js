@@ -8,6 +8,8 @@ import {releaseGpuBuffers,gpuOps} from './gpu-ops.js';
 import {CapturedDenseSession} from './dense-capture.js';
 import {subgroup32Support} from './subgroup-support.js';
 import {packagedModel} from './model-package.js';
+import {installIndexArrayCompatibility} from './gpu-shader-compat.js';
+const shaderCompatibility=installIndexArrayCompatibility();
 const cache = new SessionCache();
 let activeProfile = null;
 let sparseVariant='subgroup';
@@ -72,4 +74,4 @@ export const directSparseBlock = name => cache.get(`wgsl:${sparseVariant}:${name
   sparseConfigs[name]=block.config;return block;
 });
 export async function releaseSessions() { activeProfile=null;activeBackend=null;activeDense=null;subgroupSupport=null;sparseConfigs={};try{await cache.clear();}finally{releaseGpuBuffers();} }
-export const sessionStats = () => ({precision,profile:activeProfile,sparseBackend:activeBackend,sparseVariant,subgroupSupport,sparseConfigs,indexingBackend,denseGraphCapture,denseGraph:activeDense?.snapshot?.()??null,...cache.snapshot()});
+export const sessionStats = () => ({precision,profile:activeProfile,sparseBackend:activeBackend,sparseVariant,subgroupSupport,sparseConfigs,indexingBackend,denseGraphCapture,denseGraph:activeDense?.snapshot?.()??null,shaderCompatibility:shaderCompatibility.snapshot(),...cache.snapshot()});
