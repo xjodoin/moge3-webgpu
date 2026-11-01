@@ -1,0 +1,373 @@
+{
+  "cpuLearnedFallback": false,
+  "precision": "float32",
+  "runs": [
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "comparisons": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.000029087066650390625,
+          "nrmse": 7.40190647729878e-7,
+          "p99Abs": 0.000004649162292480469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.00003199279308319092,
+          "nrmse": 0.0000014743261989943309,
+          "p99Abs": 0.000003557652235031128,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.000005841255187988281,
+          "nrmse": 1.5225964696831367e-7,
+          "p99Abs": 2.980232238769531e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.000004291534423828125,
+          "nrmse": 8.053296357368784e-7,
+          "p99Abs": 0.000004291534423828125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.000008344650268554688,
+          "nrmse": 6.724938301547633e-7,
+          "p99Abs": 0.0000010728836059570312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.0001125335693359375,
+          "nrmse": 0.0000023052056997055725,
+          "p99Abs": 0.000025391578674316406,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "photo": "brick-ranch",
+      "comparisons": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.00006437301635742188,
+          "nrmse": 0.000001301328119472499,
+          "p99Abs": 0.000010728836059570312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.000013776123523712158,
+          "nrmse": 0.0000016021830015825725,
+          "p99Abs": 0.0000035762786865234375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.0000045299530029296875,
+          "nrmse": 3.0324952658738214e-7,
+          "p99Abs": 0.0000016093254089355469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.00000476837158203125,
+          "nrmse": 8.565292885051029e-7,
+          "p99Abs": 0.00000476837158203125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.00001049041748046875,
+          "nrmse": 6.243345928401487e-7,
+          "p99Abs": 0.0000016689300537109375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.00013780593872070312,
+          "nrmse": 0.000002630994253430001,
+          "p99Abs": 0.00003045797348022461,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "profile": "fast",
+      "photo": "raised-deck",
+      "comparisons": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0000667572021484375,
+          "nrmse": 8.693116405757296e-7,
+          "p99Abs": 0.000005245208740234375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.00001630745828151703,
+          "nrmse": 0.0000018113497501839887,
+          "p99Abs": 0.000003993511199951172,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.000005662441253662109,
+          "nrmse": 2.604554063662207e-7,
+          "p99Abs": 6.556510925292969e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.000006198883056640625,
+          "nrmse": 9.182189039517599e-7,
+          "p99Abs": 0.000006198883056640625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.000014066696166992188,
+          "nrmse": 7.077800436793878e-7,
+          "p99Abs": 0.000001043081283569336,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.0005909204483032227,
+          "nrmse": 0.0000033871357648157167,
+          "p99Abs": 0.000028848648071289062,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "comparisons": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0000438690185546875,
+          "nrmse": 7.458006601926436e-7,
+          "p99Abs": 0.0000040531158447265625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.000017762184143066406,
+          "nrmse": 0.000001551913475102508,
+          "p99Abs": 0.0000035762786865234375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.000015676021575927734,
+          "nrmse": 2.6407172938936276e-7,
+          "p99Abs": 4.172325134277344e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.000002384185791015625,
+          "nrmse": 4.258222713223689e-7,
+          "p99Abs": 0.000002384185791015625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.000014424324035644531,
+          "nrmse": 4.929009211091177e-7,
+          "p99Abs": 9.5367431640625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.00011348724365234375,
+          "nrmse": 0.0000020422909823863982,
+          "p99Abs": 0.000022590160369873047,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "photo": "brick-ranch",
+      "comparisons": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.00003910064697265625,
+          "nrmse": 7.54130244282778e-7,
+          "p99Abs": 0.000005245208740234375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.000026047229766845703,
+          "nrmse": 0.0000014874812640597145,
+          "p99Abs": 0.000003546476364135742,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.000011444091796875,
+          "nrmse": 6.844987717514303e-7,
+          "p99Abs": 0.000003516674041748047,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.000001430511474609375,
+          "nrmse": 2.5156485920669526e-7,
+          "p99Abs": 0.000001430511474609375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.000007748603820800781,
+          "nrmse": 4.445188837740229e-7,
+          "p99Abs": 9.5367431640625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.00014495849609375,
+          "nrmse": 0.000002445078186120154,
+          "p99Abs": 0.000028908252716064453,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "profile": "detail",
+      "photo": "raised-deck",
+      "comparisons": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.00009489059448242188,
+          "nrmse": 0.0000012118787702908013,
+          "p99Abs": 0.000008106231689453125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "normal": {
+          "finite": true,
+          "maxAbs": 0.000020444393157958984,
+          "nrmse": 0.0000017972824405251375,
+          "p99Abs": 0.0000037550926208496094,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "mask": {
+          "finite": true,
+          "maxAbs": 0.000008225440979003906,
+          "nrmse": 3.208977668086924e-7,
+          "p99Abs": 0.0000012516975402832031,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "metric_scale": {
+          "finite": true,
+          "maxAbs": 0.000003814697265625,
+          "nrmse": 5.591143572669456e-7,
+          "p99Abs": 0.000003814697265625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "raw_coord": {
+          "finite": true,
+          "maxAbs": 0.000019311904907226562,
+          "nrmse": 6.694754966352854e-7,
+          "p99Abs": 0.0000010728836059570312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "encoder_feature": {
+          "finite": true,
+          "maxAbs": 0.0004334449768066406,
+          "nrmse": 0.0000030078979392602283,
+          "p99Abs": 0.000026702880859375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -6,13 +6,15 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {refine,remap} from './refiner.js';
 import {project} from './geometry.js';
 import {compare,passes} from './comparison.js';
-import {denseSession,releaseSessions,sessionStats,setSparseVariant as selectSparseVariant,getIndexingBackend,setIndexingBackend as selectIndexingBackend,setDenseGraphCapture as selectDenseGraphCapture} from './runtime.js';
+import {denseSession,releaseSessions,sessionStats,setPrecision as selectPrecision,setSparseVariant as selectSparseVariant,getIndexingBackend,setIndexingBackend as selectIndexingBackend,setDenseGraphCapture as selectDenseGraphCapture} from './runtime.js';
 import {trackGpuBuffers} from './gpu-memory.js';
 import {gpuOps,gpuBufferStats,setBufferReuse} from './gpu-ops.js';
 import {GpuProfiler} from './gpu-profiler.js';
+import {modelDownloadStats,clearModelCache} from './model-package.js';
 const memory=globalThis.GPUDevice?trackGpuBuffers():null;
 ort.env.wasm.wasmPaths={wasm:wasmUrl,mjs:mjsUrl};
 ort.env.wasm.numThreads=1;
+if(new URLSearchParams(location.search).has('verbose'))ort.env.logLevel='verbose';
 const status=document.querySelector('#status');
 const log=t=>{status.textContent=t;};
 const read=async url=>{const r=await fetch(url);if(!r.ok)throw Error(`${r.status} ${url}`);return r.arrayBuffer();};
@@ -21,7 +23,7 @@ const showFixture=()=>{upload=null;document.querySelector('#upload').value='';do
 document.querySelector('#profile').onchange=showFixture;
 window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=null,profile='fast',sparseBackend='wgsl',refineSteps=1,validateOriginal=true,diagnostics={})=>{
  if(running)throw Error('Inference is already running');
- running=true;for(const id of ['run','case','upload','profile','steps','unload'])document.querySelector('#'+id).disabled=true;
+ running=true;for(const id of ['run','case','upload','profile','steps','unload','clear-cache'])document.querySelector('#'+id).disabled=true;
  let inputTensor,out,profiler,ops,failed=true;
  try{
   const adapter=await navigator.gpu?.requestAdapter();if(!adapter)throw Error('This browser has no WebGPU adapter. Try a current Chrome browser on a supported computer.');
@@ -40,7 +42,7 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   const input=customInput??new Float32Array(await read(`${fixture}/input.f32`));
   if(!customInput)document.querySelector('#case').value=caseName;
   if(!customInput)document.querySelector('#photo').src=`${fixture}/photo.jpg`;
-  log('Preparing model…');const start=performance.now(),before=sessionStats();
+  log('Preparing model…');const start=performance.now(),before=sessionStats(),downloadsBefore=modelDownloadStats();
   const session=await denseSession(profile,meta,log,sparseBackend);
   const loadMs=performance.now()-start;
   inputTensor=new ort.Tensor('float32',input,meta.inputShape);
@@ -106,7 +108,7 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   const densePassed=denseNames.every(name=>outputs[name]&&passes(outputs[name]));
   const diagnosticPassed=!customInput&&Object.values(outputs).every(passes);
   const after=sessionStats();
-  const result={profile,gpuProfile,buffers:{before:bufferBefore,after:gpuBufferStats()},sessions:{...after,createdThisRun:after.created-before.created},transfers,perPassTransfers,original,validationMs:performance.now()-validationStart,gpuMemory:memory?.report(),caseName:customInput?'uploaded-photo':caseName,loadMs,inferenceMs,refinementMs,cameraMs,outputs,
+  const result={profile,downloads:{before:downloadsBefore,after:modelDownloadStats()},gpuProfile,buffers:{before:bufferBefore,after:gpuBufferStats()},sessions:{...after,createdThisRun:after.created-before.created},transfers,perPassTransfers,original,validationMs:performance.now()-validationStart,gpuMemory:memory?.report(),caseName:customInput?'uploaded-photo':caseName,loadMs,inferenceMs,refinementMs,cameraMs,outputs,
    refineSteps:withRefinement?steps:0,numTokens:meta.numTokens,inputShape:meta.inputShape,backend:'webgpu',sparseBackend,cpuLearnedFallback:false,
    camera:{focal:geometry.focal,shift:geometry.shift,intrinsics:geometry.intrinsics},
    validationReference:customInput?null:original?'original-cuda-strict-fp32':'pytorch-mlx-diagnostics',diagnosticPassed,
@@ -115,10 +117,15 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
  }finally{
   if(ops)ops.profiler=null;profiler?.dispose();
   inputTensor?.dispose();if(out)for(const tensor of Object.values(out))tensor.dispose();
-  try{if(failed)await releaseSessions();}finally{running=false;for(const id of ['run','case','upload','profile','steps','unload'])document.querySelector('#'+id).disabled=false;}
+  try{if(failed)await releaseSessions();}finally{running=false;for(const id of ['run','case','upload','profile','steps','unload','clear-cache'])document.querySelector('#'+id).disabled=false;}
  }
 };
 window.releaseModels=async()=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();log('Model unloaded. GPU sessions released.');return sessionStats();}finally{running=false;}};
+window.modelDownloadStats=modelDownloadStats;
+window.clearModelCache=async()=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();return await clearModelCache();}finally{running=false;}};
+document.querySelector('#clear-cache').onclick=()=>window.clearModelCache().then(()=>log('Downloaded model files removed from this device.')).catch(e=>log(String(e)));
+// Developer-only experiments; the public UI and fresh page default stay FP32.
+window.setPrecision=async value=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();selectPrecision(value);return sessionStats();}finally{running=false;}};
 window.setDenseGraphCapture=async value=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();selectDenseGraphCapture(value);return sessionStats();}finally{running=false;}};
 window.setIndexingBackend=async value=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();selectIndexingBackend(value);return sessionStats();}finally{running=false;}};
 window.setSparseVariant=async value=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();selectSparseVariant(value);return sessionStats();}finally{running=false;}};

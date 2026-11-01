@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "packageSha256": "6247def93d35d06fe11ea7c690eaacd90cb0ff0fa2a4dcbdca7cd09ad32d480b",
+  "device": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "power": {
+    "source": "AC verified throughout",
+    "samples": 50
+  },
+  "accuracy": {
+    "comparisons": 54,
+    "allPassed": true,
+    "allMasksMatch": true,
+    "worstPointsNrmse": 0.0009430723759879896,
+    "cudaMetricsIdenticalToFp32Baseline": true
+  },
+  "byteExactOriginalFiles": 33,
+  "profiles": {
+    "fast": {
+      "originalModelBytes": 1482651855,
+      "compressedPackageBytes": 1262717135,
+      "reductionFraction": 0.14833874807380187,
+      "browserEncodedBodyBytes": 1262731997,
+      "modelRequestsIncludingManifest": 797
+    },
+    "detail": {
+      "originalModelBytes": 1486366529,
+      "compressedPackageBytes": 1264692561,
+      "reductionFraction": 0.1491381591787715,
+      "browserEncodedBodyBytes": 1264703828,
+      "modelRequestsIncludingManifest": 797
+    }
+  },
+  "detailAfterFast": {
+    "additionalModelBytes": 6180759,
+    "newChunks": 5
+  },
+  "bothProfiles": {
+    "originalUniqueModelBytes": 2811483812,
+    "compressedPackageBytes": 1268897894,
+    "browserEncodedBodyBytes": 1268897331,
+    "reductionFraction": 0.5486732349003474
+  },
+  "persistentReload": {
+    "passed": true,
+    "profiles": [
+      "fast",
+      "detail"
+    ],
+    "networkBytes": 0,
+    "networkRequests": 0,
+    "modelNetworkBlocked": true,
+    "verifiedModelFilesPerProfile": 22
+  },
+  "clearCacheUiPassed": true,
+  "method": "Production build on localhost. SHA-256 verification of compressed chunks, decoded chunks and assembled byte-identical original files. Dedicated Cache Storage persists compressed content-addressed chunks across page reloads. HTTP cache bypassed for missing chunks. Cold Fast, incremental Detail, independent cold Detail and fresh-page cached inference at both resolutions with all model URLs blocked. 3 photos x 2 profiles x 1/2/3 passes x 3 repetitions = 54 original CUDA comparisons, plus warmups/cache checks. Default FP32 subgroup sparse kernels, GPU indexing, reuse enabled, graph capture disabled. No precision, learned weights, model graph or accuracy gate change. Byte totals cover active model payloads and package manifest; exclude app JS/WASM, photos, diagnostic goldens and HTTP headers. Browser encoded-body totals additionally reflect local server HTTP compression. Local timings do not predict Internet download speed. Browser cache remains subject to quota and eviction.",
+  "provenance": {
+    "bundleSha256": "b329c2c49c6e17fe0d83df649f596df33653b692f4dba7af7c8e2289ccbb4a10",
+    "bundleFile": "index-Pkg5OdgE.js",
+    "sourceFiles": {
+      "pack_models.py": "5b7bfba14e2ec606737783fcb242b41781f764dbb55ccfeb2c98157ed87330ef",
+      "model-cache.js": "0708384fb0ccff120ddadb728a17754e4a22d08a5971816ff113a18e7ca4fa4e",
+      "model-package.js": "49f1e4a8b67985f38fba8a7385da94dde8c793f158da287b036fb3375bb11a20",
+      "runtime.js": "402e96be056d69b933e204cc95ff1fc526c1cc7b41e5767964a9d9195df65761",
+      "sparse-block.js": "2bdd0a03c7297436f6f34ab83e32111769e4be02def333acd989a688e32a55bd",
+      "main.js": "046d1b81083a4827d19a53c5ef5cd91affa60c9cc5af3c7bf039a782801a2dd7",
+      "vite.config.js": "5e62111d295d762e98c2f80ca30acf6af8db7699d70ebcfca25681a80f34131f",
+      "benchmark-downloads.browser.js": "c9a2422e4e0c58369f86727b8b033c0ae7bbb069fc9e0553b4fd33621a25274b"
+    },
+    "reports": {
+      "download-browser.json": "9baccd5fd7e926484c3595bd976cdf0f14f7ad8a28b1368b7d494bb40f9642a0",
+      "download-detail-cold.json": "c92f9e3b6dcc7ed8e84198ba1234fed4e9462b17bd327604ae9a4f0d1d23b823",
+      "download-cache-reload.json": "196880601437ebd31986e70efa195a41825337d03d02c1d5efd7b690f8d395b4",
+      "download-detail-reload.json": "161fc56c7a30ea85595f9ff1f3c040267f45d51df1a5d29a70fc89a893f5175f",
+      "download-power.jsonl": "c08bc5eba87f1c86315d53dbd451c79e87f5bf494348c5a14bb4e11555a55637",
+      "packed-file-verification.json": "341a46f70e28e12dbec1259567c2355c610df1348d485d91a19fe7471b461bf5"
+    }
+  }
+}

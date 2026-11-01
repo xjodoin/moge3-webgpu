@@ -60,19 +60,34 @@ for row in original_report['runs']:
     for field in ['points.f32','intrinsics.f32','mask.u8']:
         assert (ROOT/f"dist/original-cuda/{row['profile']}/{row['caseName']}/{row['refineSteps']}/{field}").is_file(), 'Build original CUDA goldens first'
 source=json.loads((ROOT/'dist/model-source.json').read_text())
-if source.get('sparseModelBaseUrl','/models')=='/models':
+if source.get('modelPackageBaseUrl'):
+    import hashlib
+    package_bytes=(ROOT/'dist/models/packed/manifest.json').read_bytes()
+    package=json.loads(package_bytes)
+    delivery=json.loads((ROOT/('benchmarks/adaptive-summary.json' if package['format']==2 else 'benchmarks/download-summary.json')).read_text())
+    assert delivery['passed'] and delivery['accuracy']['comparisons']==54 and delivery['accuracy']['allPassed'], 'Require all 54 compressed-package CUDA comparisons'
+    assert delivery['packageSha256']==hashlib.sha256(package_bytes).hexdigest(), 'Validate this exact model package before release'
+    assert delivery['persistentReload']['passed'] and delivery['persistentReload']['networkBytes']==0, 'Require persistent model-cache validation after reload'
+    if source['modelPackageBaseUrl'] in ['/models/packed','/models/packed-v2']:
+        folder=source['modelPackageBaseUrl'].lstrip('/')
+        for key,meta in (package['bundles'] if package['format']==2 else package['chunks']).items():
+            path=f"{folder}/bundles/{key}.pack" if package['format']==2 else f"{folder}/chunks/{key}.zlib"
+            assert (ROOT/f'dist/{path}').stat().st_size==meta['bytes'], 'Missing compressed model payload'
+if not source.get('modelPackageBaseUrl') and source.get('sparseModelBaseUrl','/models')=='/models':
     sparse_folder=ROOT/'dist/models/refiner-wgsl'
     sparse_manifest=json.loads((sparse_folder/'manifest.json').read_text())
     for name,meta in sparse_manifest['blocks'].items():
         assert (sparse_folder/f'{name}.bin').stat().st_size==meta['bytes'], 'Build the direct sparse weights first'
 for name in ['fast','detail']:
     assert (ROOT/f'dist/models/profiles/{name}/manifest.json').is_file(), 'Build exported model manifests first'
-    if source['modelBaseUrl']=='/models':
+    if not source.get('modelPackageBaseUrl') and source['modelBaseUrl']=='/models':
         assert (ROOT/f'dist/models/profiles/{name}/moge3-dense.onnx').is_file(), 'Build exported models first'
 shutil.copytree(ROOT/'dist',out,copy_function=os.link)
 for folder in ['licenses','benchmarks']:
     shutil.copytree(ROOT/folder,out/folder)
 shutil.copy(ROOT/'LICENSE',out/'LICENSE')
+for name in ['DOWNLOADS.md','ADAPTIVE.md','FP16.md']:
+    if (ROOT/name).exists():shutil.copy(ROOT/name,out/name)
 readme='''---
 title: MoGe-3 WebGPU
 emoji: 🏡

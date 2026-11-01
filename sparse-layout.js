@@ -1,4 +1,5 @@
-export function validateSparseWeights(meta) {
+export function validateSparseWeights(meta,dtype='float32-le') {
+  if(!['float32-le','float16-le'].includes(dtype))throw Error('Unsupported sparse weight dtype');
   const c=meta?.channels;
   if(![32,64,128,256,512].includes(c))throw Error('Unsupported sparse channel count');
   let offset=0;
@@ -7,5 +8,5 @@ export function validateSparseWeights(meta) {
     if(field?.offset!==offset||field?.length!==length)throw Error(`Invalid sparse field layout: ${name}`);
     offset+=length;
   }
-  if(meta.bytes!==offset*4||!/^[a-f0-9]{64}$/.test(meta.sha256))throw Error('Invalid sparse weight length or checksum');
+  if(meta.bytes!==offset*(dtype==='float16-le'?2:4)||!/^[a-f0-9]{64}$/.test(meta.sha256))throw Error('Invalid sparse weight length or checksum');
 }

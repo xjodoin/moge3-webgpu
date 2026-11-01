@@ -10,4 +10,5 @@ dist/
 __pycache__/
 *.log
 .venv-native/
+.venv-codecs/
 release/

@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "packageSha256": "35476cef8e50d63106bd27cde63c5dbf34a45131eaa65b5582fd8ff3bd9ed615",
+  "format": 2,
+  "hardware": "Apple M4 Pro, 24 GB; sysctl verified",
+  "power": {
+    "source": "AC verified throughout matrix",
+    "samples": 47
+  },
+  "accuracy": {
+    "comparisons": 54,
+    "allPassed": true,
+    "allMasksMatch": true,
+    "allDenseAndCudaMetricsIdenticalToPrevious": true,
+    "worstPointsNrmse": 0.0009430723759879896
+  },
+  "profiles": {
+    "fast": {
+      "rawModelBytes": 1482651855,
+      "previousCompressedBytes": 1262717135,
+      "adaptiveBytes": 1235672117,
+      "reductionVsRaw": 0.16657972481341554,
+      "reductionVsPreviousCompressed": 0.021418112774718945,
+      "previousRequests": 797,
+      "requests": 89,
+      "requestReductionFraction": 0.8883312421580929,
+      "browserEncodedBodyBytes": 1235231462
+    },
+    "detail": {
+      "rawModelBytes": 1486366529,
+      "previousCompressedBytes": 1264692561,
+      "adaptiveBytes": 1237593397,
+      "reductionVsRaw": 0.16736997715319246,
+      "reductionVsPreviousCompressed": 0.021427471652535446,
+      "previousRequests": 797,
+      "requests": 89,
+      "requestReductionFraction": 0.8883312421580929,
+      "browserEncodedBodyBytes": 1237153082
+    }
+  },
+  "bothProfiles": {
+    "bytes": 1241675064,
+    "requests": 90,
+    "previousBytes": 1268897894,
+    "previousRequests": 802,
+    "browserEncodedBodyBytes": 1241234602
+  },
+  "detailAfterFast": {
+    "additionalBytes": 6002947,
+    "additionalRequests": 1
+  },
+  "persistentReload": {
+    "passed": true,
+    "networkBytes": 0,
+    "requests": 0,
+    "profiles": [
+      "fast",
+      "detail"
+    ],
+    "allModelUrlsBlocked": true
+  },
+  "cacheUpgrade": {
+    "passed": true,
+    "newMetadataBytes": 842438,
+    "weightBytes": 0,
+    "legacyRepresentationsReused": 775
+  },
+  "partialRecovery": {
+    "passed": true,
+    "status": 206,
+    "requests": 1,
+    "bytes": 3475923,
+    "fullBundleBytes": 13719511
+  },
+  "byteExactFilesVerified": 33,
+  "screenedMiB": 32,
+  "fullCodecCandidatesChecked": 894,
+  "allCodecCandidatesByteExact": true,
+  "codecDistribution": {
+    "deflate/shuffle4": {
+      "chunks": 14,
+      "rawBytes": 66620,
+      "compressedBytes": 56399
+    },
+    "zstd/exponent4": {
+      "chunks": 454,
+      "rawBytes": 1524491008,
+      "compressedBytes": 1270685344
+    },
+    "zstd/shuffle4": {
+      "chunks": 129,
+      "rawBytes": 117754880,
+      "compressedBytes": 95291050
+    },
+    "zstd/bitplane4": {
+      "chunks": 279,
+      "rawBytes": 928128,
+      "compressedBytes": 809741
+    },
+    "zstd/identity": {
+      "chunks": 4,
+      "rawBytes": 1138464,
+      "compressedBytes": 47684
+    },
+    "deflate/identity": {
+      "chunks": 14,
+      "rawBytes": 10442,
+      "compressedBytes": 4296
+    }
+  },
+  "bundleCountIncludingOptionalBackend": 97,
+  "method": "Byte-exact FP32 transport only. Eight real 4 MiB chunks screen native ZipNN/Bitshuffle and portable transforms. Full candidate scan covers every unique v1 chunk and selects smallest portable encoding. Cold production Fast, independent cold Detail, two-resolution CUDA matrix, fresh-page model-network-blocked reloads, existing v1 cache migration, and one forced missing-chunk HTTP range recovery. Four concurrent bundle workers; 16 MiB target; separate cache entries and hashes per chunk. Whole bundles are prefetched only on cold storage; partial caches use coalesced ranges with full-response fallback. Model byte totals include manifest and active weight bundles, exclude app JS/WASM, photos, references and HTTP headers. Localhost tests do not establish Internet startup-speed improvement. Native codec times are not browser decoding times. No graph, precision, parameters or numerical thresholds changed.",
+  "provenance": {
+    "bundleFile": "index-zQhy0s8G.js",
+    "bundleSha256": "0263e1d901edb8656cec720dc7f99b913eb3e295ec8ee31974c6dc78ec9b9e15",
+    "sources": {
+      "model-cache.js": "cab94467b7c3b82e24c67b1420e2d961891ac206dbb8fdae87a9379026fb5d59",
+      "model-codecs.js": "c5f19e49c3b55b90a4724e6ff477c8846e8a7a22cb356daad09ca51a1111b60f",
+      "model-bundles.js": "926bc135393a58a5bbb37279dba8362276c0d97a43d46f8d0d901e7c5d12d136",
+      "model-package.js": "226c08c0f812efdd63b48b86e4dd4d90a0f2c595e06fc3a8f98a79b0e6386fe6",
+      "pack_adaptive.py": "ff534b06d75bfd3de75481c8766d9b347e3b08d7fda52f5e24ba4ce1f1095ddb",
+      "lossless_codecs.py": "f3294c4508a299e5daa834e6f7ba7e0c24ca216f837e4892e483eeb0d4061e43",
+      "screen_codecs.py": "9cd4eab9e34431e9e51c41c3b4c590c21a78cec092667ab171a36034e5eece59",
+      "vite.config.js": "6097cc1ed30d64e183225b4f35c955991c2a4cba33f85fafd7ca10bc7911de75",
+      "benchmark-adaptive.browser.js": "9c8c0b25c8326dae888c93a25a2340d333903baeac294408fc8f3ffc027aa6df"
+    },
+    "reports": {
+      "adaptive-browser.json": "6c9bc4678b3a25bff33d2040ba4062dec97f910d0ad6da8d1e195241dcf227b5",
+      "adaptive-cache-reload.json": "68687be631bd440f98f19fce804d44983c0a0cbe4d817b54ce117c698d63d933",
+      "adaptive-detail-cold.json": "1eac3daaa813cde301ddd67d77d75d318eb104d6cab11b0a9c39adde25211dd3",
+      "adaptive-detail-reload.json": "531e43734006f2cd6cd720709afabb39e6bfc980a99fb7c576aadad88c014460",
+      "adaptive-cache-migration.json": "00f84d1ec5f433aa2cffe2309d66ab2322fbfc8386170fad7dfcae950ea5ab2d",
+      "adaptive-range-recovery.json": "29ed336afa3065265e24dcc8eeee20e935da3fb3dac4a1e6efe7f869f74cdd58",
+      "adaptive-codec-screen.json": "479bac65714864c679d5da7553c1164c6a83c4f23863fce38edb40cb46ed4fa7",
+      "adaptive-codec-full.json": "a3ec06a19e81ee9d21dbc57dc92e1002786e526132976a8603d9b63943bd7329",
+      "adaptive-file-verification.json": "fc2515b13cb06a15d3def2a540d810a6f759dfd8360ea167892e24cb3b873a16",
+      "adaptive-power.jsonl": "f4502025e943212c44f2605eed85ddb1c01b9e9e654906547c22525e0eca37ab"
+    }
+  }
+}

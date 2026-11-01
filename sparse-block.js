@@ -4,14 +4,17 @@ import {validateSparseWeights} from './sparse-layout.js';
 import {sparseModelUrl} from './model-location.js';
 import {subgroup32Support} from './subgroup-support.js';
 import {subgroupBroadcastConvolution,subgroupNormSilu} from './subgroup-broadcast.js';
+import {halfWeightShader} from './fp16-weights.js';
+import {packagedModel} from './model-package.js';
 
 const pipelines=new WeakMap();
-async function compile(device,config) {
-  const key=JSON.stringify(config);
+async function compile(device,config,half=false) {
+  const key=JSON.stringify({config,half});
   const convolution=residual=>config.kind==='subgroup-broadcast'?subgroupBroadcastConvolution(residual,config):config.baseline?sparseConvolution(residual,config.k):tunedSparseConvolution(residual,config);
   if(!pipelines.has(device))pipelines.set(device,new Map());
   const cache=pipelines.get(device);
   if(!cache.has(key))cache.set(key,Promise.all([config.subgroupNorm?subgroupNormSilu:normSilu,convolution(false),convolution(true)].map(async (code,index)=>{
+    if(half)code=halfWeightShader(code);
     const module=device.createShaderModule({code});
     const info=await module.getCompilationInfo();
     const errors=info.messages.filter(m=>m.type==='error');if(errors.length)throw Error(errors.map(m=>`${m.lineNum}:${m.linePos} ${m.message}`).join('\n'));
@@ -21,19 +24,31 @@ async function compile(device,config) {
   return cache.get(key);
 }
 
-export async function loadSparseBlock(device,name,manifest,tileK=32) {
+export async function loadSparseBlock(device,name,manifest,tileK=32,folder='refiner-wgsl') {
   const config=sparseConfig(tileK);
   if((config.kind?.startsWith('subgroup')||config.subgroupNorm)&&!(await subgroup32Support(device)).supported)throw Error('This GPU does not support complete 32-lane subgroups');
-  const meta=manifest.blocks[name];if(!meta||manifest.format!==1||manifest.dtype!=='float32-le')throw Error('Unsupported sparse weights');
-  validateSparseWeights(meta);
-  const response=await fetch(sparseModelUrl(`refiner-wgsl/${name}.bin`));if(!response.ok)throw Error(`Sparse weights ${name}: HTTP ${response.status}`);
-  const bytes=await response.arrayBuffer();
+  const half=manifest.format===2&&manifest.dtype==='float16-le';
+  const meta=manifest.blocks[name];if(!meta||(!half&&(manifest.format!==1||manifest.dtype!=='float32-le')))throw Error('Unsupported sparse weights');
+  if(half&&!device.features.has('shader-f16'))throw Error('FP16 weights require shader-f16');
+  validateSparseWeights(meta,manifest.dtype);
+  const path=`${folder}/${name}.bin`;
+  let bytes;
+  if(half){
+    const response=await fetch(sparseModelUrl(path));if(!response.ok)throw Error(`Sparse weights ${name}: HTTP ${response.status}`);
+    bytes=await response.arrayBuffer();
+  }else bytes=(await packagedModel(path,sparseModelUrl(path),meta.bytes)).buffer;
   if(bytes.byteLength!==meta.bytes)throw Error(`Truncated sparse weights: ${name}`);
   const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(v=>v.toString(16).padStart(2,'0')).join('');
   if(hash!==meta.sha256)throw Error(`Sparse weights checksum mismatch: ${name}`);
   if(meta.channels%config.cols||(!config.baseline&&meta.channels%config.k))throw Error('Kernel tile does not divide channels');
-  const compiled=await compile(device,config),ops=gpuOps(device);
-  const weights=ops.tensor([bytes.byteLength/4],'float32',new Float32Array(bytes));
+  const compiled=await compile(device,config,half),ops=gpuOps(device);
+  // Packed weights are shader storage, not an ORT feature tensor.
+  let weights;
+  if(half){
+    const buffer=device.createBuffer({size:bytes.byteLength,usage:GPUBufferUsage.STORAGE|GPUBufferUsage.COPY_DST});
+    try{device.queue.writeBuffer(buffer,0,bytes);}catch(error){buffer.destroy();throw error;}
+    weights={gpuBuffer:buffer,dispose:()=>buffer.destroy()};
+  }else weights=ops.tensor([bytes.byteLength/4],'float32',new Float32Array(bytes));
   return new SparseBlock(device,ops,compiled,weights,meta,config);
 }
 

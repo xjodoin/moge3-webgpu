@@ -7,7 +7,7 @@ An **unofficial, MIT-licensed browser port of MoGe-3 ViT-L**, including the orig
 - Exported weights: [Hugging Face model repository](https://huggingface.co/xjodoin/moge-3-vitl-webgpu)
 - Original model: [Microsoft MoGe](https://github.com/microsoft/MoGe) / [Ruicheng/moge-3-vitl](https://huggingface.co/Ruicheng/moge-3-vitl)
 
-This is an experimental port, not an official Microsoft release. The original FP32 learned weights are preserved; they are not quantized or retrained.
+This is an experimental port, not an official Microsoft release. The default release preserves the original FP32 learned weights without quantization or retraining. Optional [local FP16 experiments](FP16.md) halve the inference asset size but fail the existing accuracy gate, so FP32 remains the default.
 
 ## Supported release profiles
 
@@ -16,7 +16,7 @@ This is an experimental port, not an official Microsoft release. The original FP
 | Fast | 512 × 344 | 1200 | 1–3 passes |
 | Detail | 768 × 512 | 1733 | 1–3 passes |
 
-Images are center-cropped to the selected landscape aspect ratio. The model downloads about **1.5 GB per profile** and needs several GB of free memory. A compatible WebGPU browser/GPU is required. Dedicated sparse WGSL kernels avoid the large 27-neighbor gather buffers. The optional ONNX comparison backend still requires individual gather buffers of approximately **1.04 GB (Fast)** or **1.53 GB (Detail)** and checks that adapter limit.
+Images are center-cropped to the selected landscape aspect ratio. Raw models contain about **1.5 GB per profile** and need several GB of free memory. The [adaptive lossless package](ADAPTIVE.md) reduces a cold profile to **about 1.24 GB in 89 model requests**, reuses saved chunks across visits, and downloads only **6.00 MB** when switching from cached Fast to Detail. Existing v1 caches upgrade without redownloading weights. All 54 CUDA comparisons still pass with unchanged error metrics. A compatible WebGPU browser/GPU is required. Dedicated sparse WGSL kernels avoid the large 27-neighbor gather buffers. The optional ONNX comparison backend still requires individual gather buffers of approximately **1.04 GB (Fast)** or **1.53 GB (Detail)** and checks that adapter limit.
 
 Dense inference and linear layers run on WebGPU through ONNX Runtime. The default sparse blocks use dedicated FP32 WGSL kernels for layer normalization, SiLU, sparse convolution and residual addition. CPU execution-provider fallback is disabled. WGSL also keeps voxel indexing, mean pooling, encoder-feature gathering and skip additions on the GPU. JavaScript orchestrates scalar output-size readbacks and performs final depth updates, interpolation, camera recovery and projection. This is a hybrid implementation, not a claim that every operation runs on the GPU.
 
@@ -294,7 +294,7 @@ For production timing, build and serve `dist`, then use the same warmup/repeat l
 
 This checks fresh native outputs against existing references without overwriting them. Browser fixture runs download diagnostic tensors **after** refinement for accuracy checks; uploaded photos skip those diagnostic downloads.
 
- CI runs source tests/build only; it does not claim GPU validation. `npm run build` bundles the runtime and copies only the two release profiles plus shared refiner weights. No checkpoint, Python environment or private photo is included.
+ CI runs source tests/build only; it does not claim GPU validation. `npm run build` bundles the runtime, profile metadata and shared compressed chunks when enabled; legacy builds retain the raw-model layout. No checkpoint, Python environment or private photo is included. See [compressed model setup and deployment](DOWNLOADS.md).
 
 ### Prepare Hugging Face
 
@@ -316,7 +316,7 @@ The dedicated convolutions compute 16 × 32 output tiles with 32-channel reducti
 
 The original padded gather + matrix multiplication ONNX implementation remains available as the explicit `onnx` comparison backend. Fixed-shape exports precompute native positional interpolation and antialiased resize filters; upstream ONNX compatibility mode otherwise changes these semantics. `native_export.py` preserves them using supported ONNX operations.
 
-Current limitations: only the listed Mac/Chrome configuration is validated; no mobile/Safari compatibility claim, dynamic aspect ratios, Worker isolation, persistent cache management, download cancellation or automatic device-specific kernel tuning. CPU orchestration can occupy the main thread. Numerical validation covers the listed fixtures and one to three passes on this device; it does not establish general reconstruction or measurement accuracy.
+Current limitations: only the listed Mac/Chrome configuration is validated; no mobile/Safari compatibility claim, dynamic aspect ratios, Worker isolation, download cancellation or automatic device-specific kernel tuning. Persistent model downloads are subject to browser quotas and eviction. CPU orchestration can occupy the main thread. Numerical validation covers the listed fixtures and one to three passes on this device; it does not establish general reconstruction or measurement accuracy.
 
 ## Attribution and licenses
 

@@ -1,0 +1,204 @@
+{
+  "packageSha256": "6247def93d35d06fe11ea7c690eaacd90cb0ff0fa2a4dcbdca7cd09ad32d480b",
+  "files": [
+    {
+      "path": "profiles/fast/moge3-dense.onnx",
+      "bytes": 1325117283,
+      "sha256": "4a2ddba6054cc8fd1e1d06b870902b4307b9fd6df844a5c14e3eae550209dc64",
+      "byteExact": true
+    },
+    {
+      "path": "profiles/detail/moge3-dense.onnx",
+      "bytes": 1328831957,
+      "sha256": "9bae57e8ffff7fb766c8807d9605b42decb89c4771e6f4a0118b7c294507207c",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/bottleneck_stage.0.onnx",
+      "bytes": 56637228,
+      "sha256": "598effa7d48d57a8dfaaa87801795d6bbe02eb2f00ca79aed02e47ed0692716f",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/down_stages.0.0.onnx",
+      "bytes": 223773,
+      "sha256": "99d750f96b64d0044322f193ce6b9bd5df8504da9c5b7c8137982fbac8313287",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/down_stages.1.0.onnx",
+      "bytes": 888093,
+      "sha256": "a29d21a20851714e031d7146317b3bf22c891f065eb324c26191b8411202a25b",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/down_stages.2.0.onnx",
+      "bytes": 3543848,
+      "sha256": "e0dd47f97558d76edb3bf35ba9389b7351d61a3238bbc3c81f059d9a455b3dcb",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/down_stages.3.0.onnx",
+      "bytes": 14163756,
+      "sha256": "1ae35b4455be69fc85f0cafc872d44648f6c1d8e9c862c40595485bf5e160d7a",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/down_stages.4.0.onnx",
+      "bytes": 56637228,
+      "sha256": "4c0411a1160ec0c9279f84f5936dc8366cafc7e5e7affe70ed129f4af2cdc8fa",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/downsample_blocks.0.linear.onnx",
+      "bytes": 8679,
+      "sha256": "3c8182aef8067477e093065d81f45293643c1d3ba0dfe98da39a65f7f505071b",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/downsample_blocks.1.linear.onnx",
+      "bytes": 33517,
+      "sha256": "03c00e298817694db018724c5abbf3dd21184c48ea2d6e8b37c1aead13bbd8d5",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/downsample_blocks.2.linear.onnx",
+      "bytes": 132335,
+      "sha256": "b4384675b6ae551980c945aa5cc238b5bcf250a2a7a9b69fd9f3bc3bb93c7ec8",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/downsample_blocks.3.linear.onnx",
+      "bytes": 526575,
+      "sha256": "23349f8100e0e5dd8377d68b1aec3112a7b84719603b123b2b06f0d87e13780d",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/fuse.onnx",
+      "bytes": 5253945,
+      "sha256": "376bb088d30c853cbedb6bf0d1bb5daeb85a688466cb34fd56360375da6d1841",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/input_proj.onnx",
+      "bytes": 743,
+      "sha256": "9797ecf577c90dfc64d5bffb34fdebd01956083f7071677736d741f29817206d",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/out_proj.onnx",
+      "bytes": 361,
+      "sha256": "8426927242be2229faf3d3745d9c8c08994f734e20cd3a86f4496ac70f8bfe00",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/up_stages.0.0.onnx",
+      "bytes": 14163756,
+      "sha256": "a06463b9f5c3093ecd2887cb43a258bfb1b209d518a42e3f5d44bfa0acf69375",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/up_stages.1.0.onnx",
+      "bytes": 3543848,
+      "sha256": "f12e1987a5a2a9b80896b3c3271a4035d43a00bb00a15feffc5d1303c7823671",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/up_stages.2.0.onnx",
+      "bytes": 888093,
+      "sha256": "8e39c3af6197d8c7c706b33969ac2a419099aa983959f11432ceb8d490f2ba49",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/up_stages.3.0.onnx",
+      "bytes": 223773,
+      "sha256": "be26f79539876195e92d51c721a14776b51fbf0e85cc19c5c99c37864abf53e4",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/upsample_blocks.0.linear.onnx",
+      "bytes": 525551,
+      "sha256": "a12d1f99367fe3f1832f03c611c120954706fe1861891aee4cec6fc1b2826863",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/upsample_blocks.1.linear.onnx",
+      "bytes": 131823,
+      "sha256": "3534f8db3b93343b093b35e37ea9cb48af541c69863e1cce3a489ef52a6d4f1a",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/upsample_blocks.2.linear.onnx",
+      "bytes": 33260,
+      "sha256": "97cb2def0af4f5ba22c9be86caf5fed0a8b2f4071d45a1c5e561ed6232a7b1f5",
+      "byteExact": true
+    },
+    {
+      "path": "refiner/upsample_blocks.3.linear.onnx",
+      "bytes": 8551,
+      "sha256": "f8bb44af46051079997671bd3aa66aea0d8baf2b6070550ab969cebad32d5c2b",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/bottleneck_stage.0.bin",
+      "bytes": 56631296,
+      "sha256": "fdb708a5a11daacde4590a5075cf587ac555c5e18467b99602f5c388a950a47a",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/down_stages.0.0.bin",
+      "bytes": 221696,
+      "sha256": "5432fa95b560800d641ed3d465a1ddc1d0835e3c82fd90fe02e4f29be67f0509",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/down_stages.1.0.bin",
+      "bytes": 885760,
+      "sha256": "3483848eade58daef204c44e38041ad194046c740dbd4f1d963f5548851589a9",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/down_stages.2.0.bin",
+      "bytes": 3540992,
+      "sha256": "4235de1c9a64aef20df4044d226ba8bcbc0a40b72ada36aa7ca8a617eb92f07a",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/down_stages.3.0.bin",
+      "bytes": 14159872,
+      "sha256": "96642797f2d05c95c6bb0b16322b64f531ec3f15398cd2d1e44ee95fcbc7af11",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/down_stages.4.0.bin",
+      "bytes": 56631296,
+      "sha256": "2a3bcbfaa6b3f231ed1859247f052775755697dedefcec63702391d70f905ae1",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/up_stages.0.0.bin",
+      "bytes": 14159872,
+      "sha256": "7c520f84f6dbaa0a31ee13520c01ff9ace08b81bd936896500b91ca59605072d",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/up_stages.1.0.bin",
+      "bytes": 3540992,
+      "sha256": "029f11f0872c3ee6a19b5796d6e8e71ce975db8d49b8945f8e7bc2d9000dbc11",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/up_stages.2.0.bin",
+      "bytes": 885760,
+      "sha256": "40714f31d6807fc7cc225ae7f2581f7d4e4834c4748f82dc16b9072b91f98b5e",
+      "byteExact": true
+    },
+    {
+      "path": "refiner-wgsl/up_stages.3.0.bin",
+      "bytes": 221696,
+      "sha256": "8514405b19d5e39a4ad1644e1db4dbaa84fa1698a88729aa105c1c00cb62b2ad",
+      "byteExact": true
+    }
+  ],
+  "passed": true
+}
