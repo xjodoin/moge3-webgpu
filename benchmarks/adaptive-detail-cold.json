@@ -1,0 +1,835 @@
+{
+  "result": {
+    "profile": "detail",
+    "downloads": {
+      "before": {
+        "packaged": true,
+        "packageSha256": "35476cef8e50d63106bd27cde63c5dbf34a45131eaa65b5582fd8ff3bd9ed615",
+        "networkBytes": 0,
+        "networkRequests": 0,
+        "rangeRequests": 0,
+        "fullBundleFallbacks": 0,
+        "legacyCacheHits": 0,
+        "prefetchedChunks": 0,
+        "cacheHits": 0,
+        "cacheReadBytes": 0,
+        "cacheWrites": 0,
+        "cacheReadFailures": 0,
+        "cacheWriteFailures": 0,
+        "cacheUnavailable": 0,
+        "corruptCacheEntries": 0,
+        "decodedBytes": 0,
+        "assembledBytes": 0,
+        "verifiedFiles": 0
+      },
+      "after": {
+        "packaged": true,
+        "packageSha256": "35476cef8e50d63106bd27cde63c5dbf34a45131eaa65b5582fd8ff3bd9ed615",
+        "networkBytes": 1237593397,
+        "networkRequests": 89,
+        "rangeRequests": 0,
+        "fullBundleFallbacks": 0,
+        "legacyCacheHits": 0,
+        "prefetchedChunks": 49,
+        "cacheHits": 49,
+        "cacheReadBytes": 46482220,
+        "cacheWrites": 797,
+        "cacheReadFailures": 0,
+        "cacheWriteFailures": 0,
+        "cacheUnavailable": 0,
+        "corruptCacheEntries": 0,
+        "decodedBytes": 1541950406,
+        "assembledBytes": 1486366529,
+        "verifiedFiles": 22
+      }
+    },
+    "buffers": {
+      "before": [
+        {
+          "created": 0,
+          "hits": 0,
+          "retainedBytes": 0,
+          "retainedBuffers": 0,
+          "enabled": true
+        }
+      ],
+      "after": [
+        {
+          "created": 76,
+          "hits": 95,
+          "retainedBytes": 258222400,
+          "retainedBuffers": 47,
+          "enabled": true
+        }
+      ]
+    },
+    "sessions": {
+      "precision": "fp32",
+      "profile": "detail",
+      "sparseBackend": "wgsl",
+      "sparseVariant": "subgroup",
+      "subgroupSupport": {
+        "supported": true,
+        "sizes": [
+          32
+        ],
+        "active": [
+          32
+        ],
+        "subgroupMinSize": 32,
+        "subgroupMaxSize": 32,
+        "reason": "One complete 32-lane subgroup"
+      },
+      "sparseConfigs": {
+        "down_stages.0.0": {
+          "baseline": true,
+          "rows": 16,
+          "cols": 32,
+          "k": 32,
+          "skip": "none"
+        },
+        "down_stages.1.0": {
+          "baseline": true,
+          "rows": 16,
+          "cols": 32,
+          "k": 32,
+          "skip": "none"
+        },
+        "down_stages.2.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "down_stages.3.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "down_stages.4.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "bottleneck_stage.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "up_stages.0.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "up_stages.1.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "up_stages.2.0": {
+          "baseline": true,
+          "rows": 16,
+          "cols": 32,
+          "k": 32,
+          "skip": "none"
+        },
+        "up_stages.3.0": {
+          "baseline": true,
+          "rows": 16,
+          "cols": 32,
+          "k": 32,
+          "skip": "none"
+        }
+      },
+      "indexingBackend": "gpu",
+      "denseGraphCapture": false,
+      "denseGraph": null,
+      "created": 22,
+      "hits": 0,
+      "retained": 22,
+      "createdThisRun": 22
+    },
+    "transfers": {
+      "featureReadbacks": 1,
+      "featureReadbackBytes": 1775616,
+      "indexUploadBytes": 0,
+      "coordinateMs": 0,
+      "sparseKernelBlocks": 10,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "gpuIndexingPreparationMs": 6.679999947547913
+    },
+    "perPassTransfers": [
+      {
+        "featureReadbacks": 1,
+        "featureReadbackBytes": 1775616,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 10,
+        "indexParameterUploadBytes": 964,
+        "indexShapeReadbacks": 4,
+        "indexShapeReadbackBytes": 16,
+        "gpuIndexingPreparationMs": 6.679999947547913
+      }
+    ],
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.9563560485839844,
+        "nrmse": 0.0002887960802053227,
+        "p99Abs": 0.0005750656127929688,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 5.960464477539063e-8,
+        "nrmse": 5.52103347073495e-8,
+        "p99Abs": 5.960464477539063e-8,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "validationMs": 3466.1299999952316,
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 3263092752,
+      "liveExplicitBufferBytes": 2984171680,
+      "largestBufferBytes": 192654400
+    },
+    "caseName": "sample-backyard",
+    "loadMs": 13594.240000009537,
+    "inferenceMs": 1021.1950000524521,
+    "refinementMs": 2624.0800000429153,
+    "cameraMs": 5.984999895095825,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.0000438690185546875,
+        "nrmse": 7.458006601926436e-7,
+        "p99Abs": 0.0000040531158447265625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.000017762184143066406,
+        "nrmse": 0.000001551913475102508,
+        "p99Abs": 0.0000035762786865234375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.000015676021575927734,
+        "nrmse": 2.6407172938936276e-7,
+        "p99Abs": 4.172325134277344e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.000002384185791015625,
+        "nrmse": 4.258222713223689e-7,
+        "p99Abs": 0.000002384185791015625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.000014424324035644531,
+        "nrmse": 4.929009211091177e-7,
+        "p99Abs": 9.5367431640625e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.00011348724365234375,
+        "nrmse": 0.0000020422909823863982,
+        "p99Abs": 0.000022590160369873047,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.06701254844665527,
+        "nrmse": 0.00020919443729627097,
+        "p99Abs": 0.00000852346420288086,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.17082428932189941,
+        "nrmse": 0.0002637014611008698,
+        "p99Abs": 0.000044345855712890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 0.9564552307128906,
+        "nrmse": 0.00028663875334609463,
+        "p99Abs": 0.0002574920654296875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "native-points": {
+        "finite": true,
+        "maxAbs": 0.9563064575195312,
+        "nrmse": 0.00029970082897294006,
+        "p99Abs": 0.000988006591796875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 5.364418029785156e-7,
+        "nrmse": 4.222777682160328e-7,
+        "p99Abs": 5.364418029785156e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    "refineSteps": 1,
+    "numTokens": 1733,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "backend": "webgpu",
+    "sparseBackend": "wgsl",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 0.8414889823441919,
+      "shift": -0.15262065123435212,
+      "intrinsics": [
+        0.5056719455966658,
+        0,
+        0.5,
+        0,
+        0.7585079183949989,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validationReference": "original-cuda-strict-fp32",
+    "diagnosticPassed": true,
+    "validated": true,
+    "passed": true
+  },
+  "downloads": {
+    "packaged": true,
+    "packageSha256": "35476cef8e50d63106bd27cde63c5dbf34a45131eaa65b5582fd8ff3bd9ed615",
+    "networkBytes": 1237593397,
+    "networkRequests": 89,
+    "rangeRequests": 0,
+    "fullBundleFallbacks": 0,
+    "legacyCacheHits": 0,
+    "prefetchedChunks": 49,
+    "cacheHits": 49,
+    "cacheReadBytes": 46482220,
+    "cacheWrites": 797,
+    "cacheReadFailures": 0,
+    "cacheWriteFailures": 0,
+    "cacheUnavailable": 0,
+    "corruptCacheEntries": 0,
+    "decodedBytes": 1541950406,
+    "assembledBytes": 1486366529,
+    "verifiedFiles": 22
+  },
+  "unloaded": {
+    "precision": "fp32",
+    "profile": null,
+    "sparseBackend": null,
+    "sparseVariant": "subgroup",
+    "subgroupSupport": null,
+    "sparseConfigs": {},
+    "indexingBackend": "gpu",
+    "denseGraphCapture": false,
+    "denseGraph": null,
+    "created": 22,
+    "hits": 0,
+    "retained": 0
+  },
+  "buffers": [],
+  "resources": [
+    {
+      "name": "/models/packed/manifest.json",
+      "encodedBodySize": 254914,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/487840f8e8e5d21dd16ca8a68d2606f4a3a6b5c7d21bae3c9f08d0c91e22ec34.pack",
+      "encodedBodySize": 6003140,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/acef020c8776ddda8ac75c2392c0e4aeff52c070cc0f17970ad2f2e31b61442c.pack",
+      "encodedBodySize": 15562971,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/5062818db4eddf8bb0b5322a392892d20d277e068e819977cd5923fc77d09514.pack",
+      "encodedBodySize": 15596207,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/824760023069430c43516cffe12ea53ca39a6a059c98426d0ffa9ceec3c889ea.pack",
+      "encodedBodySize": 13709829,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/dd396dd1ea6e0cea871810662c7ff790de9017e68f2d397139b27fb37ac62803.pack",
+      "encodedBodySize": 15621384,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/07ab4f99652fe7b5ca050213262bb7204b4bfedc5b561e6960720a3becc4a043.pack",
+      "encodedBodySize": 14115169,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/7fcfc42729151dd7426a4afd2af1bcc26925340b1450b0d6f389cff45822fc23.pack",
+      "encodedBodySize": 15312003,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/f0d36cdf8e0b3929204f616b5722a2682a1c192980fe2225eb3a3802ab91fa7e.pack",
+      "encodedBodySize": 15587728,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/dd32439ac79e597c0b9872c10f6771da443965c5ec81074d41753bd9702f9986.pack",
+      "encodedBodySize": 14151595,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/6e3201f47946ab28871397ab2caabf461ac412c4894bdcaae6d455836af9b898.pack",
+      "encodedBodySize": 14044654,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/e64b1e3d02a1eb7d599eafb90cb7178f54b5da085d0ab16661947c2cdbb42cb8.pack",
+      "encodedBodySize": 14177633,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/7bb592b1819f87f092c5685b92bc7e8e12f422d0f2e33e28464f071067da3da2.pack",
+      "encodedBodySize": 14175861,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/bbdeefae17c2602a0e2195c47bb8d4f1e3ec0b95f78c84c7ed1bf72f20101d4f.pack",
+      "encodedBodySize": 14051840,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/35374d5f41c4ccb5d9b17899b0ac4e66c3d07a045c211ee98ad2137ce21b7ad3.pack",
+      "encodedBodySize": 14139813,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/f9399d45c2cf3e1153a7feeb3f9c52236177113df5cf0ba4a08a7a0356c80def.pack",
+      "encodedBodySize": 14105658,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/5c41ea550c87e6ae975c50ea7ea49d150cc6052f5bacc9c0cdf2cb3e58f1e889.pack",
+      "encodedBodySize": 14024963,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/ba331a08a9b50c5187a550421d8c97d6e43d1939f448c592ce0dd9554b9c2815.pack",
+      "encodedBodySize": 14083476,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/becb5f24c76450af39c8e8a8a2201ca3513b5166feafc078656f01d27b4c977e.pack",
+      "encodedBodySize": 14038067,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/53fb2ca9edaa6723152c83026dad688f65066448928d4dded8e16b3ab0bb16e3.pack",
+      "encodedBodySize": 14004058,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/e6296f6ccef0552f539dc4583c98431f59db027da0027eeeb35f6cc117739892.pack",
+      "encodedBodySize": 14043220,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/d21d19e8b92ebc31c902ba79bc36bbb31975a94c01b6bce7c332ba3def5a0061.pack",
+      "encodedBodySize": 14019141,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/37640f3266cb9edaba0097a70edc52b6ac81d4052ef76c6a7ad1edf811bca38d.pack",
+      "encodedBodySize": 14016081,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/1c897648b45b4d124c2ac6fbe149ed5be7e2aa45ffb105e75e011c3e97eb5abf.pack",
+      "encodedBodySize": 14018360,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/a8b14df9a2873a9e7725161fa5da8aa43152c4965a4beae6e0b0273051641a6e.pack",
+      "encodedBodySize": 14016015,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/7aba592a7ce2033805e8bb85a709078b3451b06dcf4a0bfdfb9a0b08f71d7df1.pack",
+      "encodedBodySize": 14004395,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/76de0b3d91a3e365c3791130f37cdd3c566db70bf0353e328d573ff8e5dccc31.pack",
+      "encodedBodySize": 14016924,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/f7bedea03f68a714e60ae4064b0f3a86c049e6eff4c46e55e3589fb043789d50.pack",
+      "encodedBodySize": 13996717,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/26744df25de301a1fbe29155d1fc71bec410f21eb0fec3fcd5cc7117bba1dcb4.pack",
+      "encodedBodySize": 13999047,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/dc4ecc009c9e6fad9b35a7e4f67030c610249f4f9e666b55708343650aa1283c.pack",
+      "encodedBodySize": 14015180,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/d33ad62e6fe176b9692d2baf224685ed19ec4bd0bc3b888ef5b9de1ac495e9e7.pack",
+      "encodedBodySize": 14016149,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/f0e6e13345482447abfff18b2a765a0228fd62a747652f71cd41cb92c05fbda2.pack",
+      "encodedBodySize": 13976207,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/d3a4fcd8cf8ef33f005075adcaf689d8d2153d97ab8a6dd042629c42b7d0909b.pack",
+      "encodedBodySize": 13989256,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/29bcf41a14287165465eb7a557f6010d4874522fdd5da8dba15f94bffbc45b3d.pack",
+      "encodedBodySize": 13989964,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/2e1e039711dc9eae3cc24809c42291a7af8ec426747613c7ba31a6868971e350.pack",
+      "encodedBodySize": 13978721,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/996bcac6efdc9e2a799d35b9f2a41332dd2c950551c35c4cf2b1bed420c68960.pack",
+      "encodedBodySize": 13998717,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/4a440bed626022f1216808323df7298c4cb435d71a5ce9fe5b304424d7f4bdce.pack",
+      "encodedBodySize": 13980533,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/aa10542652a31971470b043dbb4999820922eef1fc63eec274807e2dc27b684e.pack",
+      "encodedBodySize": 13978213,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/9ac59666d3f301edbe148a4fac4cde23c63fc95d8ea375d4c1960343ebd5aa6c.pack",
+      "encodedBodySize": 13981702,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/f1ffa45ce988a81a90ab01ae3bd8d59f7fbeb6121639022261be954ec8e412be.pack",
+      "encodedBodySize": 13978534,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/d0a4695df9f2672765753b979c5842498d92db7106cdbfa27c3e6911304ab281.pack",
+      "encodedBodySize": 13976253,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/ef2bb0b12f9270706b9965bb20e9bb57d19d8e894f84d1728bee4eeaa2c5e40f.pack",
+      "encodedBodySize": 13969935,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/7416b02dfa1ce3126a03538bb86e1069768376e707966016ef2a03680c235e6a.pack",
+      "encodedBodySize": 13973851,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/0d0d715d697cbc67a59447a45a0cca6a353e3b6dd4944d4571c4d9fca712ad0e.pack",
+      "encodedBodySize": 13973677,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/414d7c016971a715e627454c9587442501f55c7cbc8bb0984356cff42478c9d8.pack",
+      "encodedBodySize": 13973393,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/1bad1e34f412a513181bb454ba427cc4da0a5e2e1d4972f62079eb0a2522d7db.pack",
+      "encodedBodySize": 13974212,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/57039e9bf1be675e18bcd27fc5e9177ff3e2565affff1854b703d5cc0c454fd9.pack",
+      "encodedBodySize": 13979302,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/e9bef827832f0ec97c82510cdbcdd4a423563a5fc4ab525640d9d2cf6e247905.pack",
+      "encodedBodySize": 13971824,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/4bbed361d686fcf655c68cb643be7daa856be575a15a406f27e8dfd8fc04a571.pack",
+      "encodedBodySize": 13968758,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/0e96154ca4f145364b7cdc78f3f4b02395b04479ae48fbc6f7043c9916818810.pack",
+      "encodedBodySize": 13972008,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/59a6a13e5740e43787f95abb2d83e2929da3b54773a1a5ff163b0bcbfae68ee6.pack",
+      "encodedBodySize": 13966991,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/94ff78ff1ac263f7c787d9048f5701f5d14c1ae7b30497ae47f090ef86ace463.pack",
+      "encodedBodySize": 13970809,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/f098688464c81c545f332637225dad448043b69957989e0ad6a8010ef02396c0.pack",
+      "encodedBodySize": 13980164,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/74bde145b741274d45fcd1e5c6ec9450e6e1495b05d5148d984d7cb144a1f0ae.pack",
+      "encodedBodySize": 13968038,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/8a46b5f2929a399f46d2cad5891dc502e5b3bd6447c5e51e4c3be33bd8049725.pack",
+      "encodedBodySize": 13966435,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/558828ec089f43fee0f1e9338496c5cfa552eab39e1eeeee7133b094b9f06f7f.pack",
+      "encodedBodySize": 13972486,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/dc7d8225a0227a7558b7dc57cd0d69e3c37b5a3377f7deca9f0a953748f216e7.pack",
+      "encodedBodySize": 13966351,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/a24604217a0360d88f88dab8cf2269f6c9a2a372e413f641f70eef3db5151e26.pack",
+      "encodedBodySize": 13966602,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/6a8364fe440288d550fff7b5e97013568e83a75eff22d366a2c4939ef4654eb8.pack",
+      "encodedBodySize": 13984275,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/431120a1467c19233d241d6be84b5038fa66dc5e04f1412018e146fb4eb44f90.pack",
+      "encodedBodySize": 13965626,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/7d1cdf30080a18a00fff89dd5e59557e0a88508b3ad125a974aae0cff1c0b410.pack",
+      "encodedBodySize": 13966328,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/4ad6d8dbf5600533f39213be6d07b13b13b818a5ac7ab4ecaf560b949b6f8c04.pack",
+      "encodedBodySize": 13977440,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/ae55f39666fc9209dd1900cdb71d99a6ee6adea97c31a531fb1d2a6812659e46.pack",
+      "encodedBodySize": 13964072,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/737be3f0f3f172ad5dc5abbf42da96461dd3de30ec33d246263bd964d608e2ea.pack",
+      "encodedBodySize": 13963721,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/aa3c9f1d32fb1d57a4c1e82f915c2c05a09dd18d00a98a60728f420b994239b8.pack",
+      "encodedBodySize": 13965861,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/ad94d80c5549b1ae4906b7053379d4579d07de31988587e81d98c088dcfbce22.pack",
+      "encodedBodySize": 13961309,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/b6112257d2c8f64b74bc67d21728b1fdca529073dfc6b88d5774d0dd094e93e5.pack",
+      "encodedBodySize": 13957334,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/82e52c7e59f48d4d2e1b967c6d6ab29b41521803b72163a9422cb2f341008cf9.pack",
+      "encodedBodySize": 13968273,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/483c303454926e6fab5478a0f09dbfa43c9037a28803595383c9ab8bf2a6bb77.pack",
+      "encodedBodySize": 13958324,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/c23c229e4f2b6fa1c0c05c2b598a654a6f67d3208db901e34fd3f59280fe9c68.pack",
+      "encodedBodySize": 13956568,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/9a6c0f1f402d324a263e0bf3a996dfbdc1fff27bfded51aa9215bba853662ebc.pack",
+      "encodedBodySize": 13971628,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/aafea4fd8a7402b8ef9389374ad877d3d47ad3931a9e965fcf742c6f22ff5ca6.pack",
+      "encodedBodySize": 13959103,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/1fcbfb9bf548ee77d303aa3abbdbd696d2828a39c5b49cae5a27a438bcd6c5fc.pack",
+      "encodedBodySize": 13960082,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/d798442e2853cf194fa8b7c14b85f1a3244d6d3f4e9a6f9276237160ffc990c5.pack",
+      "encodedBodySize": 13983665,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/36c7af4829cf58251b46ae2614cb8b92afa27e7585ffc7ec82755b982ed8177a.pack",
+      "encodedBodySize": 13960598,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/2a0a51574d651415dd346aaeca5695ca83ca008710ae8a18fa112ff948a89979.pack",
+      "encodedBodySize": 13958430,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/1db5c01315b2a88b65b7b06d105177181d03e5dd6c8f4c63a951f6f14b4412e4.pack",
+      "encodedBodySize": 13971468,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/46d6a089d6b2fa7f660ec3accc46a6f81ecbfbf93ad7bf5a9f70aa1f05e8fc5b.pack",
+      "encodedBodySize": 13961398,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/6fb45b425ab4dd7a73136c5fd6b86ea66e212addb613d76479043287bc6d70ad.pack",
+      "encodedBodySize": 13949410,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/75dc02777301244ce6827409a4aec2d88e87e0fb94bf6088005b16485e1df937.pack",
+      "encodedBodySize": 16286791,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/800a6ab2875a9c8a7bab461dfb3182c3496a6b1b7cd16cb7d00d445acfa915c1.pack",
+      "encodedBodySize": 13716447,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/ec820053fe6916533757a12f2410a5bf3dfc2e522c8d7bca7512fe828c9d855f.pack",
+      "encodedBodySize": 16205260,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/eb1477182268660f19c3a5e2b4154dc248e062474d0828dc2d06df567f6f1d82.pack",
+      "encodedBodySize": 15303674,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/4c02b5b89abd9fe2a885ae221200fb371c477fe31e2773c212ae5d0686d14af1.pack",
+      "encodedBodySize": 13972965,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/38ca7b5e851c46adf4ac19855c9744e5f412eb705a5fd885c9544aced14e1201.pack",
+      "encodedBodySize": 14014165,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/e476ab922abe9d3318704a88f093eb98eaea70c5de1dc2c134c9a5ec82c3106a.pack",
+      "encodedBodySize": 15834330,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/28f0ea75cbb9125ffd0120846920ed284b181391b394219235c351ef2dd57020.pack",
+      "encodedBodySize": 13988150,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/e8a45ac09c7b708f4ab852a638a83dc739075d49d804555c6445e3eed2359196.pack",
+      "encodedBodySize": 14112069,
+      "responseStatus": 200
+    },
+    {
+      "name": "/models/packed-v2/bundles/f80f49d36b9ece59f5aac598b769e3766e81637aeb23479d7f2c9a230c52f767.pack",
+      "encodedBodySize": 12189190,
+      "responseStatus": 200
+    }
+  ]
+}

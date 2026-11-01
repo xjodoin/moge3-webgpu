@@ -1,0 +1,12 @@
+[
+  {
+    "profile": "fast",
+    "sha256": "db9792dfa96e56659b6d40639e33184e3b530cc7bcfd6d3249d3532af23b4716",
+    "bytes": 1326026757
+  },
+  {
+    "profile": "detail",
+    "sha256": "9cb02de5b597ea4ea043baa48c0f348b6a3b6f612c917e50dbfe71bbd4cf77bc",
+    "bytes": 1330121836
+  }
+]

@@ -1,0 +1,378 @@
+{
+  "result": {
+    "profile": "detail",
+    "downloads": {
+      "before": {
+        "packaged": true,
+        "packageSha256": "6247def93d35d06fe11ea7c690eaacd90cb0ff0fa2a4dcbdca7cd09ad32d480b",
+        "networkBytes": 0,
+        "networkRequests": 0,
+        "cacheHits": 0,
+        "cacheReadBytes": 0,
+        "cacheWrites": 0,
+        "cacheReadFailures": 0,
+        "cacheWriteFailures": 0,
+        "cacheUnavailable": 0,
+        "corruptCacheEntries": 0,
+        "decodedBytes": 0,
+        "assembledBytes": 0,
+        "verifiedFiles": 0
+      },
+      "after": {
+        "packaged": true,
+        "packageSha256": "6247def93d35d06fe11ea7c690eaacd90cb0ff0fa2a4dcbdca7cd09ad32d480b",
+        "networkBytes": 0,
+        "networkRequests": 0,
+        "cacheHits": 797,
+        "cacheReadBytes": 1264692561,
+        "cacheWrites": 0,
+        "cacheReadFailures": 0,
+        "cacheWriteFailures": 0,
+        "cacheUnavailable": 0,
+        "corruptCacheEntries": 0,
+        "decodedBytes": 1486366529,
+        "assembledBytes": 1486366529,
+        "verifiedFiles": 22
+      }
+    },
+    "buffers": {
+      "before": [
+        {
+          "created": 0,
+          "hits": 0,
+          "retainedBytes": 0,
+          "retainedBuffers": 0,
+          "enabled": true
+        }
+      ],
+      "after": [
+        {
+          "created": 76,
+          "hits": 95,
+          "retainedBytes": 258222400,
+          "retainedBuffers": 47,
+          "enabled": true
+        }
+      ]
+    },
+    "sessions": {
+      "precision": "fp32",
+      "profile": "detail",
+      "sparseBackend": "wgsl",
+      "sparseVariant": "subgroup",
+      "subgroupSupport": {
+        "supported": true,
+        "sizes": [
+          32
+        ],
+        "active": [
+          32
+        ],
+        "subgroupMinSize": 32,
+        "subgroupMaxSize": 32,
+        "reason": "One complete 32-lane subgroup"
+      },
+      "sparseConfigs": {
+        "down_stages.0.0": {
+          "baseline": true,
+          "rows": 16,
+          "cols": 32,
+          "k": 32,
+          "skip": "none"
+        },
+        "down_stages.1.0": {
+          "baseline": true,
+          "rows": 16,
+          "cols": 32,
+          "k": 32,
+          "skip": "none"
+        },
+        "down_stages.2.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "down_stages.3.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "down_stages.4.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "bottleneck_stage.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "up_stages.0.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "up_stages.1.0": {
+          "kind": "subgroup-broadcast",
+          "rows": 8,
+          "cols": 128,
+          "k": 32,
+          "baseline": false
+        },
+        "up_stages.2.0": {
+          "baseline": true,
+          "rows": 16,
+          "cols": 32,
+          "k": 32,
+          "skip": "none"
+        },
+        "up_stages.3.0": {
+          "baseline": true,
+          "rows": 16,
+          "cols": 32,
+          "k": 32,
+          "skip": "none"
+        }
+      },
+      "indexingBackend": "gpu",
+      "denseGraphCapture": false,
+      "denseGraph": null,
+      "created": 22,
+      "hits": 0,
+      "retained": 22,
+      "createdThisRun": 22
+    },
+    "transfers": {
+      "featureReadbacks": 1,
+      "featureReadbackBytes": 1775616,
+      "indexUploadBytes": 0,
+      "coordinateMs": 0,
+      "sparseKernelBlocks": 10,
+      "indexParameterUploadBytes": 964,
+      "indexShapeReadbacks": 4,
+      "indexShapeReadbackBytes": 16,
+      "gpuIndexingPreparationMs": 6.259999990463257
+    },
+    "perPassTransfers": [
+      {
+        "featureReadbacks": 1,
+        "featureReadbackBytes": 1775616,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 10,
+        "indexParameterUploadBytes": 964,
+        "indexShapeReadbacks": 4,
+        "indexShapeReadbackBytes": 16,
+        "gpuIndexingPreparationMs": 6.259999990463257
+      }
+    ],
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.9563560485839844,
+        "nrmse": 0.0002887960802053227,
+        "p99Abs": 0.0005750656127929688,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 5.960464477539063e-8,
+        "nrmse": 5.52103347073495e-8,
+        "p99Abs": 5.960464477539063e-8,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "validationMs": 3438.9400000572205,
+    "gpuMemory": {
+      "peakExplicitBufferBytes": 3263092752,
+      "liveExplicitBufferBytes": 2984171680,
+      "largestBufferBytes": 192654400
+    },
+    "caseName": "sample-backyard",
+    "loadMs": 5818.659999966621,
+    "inferenceMs": 969.4199999570847,
+    "refinementMs": 690.8700000047684,
+    "cameraMs": 5.215000033378601,
+    "outputs": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.0000438690185546875,
+        "nrmse": 7.458006601926436e-7,
+        "p99Abs": 0.0000040531158447265625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "normal": {
+        "finite": true,
+        "maxAbs": 0.000017762184143066406,
+        "nrmse": 0.000001551913475102508,
+        "p99Abs": 0.0000035762786865234375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "mask": {
+        "finite": true,
+        "maxAbs": 0.000015676021575927734,
+        "nrmse": 2.6407172938936276e-7,
+        "p99Abs": 4.172325134277344e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "metric_scale": {
+        "finite": true,
+        "maxAbs": 0.000002384185791015625,
+        "nrmse": 4.258222713223689e-7,
+        "p99Abs": 0.000002384185791015625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "raw_coord": {
+        "finite": true,
+        "maxAbs": 0.000014424324035644531,
+        "nrmse": 4.929009211091177e-7,
+        "p99Abs": 9.5367431640625e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "encoder_feature": {
+        "finite": true,
+        "maxAbs": 0.00011348724365234375,
+        "nrmse": 0.0000020422909823863982,
+        "p99Abs": 0.000022590160369873047,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "refined-raw": {
+        "finite": true,
+        "maxAbs": 0.06701254844665527,
+        "nrmse": 0.00020919443729627097,
+        "p99Abs": 0.00000852346420288086,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "refined-points": {
+        "finite": true,
+        "maxAbs": 0.17082428932189941,
+        "nrmse": 0.0002637014611008698,
+        "p99Abs": 0.000044345855712890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "projected-points": {
+        "finite": true,
+        "maxAbs": 0.9564552307128906,
+        "nrmse": 0.00028663875334609463,
+        "p99Abs": 0.0002574920654296875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "native-points": {
+        "finite": true,
+        "maxAbs": 0.9563064575195312,
+        "nrmse": 0.00029970082897294006,
+        "p99Abs": 0.000988006591796875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "native-intrinsics": {
+        "finite": true,
+        "maxAbs": 5.364418029785156e-7,
+        "nrmse": 4.222777682160328e-7,
+        "p99Abs": 5.364418029785156e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      }
+    },
+    "refineSteps": 1,
+    "numTokens": 1733,
+    "inputShape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "backend": "webgpu",
+    "sparseBackend": "wgsl",
+    "cpuLearnedFallback": false,
+    "camera": {
+      "focal": 0.8414889823441919,
+      "shift": -0.15262065123435212,
+      "intrinsics": [
+        0.5056719455966658,
+        0,
+        0.5,
+        0,
+        0.7585079183949989,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "validationReference": "original-cuda-strict-fp32",
+    "diagnosticPassed": true,
+    "validated": true,
+    "passed": true
+  },
+  "downloads": {
+    "packaged": true,
+    "packageSha256": "6247def93d35d06fe11ea7c690eaacd90cb0ff0fa2a4dcbdca7cd09ad32d480b",
+    "networkBytes": 0,
+    "networkRequests": 0,
+    "cacheHits": 797,
+    "cacheReadBytes": 1264692561,
+    "cacheWrites": 0,
+    "cacheReadFailures": 0,
+    "cacheWriteFailures": 0,
+    "cacheUnavailable": 0,
+    "corruptCacheEntries": 0,
+    "decodedBytes": 1486366529,
+    "assembledBytes": 1486366529,
+    "verifiedFiles": 22
+  },
+  "unloaded": {
+    "precision": "fp32",
+    "profile": null,
+    "sparseBackend": null,
+    "sparseVariant": "subgroup",
+    "subgroupSupport": null,
+    "sparseConfigs": {},
+    "indexingBackend": "gpu",
+    "denseGraphCapture": false,
+    "denseGraph": null,
+    "created": 22,
+    "hits": 0,
+    "retained": 0
+  },
+  "buffers": [],
+  "resources": [],
+  "modelNetworkBlocked": true
+}

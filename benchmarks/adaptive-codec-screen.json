@@ -1,0 +1,884 @@
+{
+  "method": "Eight distinct real dense chunks, 32 MiB total; every successful candidate round-tripped byte-exactly. Native screening times are not browser decoding times.",
+  "versions": {
+    "numpy": "2.5.4",
+    "zstandard": "0.25.0",
+    "zipnn": "0.5.4",
+    "bitshuffle": "0.5.2"
+  },
+  "rows": [
+    {
+      "sourceChunk": "009952c19cdba025fed723649d0c0608cf264a6c0fa58669e139603ab2948f6a",
+      "rawSha256": "b968cf0b36657c910263b78bbd2585259201d998f4b03c695af9a5e322a662e6",
+      "rawBytes": 4194304,
+      "results": [
+        {
+          "codec": "deflate",
+          "encoding": "shuffle4",
+          "level": 6,
+          "bytes": 3573891,
+          "compressMs": 177.34349996317178,
+          "decodeMs": 4.23141592182219,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 12,
+          "bytes": 3880898,
+          "compressMs": 7.249332964420319,
+          "decodeMs": 2.989875036291778,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 12,
+          "bytes": 3555468,
+          "compressMs": 37.19966602511704,
+          "decodeMs": 3.616750007495284,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 12,
+          "bytes": 3544090,
+          "compressMs": 40.75545794330537,
+          "decodeMs": 4.489499959163368,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 12,
+          "bytes": 3654152,
+          "compressMs": 15.641374979168177,
+          "decodeMs": 12.991292052902281,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 19,
+          "bytes": 3883490,
+          "compressMs": 159.8440419184044,
+          "decodeMs": 3.061625058762729,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 19,
+          "bytes": 3501982,
+          "compressMs": 256.799416965805,
+          "decodeMs": 3.1628330470994115,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 19,
+          "bytes": 3491072,
+          "compressMs": 269.1059159114957,
+          "decodeMs": 2.729124971665442,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 19,
+          "bytes": 3650529,
+          "compressMs": 138.94274993799627,
+          "decodeMs": 13.051291927695274,
+          "byteExact": true
+        },
+        {
+          "codec": "zipnn-huffman",
+          "bytes": 3490716,
+          "compressMs": 1.8789160531014204,
+          "decodeMs": 0.69183309096843,
+          "byteExact": true
+        },
+        {
+          "codec": "bitshuffle-c-zstd12",
+          "bytes": 3685604,
+          "compressMs": 15.13095898553729,
+          "decodeMs": 3.1634579645469785,
+          "byteExact": true
+        }
+      ]
+    },
+    {
+      "sourceChunk": "2c1f4dbfc05258888175d6ce6e5db63d150276d6ba986749bfa5c037ee990f80",
+      "rawSha256": "82ffa59f1c0ee868de6cc3bee00f70448121fab7ecd519ef4952f32852b09678",
+      "rawBytes": 4194304,
+      "results": [
+        {
+          "codec": "deflate",
+          "encoding": "shuffle4",
+          "level": 6,
+          "bytes": 3573488,
+          "compressMs": 177.63520905282348,
+          "decodeMs": 3.871625056490302,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 12,
+          "bytes": 3882192,
+          "compressMs": 5.0236249808222055,
+          "decodeMs": 2.9695420525968075,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 12,
+          "bytes": 3555478,
+          "compressMs": 36.98708291631192,
+          "decodeMs": 3.697625012136996,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 12,
+          "bytes": 3546169,
+          "compressMs": 38.68833393789828,
+          "decodeMs": 3.0822500120848417,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 12,
+          "bytes": 3662709,
+          "compressMs": 16.398250008933246,
+          "decodeMs": 12.894499930553138,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 19,
+          "bytes": 3885196,
+          "compressMs": 154.70779093448073,
+          "decodeMs": 3.0987500213086605,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 19,
+          "bytes": 3502356,
+          "compressMs": 253.52145894430578,
+          "decodeMs": 3.086957964114845,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 19,
+          "bytes": 3492313,
+          "compressMs": 269.15891689714044,
+          "decodeMs": 2.685000072233379,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 19,
+          "bytes": 3658629,
+          "compressMs": 137.3468330129981,
+          "decodeMs": 13.034709030762315,
+          "byteExact": true
+        },
+        {
+          "codec": "zipnn-huffman",
+          "bytes": 3491963,
+          "compressMs": 1.7764579970389605,
+          "decodeMs": 0.6907089846208692,
+          "byteExact": true
+        },
+        {
+          "codec": "bitshuffle-c-zstd12",
+          "bytes": 3685812,
+          "compressMs": 15.15208394266665,
+          "decodeMs": 3.164959023706615,
+          "byteExact": true
+        }
+      ]
+    },
+    {
+      "sourceChunk": "4bded7349465be5e4e47ce9fb69ae6f43d2ed22e70412aef8a213a55194f5d68",
+      "rawSha256": "d35a332fd7940624c2519e8baee5234031c8dd4d5c4741e10c6320ad528229e4",
+      "rawBytes": 4194304,
+      "results": [
+        {
+          "codec": "deflate",
+          "encoding": "shuffle4",
+          "level": 6,
+          "bytes": 3573430,
+          "compressMs": 177.83516691997647,
+          "decodeMs": 3.8377080345526338,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 12,
+          "bytes": 3883415,
+          "compressMs": 4.911291063763201,
+          "decodeMs": 2.967582899145782,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 12,
+          "bytes": 3555835,
+          "compressMs": 37.293291999958456,
+          "decodeMs": 3.55466699693352,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 12,
+          "bytes": 3546874,
+          "compressMs": 39.01133395265788,
+          "decodeMs": 3.0765000265091658,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 12,
+          "bytes": 3667217,
+          "compressMs": 16.43445889931172,
+          "decodeMs": 12.98812497407198,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 19,
+          "bytes": 3885685,
+          "compressMs": 166.66641703341156,
+          "decodeMs": 3.059874987229705,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 19,
+          "bytes": 3503242,
+          "compressMs": 255.26929192710668,
+          "decodeMs": 3.0799160012975335,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 19,
+          "bytes": 3493340,
+          "compressMs": 265.0535840075463,
+          "decodeMs": 2.7095830300822854,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 19,
+          "bytes": 3663184,
+          "compressMs": 137.16537493746728,
+          "decodeMs": 12.976958067156374,
+          "byteExact": true
+        },
+        {
+          "codec": "zipnn-huffman",
+          "bytes": 3492668,
+          "compressMs": 1.7589170020073652,
+          "decodeMs": 0.683416030369699,
+          "byteExact": true
+        },
+        {
+          "codec": "bitshuffle-c-zstd12",
+          "bytes": 3686771,
+          "compressMs": 15.20612498279661,
+          "decodeMs": 3.1692920019850135,
+          "byteExact": true
+        }
+      ]
+    },
+    {
+      "sourceChunk": "6f19702c6491836566c4c238b63969c84fd530e7c4759e9d8305339d8168891e",
+      "rawSha256": "735dc4bfcfb774089e07defd9169b2327bfd5a827f32ecb09a51a2bc997326bd",
+      "rawBytes": 4194304,
+      "results": [
+        {
+          "codec": "deflate",
+          "encoding": "shuffle4",
+          "level": 6,
+          "bytes": 3571867,
+          "compressMs": 178.3439579885453,
+          "decodeMs": 3.800917067565024,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 12,
+          "bytes": 3883664,
+          "compressMs": 4.868249990977347,
+          "decodeMs": 2.9619999695569277,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 12,
+          "bytes": 3554254,
+          "compressMs": 38.415207993239164,
+          "decodeMs": 3.5079169319942594,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 12,
+          "bytes": 3545570,
+          "compressMs": 39.36920897103846,
+          "decodeMs": 3.0594579875469208,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 12,
+          "bytes": 3667888,
+          "compressMs": 16.234374954365194,
+          "decodeMs": 12.813040986657143,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 19,
+          "bytes": 3885996,
+          "compressMs": 151.5735420398414,
+          "decodeMs": 3.086250042542815,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 19,
+          "bytes": 3502758,
+          "compressMs": 253.41404194477946,
+          "decodeMs": 3.1398340361192822,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 19,
+          "bytes": 3493426,
+          "compressMs": 264.0384160913527,
+          "decodeMs": 2.700875047594309,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 19,
+          "bytes": 3664180,
+          "compressMs": 139.24241601489484,
+          "decodeMs": 12.86495802924037,
+          "byteExact": true
+        },
+        {
+          "codec": "zipnn-huffman",
+          "bytes": 3492540,
+          "compressMs": 1.7857910133898258,
+          "decodeMs": 0.6894579855725169,
+          "byteExact": true
+        },
+        {
+          "codec": "bitshuffle-c-zstd12",
+          "bytes": 3686841,
+          "compressMs": 15.21770900581032,
+          "decodeMs": 3.184625064022839,
+          "byteExact": true
+        }
+      ]
+    },
+    {
+      "sourceChunk": "966cb8ee46f2de360631523ec77c898703462f607fbd2399ac405e2cc23961e9",
+      "rawSha256": "87da39f3bf9758e1e7fe6460c64985015a22c30f78b13261b6ad4043a79ee874",
+      "rawBytes": 4194304,
+      "results": [
+        {
+          "codec": "deflate",
+          "encoding": "shuffle4",
+          "level": 6,
+          "bytes": 3573639,
+          "compressMs": 177.59725009091198,
+          "decodeMs": 3.829624969512224,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 12,
+          "bytes": 3880604,
+          "compressMs": 4.84741700347513,
+          "decodeMs": 2.9661660082638264,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 12,
+          "bytes": 3554918,
+          "compressMs": 37.02849999535829,
+          "decodeMs": 3.5492919851094484,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 12,
+          "bytes": 3542632,
+          "compressMs": 38.71204098686576,
+          "decodeMs": 3.052624990232289,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 12,
+          "bytes": 3650546,
+          "compressMs": 15.636540949344635,
+          "decodeMs": 13.16141604911536,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 19,
+          "bytes": 3883902,
+          "compressMs": 156.37691598385572,
+          "decodeMs": 3.088916069827974,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 19,
+          "bytes": 3500479,
+          "compressMs": 256.2425419455394,
+          "decodeMs": 3.086833981797099,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 19,
+          "bytes": 3489270,
+          "compressMs": 268.3367499848828,
+          "decodeMs": 2.6899160584434867,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 19,
+          "bytes": 3648398,
+          "compressMs": 138.38712498545647,
+          "decodeMs": 13.002082938328385,
+          "byteExact": true
+        },
+        {
+          "codec": "zipnn-huffman",
+          "bytes": 3488966,
+          "compressMs": 1.755167031660676,
+          "decodeMs": 0.6780830444768071,
+          "byteExact": true
+        },
+        {
+          "codec": "bitshuffle-c-zstd12",
+          "bytes": 3685649,
+          "compressMs": 15.434375032782555,
+          "decodeMs": 3.1763750594109297,
+          "byteExact": true
+        }
+      ]
+    },
+    {
+      "sourceChunk": "bf83eeadcdd8891492c3db2c3dc40c205c8bbe56f4edb39797f5823d83ae29b7",
+      "rawSha256": "05de9c66cf1d45f22ae1cf6312a8f088000a13af18c9df9b9794646cf48036db",
+      "rawBytes": 4194304,
+      "results": [
+        {
+          "codec": "deflate",
+          "encoding": "shuffle4",
+          "level": 6,
+          "bytes": 3573496,
+          "compressMs": 177.52975004259497,
+          "decodeMs": 3.8532919716089964,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 12,
+          "bytes": 3881270,
+          "compressMs": 4.848125041462481,
+          "decodeMs": 2.9678749851882458,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 12,
+          "bytes": 3555203,
+          "compressMs": 37.07433305680752,
+          "decodeMs": 3.5369170363992453,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 12,
+          "bytes": 3545272,
+          "compressMs": 38.743625045754015,
+          "decodeMs": 3.055499983020127,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 12,
+          "bytes": 3656727,
+          "compressMs": 16.352207981981337,
+          "decodeMs": 12.995750061236322,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 19,
+          "bytes": 3883795,
+          "compressMs": 153.84079201612622,
+          "decodeMs": 3.065040917135775,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 19,
+          "bytes": 3502192,
+          "compressMs": 260.56325004901737,
+          "decodeMs": 3.1317078974097967,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 19,
+          "bytes": 3493689,
+          "compressMs": 276.215499965474,
+          "decodeMs": 2.812499995343387,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 19,
+          "bytes": 3653852,
+          "compressMs": 145.22675005719066,
+          "decodeMs": 13.052167021669447,
+          "byteExact": true
+        },
+        {
+          "codec": "zipnn-huffman",
+          "bytes": 3491504,
+          "compressMs": 1.7773329745978117,
+          "decodeMs": 0.688707921653986,
+          "byteExact": true
+        },
+        {
+          "codec": "bitshuffle-c-zstd12",
+          "bytes": 3685959,
+          "compressMs": 15.249541029334068,
+          "decodeMs": 3.1693329801782966,
+          "byteExact": true
+        }
+      ]
+    },
+    {
+      "sourceChunk": "db72508eff6758b116ac990f5e825f2938ee78ea3eaa3b02c70cc3c3d4c05991",
+      "rawSha256": "c04d58d7684f27964dbb2329c004f686a66fbe75e2f413b3687eb143f04862f7",
+      "rawBytes": 4194304,
+      "results": [
+        {
+          "codec": "deflate",
+          "encoding": "shuffle4",
+          "level": 6,
+          "bytes": 3573318,
+          "compressMs": 178.1665839953348,
+          "decodeMs": 3.84629110340029,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 12,
+          "bytes": 3885234,
+          "compressMs": 5.1090830238536,
+          "decodeMs": 2.963332924991846,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 12,
+          "bytes": 3555776,
+          "compressMs": 37.12124994490296,
+          "decodeMs": 3.505249973386526,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 12,
+          "bytes": 3546515,
+          "compressMs": 38.63820794504136,
+          "decodeMs": 3.082290990278125,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 12,
+          "bytes": 3668020,
+          "compressMs": 16.428667004220188,
+          "decodeMs": 12.808791012503207,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 19,
+          "bytes": 3887509,
+          "compressMs": 152.385916095227,
+          "decodeMs": 3.0679169576615095,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 19,
+          "bytes": 3504743,
+          "compressMs": 254.7175830695778,
+          "decodeMs": 3.1444589840248227,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 19,
+          "bytes": 3497008,
+          "compressMs": 273.5697500174865,
+          "decodeMs": 2.7582079637795687,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 19,
+          "bytes": 3664621,
+          "compressMs": 138.99733405560255,
+          "decodeMs": 12.892666971310973,
+          "byteExact": true
+        },
+        {
+          "codec": "zipnn-huffman",
+          "bytes": 3494530,
+          "compressMs": 1.7741249175742269,
+          "decodeMs": 0.6788750179111958,
+          "byteExact": true
+        },
+        {
+          "codec": "bitshuffle-c-zstd12",
+          "bytes": 3686908,
+          "compressMs": 15.19629207905382,
+          "decodeMs": 3.164542024023831,
+          "byteExact": true
+        }
+      ]
+    },
+    {
+      "sourceChunk": "ff9ef40acdadecec2a85be2bb9d8c0179b0464cc16b8dbc0094dc348321f5584",
+      "rawSha256": "ed6598c3d61665fe150ce20b970199ff7a53eae66ef377bf8b88e0d5a26a61e1",
+      "rawBytes": 4194304,
+      "results": [
+        {
+          "codec": "deflate",
+          "encoding": "shuffle4",
+          "level": 6,
+          "bytes": 3589608,
+          "compressMs": 161.6424579406157,
+          "decodeMs": 3.867332939989865,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 12,
+          "bytes": 3944735,
+          "compressMs": 4.992707981728017,
+          "decodeMs": 2.967999898828566,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 12,
+          "bytes": 3557675,
+          "compressMs": 32.09524997510016,
+          "decodeMs": 3.5364580107852817,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 12,
+          "bytes": 3552661,
+          "compressMs": 34.73262500483543,
+          "decodeMs": 3.09112505055964,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 12,
+          "bytes": 3562241,
+          "compressMs": 24.36737495008856,
+          "decodeMs": 13.535166974179447,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "identity",
+          "level": 19,
+          "bytes": 3944940,
+          "compressMs": 157.543208100833,
+          "decodeMs": 3.130708006210625,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "shuffle4",
+          "level": 19,
+          "bytes": 3540822,
+          "compressMs": 253.3543750178069,
+          "decodeMs": 3.876292030327022,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "exponent4",
+          "level": 19,
+          "bytes": 3532373,
+          "compressMs": 261.66158402338624,
+          "decodeMs": 3.368917037732899,
+          "byteExact": true
+        },
+        {
+          "codec": "zstd",
+          "encoding": "bitplane4",
+          "level": 19,
+          "bytes": 3551036,
+          "compressMs": 157.77733305003494,
+          "decodeMs": 13.469166005961597,
+          "byteExact": true
+        },
+        {
+          "codec": "zipnn-huffman",
+          "bytes": 3575335,
+          "compressMs": 1.8038749694824219,
+          "decodeMs": 0.6972500123083591,
+          "byteExact": true
+        },
+        {
+          "codec": "bitshuffle-c-zstd12",
+          "bytes": 3606077,
+          "compressMs": 23.73691601678729,
+          "decodeMs": 3.3050409983843565,
+          "byteExact": true
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "deflate/shuffle4/6": {
+      "bytes": 28602737,
+      "compressMs": 1406.0938759939745,
+      "decodeMs": 31.138207064941525
+    },
+    "zstd/identity/12": {
+      "bytes": 31122012,
+      "compressMs": 41.8498320505023,
+      "decodeMs": 23.75437377486378
+    },
+    "zstd/shuffle4/12": {
+      "bytes": 28444607,
+      "compressMs": 293.2145819067955,
+      "decodeMs": 28.50487595424056
+    },
+    "zstd/exponent4/12": {
+      "bytes": 28369783,
+      "compressMs": 308.65083378739655,
+      "decodeMs": 25.989248999394476
+    },
+    "zstd/bitplane4/12": {
+      "bytes": 29189500,
+      "compressMs": 137.49324972741306,
+      "decodeMs": 104.18808204121888
+    },
+    "zstd/identity/19": {
+      "bytes": 31140513,
+      "compressMs": 1252.93862412218,
+      "decodeMs": 24.659082060679793
+    },
+    "zstd/shuffle4/19": {
+      "bytes": 28058574,
+      "compressMs": 2043.8819598639384,
+      "decodeMs": 25.708833942189813
+    },
+    "zstd/exponent4/19": {
+      "bytes": 27982491,
+      "compressMs": 2147.1404168987647,
+      "decodeMs": 22.454124176874757
+    },
+    "zstd/bitplane4/19": {
+      "bytes": 29154429,
+      "compressMs": 1133.085916051641,
+      "decodeMs": 104.34399999212474
+    },
+    "zipnn-huffman/native/default": {
+      "bytes": 28018222,
+      "compressMs": 14.310581958852708,
+      "decodeMs": 5.498332087881863
+    },
+    "bitshuffle-c-zstd12/native/default": {
+      "bytes": 29409621,
+      "compressMs": 130.3240010747686,
+      "decodeMs": 25.49762511625886
+    }
+  }
+}

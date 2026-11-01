@@ -1,0 +1,831 @@
+{
+  "device": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "startedAt": 1793450530395,
+  "finishedAt": 1793451291476,
+  "power": {
+    "source": "AC verified throughout",
+    "samples": 78
+  },
+  "method": "Three synthetic photos, two resolutions, 1/2/3 passes, three repeats per photo and three warmups per configuration. Grouped mode order reversed by resolution. Default subgroup FP32 sparse accumulation and GPU indexing, reuse enabled, graph capture disabled, no CPU learned fallback. Compute includes upload, required readbacks and CPU camera fitting; loading, validation and rendering excluded. Explicit WebGPU buffers exclude WebGL, driver/browser overhead and process RSS. Same immutable original NVIDIA CUDA FP32 goldens and unchanged gates. No retraining, pruning, architecture or parameter-count change.",
+  "gate": {
+    "nrmseBelow": 0.001,
+    "maskConfidenceBoundary": 1e-05,
+    "maskMismatchFractionAtMost": 1e-05
+  },
+  "modes": {
+    "fp32": "Original FP32 storage and computation; remains default",
+    "fp16-storage": "FP16 ONNX initializers restored to FP32 by Cast; FP32 operations and activations. Packed WGSL weights stay FP16 on GPU and widen before FP32 arithmetic.",
+    "fp16-compute": "Convertible dense/linear ONNX operations and weights use FP16 with FP32 I/O. Packed WGSL weights use FP16 storage and FP32 arithmetic; geometry, camera and indexing remain FP32. Scalar/shape constants folded in FP32 before conversion."
+  },
+  "quality": {
+    "fp32": {
+      "comparisons": 54,
+      "passedUnchangedGate": 54,
+      "worstPointsNrmse": 0.0009430723759879896,
+      "medianPointsNrmse": 0.00030351237199286346,
+      "worstIntrinsicsNrmse": 1.3752544810763614e-06,
+      "worstMaskChangedPixels": 0,
+      "worstMaskChangedFraction": 0.0,
+      "allOutputsFiniteOnValidPixels": true,
+      "worstDenseNrmse": {
+        "points": 1.301328119472499e-06,
+        "normal": 1.8113497501839887e-06,
+        "mask": 6.844987717514303e-07,
+        "metric_scale": 9.182189039517599e-07,
+        "raw_coord": 7.077800436793878e-07,
+        "encoder_feature": 3.3871357648157167e-06
+      }
+    },
+    "fp16-storage": {
+      "comparisons": 54,
+      "passedUnchangedGate": 0,
+      "worstPointsNrmse": 0.005165464122680587,
+      "medianPointsNrmse": 0.0029892434955158366,
+      "worstIntrinsicsNrmse": 0.00019855040595743133,
+      "worstMaskChangedPixels": 43,
+      "worstMaskChangedFraction": 0.00013626453488372093,
+      "allOutputsFiniteOnValidPixels": true,
+      "worstDenseNrmse": {
+        "points": 0.001671222874426943,
+        "normal": 0.001726104410769535,
+        "mask": 0.0006327298176991773,
+        "metric_scale": 0.00043666762471066293,
+        "raw_coord": 0.0006580346344109557,
+        "encoder_feature": 0.0025304076827195074
+      }
+    },
+    "fp16-compute": {
+      "comparisons": 54,
+      "passedUnchangedGate": 0,
+      "worstPointsNrmse": 0.08885723300560283,
+      "medianPointsNrmse": 0.06858226110801088,
+      "worstIntrinsicsNrmse": 0.03550731597234608,
+      "worstMaskChangedPixels": 7447,
+      "worstMaskChangedFraction": 0.018938700358072918,
+      "allOutputsFiniteOnValidPixels": true,
+      "worstDenseNrmse": {
+        "points": 0.06748637796286105,
+        "normal": 0.0476158220058459,
+        "mask": 0.05344941310660916,
+        "metric_scale": 0.038913552091688536,
+        "raw_coord": 0.03691748226871894,
+        "encoder_feature": 0.057537618149251485
+      }
+    }
+  },
+  "fp32FoldingControl": {
+    "comparisons": 6,
+    "passed": true,
+    "denseMetricsIdenticalToUnfoldedFp32": true,
+    "reportSha256": "86da33155bafeee0dda7052044109a3882ed0e6f45b203eb5653ce0d0b384fd4"
+  },
+  "activeWgslInferenceModelBytes": {
+    "fast": {
+      "fp32": 1482651855,
+      "fp16-storage": 741703781,
+      "fp16-compute": 742245014
+    },
+    "detail": {
+      "fp32": 1486366529,
+      "fp16-storage": 743563349,
+      "fp16-compute": 744292583
+    }
+  },
+  "profiles": [
+    {
+      "profile": "fast",
+      "refineSteps": 1,
+      "fp32": {
+        "computeMs": 814.0549999475479,
+        "denseMs": 565.4649999141693,
+        "refinementMs": 244.62000000476837,
+        "peakExplicitGpuBufferBytes": 2952955200
+      },
+      "fp16-storage": {
+        "computeMs": 775.539999961853,
+        "denseMs": 566.6150000095367,
+        "refinementMs": 204.02499997615814,
+        "peakExplicitGpuBufferBytes": 2878448160
+      },
+      "fp16-compute": {
+        "computeMs": 571.8400000333786,
+        "denseMs": 361.59999990463257,
+        "refinementMs": 205.85000002384186,
+        "peakExplicitGpuBufferBytes": 1837171216
+      }
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 2,
+      "fp32": {
+        "computeMs": 1042.7699999809265,
+        "denseMs": 567.2649999856949,
+        "refinementMs": 473.11499989032745,
+        "peakExplicitGpuBufferBytes": 2952380160
+      },
+      "fp16-storage": {
+        "computeMs": 966.7350000143051,
+        "denseMs": 568.7050000429153,
+        "refinementMs": 395.89999997615814,
+        "peakExplicitGpuBufferBytes": 2877873440
+      },
+      "fp16-compute": {
+        "computeMs": 764.2949999570847,
+        "denseMs": 361.1200000047684,
+        "refinementMs": 399.32999992370605,
+        "peakExplicitGpuBufferBytes": 1837641680
+      }
+    },
+    {
+      "profile": "fast",
+      "refineSteps": 3,
+      "fp32": {
+        "computeMs": 1264.9199999570847,
+        "denseMs": 564.6100000143051,
+        "refinementMs": 696.7649999856949,
+        "peakExplicitGpuBufferBytes": 2948647088
+      },
+      "fp16-storage": {
+        "computeMs": 1157.6399999856949,
+        "denseMs": 566.1699999570847,
+        "refinementMs": 586.8500000238419,
+        "peakExplicitGpuBufferBytes": 2876059072
+      },
+      "fp16-compute": {
+        "computeMs": 951.8899999856949,
+        "denseMs": 360.34499990940094,
+        "refinementMs": 591.0199999809265,
+        "peakExplicitGpuBufferBytes": 1835950848
+      }
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 1,
+      "fp32": {
+        "computeMs": 1243.6349999904633,
+        "denseMs": 899.1950000524521,
+        "refinementMs": 340.1599999666214,
+        "peakExplicitGpuBufferBytes": 3492428672
+      },
+      "fp16-storage": {
+        "computeMs": 1192.7599999904633,
+        "denseMs": 900.7350000143051,
+        "refinementMs": 286.3049999475479,
+        "peakExplicitGpuBufferBytes": 3369687296
+      },
+      "fp16-compute": {
+        "computeMs": 866.5649999380112,
+        "denseMs": 574.2949999570847,
+        "refinementMs": 289.39999997615814,
+        "peakExplicitGpuBufferBytes": 2270790016
+      }
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 2,
+      "fp32": {
+        "computeMs": 1565.0550000667572,
+        "denseMs": 899.8399999141693,
+        "refinementMs": 658.3150000572205,
+        "peakExplicitGpuBufferBytes": 3492924464
+      },
+      "fp16-storage": {
+        "computeMs": 1457.9499999284744,
+        "denseMs": 900.0449999570847,
+        "refinementMs": 555.039999961853,
+        "peakExplicitGpuBufferBytes": 3370183072
+      },
+      "fp16-compute": {
+        "computeMs": 1135.375,
+        "denseMs": 573.2849999666214,
+        "refinementMs": 558.25,
+        "peakExplicitGpuBufferBytes": 2271285008
+      }
+    },
+    {
+      "profile": "detail",
+      "refineSteps": 3,
+      "fp32": {
+        "computeMs": 1877.5049999952316,
+        "denseMs": 897.3149999380112,
+        "refinementMs": 972.0599999427795,
+        "peakExplicitGpuBufferBytes": 3492361616
+      },
+      "fp16-storage": {
+        "computeMs": 1722.5299999713898,
+        "denseMs": 896.6399999856949,
+        "refinementMs": 823.1999999284744,
+        "peakExplicitGpuBufferBytes": 3369619456
+      },
+      "fp16-compute": {
+        "computeMs": 1407.0049999952316,
+        "denseMs": 572.8250000476837,
+        "refinementMs": 828.3500000238419,
+        "peakExplicitGpuBufferBytes": 2270720832
+      }
+    }
+  ],
+  "medianComputeReductionGeometricMean": {
+    "fp16-storage": 0.06630196041490166,
+    "fp16-compute": 0.2737130492319714
+  },
+  "provenance": {
+    "reportSha256": "b7c4e07e7ebf890a57df135dce918f4f58d6591fcc17efe1c8df0a7dedfe63f0",
+    "powerSha256": "3db91533bf44c67adc9782efb172461d349bd21e758beb4b65195448e3cf7a25",
+    "sourceFiles": {
+      "main.js": "70d6421f27e007edfacf013b070f44cc146984f32a126244c4362e0c32fa1272",
+      "runtime.js": "2271159d0846c3a1300f6367b92c3c1232d844da1aa58e8f46629f5c58afd9aa",
+      "sparse-block.js": "2ac922d49a6d47bef2cf2485b5c997257d41eb1568e63285bffbc428f3054cd4",
+      "sparse-layout.js": "5a345cb1b40f886b1c533bf922048032b185545acf78c2f19b8efb99b6f669b5",
+      "fp16-weights.js": "5605cc516790302eff6775f63cf5308640b0481bcf0ae83e4d9d2022c3b7cf78",
+      "export_fp16.py": "f69acadaa06b8f0ed0c5b183819f6b95e5feae3bc7cfabcdd92d07d1e2274e18",
+      "benchmark-fp16.browser.js": "7f6a64907952006b2035634d4981901eb908b789552a08401284a556a9a6d328"
+    },
+    "exports": {
+      "storage": {
+        "fast": {
+          "precision": "fp16-storage",
+          "onnxruntimeConverter": "1.31.1",
+          "keepIoTypes": true,
+          "files": [
+            {
+              "source": "profiles/fast/moge3-dense.onnx",
+              "target": "precision/fp16-storage/profiles/fast/moge3-dense.onnx",
+              "sourceSha256": "4a2ddba6054cc8fd1e1d06b870902b4307b9fd6df844a5c14e3eae550209dc64",
+              "sha256": "171a40d319c49f3b58f0669df53d0f5e5571af5c62940c393bcd6d97f8eac47c",
+              "sourceBytes": 1325117283,
+              "bytes": 662932737
+            }
+          ]
+        },
+        "detail": {
+          "precision": "fp16-storage",
+          "onnxruntimeConverter": "1.31.1",
+          "keepIoTypes": true,
+          "files": [
+            {
+              "source": "profiles/detail/moge3-dense.onnx",
+              "target": "precision/fp16-storage/profiles/detail/moge3-dense.onnx",
+              "sourceSha256": "9bae57e8ffff7fb766c8807d9605b42decb89c4771e6f4a0118b7c294507207c",
+              "sha256": "2b50d35bcede245d88b149daafa0e3ff18a7ee53eb5ac8069838c589a51f1a94",
+              "sourceBytes": 1328831957,
+              "bytes": 664792305
+            }
+          ]
+        },
+        "refiner": {
+          "precision": "fp16-storage",
+          "onnxruntimeConverter": "1.31.1",
+          "keepIoTypes": true,
+          "files": [
+            {
+              "source": "refiner/downsample_blocks.0.linear.onnx",
+              "target": "precision/fp16-storage/refiner/downsample_blocks.0.linear.onnx",
+              "sourceSha256": "3c8182aef8067477e093065d81f45293643c1d3ba0dfe98da39a65f7f505071b",
+              "sha256": "c9a66d9d0639b7fd4bd799126518ca7893da4bcfb08c2e88031bc0973b2e8406",
+              "sourceBytes": 8679,
+              "bytes": 4619
+            },
+            {
+              "source": "refiner/downsample_blocks.1.linear.onnx",
+              "target": "precision/fp16-storage/refiner/downsample_blocks.1.linear.onnx",
+              "sourceSha256": "03c00e298817694db018724c5abbf3dd21184c48ea2d6e8b37c1aead13bbd8d5",
+              "sha256": "ad08f8902339db59313845ec597f6f03ac88b86ab89734c62a7f69724e66cfcf",
+              "sourceBytes": 33517,
+              "bytes": 17041
+            },
+            {
+              "source": "refiner/downsample_blocks.2.linear.onnx",
+              "target": "precision/fp16-storage/refiner/downsample_blocks.2.linear.onnx",
+              "sourceSha256": "b4384675b6ae551980c945aa5cc238b5bcf250a2a7a9b69fd9f3bc3bb93c7ec8",
+              "sha256": "0d95bef3f658ed8a55bc4c88c3ed0dfee781479f6371d829ead5ccb5b321dab7",
+              "sourceBytes": 132335,
+              "bytes": 66451
+            },
+            {
+              "source": "refiner/downsample_blocks.3.linear.onnx",
+              "target": "precision/fp16-storage/refiner/downsample_blocks.3.linear.onnx",
+              "sourceSha256": "23349f8100e0e5dd8377d68b1aec3112a7b84719603b123b2b06f0d87e13780d",
+              "sha256": "ea56a0ffca997484a090f4c991bdb9289cb3eb6d346b50ffaa1fabb167f4279b",
+              "sourceBytes": 526575,
+              "bytes": 263571
+            },
+            {
+              "source": "refiner/fuse.onnx",
+              "target": "precision/fp16-storage/refiner/fuse.onnx",
+              "sourceSha256": "376bb088d30c853cbedb6bf0d1bb5daeb85a688466cb34fd56360375da6d1841",
+              "sha256": "1ccee720af35aec2515d062d01bf976d7285bcc44f57c372349732a36be11a3c",
+              "sourceBytes": 5253945,
+              "bytes": 2627921
+            },
+            {
+              "source": "refiner/input_proj.onnx",
+              "target": "precision/fp16-storage/refiner/input_proj.onnx",
+              "sourceSha256": "9797ecf577c90dfc64d5bffb34fdebd01956083f7071677736d741f29817206d",
+              "sha256": "cea43e9a1b02ee0bcfdc3d005d8ef02bce34cb95062a50b7d505e42ae9e1807a",
+              "sourceBytes": 743,
+              "bytes": 649
+            },
+            {
+              "source": "refiner/out_proj.onnx",
+              "target": "precision/fp16-storage/refiner/out_proj.onnx",
+              "sourceSha256": "8426927242be2229faf3d3745d9c8c08994f734e20cd3a86f4496ac70f8bfe00",
+              "sha256": "2600fdc66333fa3db37cf8005f51bd0642be214d85a9026c7ba6e6f89f34586c",
+              "sourceBytes": 361,
+              "bytes": 457
+            },
+            {
+              "source": "refiner/upsample_blocks.0.linear.onnx",
+              "target": "precision/fp16-storage/refiner/upsample_blocks.0.linear.onnx",
+              "sourceSha256": "a12d1f99367fe3f1832f03c611c120954706fe1861891aee4cec6fc1b2826863",
+              "sha256": "09bb79c3dbc85641d71a0eb815f590339b3c383d09fe877240c75663fae6775d",
+              "sourceBytes": 525551,
+              "bytes": 263059
+            },
+            {
+              "source": "refiner/upsample_blocks.1.linear.onnx",
+              "target": "precision/fp16-storage/refiner/upsample_blocks.1.linear.onnx",
+              "sourceSha256": "3534f8db3b93343b093b35e37ea9cb48af541c69863e1cce3a489ef52a6d4f1a",
+              "sha256": "475bd624c53f0a8f3530b6568ceb1a1cc89031ca32d23b6da5890692e1b44795",
+              "sourceBytes": 131823,
+              "bytes": 66195
+            },
+            {
+              "source": "refiner/upsample_blocks.2.linear.onnx",
+              "target": "precision/fp16-storage/refiner/upsample_blocks.2.linear.onnx",
+              "sourceSha256": "97cb2def0af4f5ba22c9be86caf5fed0a8b2f4071d45a1c5e561ed6232a7b1f5",
+              "sha256": "c6b09fbef915778a70364cfe8bc54c7d555c2f881a79f2ede3ada13d1734aa7c",
+              "sourceBytes": 33260,
+              "bytes": 16912
+            },
+            {
+              "source": "refiner/upsample_blocks.3.linear.onnx",
+              "target": "precision/fp16-storage/refiner/upsample_blocks.3.linear.onnx",
+              "sourceSha256": "f8bb44af46051079997671bd3aa66aea0d8baf2b6070550ab969cebad32d5c2b",
+              "sha256": "a852fedece4b950d8a390cb679cdc045619fef7286e4ec036091411c461af842",
+              "sourceBytes": 8551,
+              "bytes": 4553
+            }
+          ]
+        }
+      },
+      "compute": {
+        "fast": {
+          "precision": "fp16-compute",
+          "onnxruntimeConverter": "1.31.1",
+          "keepIoTypes": true,
+          "files": [
+            {
+              "source": "profiles/fast/moge3-dense.onnx",
+              "target": "precision/fp16-compute/profiles/fast/moge3-dense.onnx",
+              "sourceSha256": "4a2ddba6054cc8fd1e1d06b870902b4307b9fd6df844a5c14e3eae550209dc64",
+              "sha256": "6a9342a5d019462384a88937214c0c8ff3f2d163ee385c8c0327204593b60101",
+              "sourceBytes": 1325117283,
+              "bytes": 663472468
+            }
+          ]
+        },
+        "detail": {
+          "precision": "fp16-compute",
+          "onnxruntimeConverter": "1.31.1",
+          "keepIoTypes": true,
+          "files": [
+            {
+              "source": "profiles/detail/moge3-dense.onnx",
+              "target": "precision/fp16-compute/profiles/detail/moge3-dense.onnx",
+              "sourceSha256": "9bae57e8ffff7fb766c8807d9605b42decb89c4771e6f4a0118b7c294507207c",
+              "sha256": "cc36ece32585064b6821e1d631020cef38ebf48651ad6c4f2386ba46ac1cca24",
+              "sourceBytes": 1328831957,
+              "bytes": 665520037
+            }
+          ]
+        },
+        "refiner": {
+          "precision": "fp16-compute",
+          "onnxruntimeConverter": "1.31.1",
+          "keepIoTypes": true,
+          "files": [
+            {
+              "source": "refiner/downsample_blocks.0.linear.onnx",
+              "target": "precision/fp16-compute/refiner/downsample_blocks.0.linear.onnx",
+              "sourceSha256": "3c8182aef8067477e093065d81f45293643c1d3ba0dfe98da39a65f7f505071b",
+              "sha256": "e60cda95032d4eb9924e102e0216ee891530a79b084770c168ebfaa5b8ee2e70",
+              "sourceBytes": 8679,
+              "bytes": 4747
+            },
+            {
+              "source": "refiner/downsample_blocks.1.linear.onnx",
+              "target": "precision/fp16-compute/refiner/downsample_blocks.1.linear.onnx",
+              "sourceSha256": "03c00e298817694db018724c5abbf3dd21184c48ea2d6e8b37c1aead13bbd8d5",
+              "sha256": "9672c02555d4d5ee5a743285e759cd7258404977bc95c6e15ccf26c2748a86c4",
+              "sourceBytes": 33517,
+              "bytes": 17172
+            },
+            {
+              "source": "refiner/downsample_blocks.2.linear.onnx",
+              "target": "precision/fp16-compute/refiner/downsample_blocks.2.linear.onnx",
+              "sourceSha256": "b4384675b6ae551980c945aa5cc238b5bcf250a2a7a9b69fd9f3bc3bb93c7ec8",
+              "sha256": "24e8d0196a22e5c6ebe41fa2acb7446dd73457d53841b540cc2e3244934fcf20",
+              "sourceBytes": 132335,
+              "bytes": 66584
+            },
+            {
+              "source": "refiner/downsample_blocks.3.linear.onnx",
+              "target": "precision/fp16-compute/refiner/downsample_blocks.3.linear.onnx",
+              "sourceSha256": "23349f8100e0e5dd8377d68b1aec3112a7b84719603b123b2b06f0d87e13780d",
+              "sha256": "70673ab19220f1c38c27f8a027e2b04a5cb1aad356c533320d76b6a0fc363c51",
+              "sourceBytes": 526575,
+              "bytes": 263704
+            },
+            {
+              "source": "refiner/fuse.onnx",
+              "target": "precision/fp16-compute/refiner/fuse.onnx",
+              "sourceSha256": "376bb088d30c853cbedb6bf0d1bb5daeb85a688466cb34fd56360375da6d1841",
+              "sha256": "a7b953afcb07328c9f6f8c66952c400666881d96d5b9ed82c06d9b434d28532e",
+              "sourceBytes": 5253945,
+              "bytes": 2628118
+            },
+            {
+              "source": "refiner/input_proj.onnx",
+              "target": "precision/fp16-compute/refiner/input_proj.onnx",
+              "sourceSha256": "9797ecf577c90dfc64d5bffb34fdebd01956083f7071677736d741f29817206d",
+              "sha256": "e00b11b176a9e66276521201db85473fe56f95aa4d74264e9702774b3c9bc0f5",
+              "sourceBytes": 743,
+              "bytes": 777
+            },
+            {
+              "source": "refiner/out_proj.onnx",
+              "target": "precision/fp16-compute/refiner/out_proj.onnx",
+              "sourceSha256": "8426927242be2229faf3d3745d9c8c08994f734e20cd3a86f4496ac70f8bfe00",
+              "sha256": "4821f00cfe7179cf939d1b69c9c324109621eb44b14b0e7fce2e156f4df0a1c6",
+              "sourceBytes": 361,
+              "bytes": 585
+            },
+            {
+              "source": "refiner/upsample_blocks.0.linear.onnx",
+              "target": "precision/fp16-compute/refiner/upsample_blocks.0.linear.onnx",
+              "sourceSha256": "a12d1f99367fe3f1832f03c611c120954706fe1861891aee4cec6fc1b2826863",
+              "sha256": "87cc47f73479d36722aa965eedd0998634c9db320c50a87fbea037da07d05381",
+              "sourceBytes": 525551,
+              "bytes": 263192
+            },
+            {
+              "source": "refiner/upsample_blocks.1.linear.onnx",
+              "target": "precision/fp16-compute/refiner/upsample_blocks.1.linear.onnx",
+              "sourceSha256": "3534f8db3b93343b093b35e37ea9cb48af541c69863e1cce3a489ef52a6d4f1a",
+              "sha256": "dfcb21ea5dd0f0969c117a9e06b436b02407ad20661909c8206ef6eaa0d79ef7",
+              "sourceBytes": 131823,
+              "bytes": 66328
+            },
+            {
+              "source": "refiner/upsample_blocks.2.linear.onnx",
+              "target": "precision/fp16-compute/refiner/upsample_blocks.2.linear.onnx",
+              "sourceSha256": "97cb2def0af4f5ba22c9be86caf5fed0a8b2f4071d45a1c5e561ed6232a7b1f5",
+              "sha256": "9ed3a443a02fdda700e346fc8caff40cc46273adf7cdf83b6e1abea359864ec4",
+              "sourceBytes": 33260,
+              "bytes": 17042
+            },
+            {
+              "source": "refiner/upsample_blocks.3.linear.onnx",
+              "target": "precision/fp16-compute/refiner/upsample_blocks.3.linear.onnx",
+              "sourceSha256": "f8bb44af46051079997671bd3aa66aea0d8baf2b6070550ab969cebad32d5c2b",
+              "sha256": "ad0993fa6a7dadbe1c670da7d15d970851e805ee7199a9e5afecb7fbba5259ab",
+              "sourceBytes": 8551,
+              "bytes": 4681
+            }
+          ]
+        }
+      }
+    },
+    "packedHalfWeights": {
+      "format": 2,
+      "dtype": "float16-le",
+      "convolutionLayout": "neighbor,inputChannel,outputChannel",
+      "checkpointRevision": "184008f877d7ad1ad4c2cd2182a9bd1f63d0e5be",
+      "blocks": {
+        "down_stages.0.0": {
+          "channels": 32,
+          "bytes": 110848,
+          "sha256": "cd85aecbb02d59a6736d5a5b00cef31d3c17313f2c1ce278d2859eb13c1a9406",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 32
+            },
+            "norm1.bias": {
+              "offset": 32,
+              "length": 32
+            },
+            "conv1.weight": {
+              "offset": 64,
+              "length": 27648
+            },
+            "conv1.bias": {
+              "offset": 27712,
+              "length": 32
+            },
+            "conv2.weight": {
+              "offset": 27744,
+              "length": 27648
+            },
+            "conv2.bias": {
+              "offset": 55392,
+              "length": 32
+            }
+          },
+          "sourceSha256": "5432fa95b560800d641ed3d465a1ddc1d0835e3c82fd90fe02e4f29be67f0509"
+        },
+        "down_stages.1.0": {
+          "channels": 64,
+          "bytes": 442880,
+          "sha256": "209c91ba2ef939735ce5789a6ebef7824cf42a277505ed4f7bb171b0d5218009",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 64
+            },
+            "norm1.bias": {
+              "offset": 64,
+              "length": 64
+            },
+            "conv1.weight": {
+              "offset": 128,
+              "length": 110592
+            },
+            "conv1.bias": {
+              "offset": 110720,
+              "length": 64
+            },
+            "conv2.weight": {
+              "offset": 110784,
+              "length": 110592
+            },
+            "conv2.bias": {
+              "offset": 221376,
+              "length": 64
+            }
+          },
+          "sourceSha256": "3483848eade58daef204c44e38041ad194046c740dbd4f1d963f5548851589a9"
+        },
+        "down_stages.2.0": {
+          "channels": 128,
+          "bytes": 1770496,
+          "sha256": "1f35254e3f563cd1f8fce9af06d62285e485beb82bfaa24ce4ec8cba5d0ae224",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 128
+            },
+            "norm1.bias": {
+              "offset": 128,
+              "length": 128
+            },
+            "conv1.weight": {
+              "offset": 256,
+              "length": 442368
+            },
+            "conv1.bias": {
+              "offset": 442624,
+              "length": 128
+            },
+            "conv2.weight": {
+              "offset": 442752,
+              "length": 442368
+            },
+            "conv2.bias": {
+              "offset": 885120,
+              "length": 128
+            }
+          },
+          "sourceSha256": "4235de1c9a64aef20df4044d226ba8bcbc0a40b72ada36aa7ca8a617eb92f07a"
+        },
+        "down_stages.3.0": {
+          "channels": 256,
+          "bytes": 7079936,
+          "sha256": "970319d62cfebd5c1fb93daa4d1d66af5fa14d39e066b7a895f36721e61e1975",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 256
+            },
+            "norm1.bias": {
+              "offset": 256,
+              "length": 256
+            },
+            "conv1.weight": {
+              "offset": 512,
+              "length": 1769472
+            },
+            "conv1.bias": {
+              "offset": 1769984,
+              "length": 256
+            },
+            "conv2.weight": {
+              "offset": 1770240,
+              "length": 1769472
+            },
+            "conv2.bias": {
+              "offset": 3539712,
+              "length": 256
+            }
+          },
+          "sourceSha256": "96642797f2d05c95c6bb0b16322b64f531ec3f15398cd2d1e44ee95fcbc7af11"
+        },
+        "down_stages.4.0": {
+          "channels": 512,
+          "bytes": 28315648,
+          "sha256": "9b9178bbdf20693f58c067cb5457c7c236b769147912a49bc8f74babb06ae7ba",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 512
+            },
+            "norm1.bias": {
+              "offset": 512,
+              "length": 512
+            },
+            "conv1.weight": {
+              "offset": 1024,
+              "length": 7077888
+            },
+            "conv1.bias": {
+              "offset": 7078912,
+              "length": 512
+            },
+            "conv2.weight": {
+              "offset": 7079424,
+              "length": 7077888
+            },
+            "conv2.bias": {
+              "offset": 14157312,
+              "length": 512
+            }
+          },
+          "sourceSha256": "2a3bcbfaa6b3f231ed1859247f052775755697dedefcec63702391d70f905ae1"
+        },
+        "bottleneck_stage.0": {
+          "channels": 512,
+          "bytes": 28315648,
+          "sha256": "f0096cd5b78dad4ba1ced50857b86a2cd08f01ee3d2f9ee73e0391fbf4f773b7",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 512
+            },
+            "norm1.bias": {
+              "offset": 512,
+              "length": 512
+            },
+            "conv1.weight": {
+              "offset": 1024,
+              "length": 7077888
+            },
+            "conv1.bias": {
+              "offset": 7078912,
+              "length": 512
+            },
+            "conv2.weight": {
+              "offset": 7079424,
+              "length": 7077888
+            },
+            "conv2.bias": {
+              "offset": 14157312,
+              "length": 512
+            }
+          },
+          "sourceSha256": "fdb708a5a11daacde4590a5075cf587ac555c5e18467b99602f5c388a950a47a"
+        },
+        "up_stages.0.0": {
+          "channels": 256,
+          "bytes": 7079936,
+          "sha256": "2f26def960520910f6a679d387e6b31c290d83dbce3b9f501de0bc4047d29260",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 256
+            },
+            "norm1.bias": {
+              "offset": 256,
+              "length": 256
+            },
+            "conv1.weight": {
+              "offset": 512,
+              "length": 1769472
+            },
+            "conv1.bias": {
+              "offset": 1769984,
+              "length": 256
+            },
+            "conv2.weight": {
+              "offset": 1770240,
+              "length": 1769472
+            },
+            "conv2.bias": {
+              "offset": 3539712,
+              "length": 256
+            }
+          },
+          "sourceSha256": "7c520f84f6dbaa0a31ee13520c01ff9ace08b81bd936896500b91ca59605072d"
+        },
+        "up_stages.1.0": {
+          "channels": 128,
+          "bytes": 1770496,
+          "sha256": "a7b0cfae1c1867d455eaa84d2c4851152df8fc36ef5e0dfacfcbfb987dfafa09",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 128
+            },
+            "norm1.bias": {
+              "offset": 128,
+              "length": 128
+            },
+            "conv1.weight": {
+              "offset": 256,
+              "length": 442368
+            },
+            "conv1.bias": {
+              "offset": 442624,
+              "length": 128
+            },
+            "conv2.weight": {
+              "offset": 442752,
+              "length": 442368
+            },
+            "conv2.bias": {
+              "offset": 885120,
+              "length": 128
+            }
+          },
+          "sourceSha256": "029f11f0872c3ee6a19b5796d6e8e71ce975db8d49b8945f8e7bc2d9000dbc11"
+        },
+        "up_stages.2.0": {
+          "channels": 64,
+          "bytes": 442880,
+          "sha256": "21f99a58b1dad0f386c17ab61f993e47475de83dba21066cf5e3970752506cd4",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 64
+            },
+            "norm1.bias": {
+              "offset": 64,
+              "length": 64
+            },
+            "conv1.weight": {
+              "offset": 128,
+              "length": 110592
+            },
+            "conv1.bias": {
+              "offset": 110720,
+              "length": 64
+            },
+            "conv2.weight": {
+              "offset": 110784,
+              "length": 110592
+            },
+            "conv2.bias": {
+              "offset": 221376,
+              "length": 64
+            }
+          },
+          "sourceSha256": "40714f31d6807fc7cc225ae7f2581f7d4e4834c4748f82dc16b9072b91f98b5e"
+        },
+        "up_stages.3.0": {
+          "channels": 32,
+          "bytes": 110848,
+          "sha256": "3cc6258a9e86e4957dfb0303c580b6ab877017566e4a38040a69d10c9e52e73d",
+          "fields": {
+            "norm1.weight": {
+              "offset": 0,
+              "length": 32
+            },
+            "norm1.bias": {
+              "offset": 32,
+              "length": 32
+            },
+            "conv1.weight": {
+              "offset": 64,
+              "length": 27648
+            },
+            "conv1.bias": {
+              "offset": 27712,
+              "length": 32
+            },
+            "conv2.weight": {
+              "offset": 27744,
+              "length": 27648
+            },
+            "conv2.bias": {
+              "offset": 55392,
+              "length": 32
+            }
+          },
+          "sourceSha256": "8514405b19d5e39a4ad1644e1db4dbaa84fa1698a88729aa105c1c00cb62b2ad"
+        }
+      },
+      "accumulation": "float32"
+    }
+  },
+  "decision": "Keep both FP16 modes experimental and FP32 as the published default. Neither FP16 mode passes the existing release gate. Storage-only minimizes drift and halves inference downloads; FP16 compute loses too much geometry precision in this sample set."
+}
