@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "sources": {
+    "gpu-shader-compat.js": "10c956937a251856dad182baf73ef709569d4ba519112890f1b4d4abf2f529b3",
+    "runtime.js": "b6b6a02bd39b9a8527a36ad2610b147b970e7dae04ecab92dc3a95f190e76c16"
+  },
+  "packageSha256": "35476cef8e50d63106bd27cde63c5dbf34a45131eaa65b5582fd8ff3bd9ed615",
+  "validationReference": "original-cuda-strict-fp32",
+  "precision": "fp32",
+  "performanceBenchmark": false,
+  "chrome": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "comparisons": 54,
+    "allPassed": true,
+    "metricsIdenticalToPriorAdaptiveRun": true,
+    "worstPointNrmse": 0.0009430723759879896
+  },
+  "firefox": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:158.0) Gecko/20100101 Firefox/158.0",
+    "comparisons": 18,
+    "allPassed": true,
+    "worstPointNrmse": 0.0009423273347642836,
+    "testDelivery": "Candidate HTML/JS and checksum-verified model bundles served from local files at the Space origin; fixture/reference downloads from the public Space.",
+    "originalFailure": "Error: failed to call OrtRun(). ERROR_CODE: 1, ERROR_MESSAGE: Non-zero status code returned while running Split node. Name:'/model/encoder/blocks.0/attn/Split' Status Message: Failed to create a WebGPU compute pipeline: Internal error: Metal: program_source:211:13: error: no matching function for call to 'set_output_1_by_indices'\n            set_output_1_by_indices(indices_8, _e12, output_1_, uniforms, _buffer_sizes);\n            ^~~~~~~~~~~~~~~~~~~~~~~\nprogram_source:126:6: note: candidate function not viable: no known conversion from 'output_0_indices_t' to 'output_1_indices_t' for 1st argument\nvoid set_output_1_by_indices(\n     ^\nprogram_source:215:13: error: no matching function for call to 'set_output_2_by_indices'\n            set_output_2_by_indices(indices_8, _e15, output_2_, uniforms, _buffer_sizes);\n            ^~~~~~~~~~~~~~~~~~~~~~~\nprogram_source:149:6: note: candidate function not viable: no known conversion from 'output_0_indices_t' to 'output_2_indices_t' for 1st argument\nvoid set_output_2_by_indices(\n     ^\nprogram_source:257:5: error: no matching function for call to 'write_buffer_data'\n    write_buffer_data(_e16, global_idx_1, _e29, input, output_0_, output_1_, output_2_, uniforms, _buffer_sizes);\n    ^~~~~~~~~~~~~~~~~\nprogram_source:193:6: note: candidate function not viable: no known conversion from 'input_indices_t' to 'output_0_indices_t' for 3rd argument\nvoid write_buffer_data(\n     ^\n"
+  },
+  "modelWeightsChanged": false,
+  "accuracyThresholdsChanged": false
+}

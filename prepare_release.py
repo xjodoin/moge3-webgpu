@@ -2,6 +2,13 @@
 from pathlib import Path
 import json,os,shutil
 ROOT=Path(__file__).resolve().parent
+if (ROOT/'gpu-shader-compat.js').exists():
+    import hashlib
+    compatibility=json.loads((ROOT/'benchmarks/shader-compat-summary.json').read_text())
+    assert compatibility['passed'], 'Require Firefox/Chrome shader compatibility validation'
+    assert compatibility['chrome']['comparisons']==54 and compatibility['firefox']['comparisons']==18, 'Require complete browser accuracy matrices'
+    for name,digest in compatibility['sources'].items():
+        assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest, 'Validate the current shader compatibility sources before release'
 out=ROOT/'release/space'
 if out.exists():
     raise SystemExit('release/space already exists; move it aside before preparing a new snapshot')

@@ -20,6 +20,12 @@ Images are center-cropped to the selected landscape aspect ratio. Raw models con
 
 Dense inference and linear layers run on WebGPU through ONNX Runtime. The default sparse blocks use dedicated FP32 WGSL kernels for layer normalization, SiLU, sparse convolution and residual addition. CPU execution-provider fallback is disabled. WGSL also keeps voxel indexing, mean pooling, encoder-feature gathering and skip additions on the GPU. JavaScript orchestrates scalar output-size readbacks and performs final depth updates, interpolation, camera recovery and projection. This is a hybrid implementation, not a claim that every operation runs on the GPU.
 
+## Firefox on Metal
+
+Firefox's Metal shader translation can assign different native types to identical WGSL index-array aliases emitted by ONNX Runtime 1.24.3. This causes `Split` and `Concat` pipeline compilation errors such as `no known conversion from output_0_indices_t to output_1_indices_t`. `gpu-shader-compat.js` unifies identical ORT input/output index-array aliases before shader compilation, while keeping different ranks separate. This changes type names only: weights, bindings, buffer accesses, FP32 operations, and accuracy thresholds are unchanged. It applies to all browsers and does not require another model download. Diagnostics record the number of affected shaders in `sessions.shaderCompatibility`.
+
+Validation on Apple M4 Pro covers all 18 photo/resolution/pass combinations in Firefox 158 and all 54 repeated comparisons in Chrome 156. Every original-CUDA comparison passes; Chrome's original-CUDA and dense-output metrics are identical to the previous adaptive release. These are accuracy checks, not a cross-browser performance benchmark. See [the compatibility report](benchmarks/shader-compat-summary.json).
+
 ## Subgroup FP32 sparse kernels
 
 Subgroup kernels are **enabled by default on supported devices**, with the previous GPU kernels retained as the capability fallback. All **54 subgroup original-CUDA accuracy comparisons pass**, plus 54 paired previous-kernel comparisons. Error metrics are identical across modes, all masks match, and worst point-map NRMSE remains **0.0943%**. No weights, precision or accuracy tolerance changed.
