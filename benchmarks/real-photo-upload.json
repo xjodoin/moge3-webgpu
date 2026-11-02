@@ -1,0 +1,19 @@
+{
+  "validated": false,
+  "passed": null,
+  "caseName": "uploaded-photo",
+  "steps": 3,
+  "progress": [
+    {
+      "pass": 1,
+      "total": 3,
+      "validated": false
+    },
+    {
+      "pass": 2,
+      "total": 3,
+      "validated": false
+    }
+  ],
+  "pool": []
+}

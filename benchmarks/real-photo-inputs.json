@@ -1,0 +1,134 @@
+[
+  {
+    "profile": "fast",
+    "caseName": "real-wood-deck",
+    "shape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "sha256": "3fd4ba40b9586212d49701797208526edc0c953874ccb876319b7f0bd7495256"
+  },
+  {
+    "profile": "fast",
+    "caseName": "real-living-room",
+    "shape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "sha256": "6f92db7c11740d08a5cd2c02cc8e64994d09252fc53917bb586bd116a61d6a20"
+  },
+  {
+    "profile": "fast",
+    "caseName": "real-coffee",
+    "shape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "sha256": "55c404d2e5c0aabea197406e2fd4b2b1cd29839a17366a8d7cad7d3191f7ea2a"
+  },
+  {
+    "profile": "fast",
+    "caseName": "real-portrait",
+    "shape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "sha256": "6d08815d07bcc94756f65b1e34b4c5c2c9cc855bd3056da1bf168b89ecafda58"
+  },
+  {
+    "profile": "fast",
+    "caseName": "real-cat",
+    "shape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "sha256": "79a4d44970220ced2a2236ec7d0877be8fa32cf4b6f137548947b346b5a905fe"
+  },
+  {
+    "profile": "fast",
+    "caseName": "real-launch",
+    "shape": [
+      1,
+      3,
+      344,
+      512
+    ],
+    "sha256": "96385b96f99affb51427f345dbfa7b123df9ce5a939e62e1fbe51ccd12ce4526"
+  },
+  {
+    "profile": "detail",
+    "caseName": "real-wood-deck",
+    "shape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "sha256": "26b7397b8b921970f2fbacfad4bb98c640f11b4fe5a572139000caa24ee21ed9"
+  },
+  {
+    "profile": "detail",
+    "caseName": "real-living-room",
+    "shape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "sha256": "e07443fc3a1d8eb0e785be563874118eb92ba01907a62bf4f506f074aa97c22b"
+  },
+  {
+    "profile": "detail",
+    "caseName": "real-coffee",
+    "shape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "sha256": "9a65cb69ca6c370ca1ae6bb244e0f305a7cf1c1c9bc4d9771629913d287b78aa"
+  },
+  {
+    "profile": "detail",
+    "caseName": "real-portrait",
+    "shape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "sha256": "182477172d021ffae3693392433338b4083aa449fa497ecc0b026b9e0388a9ed"
+  },
+  {
+    "profile": "detail",
+    "caseName": "real-cat",
+    "shape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "sha256": "20f1f6c2762b97f3be77b9696262056cabc85c6940d795aa1ec0a13ab905fee5"
+  },
+  {
+    "profile": "detail",
+    "caseName": "real-launch",
+    "shape": [
+      1,
+      3,
+      512,
+      768
+    ],
+    "sha256": "c33e3d4c5a3de90a03187fb152df996b0d7966238f2b15370fb27a38e3879c48"
+  }
+]

@@ -16,6 +16,18 @@ if (ROOT/'gpu-shader-compat.js').exists():
         assert compatibility['chrome']['comparisons']==54 and compatibility['firefox']['comparisons']==18, 'Require complete browser accuracy matrices'
     for name,digest in compatibility['sources'].items():
         assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest, 'Validate the current shader compatibility sources before release'
+autotune=json.loads((ROOT/'benchmarks/autotune-cuda.json').read_text())
+assert autotune['complete'] and len(autotune['runs'])==108 and all(r['passed'] for r in autotune['runs']), 'Require paired exact-weight autotuning regression checks'
+assert autotune['stats']['parityFailures']==0, 'Autotuning candidates must preserve FP32 results'
+compact=json.loads((ROOT/'benchmarks/autotune-compact-release.json').read_text())
+assert compact['complete'] and len(compact['runs'])==54 and all(r['passed'] and r['weightMode']=='compact' for r in compact['runs']), 'Require current production compact-weight checks'
+firefox_release=json.loads((ROOT/'benchmarks/autotune-compact-firefox-release.json').read_text())
+assert len(firefox_release['runs'])==4 and all(r['passed'] for r in firefox_release['runs']), 'Require compact production Firefox smoke tests'
+real=json.loads((ROOT/'benchmarks/real-photo-accuracy.json').read_text())
+assert real['complete'] and len(real['runs'])==72, 'Require complete real-photo evidence'
+expected={(s,e) for s in (2,3) for e in (False,True)}
+failed=[r for r in real['runs'] if not r['passed']]
+assert len(failed)<=4 and all(r['caseName']=='real-wood-deck' and r['profile']=='detail' for r in failed) and {(r['refineSteps'],r['enabled']) for r in failed}<=expected, 'Unexpected real-photo regression; known failures must remain explicitly documented'
 out=ROOT/'release/space'
 if out.exists():
     raise SystemExit('release/space already exists; move it aside before preparing a new snapshot')
@@ -100,7 +112,8 @@ shutil.copytree(ROOT/'dist',out,copy_function=os.link)
 for folder in ['licenses','benchmarks']:
     shutil.copytree(ROOT/folder,out/folder)
 shutil.copy(ROOT/'LICENSE',out/'LICENSE')
-for name in ['DOWNLOADS.md','ADAPTIVE.md','FP16.md','PROGRESSIVE.md']:
+shutil.copytree(ROOT/'fixtures/real',out/'fixtures/real')
+for name in ['DOWNLOADS.md','ADAPTIVE.md','FP16.md','PROGRESSIVE.md','AUTOTUNE.md','REAL-PHOTO-BENCHMARK.md','GPU-GEOMETRY.md','GEOMETRY-TUNING.md','LAYER-PRECISION.md']:
     if (ROOT/name).exists():shutil.copy(ROOT/name,out/name)
 readme='''---
 title: MoGe-3 WebGPU

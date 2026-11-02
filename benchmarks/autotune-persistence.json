@@ -1,0 +1,295 @@
+{
+  "before": {
+    "enabled": true,
+    "tuned": 0,
+    "cacheHits": 0,
+    "revalidated": 0,
+    "parityFailures": 0,
+    "fallbacks": 0,
+    "coldMs": 0,
+    "cacheEntries": 30,
+    "storageUnavailable": false,
+    "selected": {},
+    "records": []
+  },
+  "runs": [
+    {
+      "profile": "fast",
+      "repeat": 0,
+      "passed": true,
+      "stats": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 26,
+        "revalidated": 4,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 160.13999998569489,
+        "cacheEntries": 30,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        },
+        "records": []
+      }
+    },
+    {
+      "profile": "fast",
+      "repeat": 1,
+      "passed": true,
+      "stats": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 56,
+        "revalidated": 4,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 160.13999998569489,
+        "cacheEntries": 30,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        },
+        "records": []
+      }
+    },
+    {
+      "profile": "detail",
+      "repeat": 0,
+      "passed": true,
+      "stats": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 82,
+        "revalidated": 8,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 410.5499999523163,
+        "cacheEntries": 30,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        },
+        "records": []
+      }
+    },
+    {
+      "profile": "detail",
+      "repeat": 1,
+      "passed": true,
+      "stats": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 112,
+        "revalidated": 8,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 410.5499999523163,
+        "cacheEntries": 30,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        },
+        "records": []
+      }
+    }
+  ],
+  "pool": [],
+  "complete": true
+}

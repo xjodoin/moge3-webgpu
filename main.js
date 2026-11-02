@@ -1,3 +1,4 @@
+import {setSparseAutotune,clearSparseAutotune,sparseAutotuneStats} from './sparse-autotune.js';
 import {gpuGeometry} from './gpu-geometry.js';
 import * as ort from 'onnxruntime-web/webgpu';
 import wasmUrl from 'onnxruntime-web/ort-wasm-simd-threaded.asyncify.wasm?url';
@@ -35,6 +36,8 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   const [,,height,width]=meta.inputShape,n=width*height,options={grid:meta.grid??[272,272],width,height,sparseBackend,indexingBackend:getIndexingBackend()};
   if(!Number.isInteger(refineSteps)||refineSteps<1||refineSteps>3)throw Error('Refinement passes must be 1, 2 or 3');
   const steps=refineSteps;
+  const originalOnly=diagnostics.referenceScope==='original-only';
+  if(originalOnly&&(!validateOriginal||!withRefinement||customInput||profile==='legacy'))throw Error('Original-only validation requires a named CUDA fixture and refinement');
   document.querySelector('#steps').value=String(steps);
   const gatherBytes=options.grid[0]*options.grid[1]*27*32*4;
   if(sparseBackend==='onnx'&&adapter.limits.maxStorageBufferBindingSize<gatherBytes)throw Error('This profile requires larger GPU buffers than your device supports. Select a lower resolution.');
@@ -63,7 +66,7 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   const outputs={};
   async function check(name,actual){
    const path=steps>1&&/^(refined-|projected-|native-)/.test(name)?`${fixture}/passes/${steps}`:fixture;
-   if(!customInput)outputs[name]=compare(actual,new Float32Array(await read(`${path}/reference-${name}.f32`)),name==='native-points'?{boundaryMask:data.mask}:{});
+   if(!customInput&&!originalOnly)outputs[name]=compare(actual,new Float32Array(await read(`${path}/reference-${name}.f32`)),name==='native-points'?{boundaryMask:data.mask}:{});
   }
   let refinementMs=0,points,raw=gpuPostprocess?out.raw_coord:data.raw_coord;
   const transfers={},perPassTransfers=[];let previewMs=0;
@@ -91,7 +94,7 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   const gpuProfile=profiler?await profiler.finish():undefined;
   const validationStart=performance.now();
   if(gpuPostprocess&&!customInput)data.mask=await out.mask.getData();
-  if(!customInput){
+  if(!customInput&&!originalOnly){
    for(const [name,tensor] of Object.entries(out))await check(name,await tensor.getData());
    if(withRefinement){await check('refined-raw',gpuPostprocess?await raw.getData():raw);await check('refined-points',gpuPostprocess?await points.getData():points);}
   }
@@ -125,8 +128,9 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   const result={profile,geometryVariant:diagnostics.geometryVariant??'optimized',geometryTimings:gpuPostprocess?{...geo.lastTimings}:null,postprocess:gpuPostprocess?'gpu':'cpu',timingSemantics:gpuPostprocess?'Stage enqueue times; camera includes queued GPU work and final readback':'CPU stages synchronized by readbacks',previewMs,downloads:{before:downloadsBefore,after:modelDownloadStats()},gpuProfile,buffers:{before:bufferBefore,after:gpuBufferStats()},sessions:{...after,createdThisRun:after.created-before.created},transfers,perPassTransfers,original,validationMs:performance.now()-validationStart,gpuMemory:memory?.report(),caseName:customInput?'uploaded-photo':caseName,loadMs,inferenceMs,refinementMs,cameraMs,outputs,
    refineSteps:withRefinement?steps:0,numTokens:meta.numTokens,inputShape:meta.inputShape,backend:'webgpu',sparseBackend,cpuLearnedFallback:false,
    camera:{focal:geometry.focal,shift:geometry.shift,intrinsics:geometry.intrinsics},
-   validationReference:customInput?null:original?'original-cuda-strict-fp32':'pytorch-mlx-diagnostics',diagnosticPassed,
-   validated:!customInput,passed:customInput?null:original?(original.passed&&densePassed):diagnosticPassed};
+   validationReference:customInput?null:original?'original-cuda-strict-fp32':'pytorch-mlx-diagnostics',referenceScope:originalOnly?'original-only':'full-diagnostics',diagnosticPassed:originalOnly?null:diagnosticPassed,
+   validated:!customInput,passed:customInput?null:original?(original.passed&&(originalOnly||densePassed)):diagnosticPassed};
+  if(typeof diagnostics.onGeometry==='function')await diagnostics.onGeometry(geometry,{width,height,input});
   failed=false;window.lastResult=result;log(JSON.stringify(result,null,2));if(diagnostics.render!==false)render(geometry.points,geometry.mask,input,geometry.intrinsics,n);return result;
  }finally{
   if(ops)ops.profiler=null;profiler?.dispose();
@@ -188,3 +192,9 @@ function render(points,mask,rgb,intrinsics,n){
 // Explicit local benchmark build; excluded from ordinary production builds.
 if(import.meta.env.VITE_GEOMETRY_BENCHMARK==='1')window.runGeometryTuning=async()=>{const {benchmarkGeometryTuning}=await import('./benchmark-geometry-tuning.browser.js');return benchmarkGeometryTuning();};
 if(import.meta.env.VITE_GEOMETRY_BENCHMARK==='1')window.runGeometryTiming=async()=>{const {benchmarkGeometryTiming}=await import('./benchmark-geometry-tuning.browser.js');return benchmarkGeometryTiming();};
+
+window.setSparseAutotune=value=>{if(running)throw Error('Inference is already running');setSparseAutotune(value);};
+window.clearSparseAutotuneCache=()=>{if(running)throw Error('Inference is already running');clearSparseAutotune();};
+window.sparseAutotuneStats=()=>sparseAutotuneStats(true);
+
+if(import.meta.env.VITE_AUTOTUNE_BENCHMARK==='1')window.runAutotuneBenchmark=async (timing,options)=>{const {benchmarkAutotune}=await import('./benchmark-autotune.browser.js');return benchmarkAutotune(timing,options);};

@@ -1,0 +1,15 @@
+{
+  "main.js": "0d8330d3150a72e643027ec39c7f5f36b23789f34faab28a58887c9c3fa2b302",
+  "runtime.js": "8b2d7e93d4f76b489bb4c657ef278dc7a58135cac429154588895bd6fe1c3a86",
+  "refiner.js": "222d2c6738312d305b4de784a9380b0b2bf9dfce38310cd88c2436e55d1c8baf",
+  "sparse-block.js": "cb793d6177e5116eefd538f84a25e59d00b47e3c3f0df225c9329a318c7c65b0",
+  "subgroup-broadcast.js": "995c81d09e0d97033b33b5971471ab1e06ff221768aa5e12d279ba1f3282b7a6",
+  "sparse-autotune.js": "9e6ead0a880dcf09dd93bd175b12776a5f130653572c0cabe71fc8045a159aa5",
+  "autotune-policy.js": "b196b7cbac2413838d416e7c07f602ce898a1499a6386ba017a92db0fcdb0cad",
+  "benchmark-autotune.browser.js": "f65eac6ec98653c9dc7ff9a912b4b85b5c6c1006cc373c2188139ac7f6ce3c89",
+  "benchmark-browser.cjs": "ca46e8b7883b16d1af4b59a988891c4ea8b022c68fb9709edf61ed3a19a79547",
+  "benchmark-visual.browser.js": "3200f3fe38e2d8d8ca9ec86e9d36824cf03b30f4d4e3c4b6f4cacd3d45e1dcd4",
+  "benchmark-visual.cjs": "d44cf9d8ea546f5f17ad2bf85855acd6e214c1eeca735e08a9d787bec618a700",
+  "benchmark_original.py": "3086df77df3826a6dc2c2ba597ee67239383139befaa169f1da017f45a389d45",
+  "prepare_real_photos.py": "1fc166581d825ec5e5599ab867c52f18ace0a210eb70362e858c9f9e7e3a4c21"
+}

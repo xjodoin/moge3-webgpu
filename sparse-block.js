@@ -49,16 +49,23 @@ export async function loadSparseBlock(device,name,manifest,tileK=32,folder='refi
     try{device.queue.writeBuffer(buffer,0,bytes);}catch(error){buffer.destroy();throw error;}
     weights={gpuBuffer:buffer,dispose:()=>buffer.destroy()};
   }else weights=ops.tensor([bytes.byteLength/4],'float32',new Float32Array(bytes));
-  return new SparseBlock(device,ops,compiled,weights,meta,config);
+  return new SparseBlock(device,ops,compiled,weights,meta,config,{half});
 }
 
 class SparseBlock {
-  constructor(device,ops,compiled,weights,meta,config){Object.assign(this,{device,ops,compiled,weights,meta,config});}
+  constructor(device,ops,compiled,weights,meta,config,{half=false,ownsWeights=true}={}){Object.assign(this,{device,ops,compiled,weights,meta,config,half,ownsWeights});}
+  async withConfig(value){
+    const config=sparseConfig(value);
+    if(this.meta.channels%config.cols||(!config.baseline&&this.meta.channels%config.k))throw Error('Kernel tile does not divide channels');
+    if(config.kind==='subgroup-broadcast'&&!(await subgroup32Support(this.device)).supported)throw Error('Unsupported subgroup candidate');
+    const compiled=await compile(this.device,config,this.half);
+    return new SparseBlock(this.device,this.ops,compiled,this.weights,this.meta,config,{half:this.half,ownsWeights:false});
+  }
   run(features,neighbors,profiler){
     const [rows,c]=features.dims;
     if(c!==this.meta.channels||c%32||rows<1||neighbors.dims[0]!==rows||neighbors.dims[1]!==27)throw Error('Invalid sparse block dimensions');
     if(Math.ceil(rows/this.config.rows)>this.device.limits.maxComputeWorkgroupsPerDimension)throw Error('Too many sparse rows');
-    const fields=this.meta.fields,temporary=[],uniforms=[];
+    const fields=this.meta.fields,temporary=[],uniforms=[],pack=this.config.kind==='subgroup-broadcast'?this.config.cols/32:4;
     const tensor=()=>{const t=this.ops.tensor([rows,c]);temporary.push(t);return t;};
     let output;
     try{
@@ -72,11 +79,11 @@ class SparseBlock {
       };
       dispatch(this.compiled[0],[features.gpuBuffer,this.weights.gpuBuffer,norm.gpuBuffer],[rows,c,fields['norm1.weight'].offset,fields['norm1.bias'].offset],[Math.min(rows,65535),Math.ceil(rows/65535)],'normSilu');
       // Explicit layouts share bindings, although conv1 does not read skip.
-      dispatch(this.compiled[1],[norm.gpuBuffer,neighbors.gpuBuffer,this.weights.gpuBuffer,features.gpuBuffer,hidden.gpuBuffer],[rows,c,fields['conv1.weight'].offset/4,fields['conv1.bias'].offset/4],[Math.ceil(rows/this.config.rows),c/this.config.cols],'conv1');
-      dispatch(this.compiled[2],[hidden.gpuBuffer,neighbors.gpuBuffer,this.weights.gpuBuffer,features.gpuBuffer,output.gpuBuffer],[rows,c,fields['conv2.weight'].offset/4,fields['conv2.bias'].offset/4],[Math.ceil(rows/this.config.rows),c/this.config.cols],'conv2');
+      dispatch(this.compiled[1],[norm.gpuBuffer,neighbors.gpuBuffer,this.weights.gpuBuffer,features.gpuBuffer,hidden.gpuBuffer],[rows,c,fields['conv1.weight'].offset/pack,fields['conv1.bias'].offset/pack],[Math.ceil(rows/this.config.rows),c/this.config.cols],'conv1');
+      dispatch(this.compiled[2],[hidden.gpuBuffer,neighbors.gpuBuffer,this.weights.gpuBuffer,features.gpuBuffer,output.gpuBuffer],[rows,c,fields['conv2.weight'].offset/pack,fields['conv2.bias'].offset/pack],[Math.ceil(rows/this.config.rows),c/this.config.cols],'conv2');
       this.device.queue.submit([encoder.finish()]);return output;
     }catch(error){output?.dispose();throw error;}
     finally{for(const t of temporary)t.dispose();for(const u of uniforms)u.release();}
   }
-  release(){this.weights.dispose();}
+  release(){if(this.ownsWeights)this.weights.dispose();}
 }

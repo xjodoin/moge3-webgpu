@@ -9,6 +9,17 @@ An **unofficial, MIT-licensed browser port of MoGe-3 ViT-L**, including the orig
 
 This is an experimental port, not an official Microsoft release. Original ONNX/WGSL exports and lossless packages preserve the original FP32 learned weights. The optional [progressive package](PROGRESSIVE.md) offers smaller downloads by rounding selected encoder weights, with an exact upgrade that restores original FP32 bytes. Both modes compute in FP32. Optional [local FP16 experiments](FP16.md) halve the inference asset size but fail the existing accuracy gate, so FP16 execution remains experimental.
 
+## Latest validation and known limitation
+
+Device-specific sparse autotuning improves warm inference by 6–14% on the six
+new real-photo scenes. The original synthetic regression suite passes 54/54.
+The expanded **exact-weight** real-photo suite passes **34/36**: the deck photo
+at Detail with two or three passes exceeds the unchanged point-error threshold
+in both baseline and autotuned modes. Autotuning produces identical paired error
+metrics. These are port-fidelity tests, not physical measurement validation.
+See [the visual report](benchmarks/real-visual/index.html) and
+[full benchmark details](REAL-PHOTO-BENCHMARK.md).
+
 ## Supported release profiles
 
 | Profile | Input | Tokens | Refinement |
@@ -339,3 +350,7 @@ This project's code is MIT; third-party notices are in `licenses/`.
 - ONNX Runtime Web 1.24.3, Three.js 0.186.1, Vite 7.3.7.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for validation and upstream contribution guidance.
+
+See [FP32 sparse autotuning](AUTOTUNE.md) for the bounded device-specific kernel search and benchmark procedure.
+
+See [real-photo visual benchmark](REAL-PHOTO-BENCHMARK.md) for the expanded scene set, fresh RTX 4090 baseline, interactive depth comparisons, and the two known accuracy failures.

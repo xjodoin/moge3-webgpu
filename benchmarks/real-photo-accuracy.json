@@ -1,0 +1,3233 @@
+{
+  "cases": [
+    "real-wood-deck",
+    "real-living-room",
+    "real-coffee",
+    "real-portrait",
+    "real-cat",
+    "real-launch"
+  ],
+  "referenceScope": "original-only",
+  "repeats": 1,
+  "started": 1793636449168,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "timing": false,
+  "runs": [
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.6469993591308594,
+          "nrmse": 0.0001886434513232763,
+          "p99Abs": 0.0009140968322753906,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.384185791015625e-7,
+          "nrmse": 1.427119408562505e-7,
+          "p99Abs": 2.384185791015625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 767.7000000001863,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.6469993591308594,
+          "nrmse": 0.0001886434513232763,
+          "p99Abs": 0.0009140968322753906,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.384185791015625e-7,
+          "nrmse": 1.427119408562505e-7,
+          "p99Abs": 2.384185791015625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 719.7649999996647,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.06787991523742676,
+          "nrmse": 0.00004470794064701878,
+          "p99Abs": 0.00032806396484375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000016689300537109375,
+          "nrmse": 0.0000011449182680297125,
+          "p99Abs": 0.0000016689300537109375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 739.5849999999627,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.06787991523742676,
+          "nrmse": 0.00004470794064701878,
+          "p99Abs": 0.00032806396484375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000016689300537109375,
+          "nrmse": 0.0000011449182680297125,
+          "p99Abs": 0.0000016689300537109375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 699.5049999998882,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0012778639793395996,
+          "nrmse": 0.000008559500652649247,
+          "p99Abs": 0.000011146068572998047,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 4.76837158203125e-7,
+          "nrmse": 2.6996362616344966e-7,
+          "p99Abs": 4.76837158203125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 732.4000000003725,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0012778639793395996,
+          "nrmse": 0.000008559500652649247,
+          "p99Abs": 0.000011146068572998047,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 4.76837158203125e-7,
+          "nrmse": 2.6996362616344966e-7,
+          "p99Abs": 4.76837158203125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 688.5150000001304,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.028334617614746094,
+          "nrmse": 0.00008311210776251363,
+          "p99Abs": 0.0001475811004638672,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000045299530029296875,
+          "nrmse": 0.000002169880393517561,
+          "p99Abs": 0.0000045299530029296875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 764.2400000002235,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.028334617614746094,
+          "nrmse": 0.00008311210776251363,
+          "p99Abs": 0.0001475811004638672,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000045299530029296875,
+          "nrmse": 0.000002169880393517561,
+          "p99Abs": 0.0000045299530029296875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 717.6399999996647,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0062181949615478516,
+          "nrmse": 0.000019588751770519117,
+          "p99Abs": 0.000033915042877197266,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-7,
+          "nrmse": 5.124271391889751e-8,
+          "p99Abs": 1.1920928955078125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 760.464999999851,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0062181949615478516,
+          "nrmse": 0.000019588751770519117,
+          "p99Abs": 0.000033915042877197266,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-7,
+          "nrmse": 5.124271391889751e-8,
+          "p99Abs": 1.1920928955078125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 707.5749999997206,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.052337646484375,
+          "nrmse": 0.00003257237813742308,
+          "p99Abs": 0.00408172607421875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000007271766662597656,
+          "nrmse": 0.000003813041575382999,
+          "p99Abs": 0.000007271766662597656,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 763.429999999702,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.052337646484375,
+          "nrmse": 0.00003257237813742308,
+          "p99Abs": 0.00408172607421875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000007271766662597656,
+          "nrmse": 0.000003813041575382999,
+          "p99Abs": 0.000007271766662597656,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 716.3849999997765,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.1624298095703125,
+          "nrmse": 0.00014423548258708053,
+          "p99Abs": 0.0026760101318359375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-7,
+          "nrmse": 9.025692873644875e-8,
+          "p99Abs": 1.1920928955078125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 975.9750000000931,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.1624298095703125,
+          "nrmse": 0.00014423548258708053,
+          "p99Abs": 0.0026760101318359375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-7,
+          "nrmse": 9.025692873644875e-8,
+          "p99Abs": 1.1920928955078125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 884.8549999995157,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.04492926597595215,
+          "nrmse": 0.00009565063241932723,
+          "p99Abs": 0.0007548332214355469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.00000476837158203125,
+          "nrmse": 0.000003319894123477928,
+          "p99Abs": 0.00000476837158203125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 953.9199999999255,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.04492926597595215,
+          "nrmse": 0.00009565063241932723,
+          "p99Abs": 0.0007548332214355469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.00000476837158203125,
+          "nrmse": 0.000003319894123477928,
+          "p99Abs": 0.00000476837158203125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 828.7200000002049,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.002986311912536621,
+          "nrmse": 0.00002485960411996706,
+          "p99Abs": 0.00003361701965332031,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 5.960464477539062e-7,
+          "nrmse": 3.4927376317073156e-7,
+          "p99Abs": 5.960464477539062e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 910.0200000000186,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.002986311912536621,
+          "nrmse": 0.00002485960411996706,
+          "p99Abs": 0.00003361701965332031,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 5.960464477539062e-7,
+          "nrmse": 3.4927376317073156e-7,
+          "p99Abs": 5.960464477539062e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 826.875,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.09342265129089355,
+          "nrmse": 0.00021349012260168417,
+          "p99Abs": 0.0006220340728759766,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000004649162292480469,
+          "nrmse": 0.000002208369783558493,
+          "p99Abs": 0.000004649162292480469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 943.4050000002608,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.09342265129089355,
+          "nrmse": 0.00021349012260168417,
+          "p99Abs": 0.0006220340728759766,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000004649162292480469,
+          "nrmse": 0.000002208369783558493,
+          "p99Abs": 0.000004649162292480469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 860.2299999999814,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.008517742156982422,
+          "nrmse": 0.00008789809223072911,
+          "p99Abs": 0.00021851062774658203,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000010728836059570312,
+          "nrmse": 5.543428976564726e-7,
+          "p99Abs": 0.0000010728836059570312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 954.6300000003539,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.008517742156982422,
+          "nrmse": 0.00008789809223072911,
+          "p99Abs": 0.00021851062774658203,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000010728836059570312,
+          "nrmse": 5.543428976564726e-7,
+          "p99Abs": 0.0000010728836059570312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 854.1850000000559,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.1447601318359375,
+          "nrmse": 0.00010718821911471752,
+          "p99Abs": 0.014434814453125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000023245811462402344,
+          "nrmse": 0.00001227750976081882,
+          "p99Abs": 0.000023245811462402344,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 968.5900000003166,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.1447601318359375,
+          "nrmse": 0.00010718821911471752,
+          "p99Abs": 0.014434814453125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000023245811462402344,
+          "nrmse": 0.00001227750976081882,
+          "p99Abs": 0.000023245811462402344,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 863.785000000149,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.25614166259765625,
+          "nrmse": 0.00023892818962151856,
+          "p99Abs": 0.004475593566894531,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.384185791015625e-7,
+          "nrmse": 1.4270600926962847e-7,
+          "p99Abs": 2.384185791015625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1171.625,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.25614166259765625,
+          "nrmse": 0.00023892818962151856,
+          "p99Abs": 0.004475593566894531,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.384185791015625e-7,
+          "nrmse": 1.4270600926962847e-7,
+          "p99Abs": 2.384185791015625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1024.0499999998137,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.07420539855957031,
+          "nrmse": 0.0001545955419985529,
+          "p99Abs": 0.001691579818725586,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000011324882507324219,
+          "nrmse": 0.00000788003231445113,
+          "p99Abs": 0.000011324882507324219,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1106.3799999998882,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.07420539855957031,
+          "nrmse": 0.0001545955419985529,
+          "p99Abs": 0.001691579818725586,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000011324882507324219,
+          "nrmse": 0.00000788003231445113,
+          "p99Abs": 0.000011324882507324219,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 981.1850000000559,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.023046135902404785,
+          "nrmse": 0.00014870720942915047,
+          "p99Abs": 0.00009310245513916016,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 5.960464477539062e-7,
+          "nrmse": 3.3366786475765427e-7,
+          "p99Abs": 5.960464477539062e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1103.0800000000745,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.023046135902404785,
+          "nrmse": 0.00014870720942915047,
+          "p99Abs": 0.00009310245513916016,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 5.960464477539062e-7,
+          "nrmse": 3.3366786475765427e-7,
+          "p99Abs": 5.960464477539062e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 959.2050000000745,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.06680417060852051,
+          "nrmse": 0.00031460026850886657,
+          "p99Abs": 0.0011887550354003906,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000029802322387695312,
+          "nrmse": 0.0000013984986397634393,
+          "p99Abs": 0.0000029802322387695312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1111.535000000149,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.06680417060852051,
+          "nrmse": 0.00031460026850886657,
+          "p99Abs": 0.0011887550354003906,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000029802322387695312,
+          "nrmse": 0.0000013984986397634393,
+          "p99Abs": 0.0000029802322387695312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 992.714999999851,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.028763532638549805,
+          "nrmse": 0.00021713562445181252,
+          "p99Abs": 0.0004420280456542969,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 3.5762786865234375e-7,
+          "nrmse": 1.848027166333598e-7,
+          "p99Abs": 3.5762786865234375e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1142.5250000003725,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.028763532638549805,
+          "nrmse": 0.00021713562445181252,
+          "p99Abs": 0.0004420280456542969,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 3.5762786865234375e-7,
+          "nrmse": 1.848027166333598e-7,
+          "p99Abs": 3.5762786865234375e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1036.035000000149,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.17572021484375,
+          "nrmse": 0.0001518278028205039,
+          "p99Abs": 0.021800994873046875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000021219253540039062,
+          "nrmse": 0.000011191546408080576,
+          "p99Abs": 0.000021219253540039062,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1139.1650000000373,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.17572021484375,
+          "nrmse": 0.0001518278028205039,
+          "p99Abs": 0.021800994873046875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000021219253540039062,
+          "nrmse": 0.000011191546408080576,
+          "p99Abs": 0.000021219253540039062,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1009.3100000000559,
+      "inputShape": [
+        1,
+        3,
+        344,
+        512
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.9022483825683594,
+          "nrmse": 0.00031849953619503485,
+          "p99Abs": 0.00116729736328125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 7.152557373046875e-7,
+          "nrmse": 4.6178427190640893e-7,
+          "p99Abs": 7.152557373046875e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1174.720000000205,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.9022483825683594,
+          "nrmse": 0.00031849953619503485,
+          "p99Abs": 0.00116729736328125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 7.152557373046875e-7,
+          "nrmse": 4.6178427190640893e-7,
+          "p99Abs": 7.152557373046875e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1107.1200000001118,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.046489715576171875,
+          "nrmse": 0.000042061543116280474,
+          "p99Abs": 0.00012862682342529297,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000024437904357910156,
+          "nrmse": 0.000001734979548703111,
+          "p99Abs": 0.0000024437904357910156,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1142.5200000000186,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.046489715576171875,
+          "nrmse": 0.000042061543116280474,
+          "p99Abs": 0.00012862682342529297,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000024437904357910156,
+          "nrmse": 0.000001734979548703111,
+          "p99Abs": 0.0000024437904357910156,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1078.6299999998882,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.005870938301086426,
+          "nrmse": 0.000016205753653026788,
+          "p99Abs": 0.000012576580047607422,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 9.5367431640625e-7,
+          "nrmse": 5.240587090241866e-7,
+          "p99Abs": 9.5367431640625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1172.1949999998324,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.005870938301086426,
+          "nrmse": 0.000016205753653026788,
+          "p99Abs": 0.000012576580047607422,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 9.5367431640625e-7,
+          "nrmse": 5.240587090241866e-7,
+          "p99Abs": 9.5367431640625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1098.6150000002235,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.007218360900878906,
+          "nrmse": 0.00003609529687161765,
+          "p99Abs": 0.00018453598022460938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 7.152557373046875e-7,
+          "nrmse": 3.291763773163251e-7,
+          "p99Abs": 7.152557373046875e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1240.160000000149,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.007218360900878906,
+          "nrmse": 0.00003609529687161765,
+          "p99Abs": 0.00018453598022460938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 7.152557373046875e-7,
+          "nrmse": 3.291763773163251e-7,
+          "p99Abs": 7.152557373046875e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1182.0200000000186,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.00351715087890625,
+          "nrmse": 0.00001454378124035685,
+          "p99Abs": 0.00003838539123535156,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000017881393432617188,
+          "nrmse": 9.070174321541151e-7,
+          "p99Abs": 0.0000017881393432617188,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1239.7600000002421,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.00351715087890625,
+          "nrmse": 0.00001454378124035685,
+          "p99Abs": 0.00003838539123535156,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000017881393432617188,
+          "nrmse": 9.070174321541151e-7,
+          "p99Abs": 0.0000017881393432617188,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1157.0749999997206,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0441436767578125,
+          "nrmse": 0.000009365836781508192,
+          "p99Abs": 0.001049041748046875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 4.76837158203125e-7,
+          "nrmse": 2.591547256989541e-7,
+          "p99Abs": 4.76837158203125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1245.285000000149,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 1,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0441436767578125,
+          "nrmse": 0.000009365836781508192,
+          "p99Abs": 0.001049041748046875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 4.76837158203125e-7,
+          "nrmse": 2.591547256989541e-7,
+          "p99Abs": 4.76837158203125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1175.269999999553,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": false,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.4173641204833984,
+          "nrmse": 0.0014772962613452327,
+          "p99Abs": 0.003818511962890625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000013113021850585938,
+          "nrmse": 8.349270480624332e-7,
+          "p99Abs": 0.0000013113021850585938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": false
+      },
+      "outputs": {},
+      "computeMs": 1603.1150000002235,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": false,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.4173641204833984,
+          "nrmse": 0.0014772962613452327,
+          "p99Abs": 0.003818511962890625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000013113021850585938,
+          "nrmse": 8.349270480624332e-7,
+          "p99Abs": 0.0000013113021850585938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": false
+      },
+      "outputs": {},
+      "computeMs": 1462.4099999996834,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.16236639022827148,
+          "nrmse": 0.00014328400373770113,
+          "p99Abs": 0.0004763603210449219,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 9.5367431640625e-7,
+          "nrmse": 6.785810717494595e-7,
+          "p99Abs": 9.5367431640625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1526.5049999998882,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.16236639022827148,
+          "nrmse": 0.00014328400373770113,
+          "p99Abs": 0.0004763603210449219,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 9.5367431640625e-7,
+          "nrmse": 6.785810717494595e-7,
+          "p99Abs": 9.5367431640625e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1381.8349999999627,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0023986101150512695,
+          "nrmse": 0.000025550268073927146,
+          "p99Abs": 0.00004392862319946289,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000025033950805664062,
+          "nrmse": 0.000001386647908541214,
+          "p99Abs": 0.0000025033950805664062,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1441.8499999996275,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0023986101150512695,
+          "nrmse": 0.000025550268073927146,
+          "p99Abs": 0.00004392862319946289,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000025033950805664062,
+          "nrmse": 0.000001386647908541214,
+          "p99Abs": 0.0000025033950805664062,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1335.089999999851,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.027873992919921875,
+          "nrmse": 0.00012156529990980332,
+          "p99Abs": 0.0006549358367919922,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000010728836059570312,
+          "nrmse": 4.936816765725873e-7,
+          "p99Abs": 0.0000010728836059570312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1539.2949999999255,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.027873992919921875,
+          "nrmse": 0.00012156529990980332,
+          "p99Abs": 0.0006549358367919922,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000010728836059570312,
+          "nrmse": 4.936816765725873e-7,
+          "p99Abs": 0.0000010728836059570312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1371.839999999851,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.011621952056884766,
+          "nrmse": 0.0000595703633641969,
+          "p99Abs": 0.0001614093780517578,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000032186508178710938,
+          "nrmse": 0.0000016326699152105456,
+          "p99Abs": 0.0000032186508178710938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1518.4599999999627,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.011621952056884766,
+          "nrmse": 0.0000595703633641969,
+          "p99Abs": 0.0001614093780517578,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000032186508178710938,
+          "nrmse": 0.0000016326699152105456,
+          "p99Abs": 0.0000032186508178710938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1391.369999999646,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0587310791015625,
+          "nrmse": 0.00003964207659320011,
+          "p99Abs": 0.0063323974609375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000017881393432617188,
+          "nrmse": 9.342607809144404e-7,
+          "p99Abs": 0.0000017881393432617188,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1503.6000000000931,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 2,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.0587310791015625,
+          "nrmse": 0.00003964207659320011,
+          "p99Abs": 0.0063323974609375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000017881393432617188,
+          "nrmse": 9.342607809144404e-7,
+          "p99Abs": 0.0000017881393432617188,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1372.4550000000745,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": false,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.411722183227539,
+          "nrmse": 0.0015900238443094538,
+          "p99Abs": 0.00728607177734375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000020265579223632812,
+          "nrmse": 0.0000013142657943150163,
+          "p99Abs": 0.0000020265579223632812,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": false
+      },
+      "outputs": {},
+      "computeMs": 1793.9200000003912,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": false,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.411722183227539,
+          "nrmse": 0.0015900238443094538,
+          "p99Abs": 0.00728607177734375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000020265579223632812,
+          "nrmse": 0.0000013142657943150163,
+          "p99Abs": 0.0000020265579223632812,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": false
+      },
+      "outputs": {},
+      "computeMs": 1596.269999999553,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.20474529266357422,
+          "nrmse": 0.00017038949429711662,
+          "p99Abs": 0.0009136199951171875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.00000762939453125,
+          "nrmse": 0.000005370200830769008,
+          "p99Abs": 0.00000762939453125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1690.6850000000559,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.20474529266357422,
+          "nrmse": 0.00017038949429711662,
+          "p99Abs": 0.0009136199951171875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.00000762939453125,
+          "nrmse": 0.000005370200830769008,
+          "p99Abs": 0.00000762939453125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1495.910000000149,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.004295825958251953,
+          "nrmse": 0.00004630763013872424,
+          "p99Abs": 0.00009393692016601562,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000036954879760742188,
+          "nrmse": 0.0000020795278419754887,
+          "p99Abs": 0.0000036954879760742188,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1669.1850000000559,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.004295825958251953,
+          "nrmse": 0.00004630763013872424,
+          "p99Abs": 0.00009393692016601562,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000036954879760742188,
+          "nrmse": 0.0000020795278419754887,
+          "p99Abs": 0.0000036954879760742188,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1476.0200000000186,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.11685681343078613,
+          "nrmse": 0.0003251113243040438,
+          "p99Abs": 0.0012583732604980469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 7.152557373046875e-7,
+          "nrmse": 3.2908481294045313e-7,
+          "p99Abs": 7.152557373046875e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1713.2049999996088,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.11685681343078613,
+          "nrmse": 0.0003251113243040438,
+          "p99Abs": 0.0012583732604980469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 7.152557373046875e-7,
+          "nrmse": 3.2908481294045313e-7,
+          "p99Abs": 7.152557373046875e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1511.3849999997765,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.019594192504882812,
+          "nrmse": 0.0001696339660827974,
+          "p99Abs": 0.0003685951232910156,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000011920928955078125,
+          "nrmse": 6.142031967235825e-7,
+          "p99Abs": 0.0000011920928955078125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1814.8150000004098,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.019594192504882812,
+          "nrmse": 0.0001696339660827974,
+          "p99Abs": 0.0003685951232910156,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000011920928955078125,
+          "nrmse": 6.142031967235825e-7,
+          "p99Abs": 0.0000011920928955078125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1566.9500000001863,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": false,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.10865402221679688,
+          "nrmse": 0.0000854860449222618,
+          "p99Abs": 0.0129852294921875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000034570693969726562,
+          "nrmse": 0.000001796644355129574,
+          "p99Abs": 0.0000034570693969726562,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1796.7350000003353,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 3,
+      "repeat": 0,
+      "enabled": true,
+      "passed": true,
+      "validated": true,
+      "validationReference": "original-cuda-strict-fp32",
+      "referenceScope": "original-only",
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.10865402221679688,
+          "nrmse": 0.0000854860449222618,
+          "p99Abs": 0.0129852294921875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000034570693969726562,
+          "nrmse": 0.000001796644355129574,
+          "p99Abs": 0.0000034570693969726562,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "outputs": {},
+      "computeMs": 1597.9750000000931,
+      "inputShape": [
+        1,
+        3,
+        512,
+        768
+      ]
+    }
+  ],
+  "inputs": [],
+  "failures": [
+    {
+      "profile": "detail",
+      "steps": 2,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "repeat": 0,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.4173641204833984,
+          "nrmse": 0.0014772962613452327,
+          "p99Abs": 0.003818511962890625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000013113021850585938,
+          "nrmse": 8.349270480624332e-7,
+          "p99Abs": 0.0000013113021850585938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": false
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "repeat": 0,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.4173641204833984,
+          "nrmse": 0.0014772962613452327,
+          "p99Abs": 0.003818511962890625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000013113021850585938,
+          "nrmse": 8.349270480624332e-7,
+          "p99Abs": 0.0000013113021850585938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": false
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "repeat": 0,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.411722183227539,
+          "nrmse": 0.0015900238443094538,
+          "p99Abs": 0.00728607177734375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000020265579223632812,
+          "nrmse": 0.0000013142657943150163,
+          "p99Abs": 0.0000020265579223632812,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": false
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "repeat": 0,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.411722183227539,
+          "nrmse": 0.0015900238443094538,
+          "p99Abs": 0.00728607177734375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000020265579223632812,
+          "nrmse": 0.0000013142657943150163,
+          "p99Abs": 0.0000020265579223632812,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": false
+      }
+    }
+  ],
+  "complete": true,
+  "passed": false,
+  "stats": {
+    "enabled": true,
+    "tuned": 0,
+    "cacheHits": 1432,
+    "revalidated": 8,
+    "parityFailures": 0,
+    "fallbacks": 0,
+    "coldMs": 383.3050000006333,
+    "cacheEntries": 26,
+    "storageUnavailable": false,
+    "selected": {
+      "down_stages.0.0": {
+        "profile": "detail",
+        "bucket": 524288,
+        "id": "broadcast-8x32"
+      },
+      "down_stages.1.0": {
+        "profile": "detail",
+        "bucket": 262144,
+        "id": "broadcast-8x64"
+      },
+      "down_stages.2.0": {
+        "profile": "detail",
+        "bucket": 65536,
+        "id": "baseline"
+      },
+      "down_stages.3.0": {
+        "profile": "detail",
+        "bucket": 16384,
+        "id": "baseline"
+      },
+      "down_stages.4.0": {
+        "profile": "detail",
+        "bucket": 4096,
+        "id": "baseline"
+      },
+      "bottleneck_stage.0": {
+        "profile": "detail",
+        "bucket": 4096,
+        "id": "baseline"
+      },
+      "up_stages.0.0": {
+        "profile": "detail",
+        "bucket": 16384,
+        "id": "baseline"
+      },
+      "up_stages.1.0": {
+        "profile": "detail",
+        "bucket": 65536,
+        "id": "baseline"
+      },
+      "up_stages.2.0": {
+        "profile": "detail",
+        "bucket": 262144,
+        "id": "broadcast-4x64"
+      },
+      "up_stages.3.0": {
+        "profile": "detail",
+        "bucket": 524288,
+        "id": "broadcast-8x32"
+      }
+    },
+    "records": []
+  },
+  "finished": 1793636619635,
+  "pool": [],
+  "browserErrors": []
+}

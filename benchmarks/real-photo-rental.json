@@ -1,0 +1,13 @@
+{
+  "id": 58845517,
+  "gpu_name": "RTX 4090",
+  "dph_total": 0.4251851851851852,
+  "start_date": 1793635100.0626051,
+  "image_uuid": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-devel",
+  "verifiedDestroyed": true,
+  "endedAt": 1793636181.503266,
+  "estimatedRentalUsd": 0.1277257076928645,
+  "costNote": "Elapsed time times advertised hourly price; excludes transfer charges, not an invoice.",
+  "statusAtCapture": "running",
+  "finalStatus": "destroyed"
+}

@@ -1,0 +1,3964 @@
+{
+  "cases": [
+    "real-wood-deck",
+    "real-living-room",
+    "real-coffee",
+    "real-portrait",
+    "real-cat",
+    "real-launch"
+  ],
+  "referenceScope": "original-only",
+  "repeats": 3,
+  "started": 1793635688918,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "timing": true,
+  "runs": [
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 788.339999999851
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 737.5300000000279
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 762.8950000000186
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 715.0700000000652
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 766.9500000001863
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 713.0449999999255
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 776.5049999998882
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 738.1450000000186
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 776.0100000000093
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 723.4799999999814
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 787.6949999998324
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 741.7849999999162
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 747.4750000000931
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 800.3849999997765
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 729.4599999999627
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 786.9750000000931
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 728.5300000000279
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 777.5849999999627
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 755.0700000000652
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 799.1100000001024
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 747.8499999998603
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 798.6899999999441
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 759.1800000001676
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 820.7649999998976
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 832.6100000001024
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 773.3149999999441
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 792.0649999999441
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 745.3599999998696
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 786.059999999823
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 733.6550000000279
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 803.7000000001863
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 760.3799999998882
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 812.4749999998603
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 754.0900000000838
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 812.3449999999721
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 762.8400000000838
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1060.3949999997858
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 954.3449999999721
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1011.8449999999721
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 901.1749999998137
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 982.8949999997858
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 884.1550000000279
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1010.2899999998044
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 923.5150000001304
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1044.3799999998882
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1038.2050000000745
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1061.8500000000931
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 925.0200000000186
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 947.7099999999627
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1051.1350000000093
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 891.5499999998137
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 984.6149999999907
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 870.5250000001397
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 963.6049999999814
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 905.0900000000838
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1002.4549999998417
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 910.8700000001118
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1004.464999999851
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 916.1300000001211
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1009.3100000000559
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1021.3199999998324
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 924.3850000000093
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 979.7399999999907
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 881.0349999999162
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 986.2250000000931
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 911.3349999999627
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1017.9250000000466
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 999.2199999999721
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1002.464999999851
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 921.4200000001583
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1013.3799999998882
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 906.5299999997951
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1310.469999999972
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1104.8049999999348
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1173.875
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1037.2549999998882
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1338.7350000001024
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1146.4150000000373
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1339.4099999999162
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1133.6000000000931
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1203.1450000000186
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1072.3000000000466
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1243.5749999999534
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1175.9749999998603
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1163.4350000000559
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1326.2549999998882
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1041.3949999997858
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1185.9750000000931
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1019.6599999999162
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1162.2099999999627
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1054.0549999999348
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1218.7649999998976
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1087.2299999999814
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1265.405000000028
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1119.2549999998882
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1265.9449999998324
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1314.469999999972
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1186.0749999999534
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1252.9250000000466
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1116.1200000001118
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1181.1750000000466
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1040.0500000000466
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1246.3000000000466
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1105.1999999999534
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1292.6950000000652
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1096.5699999998324
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1253.4950000001118
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1130.344999999972
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1451.1100000001024
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1448.3599999998696
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1520.3200000000652
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1365.2099999999627
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1411.8600000001024
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1367.3549999999814
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1468.0649999999441
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1374.0800000000745
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1558.7350000001024
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1587.970000000205
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1392.9149999998044
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1275.4350000000559
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1290.035000000149
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1391.190000000177
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1269.5
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1355.964999999851
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1272.7650000001304
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1333.3850000000093
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1256.1799999999348
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1316.2900000000373
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1222.0349999999162
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1316.4350000000559
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1213.0550000001676
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1306.844999999972
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1297.0700000000652
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1232.3750000002328
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1304.4549999998417
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1191.3199999998324
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1238.1450000000186
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1157.9499999999534
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1267.2750000001397
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1199.690000000177
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1322.0700000000652
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1282.7849999999162
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1403.9399999999441
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1228.2649999998976
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1718.6799999999348
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1497.219999999972
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1657.3900000001304
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1473.844999999972
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1539.280000000028
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1380.5400000000373
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1661.5200000000186
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1482.2700000000186
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1755.9850000001024
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1434.4899999999907
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1622.7100000001956
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1483.535000000149
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1528.7350000001024
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1726.2099999999627
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1407.3000000000466
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1579.7049999998417
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1400.5700000000652
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1582.130000000121
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1452.5800000000745
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1614.6400000001304
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1466.9899999999907
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1647.4399999999441
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1564.1450000000186
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1686.8049999999348
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 1784.7350000001024
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1448.375
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 1615.5400000000373
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1474.6049999999814
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1586.2700000000186
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1406.280000000028
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1694.7549999998882
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1459.7150000000838
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 1627.9199999999255
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1467.1750000000466
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 1758.1599999999162
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1670.6149999999907
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 2546.0800000000745
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 2130.2949999999255
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 2044.780000000028
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1747.8200000000652
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 2242.119999999879
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 2358.9150000000373
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1875.1299999998882
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1780.0800000000745
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 2046.964999999851
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1742.625
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 2091.2649999998976
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1794.5149999998976
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1812.1749999998137
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 2084.320000000298
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1877.660000000149
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 2061.75
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1632.8499999998603
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1960.125
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1826.030000000028
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 2199.345000000205
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1719.8349999999627
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 2132.8549999999814
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1775.2349999998696
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 2001.565000000177
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": false,
+      "computeMs": 2021.6350000000093
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-wood-deck",
+      "enabled": true,
+      "computeMs": 1823.755000000121
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": false,
+      "computeMs": 2437.1450000000186
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-living-room",
+      "enabled": true,
+      "computeMs": 1613.030000000028
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": false,
+      "computeMs": 1873.5999999998603
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-coffee",
+      "enabled": true,
+      "computeMs": 1628.839999999851
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": false,
+      "computeMs": 1958.6700000001583
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-portrait",
+      "enabled": true,
+      "computeMs": 1693.0400000000373
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": false,
+      "computeMs": 2014.8549999999814
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-cat",
+      "enabled": true,
+      "computeMs": 1746.8299999998417
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": false,
+      "computeMs": 2061.1299999998882
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "real-launch",
+      "enabled": true,
+      "computeMs": 1899.5700000000652
+    }
+  ],
+  "inputs": [
+    {
+      "profile": "fast",
+      "photo": "real-wood-deck",
+      "sha256": "3fd4ba40b9586212d49701797208526edc0c953874ccb876319b7f0bd7495256"
+    },
+    {
+      "profile": "fast",
+      "photo": "real-living-room",
+      "sha256": "6f92db7c11740d08a5cd2c02cc8e64994d09252fc53917bb586bd116a61d6a20"
+    },
+    {
+      "profile": "fast",
+      "photo": "real-coffee",
+      "sha256": "55c404d2e5c0aabea197406e2fd4b2b1cd29839a17366a8d7cad7d3191f7ea2a"
+    },
+    {
+      "profile": "fast",
+      "photo": "real-portrait",
+      "sha256": "6d08815d07bcc94756f65b1e34b4c5c2c9cc855bd3056da1bf168b89ecafda58"
+    },
+    {
+      "profile": "fast",
+      "photo": "real-cat",
+      "sha256": "79a4d44970220ced2a2236ec7d0877be8fa32cf4b6f137548947b346b5a905fe"
+    },
+    {
+      "profile": "fast",
+      "photo": "real-launch",
+      "sha256": "96385b96f99affb51427f345dbfa7b123df9ce5a939e62e1fbe51ccd12ce4526"
+    },
+    {
+      "profile": "detail",
+      "photo": "real-wood-deck",
+      "sha256": "26b7397b8b921970f2fbacfad4bb98c640f11b4fe5a572139000caa24ee21ed9"
+    },
+    {
+      "profile": "detail",
+      "photo": "real-living-room",
+      "sha256": "e07443fc3a1d8eb0e785be563874118eb92ba01907a62bf4f506f074aa97c22b"
+    },
+    {
+      "profile": "detail",
+      "photo": "real-coffee",
+      "sha256": "9a65cb69ca6c370ca1ae6bb244e0f305a7cf1c1c9bc4d9771629913d287b78aa"
+    },
+    {
+      "profile": "detail",
+      "photo": "real-portrait",
+      "sha256": "182477172d021ffae3693392433338b4083aa449fa497ecc0b026b9e0388a9ed"
+    },
+    {
+      "profile": "detail",
+      "photo": "real-cat",
+      "sha256": "20f1f6c2762b97f3be77b9696262056cabc85c6940d795aa1ec0a13ab905fee5"
+    },
+    {
+      "profile": "detail",
+      "photo": "real-launch",
+      "sha256": "c33e3d4c5a3de90a03187fb152df996b0d7966238f2b15370fb27a38e3879c48"
+    }
+  ],
+  "complete": true,
+  "stats": {
+    "enabled": true,
+    "tuned": 26,
+    "cacheHits": 2854,
+    "revalidated": 0,
+    "parityFailures": 0,
+    "fallbacks": 0,
+    "coldMs": 20642.02000000002,
+    "cacheEntries": 26,
+    "storageUnavailable": false,
+    "selected": {
+      "down_stages.0.0": {
+        "profile": "detail",
+        "bucket": 524288,
+        "id": "broadcast-8x32"
+      },
+      "down_stages.1.0": {
+        "profile": "detail",
+        "bucket": 262144,
+        "id": "broadcast-8x64"
+      },
+      "down_stages.2.0": {
+        "profile": "detail",
+        "bucket": 65536,
+        "id": "baseline"
+      },
+      "down_stages.3.0": {
+        "profile": "detail",
+        "bucket": 16384,
+        "id": "baseline"
+      },
+      "down_stages.4.0": {
+        "profile": "detail",
+        "bucket": 4096,
+        "id": "baseline"
+      },
+      "bottleneck_stage.0": {
+        "profile": "detail",
+        "bucket": 4096,
+        "id": "baseline"
+      },
+      "up_stages.0.0": {
+        "profile": "detail",
+        "bucket": 16384,
+        "id": "baseline"
+      },
+      "up_stages.1.0": {
+        "profile": "detail",
+        "bucket": 65536,
+        "id": "baseline"
+      },
+      "up_stages.2.0": {
+        "profile": "detail",
+        "bucket": 262144,
+        "id": "broadcast-4x64"
+      },
+      "up_stages.3.0": {
+        "profile": "detail",
+        "bucket": 524288,
+        "id": "broadcast-8x32"
+      }
+    },
+    "records": [
+      {
+        "key": "e135d910678b1d82a0543601c1c5873b2d7f36df5a853fa76970939ba2e42339",
+        "layer": "down_stages.0.0",
+        "profile": "fast",
+        "rows": 301056,
+        "bucket": 524288,
+        "channels": 32,
+        "winner": "broadcast-8x32",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              19.529728,
+              19.267584,
+              19.726336,
+              19.33312,
+              19.595264
+            ]
+          },
+          {
+            "id": "broadcast-8x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              9.568256000000002,
+              9.17504,
+              9.633792,
+              9.764864,
+              9.568256
+            ]
+          },
+          {
+            "id": "broadcast-16x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              10.944512,
+              11.403264,
+              10.878976000000002,
+              11.272192,
+              10.81344
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bfa879642e8f67af5f520aef22f58ed8aed2c327e7706133e27ac0edd361e279",
+        "layer": "down_stages.1.0",
+        "profile": "fast",
+        "rows": 110814,
+        "bucket": 131072,
+        "channels": 64,
+        "winner": "broadcast-8x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              26.148864,
+              26.279936,
+              26.148864,
+              26.411008000000002,
+              26.148864
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              11.862016,
+              11.665408,
+              11.862016,
+              11.665408,
+              11.730944000000001
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              11.665408000000001,
+              11.206655999999999,
+              11.14112,
+              11.862016,
+              11.14112
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              12.713984,
+              12.77952,
+              12.45184,
+              12.648448,
+              12.517375999999999
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0fd6f3ba5f656b6f1d30113300aa46ea699e006dd0ee985b08bc63e08b55f55b",
+        "layer": "down_stages.2.0",
+        "profile": "fast",
+        "rows": 35920,
+        "bucket": 65536,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.007743999999999,
+              14.876672000000001,
+              15.138816,
+              15.400960000000001,
+              15.532032000000001
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              31.588352,
+              31.981568,
+              33.226752,
+              30.539776000000003,
+              31.916032
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              22.020096,
+              21.62688,
+              21.889024,
+              22.151168,
+              22.151168
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              26.017792,
+              25.821184,
+              26.083328,
+              26.214399999999998,
+              25.493504
+            ]
+          }
+        ]
+      },
+      {
+        "key": "5d76c81fb84164c4a301345f025ca29d86c8a3006769e5dfeaa1b2e4ab6f3415",
+        "layer": "down_stages.3.0",
+        "profile": "fast",
+        "rows": 10962,
+        "bucket": 16384,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              19.98848,
+              19.98848,
+              19.6608,
+              20.119552,
+              20.185088
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              43.122688,
+              45.154303999999996,
+              45.154303999999996,
+              42.467328,
+              42.532864000000004
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              27.262976000000002,
+              26.673152,
+              26.279936,
+              27.000832,
+              27.656191999999997
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              36.372479999999996,
+              36.70016,
+              36.634624,
+              37.748735999999994,
+              37.02784
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bf4704732e02eb118e515fc754eaf4512fcb72fda1e2a033782d59e0b4dcbe7c",
+        "layer": "down_stages.4.0",
+        "profile": "fast",
+        "rows": 3083,
+        "bucket": 4096,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              28.049408,
+              26.738688,
+              26.935296,
+              27.19744,
+              27.19744
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              67.436544,
+              69.402624,
+              66.781184,
+              68.15744000000001,
+              67.567616
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              36.634624,
+              35.979264,
+              34.799616,
+              34.53747200000001,
+              34.734080000000006
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              42.401792,
+              42.795007999999996,
+              42.729472,
+              42.729472,
+              42.467327999999995
+            ]
+          }
+        ]
+      },
+      {
+        "key": "285d8e394498783954248f0953b37c4540ade53b883ccc6e1b326082d3e158f2",
+        "layer": "bottleneck_stage.0",
+        "profile": "fast",
+        "rows": 3083,
+        "bucket": 4096,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              27.459584,
+              26.148864,
+              25.755648,
+              26.279936,
+              26.345472
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              68.026368,
+              68.41958399999999,
+              68.550656,
+              69.926912,
+              67.633152
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              35.651584,
+              36.372479999999996,
+              35.454976,
+              37.35552,
+              35.520512000000004
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              42.729472,
+              42.532864000000004,
+              42.205184,
+              42.532864000000004,
+              42.5984
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ad258cb3dc700ce4bd9aa7d5264d691b0a503bfe8a2b4484bb4b7188aa963494",
+        "layer": "up_stages.0.0",
+        "profile": "fast",
+        "rows": 10962,
+        "bucket": 16384,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              19.464191999999997,
+              19.529728,
+              20.64384,
+              20.709376,
+              19.00544
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              43.974655999999996,
+              43.974655999999996,
+              42.795007999999996,
+              41.877504,
+              43.188224
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              26.083328,
+              26.86976,
+              26.214399999999998,
+              27.000832,
+              26.411008
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              35.586048,
+              35.454976,
+              36.044799999999995,
+              37.158912,
+              36.438016
+            ]
+          }
+        ]
+      },
+      {
+        "key": "19b2c99bc6795484fb0d39bb0377613237627029b3dc5587fd78fb0a4cd58090",
+        "layer": "up_stages.1.0",
+        "profile": "fast",
+        "rows": 35920,
+        "bucket": 65536,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.138816,
+              15.400960000000001,
+              15.07328,
+              14.614528,
+              14.614528
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              32.702464,
+              31.850496,
+              32.047104,
+              31.719424,
+              31.522816
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              21.168128,
+              19.6608,
+              20.31616,
+              21.168128,
+              20.905984000000004
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              25.55904,
+              25.690112,
+              24.772607999999998,
+              25.100288,
+              25.165824
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0308fcbf4321f84d5b77467a3385510a7190d71d8b72ae005cdb3770b1a5e5b2",
+        "layer": "up_stages.2.0",
+        "profile": "fast",
+        "rows": 110814,
+        "bucket": 131072,
+        "channels": 64,
+        "winner": "broadcast-8x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              26.345472,
+              25.690112,
+              25.690112,
+              25.952256,
+              25.88672
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              11.403264,
+              11.534336,
+              11.403264,
+              11.337727999999998,
+              11.4688
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              11.010048000000001,
+              10.878976,
+              10.878976000000002,
+              10.878976,
+              10.81344
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              12.582912,
+              12.517375999999999,
+              12.45184,
+              12.320768000000001,
+              12.45184
+            ]
+          }
+        ]
+      },
+      {
+        "key": "58ccd72269d4d49c720c2110ed33016fa6fbbaed87722b68642f1ee14afb5061",
+        "layer": "up_stages.3.0",
+        "profile": "fast",
+        "rows": 301056,
+        "bucket": 524288,
+        "channels": 32,
+        "winner": "broadcast-8x32",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              18.743296,
+              19.267584,
+              19.136512000000003,
+              18.939904,
+              18.546688
+            ]
+          },
+          {
+            "id": "broadcast-8x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              9.043968,
+              9.109504000000001,
+              9.109504,
+              9.240576,
+              9.109504
+            ]
+          },
+          {
+            "id": "broadcast-16x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              10.551296,
+              10.485759999999999,
+              10.682368,
+              10.551296,
+              10.48576
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ae65968002ae8930548b6da6dfef99a5610a43616a86280d514f1efe9cc73633",
+        "layer": "down_stages.2.0",
+        "profile": "fast",
+        "rows": 30551,
+        "bucket": 32768,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              12.320768000000001,
+              12.582912,
+              12.845056,
+              12.320768000000001,
+              12.648448
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              25.296895999999997,
+              24.707072,
+              25.55904,
+              24.510464,
+              24.24832
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              19.00544,
+              18.612223999999998,
+              17.956864,
+              18.808832000000002,
+              18.415616
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              23.199744000000003,
+              22.151168,
+              22.28224,
+              22.28224,
+              22.020096000000002
+            ]
+          }
+        ]
+      },
+      {
+        "key": "dca9fd4cdf915bea91408645338db31b7fc5df6b394a6876520a7122a110d026",
+        "layer": "up_stages.1.0",
+        "profile": "fast",
+        "rows": 30551,
+        "bucket": 32768,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              12.648448,
+              12.713984,
+              12.320768000000001,
+              12.386304,
+              12.386303999999999
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              25.690112,
+              24.576,
+              24.838144,
+              24.444928,
+              24.182783999999998
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              19.529728,
+              18.35008,
+              17.563648,
+              17.956864,
+              18.874368
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              22.478848,
+              22.347775999999996,
+              22.020096,
+              21.95456,
+              21.757952
+            ]
+          }
+        ]
+      },
+      {
+        "key": "333614b1e2369fc331dbb1490032550084ff87e401a970b220acffd01a4a4469",
+        "layer": "down_stages.3.0",
+        "profile": "fast",
+        "rows": 8030,
+        "bucket": 8192,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.466496,
+              15.138815999999998,
+              15.859712,
+              15.138816,
+              14.41792
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              32.768,
+              32.243712,
+              34.406400000000005,
+              32.833536,
+              31.850496
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              20.185088,
+              19.070976,
+              20.381695999999998,
+              19.398656000000003,
+              20.119552
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              27.52512,
+              28.18048,
+              27.983871999999998,
+              28.246015999999997,
+              27.721728
+            ]
+          }
+        ]
+      },
+      {
+        "key": "4089a742c30e1531a29fc964ebfd98b3fe1e3a3eb0bbb91c6c407af337168b7b",
+        "layer": "up_stages.0.0",
+        "profile": "fast",
+        "rows": 8030,
+        "bucket": 8192,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.335424,
+              15.269888,
+              15.007743999999999,
+              14.942208,
+              15.07328
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              32.178176,
+              31.522816,
+              33.030144,
+              32.899072000000004,
+              32.571392
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              20.97152,
+              20.119552,
+              19.857408,
+              20.31616,
+              19.791871999999998
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              27.918336,
+              28.049408,
+              28.114944,
+              28.049408,
+              27.787264
+            ]
+          }
+        ]
+      },
+      {
+        "key": "231a2757fe1e568394a9ad1be101e6727c3fe571b30125c759a3db3366ecd62f",
+        "layer": "down_stages.0.0",
+        "profile": "detail",
+        "rows": 443904,
+        "bucket": 524288,
+        "channels": 32,
+        "winner": "broadcast-8x32",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              27.328512,
+              27.19744,
+              27.590656000000003,
+              27.52512,
+              27.459584
+            ]
+          },
+          {
+            "id": "broadcast-8x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              13.172736,
+              13.107199999999999,
+              13.041664,
+              13.172736,
+              13.238271999999998
+            ]
+          },
+          {
+            "id": "broadcast-16x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.269888,
+              15.204352,
+              15.138816,
+              15.269888,
+              15.07328
+            ]
+          }
+        ]
+      },
+      {
+        "key": "9a4793dfed834679bba3fb059d9bfc9837fcc71dd89400798deee4524babadfc",
+        "layer": "down_stages.1.0",
+        "profile": "detail",
+        "rows": 155314,
+        "bucket": 262144,
+        "channels": 64,
+        "winner": "broadcast-8x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              36.306944,
+              35.782656,
+              35.848192,
+              35.848192,
+              36.70016
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              16.842752,
+              15.925248,
+              15.400960000000001,
+              15.466496,
+              15.400960000000001
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.07328,
+              15.07328,
+              15.269888000000002,
+              14.942208,
+              14.942208
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              18.087936,
+              17.367040000000003,
+              17.36704,
+              17.104896,
+              16.842752
+            ]
+          }
+        ]
+      },
+      {
+        "key": "041869a48a3981473116d31a3037726ca2ed5ae40e33cd258a772a5c78422824",
+        "layer": "down_stages.2.0",
+        "profile": "detail",
+        "rows": 48889,
+        "bucket": 65536,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              19.857408,
+              20.185088,
+              20.054016,
+              19.660800000000002,
+              20.119552
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              41.877504,
+              42.991616,
+              42.860544,
+              42.27072,
+              42.139648
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              27.721728,
+              27.459584,
+              27.000832000000003,
+              26.738688,
+              27.394048
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              33.75104,
+              33.292288,
+              33.357824,
+              33.161215999999996,
+              33.09568
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ec58dd68151e85efa6be9f78e064323e09cc17edba37b205a0abe3e7138eae5d",
+        "layer": "down_stages.3.0",
+        "profile": "detail",
+        "rows": 14679,
+        "bucket": 16384,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              26.279936,
+              26.017792,
+              25.427968,
+              25.100288,
+              25.559040000000003
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              56.164351999999994,
+              57.409536,
+              57.01632,
+              57.147391999999996,
+              58.261504
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              34.340863999999996,
+              34.013183999999995,
+              33.685503999999995,
+              34.4064,
+              34.406400000000005
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              46.596096,
+              46.727168,
+              47.251456,
+              48.562176,
+              47.251456000000005
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0abb2990cd3e57b0665d321540b1c3a6b126d7bfd6359d9fbefe5d42a5d73568",
+        "layer": "down_stages.4.0",
+        "profile": "detail",
+        "rows": 4158,
+        "bucket": 8192,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              36.438016000000005,
+              35.520512,
+              35.71712,
+              34.406400000000005,
+              35.323904
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              93.3888,
+              96.272384,
+              88.997888,
+              90.701824,
+              90.898432
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              45.54752,
+              46.792704,
+              45.87520000000001,
+              46.792704,
+              45.285376
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              56.492032,
+              58.458112,
+              56.819712,
+              56.360960000000006,
+              56.360960000000006
+            ]
+          }
+        ]
+      },
+      {
+        "key": "5b1671f6a961c4295bbd3b2f560978bfb9bc789050f0fc06e2b2f097bc2c3999",
+        "layer": "bottleneck_stage.0",
+        "profile": "detail",
+        "rows": 4158,
+        "bucket": 8192,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              35.913728000000006,
+              36.438016000000005,
+              36.0448,
+              34.996224,
+              36.56908800000001
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              91.09504000000001,
+              90.24307200000001,
+              91.815936,
+              91.619328,
+              90.046464
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              45.219840000000005,
+              46.006272,
+              46.399488000000005,
+              45.219840000000005,
+              45.088768
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              56.033280000000005,
+              56.492032,
+              56.426496,
+              56.098816,
+              56.754176
+            ]
+          }
+        ]
+      },
+      {
+        "key": "56561b80fdafe4811c0967ed9ee4753af6566991f96fbde183c0771a3510ecd2",
+        "layer": "up_stages.0.0",
+        "profile": "detail",
+        "rows": 14679,
+        "bucket": 16384,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              26.673152,
+              28.835839999999997,
+              29.81888,
+              30.015487999999998,
+              30.932992
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              61.210623999999996,
+              65.339392,
+              68.419584,
+              72.548352,
+              72.286208
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              36.372479999999996,
+              37.617664000000005,
+              39.452672,
+              40.239104,
+              41.222144
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              52.297728,
+              54.39488,
+              55.246848,
+              57.081856,
+              59.834368
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0082c5caf3d5f25851553c7127d2fa6e88e43cef0b9638649dce291cc4a624e7",
+        "layer": "up_stages.1.0",
+        "profile": "detail",
+        "rows": 48889,
+        "bucket": 65536,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              25.034751999999997,
+              25.231360000000002,
+              25.427968,
+              25.427968,
+              26.279936
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              54.919168,
+              52.690944,
+              53.08416,
+              53.870592,
+              54.72256
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              35.192831999999996,
+              33.619968,
+              33.42336,
+              35.38943999999999,
+              34.078720000000004
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              41.943039999999996,
+              42.336256000000006,
+              41.943039999999996,
+              43.057152,
+              43.188224
+            ]
+          }
+        ]
+      },
+      {
+        "key": "8376ed25f24915dfc3b3bbc954594acc9189b16207e4bcb11b4e86c6afb24a56",
+        "layer": "up_stages.2.0",
+        "profile": "detail",
+        "rows": 155314,
+        "bucket": 262144,
+        "channels": 64,
+        "winner": "broadcast-4x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              49.217535999999996,
+              52.756479999999996,
+              52.428799999999995,
+              52.822016000000005,
+              53.805056
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              22.020096,
+              19.988480000000003,
+              20.971519999999998,
+              21.037056,
+              20.905983999999997
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              21.168128000000003,
+              21.168128,
+              21.95456,
+              22.478848,
+              22.020096
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              23.724032,
+              24.510464,
+              24.969215999999996,
+              24.969216,
+              25.362432
+            ]
+          }
+        ]
+      },
+      {
+        "key": "322c0f9e18c94f838a8f298bbfe1bbc3c2e5ad44a04169ceaa993005b58b9e3d",
+        "layer": "up_stages.3.0",
+        "profile": "detail",
+        "rows": 443904,
+        "bucket": 524288,
+        "channels": 32,
+        "winner": "broadcast-8x32",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              42.074112,
+              41.353216,
+              41.353216,
+              41.484288,
+              41.222144
+            ]
+          },
+          {
+            "id": "broadcast-8x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              21.823487999999998,
+              20.054016,
+              20.185088,
+              20.119552,
+              19.791872
+            ]
+          },
+          {
+            "id": "broadcast-16x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              23.265279999999997,
+              22.544384,
+              22.740992,
+              23.199744000000003,
+              22.544384
+            ]
+          }
+        ]
+      },
+      {
+        "key": "df73a431d627941f9b384aab9a0c01296380c9e880f5bdf324f3e4df23b60ad7",
+        "layer": "down_stages.4.0",
+        "profile": "detail",
+        "rows": 3407,
+        "bucket": 4096,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              34.930688,
+              34.603008,
+              33.882112000000006,
+              33.75104,
+              34.471936
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              84.27929599999999,
+              82.18214400000001,
+              83.755008,
+              87.031808,
+              85.06572800000001
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              43.057152,
+              43.778048,
+              45.547520000000006,
+              45.023232,
+              44.761088
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              61.079552,
+              60.29312,
+              61.145088,
+              62.128128000000004,
+              64.028672
+            ]
+          }
+        ]
+      },
+      {
+        "key": "71e39592ff4f9127d252f7d7b55737946521764f6042c1a7c315cb832a43d498",
+        "layer": "bottleneck_stage.0",
+        "profile": "detail",
+        "rows": 3407,
+        "bucket": 4096,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              36.831232,
+              36.110336,
+              34.799616,
+              35.192832,
+              34.799616
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              84.344832,
+              85.32787199999999,
+              85.983232,
+              84.082688,
+              82.50982400000001
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              46.596096,
+              47.316992,
+              49.545216,
+              46.006271999999996,
+              48.431104
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              66.19136,
+              65.60153600000001,
+              66.387968,
+              65.667072,
+              65.20832
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "finished": 1793636055473,
+  "pool": [],
+  "browserErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}

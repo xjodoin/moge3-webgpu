@@ -1,0 +1,3389 @@
+{
+  "started": 1793633667618,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "timing": true,
+  "runs": [
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1139.4899998903275
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1082.1999999284744
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1214.1949999332428
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1106.664999961853
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1207.7949999570847
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1105.2549999952316
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1049.3900001049042
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1100.625
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1021.4350000619888
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1065.4449999332428
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1060.3199999332428
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1177.6399999856949
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1053.5099999904633
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 970.8849999904633
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1064.5199999809265
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1019.0649999380112
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1174.7300000190735
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1024.829999923706
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1319.8850001096725
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1160.1599999666214
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1372.8100000619888
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1187.4850000143051
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1420.6050000190735
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1267.1699999570847
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1149.1599999666214
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1243.7599999904633
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1135.7699999809265
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1286.1100000143051
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1261.329999923706
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1421.4349999427795
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1247.5349999666214
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1104.804999947548
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1320.8549998998642
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1137.914999961853
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1394.085000038147
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1219.4399999380112
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1467.2350000143051
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1270.2200000286102
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1492.9650000333786
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1282.6299999952316
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1641.6399999856949
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1599.9399999380112
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1155.5999999046326
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1379.3950001001358
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1309.1449999809265
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1473.7250000238419
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1470.4500000476837
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1630.0800000429153
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1578.2749999761581
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1282.5750000476837
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1752.7700001001358
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1467.1299999952316
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1633.1350001096725
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1516.179999947548
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1810.2799999713898
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1623.2699999809265
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1595.7849999666214
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1420.3949999809265
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1673.445000052452
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1564.1899999380112
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1414.0149999856949
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1497.9800000190735
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1641.3150000572205
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1805.4350000619888
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1752.210000038147
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1881.8000000715256
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1731.375
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1509.3550000190735
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 1688.9300000667572
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1566.9449999332428
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 1746
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1719.0749999284744
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 2081.235000014305
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1803.054999947548
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 2082.8450000286102
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1803.960000038147
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 2201.4900000095367
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1866.25
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1748.2150000333786
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 1995.9099999666214
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1785.3500000238419
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 2178.5499999523163
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 2035.9249999523163
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 2211.6299999952316
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 2132.9900000095367
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1918.929999947548
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 2000.2699999809265
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 1793.7549999952316
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 2072.8650000095367
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 1884.2450000047684
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 2405.024999976158
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1950.2350000143051
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 2337.5750000476837
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 2034.6899999380112
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 2601.960000038147
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 2265.405000090599
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 2166.5999999046326
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 2681.7400000095367
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 2536.5749999284744
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 2388.639999985695
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 2660.814999938011
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 1,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 3172.1549999713898
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": false,
+      "computeMs": 2317.789999961853
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "sample-backyard",
+      "enabled": true,
+      "computeMs": 1968.6200000047684
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": false,
+      "computeMs": 2358.414999961853
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "brick-ranch",
+      "enabled": true,
+      "computeMs": 2017.0750000476837
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": false,
+      "computeMs": 2537.204999923706
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 2,
+      "photo": "raised-deck",
+      "enabled": true,
+      "computeMs": 2227.539999961853
+    }
+  ],
+  "inputs": [
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "sha256": "68c33262cbecb05c256cdb18237e35c774d4c56f1016054fdad87d0737db2409"
+    },
+    {
+      "profile": "fast",
+      "photo": "brick-ranch",
+      "sha256": "72a78a720f90ed9ba2bf92f3f49d612eaffdfdf8ba0c0b5bc95e341614322b30"
+    },
+    {
+      "profile": "fast",
+      "photo": "raised-deck",
+      "sha256": "5e5af95d50002943f38b904ced5a1851be626349d6b7e9f73e44520d5a170ce3"
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "sha256": "9d4637de0fbcd650c92795c6a39ee0594f4faf29dad162838b8835c19941580d"
+    },
+    {
+      "profile": "detail",
+      "photo": "brick-ranch",
+      "sha256": "33fb61ebee682a850ca02e6962196a5f8026766ad80ad143722379ec28762331"
+    },
+    {
+      "profile": "detail",
+      "photo": "raised-deck",
+      "sha256": "097b32552a691a76279b552fa0ff9ab05521e8ac2f055c2db8f6049c1e929a38"
+    }
+  ],
+  "complete": true,
+  "stats": {
+    "enabled": true,
+    "tuned": 30,
+    "cacheHits": 2850,
+    "revalidated": 0,
+    "parityFailures": 0,
+    "fallbacks": 0,
+    "coldMs": 26996.789999723434,
+    "cacheEntries": 30,
+    "storageUnavailable": false,
+    "selected": {
+      "down_stages.0.0": {
+        "profile": "detail",
+        "bucket": 524288,
+        "id": "broadcast-8x32"
+      },
+      "down_stages.1.0": {
+        "profile": "detail",
+        "bucket": 262144,
+        "id": "broadcast-4x64"
+      },
+      "down_stages.2.0": {
+        "profile": "detail",
+        "bucket": 65536,
+        "id": "baseline"
+      },
+      "down_stages.3.0": {
+        "profile": "detail",
+        "bucket": 32768,
+        "id": "baseline"
+      },
+      "down_stages.4.0": {
+        "profile": "detail",
+        "bucket": 8192,
+        "id": "baseline"
+      },
+      "bottleneck_stage.0": {
+        "profile": "detail",
+        "bucket": 8192,
+        "id": "baseline"
+      },
+      "up_stages.0.0": {
+        "profile": "detail",
+        "bucket": 32768,
+        "id": "baseline"
+      },
+      "up_stages.1.0": {
+        "profile": "detail",
+        "bucket": 65536,
+        "id": "baseline"
+      },
+      "up_stages.2.0": {
+        "profile": "detail",
+        "bucket": 262144,
+        "id": "broadcast-4x64"
+      },
+      "up_stages.3.0": {
+        "profile": "detail",
+        "bucket": 524288,
+        "id": "broadcast-8x32"
+      }
+    },
+    "records": [
+      {
+        "key": "e135d910678b1d82a0543601c1c5873b2d7f36df5a853fa76970939ba2e42339",
+        "layer": "down_stages.0.0",
+        "profile": "fast",
+        "rows": 301056,
+        "bucket": 524288,
+        "channels": 32,
+        "winner": "broadcast-8x32",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              18.67776,
+              18.612223999999998,
+              18.481152,
+              18.612223999999998,
+              18.612223999999998
+            ]
+          },
+          {
+            "id": "broadcast-8x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              8.060928,
+              8.126464,
+              8.192,
+              8.257536,
+              8.060928
+            ]
+          },
+          {
+            "id": "broadcast-16x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              9.764864,
+              9.633792,
+              9.699328000000001,
+              9.568256,
+              9.568256
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bfa879642e8f67af5f520aef22f58ed8aed2c327e7706133e27ac0edd361e279",
+        "layer": "down_stages.1.0",
+        "profile": "fast",
+        "rows": 118603,
+        "bucket": 131072,
+        "channels": 64,
+        "winner": "broadcast-8x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              27.459584,
+              27.394047999999998,
+              27.590656,
+              27.066368,
+              27.19744
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              11.206655999999999,
+              11.337728,
+              11.272192,
+              11.272192,
+              11.272192
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              11.141119999999999,
+              10.878976,
+              10.944512,
+              10.944512,
+              10.944512
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              12.320768000000001,
+              12.320768000000001,
+              12.320768,
+              12.45184,
+              12.45184
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0fd6f3ba5f656b6f1d30113300aa46ea699e006dd0ee985b08bc63e08b55f55b",
+        "layer": "down_stages.2.0",
+        "profile": "fast",
+        "rows": 38355,
+        "bucket": 65536,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.335424,
+              14.942208,
+              15.204352,
+              15.07328,
+              15.466496
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              34.996224,
+              34.144256,
+              34.668544,
+              34.275328,
+              34.799616
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              21.561344000000002,
+              20.709376,
+              19.922944,
+              20.250624000000002,
+              20.774912
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              26.214399999999998,
+              25.100288,
+              25.231360000000002,
+              25.362432000000002,
+              24.90368
+            ]
+          }
+        ]
+      },
+      {
+        "key": "5d76c81fb84164c4a301345f025ca29d86c8a3006769e5dfeaa1b2e4ab6f3415",
+        "layer": "down_stages.3.0",
+        "profile": "fast",
+        "rows": 10865,
+        "bucket": 16384,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              18.35008,
+              18.939904,
+              18.219008,
+              19.202047999999998,
+              18.67776
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              44.761088,
+              44.892160000000004,
+              45.02323200000001,
+              45.940736,
+              46.137344
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              24.969216,
+              24.90368,
+              24.379392,
+              24.576,
+              24.313856
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              32.44032,
+              33.42336,
+              32.833535999999995,
+              33.357823999999994,
+              32.964608
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bf4704732e02eb118e515fc754eaf4512fcb72fda1e2a033782d59e0b4dcbe7c",
+        "layer": "down_stages.4.0",
+        "profile": "fast",
+        "rows": 2890,
+        "bucket": 4096,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              25.100288,
+              22.216704,
+              23.330816,
+              23.527424,
+              24.838144
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              66.125824,
+              63.373312,
+              64.35635199999999,
+              65.011712,
+              64.815104
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              29.884416,
+              29.753344,
+              30.277632,
+              31.588352,
+              30.212096000000003
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              37.6832,
+              37.289984000000004,
+              37.617664000000005,
+              37.748736,
+              37.093376
+            ]
+          }
+        ]
+      },
+      {
+        "key": "285d8e394498783954248f0953b37c4540ade53b883ccc6e1b326082d3e158f2",
+        "layer": "bottleneck_stage.0",
+        "profile": "fast",
+        "rows": 2890,
+        "bucket": 4096,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              24.379392000000003,
+              22.609920000000002,
+              23.855103999999997,
+              23.134208,
+              23.199744
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              63.963136000000006,
+              64.22528,
+              64.487424,
+              65.86368,
+              64.22528
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              29.622272,
+              31.260672,
+              30.14656,
+              31.195135999999998,
+              30.015488
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              37.814272,
+              37.552128,
+              37.289984000000004,
+              37.486592,
+              37.6832
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ad258cb3dc700ce4bd9aa7d5264d691b0a503bfe8a2b4484bb4b7188aa963494",
+        "layer": "up_stages.0.0",
+        "profile": "fast",
+        "rows": 10865,
+        "bucket": 16384,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              19.202047999999998,
+              19.136512,
+              18.35008,
+              19.00544,
+              18.35008
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              45.547520000000006,
+              45.547520000000006,
+              45.350912,
+              45.088768,
+              44.695552
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              24.510464,
+              24.117248,
+              23.789568,
+              23.92064,
+              24.051712
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              33.226752,
+              33.226752000000005,
+              32.768,
+              33.292288,
+              33.161215999999996
+            ]
+          }
+        ]
+      },
+      {
+        "key": "19b2c99bc6795484fb0d39bb0377613237627029b3dc5587fd78fb0a4cd58090",
+        "layer": "up_stages.1.0",
+        "profile": "fast",
+        "rows": 38355,
+        "bucket": 65536,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.07328,
+              15.400960000000001,
+              15.007744,
+              15.07328,
+              15.07328
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              34.603008,
+              34.603008,
+              34.537472,
+              34.144256,
+              34.73408
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              21.2992,
+              21.102592,
+              20.447232,
+              20.709376,
+              20.709376
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              26.083328,
+              25.296896,
+              25.362432,
+              25.427968,
+              25.100288
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0308fcbf4321f84d5b77467a3385510a7190d71d8b72ae005cdb3770b1a5e5b2",
+        "layer": "up_stages.2.0",
+        "profile": "fast",
+        "rows": 118603,
+        "bucket": 131072,
+        "channels": 64,
+        "winner": "broadcast-8x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              27.066367999999997,
+              27.131904,
+              27.066368,
+              27.000832000000003,
+              27.19744
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              11.337728,
+              11.403264,
+              11.206655999999999,
+              11.272192,
+              11.14112
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              10.878976,
+              10.81344,
+              10.81344,
+              10.944512,
+              10.944512
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              12.189696,
+              12.386303999999999,
+              12.648447999999998,
+              12.517375999999999,
+              12.386303999999999
+            ]
+          }
+        ]
+      },
+      {
+        "key": "58ccd72269d4d49c720c2110ed33016fa6fbbaed87722b68642f1ee14afb5061",
+        "layer": "up_stages.3.0",
+        "profile": "fast",
+        "rows": 301056,
+        "bucket": 524288,
+        "channels": 32,
+        "winner": "broadcast-8x32",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              18.939904,
+              18.546688,
+              18.415616,
+              18.481152,
+              18.35008
+            ]
+          },
+          {
+            "id": "broadcast-8x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              9.8304,
+              8.060928,
+              8.060928,
+              8.060928,
+              8.060928
+            ]
+          },
+          {
+            "id": "broadcast-16x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              9.568256,
+              9.568256,
+              9.633792,
+              9.568256,
+              9.50272
+            ]
+          }
+        ]
+      },
+      {
+        "key": "3f8229e43ef8a5a499c9158ce1b67152b290e064183bd3526866d46df1d19b0f",
+        "layer": "down_stages.1.0",
+        "profile": "fast",
+        "rows": 135177,
+        "bucket": 262144,
+        "channels": 64,
+        "winner": "broadcast-4x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              31.326208,
+              31.326208,
+              31.326208,
+              31.260672,
+              31.064064000000002
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              13.500416000000001,
+              13.172736,
+              12.779520000000002,
+              12.910592000000001,
+              12.910592000000001
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              12.779520000000002,
+              12.976128,
+              13.303808,
+              12.845056,
+              13.041664
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              14.876672,
+              14.680064,
+              14.942208,
+              14.876672,
+              14.942208
+            ]
+          }
+        ]
+      },
+      {
+        "key": "c97b6eeaa0f396e7f2ce569922574c35e724013a4b14de07edb606ce9b429e5b",
+        "layer": "down_stages.4.0",
+        "profile": "fast",
+        "rows": 4304,
+        "bucket": 8192,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              42.139648,
+              38.404095999999996,
+              40.108032,
+              38.535168,
+              40.042496
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              106.36492799999999,
+              106.758144,
+              101.58080000000001,
+              102.105088,
+              101.25312
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              49.47968,
+              47.185919999999996,
+              48.16896,
+              46.661632,
+              45.088768
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              59.96544,
+              59.572224000000006,
+              59.37561600000001,
+              59.572224000000006,
+              59.572224000000006
+            ]
+          }
+        ]
+      },
+      {
+        "key": "9feb9346154f722a34ad6280200b57a3af8a2e7fd5ef8023f2823cd685494e29",
+        "layer": "bottleneck_stage.0",
+        "profile": "fast",
+        "rows": 4304,
+        "bucket": 8192,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              39.649280000000005,
+              39.321600000000004,
+              38.797312000000005,
+              38.862848,
+              38.731775999999996
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              102.760448,
+              103.940096,
+              105.119744,
+              102.694912,
+              103.743488
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              47.448064,
+              49.938432,
+              48.82432,
+              46.465024,
+              46.596096
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              61.07955200000001,
+              59.703296,
+              59.047936,
+              60.030975999999995,
+              59.506688
+            ]
+          }
+        ]
+      },
+      {
+        "key": "e181bf35860b07af21bf20e3c4d9dacd773bf367a76d242b441a91c1e627cbfc",
+        "layer": "up_stages.2.0",
+        "profile": "fast",
+        "rows": 135177,
+        "bucket": 262144,
+        "channels": 64,
+        "winner": "broadcast-8x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              31.260672,
+              31.064064000000002,
+              31.260672,
+              31.260672,
+              31.195135999999998
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              14.483456,
+              13.43488,
+              12.845056,
+              12.910592000000001,
+              12.648448
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              13.303808,
+              13.238271999999998,
+              12.648448000000002,
+              12.779520000000002,
+              12.779520000000002
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              14.876672,
+              15.335424,
+              15.007744,
+              14.876672,
+              14.7456
+            ]
+          }
+        ]
+      },
+      {
+        "key": "231a2757fe1e568394a9ad1be101e6727c3fe571b30125c759a3db3366ecd62f",
+        "layer": "down_stages.0.0",
+        "profile": "detail",
+        "rows": 443904,
+        "bucket": 524288,
+        "channels": 32,
+        "winner": "broadcast-8x32",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              28.50816,
+              29.360128,
+              29.229056,
+              29.360128,
+              29.556736
+            ]
+          },
+          {
+            "id": "broadcast-8x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              12.451839999999999,
+              12.517376,
+              13.303808,
+              13.041664,
+              13.1072
+            ]
+          },
+          {
+            "id": "broadcast-16x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.07328,
+              15.40096,
+              15.466496,
+              15.400960000000001,
+              16.515072
+            ]
+          }
+        ]
+      },
+      {
+        "key": "9a4793dfed834679bba3fb059d9bfc9837fcc71dd89400798deee4524babadfc",
+        "layer": "down_stages.1.0",
+        "profile": "detail",
+        "rows": 167977,
+        "bucket": 262144,
+        "channels": 64,
+        "winner": "broadcast-4x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              40.828928,
+              41.680896000000004,
+              43.122688,
+              42.729472,
+              43.057152
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              18.0224,
+              17.36704,
+              18.219008000000002,
+              17.170431999999998,
+              17.03936
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              18.284544,
+              18.087936,
+              19.070976,
+              18.612224,
+              18.612223999999998
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              20.971519999999998,
+              19.988480000000003,
+              21.168128,
+              20.447232,
+              20.578304
+            ]
+          }
+        ]
+      },
+      {
+        "key": "041869a48a3981473116d31a3037726ca2ed5ae40e33cd258a772a5c78422824",
+        "layer": "down_stages.2.0",
+        "profile": "detail",
+        "rows": 52920,
+        "bucket": 65536,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              22.806528,
+              23.003135999999998,
+              23.068672,
+              23.068672,
+              23.199744000000003
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              50.331648,
+              48.889856,
+              49.80736,
+              49.872896,
+              50.331648
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              28.311552,
+              29.687807999999997,
+              30.14656,
+              29.884416,
+              30.539776000000003
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              36.175872,
+              35.913728,
+              37.289984000000004,
+              35.71712,
+              36.962304
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ec58dd68151e85efa6be9f78e064323e09cc17edba37b205a0abe3e7138eae5d",
+        "layer": "down_stages.3.0",
+        "profile": "detail",
+        "rows": 14958,
+        "bucket": 16384,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              30.343168,
+              29.81888,
+              29.556736,
+              29.16352,
+              28.114944
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              66.125824,
+              66.06028799999999,
+              66.45350400000001,
+              66.125824,
+              66.84672
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              36.372479999999996,
+              36.503552,
+              37.224448,
+              36.372479999999996,
+              36.700160000000004
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              51.380224,
+              49.545215999999996,
+              49.80736,
+              49.086464,
+              50.528256
+            ]
+          }
+        ]
+      },
+      {
+        "key": "df73a431d627941f9b384aab9a0c01296380c9e880f5bdf324f3e4df23b60ad7",
+        "layer": "down_stages.4.0",
+        "profile": "detail",
+        "rows": 3940,
+        "bucket": 4096,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              37.748736,
+              34.930688,
+              38.01088,
+              36.831232,
+              36.306944
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              100.07347200000001,
+              94.633984,
+              92.471296,
+              97.386496,
+              100.466688
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              41.549824,
+              44.17126400000001,
+              44.105728,
+              41.156608000000006,
+              42.99161600000001
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              54.853632000000005,
+              55.574528,
+              54.525952000000004,
+              53.608448,
+              55.771136
+            ]
+          }
+        ]
+      },
+      {
+        "key": "71e39592ff4f9127d252f7d7b55737946521764f6042c1a7c315cb832a43d498",
+        "layer": "bottleneck_stage.0",
+        "profile": "detail",
+        "rows": 3940,
+        "bucket": 4096,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              34.406400000000005,
+              34.668544,
+              34.07872,
+              36.110336000000004,
+              35.913728000000006
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              101.711872,
+              104.8576,
+              95.617024,
+              92.274688,
+              99.94239999999999
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              39.911424000000004,
+              40.173568,
+              46.53056,
+              42.27072,
+              37.814272
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              50.659328,
+              50.921472,
+              51.576832,
+              50.855936,
+              51.707904
+            ]
+          }
+        ]
+      },
+      {
+        "key": "56561b80fdafe4811c0967ed9ee4753af6566991f96fbde183c0771a3510ecd2",
+        "layer": "up_stages.0.0",
+        "profile": "detail",
+        "rows": 14958,
+        "bucket": 16384,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              28.704768,
+              28.246016,
+              28.770304,
+              27.918336,
+              27.656191999999997
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              66.19136,
+              64.028672,
+              65.404928,
+              64.684032,
+              65.20832
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              35.520512,
+              33.554432,
+              35.520512,
+              33.09568,
+              32.11264
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              47.906816,
+              47.5136,
+              49.020928,
+              46.596096,
+              46.792704
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0082c5caf3d5f25851553c7127d2fa6e88e43cef0b9638649dce291cc4a624e7",
+        "layer": "up_stages.1.0",
+        "profile": "detail",
+        "rows": 52920,
+        "bucket": 65536,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              21.95456,
+              22.151168,
+              22.478848,
+              21.95456,
+              22.151168
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              50.593792,
+              48.49664,
+              48.758784,
+              49.348608,
+              49.217535999999996
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              30.670848,
+              29.360128000000003,
+              29.4912,
+              28.83584,
+              29.16352
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              37.486592,
+              36.503552,
+              36.896767999999994,
+              36.896767999999994,
+              36.569087999999994
+            ]
+          }
+        ]
+      },
+      {
+        "key": "8376ed25f24915dfc3b3bbc954594acc9189b16207e4bcb11b4e86c6afb24a56",
+        "layer": "up_stages.2.0",
+        "profile": "detail",
+        "rows": 167977,
+        "bucket": 262144,
+        "channels": 64,
+        "winner": "broadcast-4x64",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              42.27072,
+              42.729472,
+              41.811968,
+              42.401792,
+              42.795007999999996
+            ]
+          },
+          {
+            "id": "broadcast-4x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              21.95456,
+              17.432576,
+              16.973824,
+              16.973824,
+              16.973824
+            ]
+          },
+          {
+            "id": "broadcast-8x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              18.284544,
+              18.546688000000003,
+              17.825792,
+              18.219008,
+              18.153472
+            ]
+          },
+          {
+            "id": "broadcast-16x64",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 64,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              20.119552,
+              20.250624000000002,
+              19.595264,
+              20.119552,
+              20.185088
+            ]
+          }
+        ]
+      },
+      {
+        "key": "322c0f9e18c94f838a8f298bbfe1bbc3c2e5ad44a04169ceaa993005b58b9e3d",
+        "layer": "up_stages.3.0",
+        "profile": "detail",
+        "rows": 443904,
+        "bucket": 524288,
+        "channels": 32,
+        "winner": "broadcast-8x32",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "baseline": true,
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "none"
+            },
+            "exact": true,
+            "samples": [
+              32.047104000000004,
+              29.360128,
+              28.770304000000003,
+              29.163520000000002,
+              29.4912
+            ]
+          },
+          {
+            "id": "broadcast-8x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              16.121855999999998,
+              13.041664,
+              13.107199999999999,
+              13.303808,
+              13.172736
+            ]
+          },
+          {
+            "id": "broadcast-16x32",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              15.466496,
+              15.597567999999999,
+              15.335424,
+              15.466496,
+              16.384
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0abb2990cd3e57b0665d321540b1c3a6b126d7bfd6359d9fbefe5d42a5d73568",
+        "layer": "down_stages.4.0",
+        "profile": "detail",
+        "rows": 4450,
+        "bucket": 8192,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              38.99392,
+              36.438016000000005,
+              37.552128,
+              37.35552,
+              41.680896000000004
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              106.36492799999999,
+              100.27008000000001,
+              107.15136000000001,
+              102.56384,
+              99.68025600000001
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              49.217536,
+              46.465024,
+              47.710207999999994,
+              50.003968,
+              45.940736
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              57.409536,
+              57.278464,
+              58.458112,
+              57.409536,
+              57.409536
+            ]
+          }
+        ]
+      },
+      {
+        "key": "5b1671f6a961c4295bbd3b2f560978bfb9bc789050f0fc06e2b2f097bc2c3999",
+        "layer": "bottleneck_stage.0",
+        "profile": "detail",
+        "rows": 4450,
+        "bucket": 8192,
+        "channels": 512,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              40.108032,
+              40.894464,
+              37.35552,
+              38.928383999999994,
+              37.617664000000005
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              110.231552,
+              103.2192,
+              102.23616000000001,
+              100.204544,
+              99.549184
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              54.198272,
+              51.052544,
+              50.331648,
+              48.431104000000005,
+              47.513600000000004
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              61.276160000000004,
+              57.802752,
+              58.523648,
+              57.475072000000004,
+              57.933824
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ced702e9824386d2d9188935d87f1a9bab807fc8dfed4935d5de0afa629c076c",
+        "layer": "down_stages.2.0",
+        "profile": "detail",
+        "rows": 67539,
+        "bucket": 131072,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              28.18048,
+              26.935296,
+              26.935296,
+              26.86976,
+              27.328512000000003
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              58.65472,
+              60.030975999999995,
+              58.916864000000004,
+              59.113472,
+              59.179008
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              37.093376,
+              36.175872,
+              36.241408,
+              36.372479999999996,
+              36.241408
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              47.251456,
+              47.251456,
+              47.185919999999996,
+              47.251456,
+              47.251456
+            ]
+          }
+        ]
+      },
+      {
+        "key": "3d2b68977c1c93545c2ba2e8239218e35db9ae86819b29daabd58610d467a94a",
+        "layer": "down_stages.3.0",
+        "profile": "detail",
+        "rows": 21591,
+        "bucket": 32768,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              38.273024,
+              39.3216,
+              39.911424,
+              39.190528,
+              39.059456
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              89.84985599999999,
+              90.50521599999999,
+              91.7504,
+              92.536832,
+              90.76736
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              50.331648,
+              48.037888,
+              51.707904,
+              48.889856,
+              50.003968
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              68.22297599999999,
+              69.00940800000001,
+              69.53369599999999,
+              68.87833599999999,
+              68.87833599999999
+            ]
+          }
+        ]
+      },
+      {
+        "key": "c87b8970f877477f9243c692a95ec7aa6f397531cdc95b0427d5e34a9b447019",
+        "layer": "up_stages.0.0",
+        "profile": "detail",
+        "rows": 21591,
+        "bucket": 32768,
+        "channels": 256,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              42.92608,
+              38.66624,
+              38.862848,
+              39.321600000000004,
+              37.879808
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              89.12896,
+              89.260032,
+              90.30860799999999,
+              90.50521599999999,
+              90.112
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              48.693248,
+              49.545215999999996,
+              50.135040000000004,
+              47.972352,
+              47.382528
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 16,
+              "cols": 32,
+              "k": 32,
+              "skip": "group",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              68.943872,
+              68.419584,
+              69.66476800000001,
+              68.550656,
+              68.747264
+            ]
+          }
+        ]
+      },
+      {
+        "key": "cb25781320e1590a4e003f5032959ac96aac43bf98cc2cfad300f27d340ffef9",
+        "layer": "up_stages.1.0",
+        "profile": "detail",
+        "rows": 67539,
+        "bucket": 131072,
+        "channels": 128,
+        "winner": "baseline",
+        "candidates": [
+          {
+            "id": "baseline",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 8,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              27.066368,
+              27.459584,
+              27.394048,
+              27.328512,
+              27.459584
+            ]
+          },
+          {
+            "id": "broadcast-4x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 4,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              61.145088,
+              59.179007999999996,
+              59.441152,
+              59.834368,
+              59.375615999999994
+            ]
+          },
+          {
+            "id": "broadcast-16x128",
+            "config": {
+              "kind": "subgroup-broadcast",
+              "rows": 16,
+              "cols": 128,
+              "k": 32,
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              36.70016,
+              35.651584,
+              36.634624,
+              35.913728000000006,
+              35.848192
+            ]
+          },
+          {
+            "id": "shared",
+            "config": {
+              "rows": 32,
+              "cols": 64,
+              "k": 32,
+              "skip": "mask",
+              "baseline": false
+            },
+            "exact": true,
+            "samples": [
+              47.38252799999999,
+              47.120384,
+              47.120384,
+              47.316992,
+              46.989312
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "finished": 1793633919080,
+  "pool": []
+}

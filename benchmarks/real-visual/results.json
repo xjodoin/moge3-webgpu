@@ -1,0 +1,614 @@
+[
+  {
+    "profile": "detail",
+    "steps": 1,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.9022483825683594,
+        "nrmse": 0.00031849953619503485,
+        "p99Abs": 0.00116729736328125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 7.152557373046875e-7,
+        "nrmse": 4.6178427190640893e-7,
+        "p99Abs": 7.152557373046875e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      2.822495698928833,
+      52.1237678527832
+    ],
+    "errorSaturation": 0.4930127215385437,
+    "id": "real-wood-deck"
+  },
+  {
+    "profile": "detail",
+    "steps": 2,
+    "passed": false,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 1.4173641204833984,
+        "nrmse": 0.0014772962613452327,
+        "p99Abs": 0.003818511962890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000013113021850585938,
+        "nrmse": 8.349270480624332e-7,
+        "p99Abs": 0.0000013113021850585938,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": false
+    },
+    "depthRange": [
+      2.8133106231689453,
+      52.44825744628906
+    ],
+    "errorSaturation": 0.4963494682312012,
+    "id": "real-wood-deck"
+  },
+  {
+    "profile": "detail",
+    "steps": 3,
+    "passed": false,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 1.411722183227539,
+        "nrmse": 0.0015900238443094538,
+        "p99Abs": 0.00728607177734375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000020265579223632812,
+        "nrmse": 0.0000013142657943150163,
+        "p99Abs": 0.0000020265579223632812,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": false
+    },
+    "depthRange": [
+      2.8083431720733643,
+      52.63283920288086
+    ],
+    "errorSaturation": 0.49824496030807497,
+    "id": "real-wood-deck"
+  },
+  {
+    "profile": "detail",
+    "steps": 1,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.046489715576171875,
+        "nrmse": 0.000042061543116280474,
+        "p99Abs": 0.00012862682342529297,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000024437904357910156,
+        "nrmse": 0.000001734979548703111,
+        "p99Abs": 0.0000024437904357910156,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      3.5831172466278076,
+      7.052069664001465
+    ],
+    "errorSaturation": 0.03468952417373657,
+    "id": "real-living-room"
+  },
+  {
+    "profile": "detail",
+    "steps": 2,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.16236639022827148,
+        "nrmse": 0.00014328400373770113,
+        "p99Abs": 0.0004763603210449219,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 9.5367431640625e-7,
+        "nrmse": 6.785810717494595e-7,
+        "p99Abs": 9.5367431640625e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      3.566831111907959,
+      7.0552873611450195
+    ],
+    "errorSaturation": 0.034884562492370604,
+    "id": "real-living-room"
+  },
+  {
+    "profile": "detail",
+    "steps": 3,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.20474529266357422,
+        "nrmse": 0.00017038949429711662,
+        "p99Abs": 0.0009136199951171875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.00000762939453125,
+        "nrmse": 0.000005370200830769008,
+        "p99Abs": 0.00000762939453125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      3.567098379135132,
+      7.057331562042236
+    ],
+    "errorSaturation": 0.03490233182907104,
+    "id": "real-living-room"
+  },
+  {
+    "profile": "detail",
+    "steps": 1,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.005870938301086426,
+        "nrmse": 0.000016205753653026788,
+        "p99Abs": 0.000012576580047607422,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 9.5367431640625e-7,
+        "nrmse": 5.240587090241866e-7,
+        "p99Abs": 9.5367431640625e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      0.6078652143478394,
+      1.9206351041793823
+    ],
+    "errorSaturation": 0.013127698898315429,
+    "id": "real-coffee"
+  },
+  {
+    "profile": "detail",
+    "steps": 2,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.0023986101150512695,
+        "nrmse": 0.000025550268073927146,
+        "p99Abs": 0.00004392862319946289,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000025033950805664062,
+        "nrmse": 0.000001386647908541214,
+        "p99Abs": 0.0000025033950805664062,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      0.6072715520858765,
+      1.9185667037963867
+    ],
+    "errorSaturation": 0.013112951517105103,
+    "id": "real-coffee"
+  },
+  {
+    "profile": "detail",
+    "steps": 3,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.004295825958251953,
+        "nrmse": 0.00004630763013872424,
+        "p99Abs": 0.00009393692016601562,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000036954879760742188,
+        "nrmse": 0.0000020795278419754887,
+        "p99Abs": 0.0000036954879760742188,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      0.6067069172859192,
+      1.915219783782959
+    ],
+    "errorSaturation": 0.013085128664970398,
+    "id": "real-coffee"
+  },
+  {
+    "profile": "detail",
+    "steps": 1,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.007218360900878906,
+        "nrmse": 0.00003609529687161765,
+        "p99Abs": 0.00018453598022460938,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 7.152557373046875e-7,
+        "nrmse": 3.291763773163251e-7,
+        "p99Abs": 7.152557373046875e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      0.7137004733085632,
+      3.3016817569732666
+    ],
+    "errorSaturation": 0.025879812836647035,
+    "id": "real-portrait"
+  },
+  {
+    "profile": "detail",
+    "steps": 2,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.027873992919921875,
+        "nrmse": 0.00012156529990980332,
+        "p99Abs": 0.0006549358367919922,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000010728836059570312,
+        "nrmse": 4.936816765725873e-7,
+        "p99Abs": 0.0000010728836059570312,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      0.7134538292884827,
+      3.280503988265991
+    ],
+    "errorSaturation": 0.025670501589775085,
+    "id": "real-portrait"
+  },
+  {
+    "profile": "detail",
+    "steps": 3,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.11685681343078613,
+        "nrmse": 0.0003251113243040438,
+        "p99Abs": 0.0012583732604980469,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 7.152557373046875e-7,
+        "nrmse": 3.2908481294045313e-7,
+        "p99Abs": 7.152557373046875e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      0.7132673263549805,
+      3.2561066150665283
+    ],
+    "errorSaturation": 0.02542839288711548,
+    "id": "real-portrait"
+  },
+  {
+    "profile": "detail",
+    "steps": 1,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.00351715087890625,
+        "nrmse": 0.00001454378124035685,
+        "p99Abs": 0.00003838539123535156,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000017881393432617188,
+        "nrmse": 9.070174321541151e-7,
+        "p99Abs": 0.0000017881393432617188,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      1.0094640254974365,
+      3.8492610454559326
+    ],
+    "errorSaturation": 0.02839797019958496,
+    "id": "real-cat"
+  },
+  {
+    "profile": "detail",
+    "steps": 2,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.011621952056884766,
+        "nrmse": 0.0000595703633641969,
+        "p99Abs": 0.0001614093780517578,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000032186508178710938,
+        "nrmse": 0.0000016326699152105456,
+        "p99Abs": 0.0000032186508178710938,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      1.0092228651046753,
+      3.8357558250427246
+    ],
+    "errorSaturation": 0.028265329599380495,
+    "id": "real-cat"
+  },
+  {
+    "profile": "detail",
+    "steps": 3,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.019594192504882812,
+        "nrmse": 0.0001696339660827974,
+        "p99Abs": 0.0003685951232910156,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000011920928955078125,
+        "nrmse": 6.142031967235825e-7,
+        "p99Abs": 0.0000011920928955078125,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      1.0087807178497314,
+      3.826192855834961
+    ],
+    "errorSaturation": 0.028174121379852295,
+    "id": "real-cat"
+  },
+  {
+    "profile": "detail",
+    "steps": 1,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.0441436767578125,
+        "nrmse": 0.000009365836781508192,
+        "p99Abs": 0.001049041748046875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 4.76837158203125e-7,
+        "nrmse": 2.591547256989541e-7,
+        "p99Abs": 4.76837158203125e-7,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      44.51864242553711,
+      83.0230712890625
+    ],
+    "errorSaturation": 0.3850442886352539,
+    "id": "real-launch"
+  },
+  {
+    "profile": "detail",
+    "steps": 2,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.0587310791015625,
+        "nrmse": 0.00003964207659320011,
+        "p99Abs": 0.0063323974609375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000017881393432617188,
+        "nrmse": 9.342607809144404e-7,
+        "p99Abs": 0.0000017881393432617188,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      44.631324768066406,
+      82.96420288085938
+    ],
+    "errorSaturation": 0.3833287811279297,
+    "id": "real-launch"
+  },
+  {
+    "profile": "detail",
+    "steps": 3,
+    "passed": true,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 0.10865402221679688,
+        "nrmse": 0.0000854860449222618,
+        "p99Abs": 0.0129852294921875,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000034570693969726562,
+        "nrmse": 0.000001796644355129574,
+        "p99Abs": 0.0000034570693969726562,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": true
+    },
+    "depthRange": [
+      44.698265075683594,
+      82.90409088134766
+    ],
+    "errorSaturation": 0.3820582580566406,
+    "id": "real-launch"
+  }
+]

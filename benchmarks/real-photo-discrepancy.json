@@ -1,0 +1,114 @@
+[
+  {
+    "indexing": "gpu",
+    "postprocess": "gpu",
+    "passed": false,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 1.4173641204833984,
+        "nrmse": 0.0014772962613452327,
+        "p99Abs": 0.003818511962890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000013113021850585938,
+        "nrmse": 8.349270480624332e-7,
+        "p99Abs": 0.0000013113021850585938,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": false
+    }
+  },
+  {
+    "indexing": "gpu",
+    "postprocess": "cpu",
+    "passed": false,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 1.4173622131347656,
+        "nrmse": 0.0014772979799525276,
+        "p99Abs": 0.003818511962890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.000001430511474609375,
+        "nrmse": 9.061713605998862e-7,
+        "p99Abs": 0.000001430511474609375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": false
+    }
+  },
+  {
+    "indexing": "cpu",
+    "postprocess": "gpu",
+    "passed": false,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 1.4173641204833984,
+        "nrmse": 0.0014772962613452327,
+        "p99Abs": 0.003818511962890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.0000013113021850585938,
+        "nrmse": 8.349270480624332e-7,
+        "p99Abs": 0.0000013113021850585938,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": false
+    }
+  },
+  {
+    "indexing": "cpu",
+    "postprocess": "cpu",
+    "passed": false,
+    "original": {
+      "points": {
+        "finite": true,
+        "maxAbs": 1.4173622131347656,
+        "nrmse": 0.0014772979799525276,
+        "p99Abs": 0.003818511962890625,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "intrinsics": {
+        "finite": true,
+        "maxAbs": 0.000001430511474609375,
+        "nrmse": 9.061713605998862e-7,
+        "p99Abs": 0.000001430511474609375,
+        "maskMismatches": 0,
+        "maskMismatchFraction": 0,
+        "unexplainedMaskMismatches": 0
+      },
+      "maskMismatches": 0,
+      "unexplainedMaskMismatches": 0,
+      "passed": false
+    }
+  }
+]

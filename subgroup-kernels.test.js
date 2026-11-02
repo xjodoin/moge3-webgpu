@@ -4,7 +4,7 @@ import {sparseConfig,selectedSparseConfig} from './sparse-kernels.js';
 import {subgroupBroadcastConvolution} from './subgroup-broadcast.js';
 import {subgroup32Support} from './subgroup-support.js';
 test('invalid subgroup layouts cannot reach GPU dispatch',()=>{
-  for(const config of [{kind:'subgroup-broadcast',rows:3},{kind:'subgroup-broadcast',cols:64},{kind:'subgroup-broadcast',k:8}])assert.throws(()=>sparseConfig(config));
+  for(const config of [{kind:'subgroup-broadcast',rows:3},{kind:'subgroup-broadcast',cols:96},{kind:'subgroup-broadcast',k:8}])assert.throws(()=>sparseConfig(config));
   assert.throws(()=>subgroupBroadcastConvolution(false,{rows:7}));
   assert.throws(()=>sparseConfig({kind:'unknown'}));
   assert.equal(sparseConfig(selectedSparseConfig(512,'subgroup')).kind,'subgroup-broadcast');

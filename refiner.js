@@ -33,7 +33,7 @@ export async function refine(raw,encoder,log=()=>{},options={}) {
   const block=async(name,features,indices)=>{
     if(options.sparseBackend==='onnx')return run(name,{features,neighbors:indices});
     if(options.profiler)options.profiler.prefix=`pass${options.pass}/${name}/`;
-    const result=keep((await directSparseBlock(name)).run(features,indices,options.profiler));
+    const result=keep(await (await directSparseBlock(name)).run(features,indices,options.profiler));
     if(options.profiler)options.profiler.prefix=`pass${options.pass}/`;
     stats.sparseKernelBlocks++;return result;
   };

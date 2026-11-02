@@ -1,3 +1,4 @@
+import {AutotunedSparseBlock,sparseAutotuneStats} from './sparse-autotune.js';
 import * as ort from 'onnxruntime-web/webgpu';
 import {SessionCache} from './session-cache.js';
 import {downloadModel} from './download.js';
@@ -71,7 +72,7 @@ export const directSparseBlock = name => cache.get(`wgsl:${sparseVariant}:${name
   if(sparseVariant==='subgroup')subgroupSupport=await subgroup32Support(device);
   const variant=sparseVariant==='subgroup'&&!subgroupSupport.supported?'optimized':sparseVariant;
   const block=await loadSparseBlock(device,name,manifest,selectedSparseConfig(manifest.blocks[name].channels,variant),packedFolder());
-  sparseConfigs[name]=block.config;return block;
+  sparseConfigs[name]=block.config;return precision==='fp32'?new AutotunedSparseBlock(block,{name,profile:activeProfile,subgroups:subgroupSupport?.supported??false,onSelect:config=>{sparseConfigs[name]=config;}}):block;
 });
 export async function releaseSessions() { activeProfile=null;activeBackend=null;activeDense=null;subgroupSupport=null;sparseConfigs={};try{await cache.clear();}finally{releaseGpuBuffers();} }
-export const sessionStats = () => ({precision,weightMode:modelDownloadStats().weightMode,profile:activeProfile,sparseBackend:activeBackend,sparseVariant,subgroupSupport,sparseConfigs,indexingBackend,denseGraphCapture,denseGraph:activeDense?.snapshot?.()??null,shaderCompatibility:shaderCompatibility.snapshot(),...cache.snapshot()});
+export const sessionStats = () => ({precision,autotune:sparseAutotuneStats(),weightMode:modelDownloadStats().weightMode,profile:activeProfile,sparseBackend:activeBackend,sparseVariant,subgroupSupport,sparseConfigs,indexingBackend,denseGraphCapture,denseGraph:activeDense?.snapshot?.()??null,shaderCompatibility:shaderCompatibility.snapshot(),...cache.snapshot()});

@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {AutotunedSparseBlock,setSparseAutotune,clearSparseAutotune,sparseAutotuneStats} from './sparse-autotune.js';
+import {sparseConfig} from './sparse-kernels.js';
+function fixture(){let runs=0,releases=0;const base={config:sparseConfig(32),meta:{channels:32,sha256:'a'.repeat(64)},device:{features:new Set()},run(){runs++;return 'baseline-output';},withConfig(){throw Error('Unexpected compilation');},release(){releases++;}};return {block:new AutotunedSparseBlock(base,{name:'test',profile:'fast',subgroups:false}),counts:()=>({runs,releases})};}
+test('unsupported timestamp devices run baseline without allocating tuning buffers',async()=>{clearSparseAutotune();setSparseAutotune(true);const f=fixture();assert.equal(await f.block.run({dims:[17,32]},null),'baseline-output');assert.equal(sparseAutotuneStats().fallbacks,1);await f.block.release();assert.deepEqual(f.counts(),{runs:1,releases:1});setSparseAutotune(false);});
+test('disabled tuner avoids capability keys and still releases shared owner once',async()=>{clearSparseAutotune();setSparseAutotune(false);const f=fixture();assert.equal(await f.block.run({dims:[17,32]},null),'baseline-output');assert.equal(sparseAutotuneStats().tuned,0);await f.block.release();assert.deepEqual(f.counts(),{runs:1,releases:1});});

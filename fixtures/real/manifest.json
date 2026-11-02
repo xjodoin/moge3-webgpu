@@ -1,0 +1,114 @@
+[
+  {
+    "id": "real-wood-deck",
+    "synthetic": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Fachada_y_deck_de_madera.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Fachada_y_deck_de_madera.jpg",
+    "author": "MDEMEXICO",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "scene": "Wood deck and building facade",
+    "sourceSha256": "e3559cf9f7fc755effaa7a09a1e9085905608b98aa3485375399364e38b8b100",
+    "sha256": "8c3fbc36de2759058668802fc88de3ccde9f17ab194d9c006b92d5fdb30df9e2",
+    "originalSize": [
+      4160,
+      3120
+    ],
+    "size": [
+      1600,
+      1200
+    ],
+    "processing": "EXIF orientation, RGB, longest edge <=1600, JPEG quality 95; metadata stripped",
+    "groundTruthMeasurements": false
+  },
+  {
+    "id": "real-living-room",
+    "synthetic": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Living_Room_-_Vizcaya_Museum_and_Gardens_-_Miami%2C_Florida_-_DSC08332.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Living_Room_-_Vizcaya_Museum_and_Gardens_-_Miami%2C_Florida_-_DSC08332.jpg",
+    "author": "Daderot",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "scene": "Furnished interior with occlusions",
+    "sourceSha256": "eb43f9fbad8598c01225664464efd62d21e886f488f55f6ebbb367ffeee856ee",
+    "sha256": "eb5b3f0f24c9a4c9844910e982e74e0cdb408fab812dfa6ba440971a4a75da5e",
+    "originalSize": [
+      5472,
+      3648
+    ],
+    "size": [
+      1600,
+      1067
+    ],
+    "processing": "EXIF orientation, RGB, longest edge <=1600, JPEG quality 95; metadata stripped",
+    "groundTruthMeasurements": false
+  },
+  {
+    "id": "real-coffee",
+    "synthetic": false,
+    "source": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.coffee",
+    "downloadUrl": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/coffee.png",
+    "author": "Rachel Michetti",
+    "license": "CC0-1.0",
+    "sourceSha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+    "sha256": "0091c4664ee0715b45c88dff118d311eb49bc5402daa8d9f0b36f0751bc31285",
+    "size": [
+      600,
+      400
+    ],
+    "scene": "Close-up curved object, smooth surfaces and wood texture",
+    "processing": "RGB, JPEG quality 95; metadata stripped",
+    "groundTruthMeasurements": false
+  },
+  {
+    "id": "real-portrait",
+    "synthetic": false,
+    "source": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.astronaut",
+    "downloadUrl": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/astronaut.png",
+    "author": "NASA",
+    "license": "Public domain",
+    "sourceSha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+    "sha256": "f5724aea6d926c89b191192877e8d879de8d5be509645935dbf684f6278fe275",
+    "size": [
+      512,
+      512
+    ],
+    "scene": "Portrait, face, hair and foreground occlusions",
+    "processing": "RGB, JPEG quality 95; metadata stripped",
+    "groundTruthMeasurements": false
+  },
+  {
+    "id": "real-cat",
+    "synthetic": false,
+    "source": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.chelsea",
+    "downloadUrl": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/chelsea.png",
+    "author": "Stefan van der Walt",
+    "license": "CC0-1.0",
+    "sourceSha256": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb",
+    "sha256": "0bf9e13c4d94e66537e7495b6fcac3d99322c72e51fb1520fcf091e6a93adf78",
+    "size": [
+      451,
+      300
+    ],
+    "scene": "Animal, fur, whiskers and fine edges",
+    "processing": "RGB, JPEG quality 95; metadata stripped",
+    "groundTruthMeasurements": false
+  },
+  {
+    "id": "real-launch",
+    "synthetic": false,
+    "source": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.rocket",
+    "downloadUrl": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/rocket.jpg",
+    "author": "SpaceX",
+    "license": "Public domain",
+    "sourceSha256": "c2dd0de7c538df8d111e479619b129464d0269d0ae5fd18ca91d33a7fdfea95c",
+    "sha256": "b61ac4661635bbd60169b0950b3334772025fa880600f838523cffa8e425f3c3",
+    "size": [
+      640,
+      427
+    ],
+    "scene": "Distant outdoor scene, thin structures, sky and smoke",
+    "processing": "RGB, JPEG quality 95; metadata stripped",
+    "groundTruthMeasurements": false
+  }
+]

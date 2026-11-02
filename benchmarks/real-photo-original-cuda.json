@@ -1,0 +1,525 @@
+{
+  "sourceCommit": "74fbce054ebed49800de42d0ad0e83495065719a",
+  "checkpointRevision": "184008f877d7ad1ad4c2cd2182a9bd1f63d0e5be",
+  "checkpointSha256": "9b41b7b9f65ad80aab7ad686f5e9cc0d1fd33f1964022618dfbcd52fc1fb7925",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cuda": "12.8",
+  "python": "3.11.13",
+  "torch": "2.11.0+cu128",
+  "packages": {
+    "flex-gemm": "1.0.0",
+    "triton": "3.6.0",
+    "numpy": "2.2.6",
+    "scipy": "1.17.1"
+  },
+  "precision": "FP32; torch TF32 disabled; sparse TF32 disabled",
+  "sparseAllowTf32": false,
+  "autotuneMode": "never",
+  "nvidiaSmi": "Mon Nov  2 16:13:34 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.82.09              Driver Version: 580.82.09      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 4090        On  |   00000000:01:00.0 Off |                  Off |\n| 30%   44C    P2             73W /  380W |    1838MiB /  24564MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+  "runs": [
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 1,
+      "inputSha256": "79a4d44970220ced2a2236ec7d0877be8fa32cf4b6f137548947b346b5a905fe",
+      "warmupSeconds": 12.779112829826772,
+      "seconds": [
+        0.19747601356357336,
+        0.1955760084092617,
+        0.19196819700300694
+      ],
+      "medianSeconds": 0.1955760084092617,
+      "peakAllocatedBytes": 1883138560
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 2,
+      "inputSha256": "79a4d44970220ced2a2236ec7d0877be8fa32cf4b6f137548947b346b5a905fe",
+      "warmupSeconds": 0.3325949842110276,
+      "seconds": [
+        0.3305466752499342,
+        0.32726974226534367,
+        0.3281183550134301
+      ],
+      "medianSeconds": 0.3281183550134301,
+      "peakAllocatedBytes": 1885412352
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-cat",
+      "refineSteps": 3,
+      "inputSha256": "79a4d44970220ced2a2236ec7d0877be8fa32cf4b6f137548947b346b5a905fe",
+      "warmupSeconds": 0.4657324906438589,
+      "seconds": [
+        0.4646162735298276,
+        0.46132239140570164,
+        0.4654037421569228
+      ],
+      "medianSeconds": 0.4646162735298276,
+      "peakAllocatedBytes": 1885993984
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 1,
+      "inputSha256": "55c404d2e5c0aabea197406e2fd4b2b1cd29839a17366a8d7cad7d3191f7ea2a",
+      "warmupSeconds": 3.921273256652057,
+      "seconds": [
+        0.19099881779402494,
+        0.1866003330796957,
+        0.1845481190830469
+      ],
+      "medianSeconds": 0.1866003330796957,
+      "peakAllocatedBytes": 1873125888
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 2,
+      "inputSha256": "55c404d2e5c0aabea197406e2fd4b2b1cd29839a17366a8d7cad7d3191f7ea2a",
+      "warmupSeconds": 0.31480006501078606,
+      "seconds": [
+        0.31407846976071596,
+        0.3132701413705945,
+        0.31454982701689005
+      ],
+      "medianSeconds": 0.31407846976071596,
+      "peakAllocatedBytes": 1873125888
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-coffee",
+      "refineSteps": 3,
+      "inputSha256": "55c404d2e5c0aabea197406e2fd4b2b1cd29839a17366a8d7cad7d3191f7ea2a",
+      "warmupSeconds": 0.44056015834212303,
+      "seconds": [
+        0.44090976379811764,
+        0.440699421800673,
+        0.4416343281045556
+      ],
+      "medianSeconds": 0.44090976379811764,
+      "peakAllocatedBytes": 1873125888
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 1,
+      "inputSha256": "96385b96f99affb51427f345dbfa7b123df9ce5a939e62e1fbe51ccd12ce4526",
+      "warmupSeconds": 0.19566402584314346,
+      "seconds": [
+        0.19463379308581352,
+        0.19147020112723112,
+        0.19516675267368555
+      ],
+      "medianSeconds": 0.19463379308581352,
+      "peakAllocatedBytes": 1890046464
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 2,
+      "inputSha256": "96385b96f99affb51427f345dbfa7b123df9ce5a939e62e1fbe51ccd12ce4526",
+      "warmupSeconds": 0.3311889059841633,
+      "seconds": [
+        0.331166485324502,
+        0.32741052843630314,
+        0.3311255956068635
+      ],
+      "medianSeconds": 0.3311255956068635,
+      "peakAllocatedBytes": 1890046464
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-launch",
+      "refineSteps": 3,
+      "inputSha256": "96385b96f99affb51427f345dbfa7b123df9ce5a939e62e1fbe51ccd12ce4526",
+      "warmupSeconds": 0.460204160772264,
+      "seconds": [
+        0.45993588399142027,
+        0.46024608053267,
+        0.4584060972556472
+      ],
+      "medianSeconds": 0.45993588399142027,
+      "peakAllocatedBytes": 1890046464
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 1,
+      "inputSha256": "6f92db7c11740d08a5cd2c02cc8e64994d09252fc53917bb586bd116a61d6a20",
+      "warmupSeconds": 0.18494211230427027,
+      "seconds": [
+        0.18817827850580215,
+        0.18732548225671053,
+        0.1832009507343173
+      ],
+      "medianSeconds": 0.18732548225671053,
+      "peakAllocatedBytes": 1874056192
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 2,
+      "inputSha256": "6f92db7c11740d08a5cd2c02cc8e64994d09252fc53917bb586bd116a61d6a20",
+      "warmupSeconds": 0.3157314592972398,
+      "seconds": [
+        0.31102399807423353,
+        0.31533064413815737,
+        0.3183956937864423
+      ],
+      "medianSeconds": 0.31533064413815737,
+      "peakAllocatedBytes": 1874056192
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-living-room",
+      "refineSteps": 3,
+      "inputSha256": "6f92db7c11740d08a5cd2c02cc8e64994d09252fc53917bb586bd116a61d6a20",
+      "warmupSeconds": 0.43820635229349136,
+      "seconds": [
+        0.4419895140454173,
+        0.44244982302188873,
+        0.44231528136879206
+      ],
+      "medianSeconds": 0.44231528136879206,
+      "peakAllocatedBytes": 1874056192
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 1,
+      "inputSha256": "6d08815d07bcc94756f65b1e34b4c5c2c9cc855bd3056da1bf168b89ecafda58",
+      "warmupSeconds": 0.19203015323728323,
+      "seconds": [
+        0.18839141353964806,
+        0.19140461832284927,
+        0.1911475332453847
+      ],
+      "medianSeconds": 0.1911475332453847,
+      "peakAllocatedBytes": 1878360064
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 2,
+      "inputSha256": "6d08815d07bcc94756f65b1e34b4c5c2c9cc855bd3056da1bf168b89ecafda58",
+      "warmupSeconds": 0.3155282251536846,
+      "seconds": [
+        0.3190436568111181,
+        0.31741856411099434,
+        0.3188182059675455
+      ],
+      "medianSeconds": 0.3188182059675455,
+      "peakAllocatedBytes": 1878360064
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-portrait",
+      "refineSteps": 3,
+      "inputSha256": "6d08815d07bcc94756f65b1e34b4c5c2c9cc855bd3056da1bf168b89ecafda58",
+      "warmupSeconds": 0.44600424636155367,
+      "seconds": [
+        0.4457714231684804,
+        0.44512432999908924,
+        0.44229662604629993
+      ],
+      "medianSeconds": 0.44512432999908924,
+      "peakAllocatedBytes": 1878360064
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 1,
+      "inputSha256": "3fd4ba40b9586212d49701797208526edc0c953874ccb876319b7f0bd7495256",
+      "warmupSeconds": 0.194420681335032,
+      "seconds": [
+        0.19376827403903008,
+        0.19306081719696522,
+        0.19441830273717642
+      ],
+      "medianSeconds": 0.19376827403903008,
+      "peakAllocatedBytes": 1890241024
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 2,
+      "inputSha256": "3fd4ba40b9586212d49701797208526edc0c953874ccb876319b7f0bd7495256",
+      "warmupSeconds": 0.32989413291215897,
+      "seconds": [
+        0.3261059345677495,
+        0.33027175441384315,
+        0.3282557614147663
+      ],
+      "medianSeconds": 0.3282557614147663,
+      "peakAllocatedBytes": 1890241024
+    },
+    {
+      "profile": "fast",
+      "caseName": "real-wood-deck",
+      "refineSteps": 3,
+      "inputSha256": "3fd4ba40b9586212d49701797208526edc0c953874ccb876319b7f0bd7495256",
+      "warmupSeconds": 0.466052477248013,
+      "seconds": [
+        0.46457858476787806,
+        0.46490791346877813,
+        0.46662804670631886
+      ],
+      "medianSeconds": 0.46490791346877813,
+      "peakAllocatedBytes": 1890241024
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 1,
+      "inputSha256": "20f1f6c2762b97f3be77b9696262056cabc85c6940d795aa1ec0a13ab905fee5",
+      "warmupSeconds": 0.26111704483628273,
+      "seconds": [
+        0.26141372602432966,
+        0.26229387056082487,
+        0.2627870962023735
+      ],
+      "medianSeconds": 0.26229387056082487,
+      "peakAllocatedBytes": 2056590848
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 2,
+      "inputSha256": "20f1f6c2762b97f3be77b9696262056cabc85c6940d795aa1ec0a13ab905fee5",
+      "warmupSeconds": 0.43876522965729237,
+      "seconds": [
+        0.4384484216570854,
+        0.44253390841186047,
+        0.44038235396146774
+      ],
+      "medianSeconds": 0.44038235396146774,
+      "peakAllocatedBytes": 2058678784
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-cat",
+      "refineSteps": 3,
+      "inputSha256": "20f1f6c2762b97f3be77b9696262056cabc85c6940d795aa1ec0a13ab905fee5",
+      "warmupSeconds": 0.6183908684179187,
+      "seconds": [
+        0.6177765717729926,
+        0.6149268392473459,
+        0.6161014782264829
+      ],
+      "medianSeconds": 0.6161014782264829,
+      "peakAllocatedBytes": 2058678784
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 1,
+      "inputSha256": "9a65cb69ca6c370ca1ae6bb244e0f305a7cf1c1c9bc4d9771629913d287b78aa",
+      "warmupSeconds": 0.2537181209772825,
+      "seconds": [
+        0.2561986604705453,
+        0.2534804521128535,
+        0.25371650140732527
+      ],
+      "medianSeconds": 0.25371650140732527,
+      "peakAllocatedBytes": 2042718720
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 2,
+      "inputSha256": "9a65cb69ca6c370ca1ae6bb244e0f305a7cf1c1c9bc4d9771629913d287b78aa",
+      "warmupSeconds": 0.42291185911744833,
+      "seconds": [
+        0.4238362591713667,
+        0.423100546002388,
+        0.42457823269069195
+      ],
+      "medianSeconds": 0.4238362591713667,
+      "peakAllocatedBytes": 2043296768
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-coffee",
+      "refineSteps": 3,
+      "inputSha256": "9a65cb69ca6c370ca1ae6bb244e0f305a7cf1c1c9bc4d9771629913d287b78aa",
+      "warmupSeconds": 0.5905183423310518,
+      "seconds": [
+        0.5915366606786847,
+        0.5954469693824649,
+        0.5913418876007199
+      ],
+      "medianSeconds": 0.5915366606786847,
+      "peakAllocatedBytes": 2043296768
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 1,
+      "inputSha256": "c33e3d4c5a3de90a03187fb152df996b0d7966238f2b15370fb27a38e3879c48",
+      "warmupSeconds": 0.26459622755646706,
+      "seconds": [
+        0.2640649685636163,
+        0.26712113432586193,
+        0.26581399235874414
+      ],
+      "medianSeconds": 0.26581399235874414,
+      "peakAllocatedBytes": 2066778112
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 2,
+      "inputSha256": "c33e3d4c5a3de90a03187fb152df996b0d7966238f2b15370fb27a38e3879c48",
+      "warmupSeconds": 0.44265890400856733,
+      "seconds": [
+        0.44868603721261024,
+        0.44166712276637554,
+        0.4434347562491894
+      ],
+      "medianSeconds": 0.4434347562491894,
+      "peakAllocatedBytes": 2066778112
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-launch",
+      "refineSteps": 3,
+      "inputSha256": "c33e3d4c5a3de90a03187fb152df996b0d7966238f2b15370fb27a38e3879c48",
+      "warmupSeconds": 0.6163056399673223,
+      "seconds": [
+        0.6175311217084527,
+        0.6157826092094183,
+        0.6198257775977254
+      ],
+      "medianSeconds": 0.6175311217084527,
+      "peakAllocatedBytes": 2066778112
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 1,
+      "inputSha256": "e07443fc3a1d8eb0e785be563874118eb92ba01907a62bf4f506f074aa97c22b",
+      "warmupSeconds": 0.25522862561047077,
+      "seconds": [
+        0.2561295386403799,
+        0.25531510915607214,
+        0.2568094776943326
+      ],
+      "medianSeconds": 0.2561295386403799,
+      "peakAllocatedBytes": 2047029760
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 2,
+      "inputSha256": "e07443fc3a1d8eb0e785be563874118eb92ba01907a62bf4f506f074aa97c22b",
+      "warmupSeconds": 0.426822810433805,
+      "seconds": [
+        0.4301507733762264,
+        0.42900081258267164,
+        0.42973934579640627
+      ],
+      "medianSeconds": 0.42973934579640627,
+      "peakAllocatedBytes": 2047864832
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-living-room",
+      "refineSteps": 3,
+      "inputSha256": "e07443fc3a1d8eb0e785be563874118eb92ba01907a62bf4f506f074aa97c22b",
+      "warmupSeconds": 0.5973808793351054,
+      "seconds": [
+        0.593918270431459,
+        0.5976491430774331,
+        0.5960211288183928
+      ],
+      "medianSeconds": 0.5960211288183928,
+      "peakAllocatedBytes": 2047864832
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 1,
+      "inputSha256": "182477172d021ffae3693392433338b4083aa449fa497ecc0b026b9e0388a9ed",
+      "warmupSeconds": 0.26777629274874926,
+      "seconds": [
+        0.2690131450071931,
+        0.2706782966852188,
+        0.2692582020536065
+      ],
+      "medianSeconds": 0.2692582020536065,
+      "peakAllocatedBytes": 2050718720
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 2,
+      "inputSha256": "182477172d021ffae3693392433338b4083aa449fa497ecc0b026b9e0388a9ed",
+      "warmupSeconds": 0.43964161444455385,
+      "seconds": [
+        0.4411955438554287,
+        0.4378306558355689,
+        0.43977319076657295
+      ],
+      "medianSeconds": 0.43977319076657295,
+      "peakAllocatedBytes": 2050718720
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-portrait",
+      "refineSteps": 3,
+      "inputSha256": "182477172d021ffae3693392433338b4083aa449fa497ecc0b026b9e0388a9ed",
+      "warmupSeconds": 0.6060288585722446,
+      "seconds": [
+        0.6091425819322467,
+        0.6075720051303506,
+        0.604782335460186
+      ],
+      "medianSeconds": 0.6075720051303506,
+      "peakAllocatedBytes": 2050718720
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 1,
+      "inputSha256": "26b7397b8b921970f2fbacfad4bb98c640f11b4fe5a572139000caa24ee21ed9",
+      "warmupSeconds": 0.27375439554452896,
+      "seconds": [
+        0.27670789137482643,
+        0.27657037135213614,
+        0.276253804564476
+      ],
+      "medianSeconds": 0.27657037135213614,
+      "peakAllocatedBytes": 2063587840
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 2,
+      "inputSha256": "26b7397b8b921970f2fbacfad4bb98c640f11b4fe5a572139000caa24ee21ed9",
+      "warmupSeconds": 0.45411521289497614,
+      "seconds": [
+        0.4504524515941739,
+        0.45021201856434345,
+        0.4539352059364319
+      ],
+      "medianSeconds": 0.4504524515941739,
+      "peakAllocatedBytes": 2063587840
+    },
+    {
+      "profile": "detail",
+      "caseName": "real-wood-deck",
+      "refineSteps": 3,
+      "inputSha256": "26b7397b8b921970f2fbacfad4bb98c640f11b4fe5a572139000caa24ee21ed9",
+      "warmupSeconds": 0.6268628174439073,
+      "seconds": [
+        0.6252484293654561,
+        0.6248051021248102,
+        0.6255638180300593
+      ],
+      "medianSeconds": 0.6252484293654561,
+      "peakAllocatedBytes": 2063587840
+    }
+  ]
+}

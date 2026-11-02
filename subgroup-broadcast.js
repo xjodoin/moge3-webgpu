@@ -1,28 +1,29 @@
-// A subgroup spans 128 output channels. Features are broadcast from registers;
+// A subgroup spans 32, 64 or 128 output channels. Features are broadcast from registers;
 // each thread owns its weight columns, so weights never need cross-lane shuffles.
 export function subgroupBroadcastConvolution(residual,{rows=8,cols=128}={}){
-  if(![2,4,8,16].includes(rows)||cols!==128)throw Error('Invalid broadcast subgroup tile');
+  if(![2,4,8,16].includes(rows)||![32,64,128].includes(cols))throw Error('Invalid broadcast subgroup tile');
+  const pack=cols/32,type=pack===1?'f32':`vec${pack}<f32>`;
   const declarations=[],neighbors=[],loads=[],accumulate=[],stores=[];
   for(let r=0;r<rows;r++){
-    declarations.push(`var acc${r}=vec4<f32>(0.0);`);
+    declarations.push(`var acc${r}=${type}(0.0);`);
     neighbors.push(`let row${r}=startRow+${r}u;var neighbor${r}=p.x;if(row${r}<p.x){neighbor${r}=indices[row${r}*27u+neighborIndex];}occupied=occupied|(neighbor${r}<p.x);`);
     loads.push(`var a${r}=0.0;if(neighbor${r}<p.x){a${r}=input[neighbor${r}*p.y+base+lane];}`);
-    stores.push(`if(startRow+${r}u<p.x){let index=(startRow+${r}u)*channels4+column;let value=acc${r}+weights[p.w+column];output[index]=${residual?'value+skipInput[index]':'value/(vec4<f32>(1.0)+exp(-value))'};}`);
+    stores.push(`if(startRow+${r}u<p.x){let index=(startRow+${r}u)*channels4+column;let value=acc${r}+weights[p.w+column];output[index]=${residual?'value+skipInput[index]':`value/(${type}(1.0)+exp(-value))`};}`);
   }
   for(let k=0;k<32;k++){
     accumulate.push(`let w${k}=weights[p.z+(neighborIndex*p.y+base+${k}u)*channels4+column];`);
-    for(let r=0;r<rows;r++)accumulate.push(`acc${r}=fma(vec4<f32>(subgroupBroadcast(a${r},${k}u)),w${k},acc${r});`);
+    for(let r=0;r<rows;r++)accumulate.push(`acc${r}=fma(${type}(subgroupBroadcast(a${r},${k}u)),w${k},acc${r});`);
   }
   return `enable subgroups;
 @group(0) @binding(0) var<storage,read> input:array<f32>;
 @group(0) @binding(1) var<storage,read> indices:array<u32>;
-@group(0) @binding(2) var<storage,read> weights:array<vec4<f32>>;
-@group(0) @binding(3) var<storage,read> skipInput:array<vec4<f32>>;
-@group(0) @binding(4) var<storage,read_write> output:array<vec4<f32>>;
+@group(0) @binding(2) var<storage,read> weights:array<${type}>;
+@group(0) @binding(3) var<storage,read> skipInput:array<${type}>;
+@group(0) @binding(4) var<storage,read_write> output:array<${type}>;
 @group(0) @binding(5) var<uniform> p:vec4<u32>;
 var<workgroup> occupiedFlag:u32;
 @compute @workgroup_size(32) fn main(@builtin(workgroup_id) group:vec3<u32>,@builtin(subgroup_invocation_id) lane:u32){
- let startRow=group.x*${rows}u;let channels4=p.y/4u;let column=group.y*32u+lane;
+ let startRow=group.x*${rows}u;let channels4=p.y/${pack}u;let column=group.y*32u+lane;
  ${declarations.join('\n')}
  for(var neighborIndex=0u;neighborIndex<27u;neighborIndex++){
   var occupied=false;${neighbors.join('\n')}
