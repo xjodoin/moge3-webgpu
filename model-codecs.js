@@ -1,15 +1,18 @@
+import {expandWeight24} from './weight-precision.js';
 let zstd;
 export async function inflate(bytes,meta,boundedBody){
- if((meta.codec??'deflate')==='deflate')return boundedBody(new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate'))),meta.rawBytes);
+ const size=meta.encodedBytes??meta.rawBytes;
+ if((meta.codec??'deflate')==='deflate')return boundedBody(new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate'))),size);
  if(meta.codec!=='zstd')throw Error('Unsupported model codec');
  if(!zstd)zstd=import('zstddec').then(async({ZSTDDecoder})=>{const decoder=new ZSTDDecoder();await decoder.init();return decoder;}).catch(error=>{zstd=null;throw error;});
- const result=(await zstd).decode(bytes,meta.rawBytes);
- if(result.byteLength!==meta.rawBytes)throw Error('Invalid Zstd decoded length');
+ const result=(await zstd).decode(bytes,size);
+ if(result.byteLength!==size)throw Error('Invalid Zstd decoded length');
  return result;
 }
 
 export function untransform(bytes,encoding){
  if(encoding==='identity')return bytes;
+ if(encoding==='fp24')return expandWeight24(bytes);
  if(bytes.length%4)throw Error('Invalid FP32 transform length');
  const raw=new Uint8Array(bytes.length),count=bytes.length/4;
  if(encoding==='shuffle4'){

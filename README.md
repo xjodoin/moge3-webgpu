@@ -7,7 +7,7 @@ An **unofficial, MIT-licensed browser port of MoGe-3 ViT-L**, including the orig
 - Exported weights: [Hugging Face model repository](https://huggingface.co/xjodoin/moge-3-vitl-webgpu)
 - Original model: [Microsoft MoGe](https://github.com/microsoft/MoGe) / [Ruicheng/moge-3-vitl](https://huggingface.co/Ruicheng/moge-3-vitl)
 
-This is an experimental port, not an official Microsoft release. The default release preserves the original FP32 learned weights without quantization or retraining. Optional [local FP16 experiments](FP16.md) halve the inference asset size but fail the existing accuracy gate, so FP32 remains the default.
+This is an experimental port, not an official Microsoft release. Original ONNX/WGSL exports and lossless packages preserve the original FP32 learned weights. The optional [progressive package](PROGRESSIVE.md) offers smaller downloads by rounding selected encoder weights, with an exact upgrade that restores original FP32 bytes. Both modes compute in FP32. Optional [local FP16 experiments](FP16.md) halve the inference asset size but fail the existing accuracy gate, so FP16 execution remains experimental.
 
 ## Supported release profiles
 
@@ -25,6 +25,10 @@ Dense inference and linear layers run on WebGPU through ONNX Runtime. The defaul
 Firefox's Metal shader translation can assign different native types to identical WGSL index-array aliases emitted by ONNX Runtime 1.24.3. This causes `Split` and `Concat` pipeline compilation errors such as `no known conversion from output_0_indices_t to output_1_indices_t`. `gpu-shader-compat.js` unifies identical ORT input/output index-array aliases before shader compilation, while keeping different ranks separate. This changes type names only: weights, bindings, buffer accesses, FP32 operations, and accuracy thresholds are unchanged. It applies to all browsers and does not require another model download. Diagnostics record the number of affected shaders in `sessions.shaderCompatibility`.
 
 Validation on Apple M4 Pro covers all 18 photo/resolution/pass combinations in Firefox 158 and all 54 repeated comparisons in Chrome 156. Every original-CUDA comparison passes; Chrome's original-CUDA and dense-output metrics are identical to the previous adaptive release. These are accuracy checks, not a cross-browser performance benchmark. See [the compatibility report](benchmarks/shader-compat-summary.json).
+
+## Smaller downloads with an exact upgrade
+
+Select format 3 with `VITE_MODEL_PACKAGE_FORMAT=3` to enable the progressive package. Its **Smaller download** mode uses custom 24-bit storage for large encoder MatMul weights and expands them to FP32 before inference. Norms, biases, output heads and learned refinement weights remain unchanged. **Original weights · exact upgrade** reuses the compact package and downloads correction bytes to restore every original model byte. Already-cached original weights can serve either mode without replacement weight downloads. Ordinary builds retain the lossless v2 package. See [PROGRESSIVE.md](PROGRESSIVE.md) for the encoding, measured results, tests and limitations.
 
 ## Subgroup FP32 sparse kernels
 

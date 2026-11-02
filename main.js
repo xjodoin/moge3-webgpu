@@ -10,7 +10,7 @@ import {denseSession,releaseSessions,sessionStats,setPrecision as selectPrecisio
 import {trackGpuBuffers} from './gpu-memory.js';
 import {gpuOps,gpuBufferStats,setBufferReuse} from './gpu-ops.js';
 import {GpuProfiler} from './gpu-profiler.js';
-import {modelDownloadStats,clearModelCache} from './model-package.js';
+import {modelDownloadStats,clearModelCache,setWeightScreen,setWeightMode} from './model-package.js';
 const memory=globalThis.GPUDevice?trackGpuBuffers():null;
 ort.env.wasm.wasmPaths={wasm:wasmUrl,mjs:mjsUrl};
 ort.env.wasm.numThreads=1;
@@ -23,7 +23,7 @@ const showFixture=()=>{upload=null;document.querySelector('#upload').value='';do
 document.querySelector('#profile').onchange=showFixture;
 window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=null,profile='fast',sparseBackend='wgsl',refineSteps=1,validateOriginal=true,diagnostics={})=>{
  if(running)throw Error('Inference is already running');
- running=true;for(const id of ['run','case','upload','profile','steps','unload','clear-cache'])document.querySelector('#'+id).disabled=true;
+ running=true;for(const id of ['run','case','upload','profile','steps','weights','unload','clear-cache'])document.querySelector('#'+id).disabled=true;
  let inputTensor,out,profiler,ops,failed=true;
  try{
   const adapter=await navigator.gpu?.requestAdapter();if(!adapter)throw Error('This browser has no WebGPU adapter. Try a current Chrome browser on a supported computer.');
@@ -117,11 +117,16 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
  }finally{
   if(ops)ops.profiler=null;profiler?.dispose();
   inputTensor?.dispose();if(out)for(const tensor of Object.values(out))tensor.dispose();
-  try{if(failed)await releaseSessions();}finally{running=false;for(const id of ['run','case','upload','profile','steps','unload','clear-cache'])document.querySelector('#'+id).disabled=false;}
+  try{if(failed)await releaseSessions();}finally{running=false;for(const id of ['run','case','upload','profile','steps','weights','unload','clear-cache'])document.querySelector('#'+id).disabled=false;}
  }
 };
 window.releaseModels=async()=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();log('Model unloaded. GPU sessions released.');return sessionStats();}finally{running=false;}};
 window.modelDownloadStats=modelDownloadStats;
+window.setWeightScreen=async enabled=>{if(running)throw Error('Inference is already running');await releaseSessions();setWeightScreen(enabled);};
+window.setWeightMode=async mode=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();setWeightMode(mode);document.querySelector('#weights').value=mode;return sessionStats();}finally{running=false;}};
+document.querySelector('#weight-mode-control').hidden=!modelDownloadStats().progressive;
+document.querySelector('#weights').value=modelDownloadStats().weightMode;
+document.querySelector('#weights').onchange=event=>window.setWeightMode(event.target.value).then(()=>log(event.target.value==='exact'?'Original weights selected. The next run restores the original FP32 weights using correction data; saved compact weights are reused.':'Smaller download selected. Selected encoder weights use compact storage; computation remains FP32.')).catch(error=>{document.querySelector('#weights').value=modelDownloadStats().weightMode;log(String(error));});
 window.clearModelCache=async()=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();return await clearModelCache();}finally{running=false;}};
 document.querySelector('#clear-cache').onclick=()=>window.clearModelCache().then(()=>log('Downloaded model files removed from this device.')).catch(e=>log(String(e)));
 // Developer-only experiments; the public UI and fresh page default stay FP32.
