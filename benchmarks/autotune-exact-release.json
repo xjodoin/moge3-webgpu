@@ -1,0 +1,1704 @@
+{
+  "runs": [
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.016852378845214844,
+          "nrmse": 0.00001741757252792207,
+          "p99Abs": 0.00017118453979492188,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 8.344650268554688e-7,
+          "nrmse": 6.499282197077088e-7,
+          "p99Abs": 8.344650268554688e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 6,
+        "revalidated": 4,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 180.3249999997206,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.09870147705078125,
+          "nrmse": 0.000055819994383185584,
+          "p99Abs": 0.0016689300537109375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000015854835510253906,
+          "nrmse": 0.00001101687211078315,
+          "p99Abs": 0.000015854835510253906,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 16,
+        "revalidated": 4,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 180.3249999997206,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.4098663330078125,
+          "nrmse": 0.00033494465692998155,
+          "p99Abs": 0.001495361328125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 5.960464477539063e-8,
+          "nrmse": 3.296408400463366e-8,
+          "p99Abs": 5.960464477539063e-8,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 24,
+        "revalidated": 6,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 459.49999999953434,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.06724739074707031,
+          "nrmse": 0.000039949739889189236,
+          "p99Abs": 0.0004596710205078125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000011324882507324219,
+          "nrmse": 8.98994967258701e-7,
+          "p99Abs": 0.0000011324882507324219,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 44,
+        "revalidated": 6,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 459.49999999953434,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.1427764892578125,
+          "nrmse": 0.00017953991519183049,
+          "p99Abs": 0.0044708251953125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-7,
+          "nrmse": 9.718838227711766e-8,
+          "p99Abs": 1.1920928955078125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 64,
+        "revalidated": 6,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 459.49999999953434,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.0489044189453125,
+          "nrmse": 0.0007103079167524332,
+          "p99Abs": 0.006267547607421875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 4.76837158203125e-7,
+          "nrmse": 3.296378912331308e-7,
+          "p99Abs": 4.76837158203125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 84,
+        "revalidated": 6,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 459.49999999953434,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.1309223175048828,
+          "nrmse": 0.00007338701596873669,
+          "p99Abs": 0.0008525848388671875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000007569789886474609,
+          "nrmse": 0.000005967505421162141,
+          "p99Abs": 0.000007569789886474609,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 114,
+        "revalidated": 6,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 459.49999999953434,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.33748435974121094,
+          "nrmse": 0.00034456060600164876,
+          "p99Abs": 0.008177757263183594,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-7,
+          "nrmse": 7.683427038214206e-8,
+          "p99Abs": 1.1920928955078125e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 144,
+        "revalidated": 6,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 459.49999999953434,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.2466468811035156,
+          "nrmse": 0.0009413093016645348,
+          "p99Abs": 0.01194000244140625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 8.344650268554688e-7,
+          "nrmse": 5.671253073633679e-7,
+          "p99Abs": 8.344650268554688e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 174,
+        "revalidated": 6,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 459.49999999953434,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "fast",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "fast",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "fast",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "fast",
+            "bucket": 131072,
+            "id": "broadcast-8x64"
+          },
+          "up_stages.3.0": {
+            "profile": "fast",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.9563579559326172,
+          "nrmse": 0.0002887958497412047,
+          "p99Abs": 0.000576019287109375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0,
+          "nrmse": 0,
+          "p99Abs": 0,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 180,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.10610580444335938,
+          "nrmse": 0.0000746311471014979,
+          "p99Abs": 0.0014281272888183594,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000014066696166992188,
+          "nrmse": 0.000009805743632224905,
+          "p99Abs": 0.000014066696166992188,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 190,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.09362316131591797,
+          "nrmse": 0.00003313040484439417,
+          "p99Abs": 0.000331878662109375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000010728836059570312,
+          "nrmse": 7.19331644538381e-7,
+          "p99Abs": 0.0000010728836059570312,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 200,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 131072,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 32768,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 32768,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 131072,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.9293708801269531,
+          "nrmse": 0.0008415344051980153,
+          "p99Abs": 0.004093170166015625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.000003039836883544922,
+          "nrmse": 0.000002414757940790659,
+          "p99Abs": 0.000003039836883544922,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 220,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.5424842834472656,
+          "nrmse": 0.00031822984717644743,
+          "p99Abs": 0.0051727294921875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000013113021850585938,
+          "nrmse": 9.020998200956634e-7,
+          "p99Abs": 0.0000013113021850585938,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 240,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.5733976364135742,
+          "nrmse": 0.00024508013598563416,
+          "p99Abs": 0.002315521240234375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 3.5762786865234375e-7,
+          "nrmse": 2.39773381669739e-7,
+          "p99Abs": 3.5762786865234375e-7,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 260,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 32768,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 32768,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.8435068130493164,
+          "nrmse": 0.0009430724351113234,
+          "p99Abs": 0.005099296569824219,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000016689300537109375,
+          "nrmse": 0.000001320991190269802,
+          "p99Abs": 0.0000016689300537109375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 290,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.5598030090332031,
+          "nrmse": 0.0006766015498108968,
+          "p99Abs": 0.011730194091796875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 0.0000011920928955078125,
+          "nrmse": 8.251903477677594e-7,
+          "p99Abs": 0.0000011920928955078125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 320,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 4096,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 16384,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "repeat": 0,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.6361961364746094,
+          "nrmse": 0.0004437062474831888,
+          "p99Abs": 0.006363868713378906,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 5.960464477539063e-8,
+          "nrmse": 3.325017974422297e-8,
+          "p99Abs": 5.960464477539063e-8,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "weightMode": "exact",
+      "autotune": {
+        "enabled": true,
+        "tuned": 0,
+        "cacheHits": 350,
+        "revalidated": 10,
+        "parityFailures": 0,
+        "fallbacks": 0,
+        "coldMs": 696.2049999991432,
+        "cacheEntries": 34,
+        "storageUnavailable": false,
+        "selected": {
+          "down_stages.0.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          },
+          "down_stages.1.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-8x64"
+          },
+          "down_stages.2.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "down_stages.3.0": {
+            "profile": "detail",
+            "bucket": 32768,
+            "id": "baseline"
+          },
+          "down_stages.4.0": {
+            "profile": "detail",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "bottleneck_stage.0": {
+            "profile": "detail",
+            "bucket": 8192,
+            "id": "baseline"
+          },
+          "up_stages.0.0": {
+            "profile": "detail",
+            "bucket": 32768,
+            "id": "baseline"
+          },
+          "up_stages.1.0": {
+            "profile": "detail",
+            "bucket": 65536,
+            "id": "baseline"
+          },
+          "up_stages.2.0": {
+            "profile": "detail",
+            "bucket": 262144,
+            "id": "broadcast-4x64"
+          },
+          "up_stages.3.0": {
+            "profile": "detail",
+            "bucket": 524288,
+            "id": "broadcast-8x32"
+          }
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "source": {
+    "modelBaseUrl": "https://huggingface.co/xjodoin/moge-3-vitl-webgpu/resolve/dbf52ac233d8dce1a69fd9277956421ca1deb337",
+    "sparseModelBaseUrl": "/models",
+    "modelPackageBaseUrl": "https://huggingface.co/xjodoin/moge-3-vitl-webgpu/resolve/dbf52ac233d8dce1a69fd9277956421ca1deb337/packed-v3",
+    "modelPackageFormat": 3
+  },
+  "complete": true
+}

@@ -1,0 +1,39 @@
+{
+  "validatedRuntimeRevision": "0bc38ef4dd432bd9b8b5b768eb9d6c6893854bff",
+  "sources": {
+    "autotune-policy.js": "b196b7cbac2413838d416e7c07f602ce898a1499a6386ba017a92db0fcdb0cad",
+    "fp24.py": "18a91344a7a3ff3a2ed102ab6bfa13f5a44e5d4d033a671e1ed554af976e306c",
+    "gpu-geometry.js": "235dd6214ed763b1e838b64a48cf8fcb65de8a5b432078f2f3315598a8a1bb17",
+    "gpu-shader-compat.js": "10c956937a251856dad182baf73ef709569d4ba519112890f1b4d4abf2f529b3",
+    "index.html": "680cc7486def7a49360949e393f0b3ba32ea0d4952577601d122ddbd0270a7f1",
+    "main.js": "0d8330d3150a72e643027ec39c7f5f36b23789f34faab28a58887c9c3fa2b302",
+    "model-bundles.js": "2b64b4fc27bca4d91675838fb95c0ed61408c937dd5ff7128e15104b3f89c9bf",
+    "model-cache.js": "41b1f06d126f49f2a9288ec7eda22894d70cf819b7fac33db011d3df8149dfe1",
+    "model-codecs.js": "185de99ad0b8e97e5b9abb5e6e5283ed1118d9130f094587293b0da2dfbc7163",
+    "model-package.js": "9af5272b8f09b0d91d61c9a70225507f77fe6106f2924c73d5942411a806b827",
+    "pack_progressive.py": "ad4e66658a4a89a03f8e78aacf11956ef7e03a611b3c673dfe37499882ed36f3",
+    "progressive-package.js": "3d51b61a2016b6f6c16248e6fdb370cd88ad595b561428ee585cecc4f4379dee",
+    "refiner.js": "222d2c6738312d305b4de784a9380b0b2bf9dfce38310cd88c2436e55d1c8baf",
+    "runtime.js": "8b2d7e93d4f76b489bb4c657ef278dc7a58135cac429154588895bd6fe1c3a86",
+    "screen_fp24.py": "5fd85e940baaaee094dfa89bb3a3edec492378b65e39977d97e7748f81852ef9",
+    "sparse-autotune.js": "9e6ead0a880dcf09dd93bd175b12776a5f130653572c0cabe71fc8045a159aa5",
+    "sparse-block.js": "cb793d6177e5116eefd538f84a25e59d00b47e3c3f0df225c9329a318c7c65b0",
+    "subgroup-broadcast.js": "995c81d09e0d97033b33b5971471ab1e06ff221768aa5e12d279ba1f3282b7a6",
+    "vite.config.js": "4714161809034134c94bf7dcdec262b9cbfa05ff15a5a084a2428609d5f2048c",
+    "weight-precision.js": "08efa3541192cc00311a558bf4a0f666f72b2f5bf587f7a2d4ab9cc60c71477d"
+  },
+  "reports": {
+    "benchmarks/autotune-compact-release.json": "c1e689a77d702010a304efcefffdc1b464bc2df7430c3886d2376d8cf068070a",
+    "benchmarks/autotune-exact-release.json": "751e65e2082acf0e49c7b9d0ad760f94b676a84215c56357adfeee003565caf6",
+    "benchmarks/autotune-compact-firefox-release.json": "f4e027cba7a519d0a0a29af2f9e8dfb1f1dbc856b83ce742d0d97f8c4623e707",
+    "benchmarks/autotune-cuda.json": "8022e15f1caadb65cc0a3335ba671e36391144ab5901b682f36e7572508004c0",
+    "benchmarks/real-photo-accuracy.json": "d421cbeb6331b04b3e31bca3ccd7ba9974c6de797de0fc31538cfb46925bd96b"
+  },
+  "compactComparisons": 54,
+  "exactUpgradeComparisons": 18,
+  "firefoxCompactSmokeComparisons": 4,
+  "knownRealPhotoFailures": [
+    "detail/real-wood-deck/2",
+    "detail/real-wood-deck/3"
+  ]
+}

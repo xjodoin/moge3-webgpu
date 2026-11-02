@@ -14,13 +14,19 @@ if (ROOT/'gpu-shader-compat.js').exists():
         assert compatibility['exact']['metricsIdenticalToOriginal'] and compatibility['files']['allExactUpgradesByteExact'], 'Require byte-exact original-weight restoration'
     else:
         assert compatibility['chrome']['comparisons']==54 and compatibility['firefox']['comparisons']==18, 'Require complete browser accuracy matrices'
-    for name,digest in compatibility['sources'].items():
+    fresh=json.loads((ROOT/'benchmarks/autotune-release-validation.json').read_text())
+    assert set(compatibility['sources'])<=set(fresh['sources']), 'Incomplete current release fingerprints'
+    for name,digest in fresh['reports'].items():
+        assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest, 'Release evidence changed since validation'
+    for name,digest in fresh['sources'].items():
         assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest, 'Validate the current shader compatibility sources before release'
 autotune=json.loads((ROOT/'benchmarks/autotune-cuda.json').read_text())
 assert autotune['complete'] and len(autotune['runs'])==108 and all(r['passed'] for r in autotune['runs']), 'Require paired exact-weight autotuning regression checks'
 assert autotune['stats']['parityFailures']==0, 'Autotuning candidates must preserve FP32 results'
 compact=json.loads((ROOT/'benchmarks/autotune-compact-release.json').read_text())
 assert compact['complete'] and len(compact['runs'])==54 and all(r['passed'] and r['weightMode']=='compact' for r in compact['runs']), 'Require current production compact-weight checks'
+exact_release=json.loads((ROOT/'benchmarks/autotune-exact-release.json').read_text())
+assert exact_release['complete'] and len(exact_release['runs'])==18 and all(r['passed'] and r['weightMode']=='exact' for r in exact_release['runs']), 'Require current production exact-upgrade checks'
 firefox_release=json.loads((ROOT/'benchmarks/autotune-compact-firefox-release.json').read_text())
 assert len(firefox_release['runs'])==4 and all(r['passed'] for r in firefox_release['runs']), 'Require compact production Firefox smoke tests'
 real=json.loads((ROOT/'benchmarks/real-photo-accuracy.json').read_text())
