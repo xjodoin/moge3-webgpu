@@ -1,0 +1,63 @@
+{
+  "upstream": {
+    "repository": "Ruicheng/moge-3-vitl",
+    "revision": "184008f877d7ad1ad4c2cd2182a9bd1f63d0e5be"
+  },
+  "sourceCommit": "74fbce054ebed49800de42d0ad0e83495065719a",
+  "exportSemantics": "native-resize-and-position-v2",
+  "profile": "detail",
+  "inputShape": [
+    1,
+    3,
+    512,
+    768
+  ],
+  "numTokens": 1733,
+  "refineSteps": 1,
+  "stage": "dense",
+  "preprocessing": "center-crop bicubic",
+  "grid": [
+    544,
+    816
+  ],
+  "encoderGrid": [
+    34,
+    51
+  ],
+  "outputs": {
+    "points": [
+      1,
+      512,
+      768,
+      3
+    ],
+    "normal": [
+      1,
+      512,
+      768,
+      3
+    ],
+    "mask": [
+      1,
+      512,
+      768
+    ],
+    "metric_scale": [
+      1
+    ],
+    "raw_coord": [
+      1,
+      544,
+      816,
+      3
+    ],
+    "encoder_feature": [
+      1,
+      34,
+      51,
+      1026
+    ]
+  },
+  "modelBytes": 1328831957,
+  "sha256": "9bae57e8ffff7fb766c8807d9605b42decb89c4771e6f4a0118b7c294507207c"
+}

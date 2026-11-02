@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "dtype": "float32-le",
+  "convolutionLayout": "neighbor,inputChannel,outputChannel",
+  "checkpointRevision": "184008f877d7ad1ad4c2cd2182a9bd1f63d0e5be",
+  "blocks": {
+    "down_stages.0.0": {
+      "channels": 32,
+      "bytes": 221696,
+      "sha256": "5432fa95b560800d641ed3d465a1ddc1d0835e3c82fd90fe02e4f29be67f0509",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 32
+        },
+        "norm1.bias": {
+          "offset": 32,
+          "length": 32
+        },
+        "conv1.weight": {
+          "offset": 64,
+          "length": 27648
+        },
+        "conv1.bias": {
+          "offset": 27712,
+          "length": 32
+        },
+        "conv2.weight": {
+          "offset": 27744,
+          "length": 27648
+        },
+        "conv2.bias": {
+          "offset": 55392,
+          "length": 32
+        }
+      }
+    },
+    "down_stages.1.0": {
+      "channels": 64,
+      "bytes": 885760,
+      "sha256": "3483848eade58daef204c44e38041ad194046c740dbd4f1d963f5548851589a9",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 64
+        },
+        "norm1.bias": {
+          "offset": 64,
+          "length": 64
+        },
+        "conv1.weight": {
+          "offset": 128,
+          "length": 110592
+        },
+        "conv1.bias": {
+          "offset": 110720,
+          "length": 64
+        },
+        "conv2.weight": {
+          "offset": 110784,
+          "length": 110592
+        },
+        "conv2.bias": {
+          "offset": 221376,
+          "length": 64
+        }
+      }
+    },
+    "down_stages.2.0": {
+      "channels": 128,
+      "bytes": 3540992,
+      "sha256": "4235de1c9a64aef20df4044d226ba8bcbc0a40b72ada36aa7ca8a617eb92f07a",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 128
+        },
+        "norm1.bias": {
+          "offset": 128,
+          "length": 128
+        },
+        "conv1.weight": {
+          "offset": 256,
+          "length": 442368
+        },
+        "conv1.bias": {
+          "offset": 442624,
+          "length": 128
+        },
+        "conv2.weight": {
+          "offset": 442752,
+          "length": 442368
+        },
+        "conv2.bias": {
+          "offset": 885120,
+          "length": 128
+        }
+      }
+    },
+    "down_stages.3.0": {
+      "channels": 256,
+      "bytes": 14159872,
+      "sha256": "96642797f2d05c95c6bb0b16322b64f531ec3f15398cd2d1e44ee95fcbc7af11",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 256
+        },
+        "norm1.bias": {
+          "offset": 256,
+          "length": 256
+        },
+        "conv1.weight": {
+          "offset": 512,
+          "length": 1769472
+        },
+        "conv1.bias": {
+          "offset": 1769984,
+          "length": 256
+        },
+        "conv2.weight": {
+          "offset": 1770240,
+          "length": 1769472
+        },
+        "conv2.bias": {
+          "offset": 3539712,
+          "length": 256
+        }
+      }
+    },
+    "down_stages.4.0": {
+      "channels": 512,
+      "bytes": 56631296,
+      "sha256": "2a3bcbfaa6b3f231ed1859247f052775755697dedefcec63702391d70f905ae1",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 512
+        },
+        "norm1.bias": {
+          "offset": 512,
+          "length": 512
+        },
+        "conv1.weight": {
+          "offset": 1024,
+          "length": 7077888
+        },
+        "conv1.bias": {
+          "offset": 7078912,
+          "length": 512
+        },
+        "conv2.weight": {
+          "offset": 7079424,
+          "length": 7077888
+        },
+        "conv2.bias": {
+          "offset": 14157312,
+          "length": 512
+        }
+      }
+    },
+    "bottleneck_stage.0": {
+      "channels": 512,
+      "bytes": 56631296,
+      "sha256": "fdb708a5a11daacde4590a5075cf587ac555c5e18467b99602f5c388a950a47a",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 512
+        },
+        "norm1.bias": {
+          "offset": 512,
+          "length": 512
+        },
+        "conv1.weight": {
+          "offset": 1024,
+          "length": 7077888
+        },
+        "conv1.bias": {
+          "offset": 7078912,
+          "length": 512
+        },
+        "conv2.weight": {
+          "offset": 7079424,
+          "length": 7077888
+        },
+        "conv2.bias": {
+          "offset": 14157312,
+          "length": 512
+        }
+      }
+    },
+    "up_stages.0.0": {
+      "channels": 256,
+      "bytes": 14159872,
+      "sha256": "7c520f84f6dbaa0a31ee13520c01ff9ace08b81bd936896500b91ca59605072d",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 256
+        },
+        "norm1.bias": {
+          "offset": 256,
+          "length": 256
+        },
+        "conv1.weight": {
+          "offset": 512,
+          "length": 1769472
+        },
+        "conv1.bias": {
+          "offset": 1769984,
+          "length": 256
+        },
+        "conv2.weight": {
+          "offset": 1770240,
+          "length": 1769472
+        },
+        "conv2.bias": {
+          "offset": 3539712,
+          "length": 256
+        }
+      }
+    },
+    "up_stages.1.0": {
+      "channels": 128,
+      "bytes": 3540992,
+      "sha256": "029f11f0872c3ee6a19b5796d6e8e71ce975db8d49b8945f8e7bc2d9000dbc11",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 128
+        },
+        "norm1.bias": {
+          "offset": 128,
+          "length": 128
+        },
+        "conv1.weight": {
+          "offset": 256,
+          "length": 442368
+        },
+        "conv1.bias": {
+          "offset": 442624,
+          "length": 128
+        },
+        "conv2.weight": {
+          "offset": 442752,
+          "length": 442368
+        },
+        "conv2.bias": {
+          "offset": 885120,
+          "length": 128
+        }
+      }
+    },
+    "up_stages.2.0": {
+      "channels": 64,
+      "bytes": 885760,
+      "sha256": "40714f31d6807fc7cc225ae7f2581f7d4e4834c4748f82dc16b9072b91f98b5e",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 64
+        },
+        "norm1.bias": {
+          "offset": 64,
+          "length": 64
+        },
+        "conv1.weight": {
+          "offset": 128,
+          "length": 110592
+        },
+        "conv1.bias": {
+          "offset": 110720,
+          "length": 64
+        },
+        "conv2.weight": {
+          "offset": 110784,
+          "length": 110592
+        },
+        "conv2.bias": {
+          "offset": 221376,
+          "length": 64
+        }
+      }
+    },
+    "up_stages.3.0": {
+      "channels": 32,
+      "bytes": 221696,
+      "sha256": "8514405b19d5e39a4ad1644e1db4dbaa84fa1698a88729aa105c1c00cb62b2ad",
+      "fields": {
+        "norm1.weight": {
+          "offset": 0,
+          "length": 32
+        },
+        "norm1.bias": {
+          "offset": 32,
+          "length": 32
+        },
+        "conv1.weight": {
+          "offset": 64,
+          "length": 27648
+        },
+        "conv1.bias": {
+          "offset": 27712,
+          "length": 32
+        },
+        "conv2.weight": {
+          "offset": 27744,
+          "length": 27648
+        },
+        "conv2.bias": {
+          "offset": 55392,
+          "length": 32
+        }
+      }
+    }
+  }
+}
