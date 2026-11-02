@@ -14,6 +14,6 @@ const fs=require('node:fs/promises');
  report.browserErrors=errors;
  if(!report.timing)report.runs=report.runs.map(r=>Object.fromEntries(['profile','caseName','refineSteps','repeat','enabled','passed','validated','validationReference','referenceScope','original','outputs','computeMs','inputShape'].map(k=>[k,r[k]])));
  await fs.writeFile(process.env.REPORT_FILE||'benchmarks/browser-report.json',JSON.stringify(report,null,2)+'\n');
- if(report.error||errors.length||!report.complete||report.passed===false)throw Error(report.error||errors.join('\n')||(report.passed===false?'CUDA accuracy failures; see saved report':'Incomplete benchmark')); 
+ if(report.error||errors.length||!report.complete||report.passed===false)throw Error(report.error||errors.join('\n')||(report.passed===false?'CUDA accuracy failures; see saved report':'Incomplete benchmark'));
  }finally{await context.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
