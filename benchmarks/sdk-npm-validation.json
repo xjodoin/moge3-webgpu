@@ -1,0 +1,17 @@
+{
+  "name": "@xjodoin/moge3-webgpu",
+  "version": "0.2.0-experimental.0",
+  "tag": "experimental",
+  "archiveSha256": "a135c203e283a7cb8d5562f1d3752aba3aed6b2b4bfe8cfa26795388d9efe0aa",
+  "archiveSha1": "a579b354d4ac3d05afb39784e6ecaea87becd1a8",
+  "sdkTests": 66,
+  "cleanInstall": {
+    "esmImport": true,
+    "cliSymlink": true,
+    "runtimeAssets": true,
+    "licenses": true,
+    "preservesUnrelatedFiles": true,
+    "typescript": true,
+    "viteBuild": true
+  }
+}

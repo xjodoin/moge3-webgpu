@@ -6,7 +6,8 @@
     "dev": "vite --host 127.0.0.1 --port 5180",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 5181",
-    "test": "node --test *.test.js"
+    "test": "node --test *.test.js",
+    "build:sdk": "vite build --config sdk/vite.config.js"
   },
   "dependencies": {
     "onnxruntime-web": "1.24.3",

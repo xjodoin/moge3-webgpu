@@ -1,0 +1,40 @@
+{
+  "sdkVersion": "0.2.0",
+  "sdkUnitTests": 66,
+  "perfectDeckFocusedTests": 11,
+  "standaloneWorker": {
+    "width": 512,
+    "height": 344,
+    "finite": true,
+    "points": 528384,
+    "mask": 175949,
+    "crop": {
+      "originalWidth": 1536,
+      "originalHeight": 1024,
+      "crop": [
+        0.003875968992248069,
+        0,
+        0.9922480620155039,
+        1
+      ]
+    }
+  },
+  "perfectDeckHook": {
+    "status": "ready",
+    "message": "Spatial preview ready on this device",
+    "engine": "moge3-webgpu-sdk",
+    "count": 17258,
+    "triangles": 32028,
+    "calibration": {
+      "version": 2,
+      "photoHash": "04cf701fb1a38b745c815ac6d9abdbbd12f3741b512f908d6fd05458ad09c0a7",
+      "references": [],
+      "groundPoints": [],
+      "deckAnchor": null,
+      "yawDeg": 0,
+      "showDeck": true,
+      "alignToHouse": true
+    }
+  },
+  "scope": "Actual browser reconstruction and React-hook integration; no new CUDA accuracy claim. Known upstream port limitations remain documented."
+}

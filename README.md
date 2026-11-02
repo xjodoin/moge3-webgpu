@@ -354,3 +354,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for validation and upstream contribution 
 See [FP32 sparse autotuning](AUTOTUNE.md) for the bounded device-specific kernel search and benchmark procedure.
 
 See [real-photo visual benchmark](REAL-PHOTO-BENCHMARK.md) for the expanded scene set, fresh RTX 4090 baseline, interactive depth comparisons, and the two known accuracy failures.
+
+## Browser SDK
+
+The reusable [`@xjodoin/moge3-webgpu` SDK](sdk/README.md) runs reconstruction in an isolated
+worker and exposes typed geometry, camera intrinsics, progress, AbortSignal
+cancellation and explicit disposal. It is independent of the demo DOM and viewer.
+Build with `npm run build:sdk`, then distribute with `npm pack ./sdk`. Exact weights
+are the SDK default. A versioned package is integrated into PerfectDeck's photo
+workspace; it preserves manual measurement calibration and maps cropped inputs
+back to the original photo.

@@ -12,3 +12,6 @@ __pycache__/
 .venv-native/
 .venv-codecs/
 release/
+
+sdk/dist/
+*.tgz

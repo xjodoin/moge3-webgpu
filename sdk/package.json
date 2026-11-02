@@ -1,0 +1,45 @@
+{
+  "name": "@xjodoin/moge3-webgpu",
+  "version": "0.2.0-experimental.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Local photo-to-3D reconstruction with MoGe-3 and WebGPU",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "index.d.ts",
+    "README.md",
+    "LICENSE",
+    "licenses",
+    "bin"
+  ],
+  "sideEffects": false,
+  "bin": {
+    "moge3-copy-assets": "./bin/copy-assets.js"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjodoin/moge3-webgpu.git",
+    "directory": "sdk"
+  },
+  "homepage": "https://github.com/xjodoin/moge3-webgpu/tree/main/sdk",
+  "bugs": {
+    "url": "https://github.com/xjodoin/moge3-webgpu/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "experimental",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "prepack": "node bin/check-package.js"
+  }
+}
