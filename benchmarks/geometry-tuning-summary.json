@@ -1,0 +1,149 @@
+{
+  "accuracyCases": {
+    "cpu": 54,
+    "previous-gpu": 54,
+    "optimized-gpu": 54
+  },
+  "layoutParity": [
+    {
+      "profile": "fast",
+      "photo": "sample-backyard",
+      "equal": true,
+      "stable": true,
+      "readbackMaps": 1
+    },
+    {
+      "profile": "fast",
+      "photo": "brick-ranch",
+      "equal": true,
+      "stable": true,
+      "readbackMaps": 1
+    },
+    {
+      "profile": "fast",
+      "photo": "raised-deck",
+      "equal": true,
+      "stable": true,
+      "readbackMaps": 1
+    },
+    {
+      "profile": "detail",
+      "photo": "sample-backyard",
+      "equal": true,
+      "stable": true,
+      "readbackMaps": 1
+    },
+    {
+      "profile": "detail",
+      "photo": "brick-ranch",
+      "equal": true,
+      "stable": true,
+      "readbackMaps": 1
+    },
+    {
+      "profile": "detail",
+      "photo": "raised-deck",
+      "equal": true,
+      "stable": true,
+      "readbackMaps": 1
+    }
+  ],
+  "timingValidationDisabled": true,
+  "timings": [
+    {
+      "profile": "fast",
+      "steps": 1,
+      "medianMs": {
+        "cpu": 833.2999999523163,
+        "previous-gpu": 829.1349999904633,
+        "optimized-gpu": 826.0899999141693
+      },
+      "reductionVsPreviousGpuPct": 0.36725021574640637,
+      "reductionVsCpuPct": 0.8652346140117118
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "medianMs": {
+        "cpu": 1130.1849999427795,
+        "previous-gpu": 1137.585000038147,
+        "optimized-gpu": 1123.1200000047684
+      },
+      "reductionVsPreviousGpuPct": 1.2715533373676258,
+      "reductionVsCpuPct": 0.6251188910106675
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "medianMs": {
+        "cpu": 1388.8149999380112,
+        "previous-gpu": 1387.1150000095367,
+        "optimized-gpu": 1366.7799999713898
+      },
+      "reductionVsPreviousGpuPct": 1.4659923681891618,
+      "reductionVsCpuPct": 1.5866044050218964
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "medianMs": {
+        "cpu": 1320.5049999952316,
+        "previous-gpu": 1317.8349999189377,
+        "optimized-gpu": 1313.3149999380112
+      },
+      "reductionVsPreviousGpuPct": 0.34298679130577714,
+      "reductionVsCpuPct": 0.5444886658699799
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "medianMs": {
+        "cpu": 1780.445000052452,
+        "previous-gpu": 1778.2200000286102,
+        "optimized-gpu": 1743.7400000095367
+      },
+      "reductionVsPreviousGpuPct": 1.9390176703961703,
+      "reductionVsCpuPct": 2.061563263219812
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "medianMs": {
+        "cpu": 2319.274999976158,
+        "previous-gpu": 2205.9900000095367,
+        "optimized-gpu": 2197.929999947548
+      },
+      "reductionVsPreviousGpuPct": 0.36536883947587695,
+      "reductionVsCpuPct": 5.232022939490044
+    }
+  ],
+  "sourceSha256": {
+    "main.js": "66d95dd1a89db35df9c0c31bdaa0ad6679b33b3ab87452f76edfea4849d4ad3d",
+    "gpu-geometry.js": "235dd6214ed763b1e838b64a48cf8fcb65de8a5b432078f2f3315598a8a1bb17",
+    "gpu-ops.js": "6d9d70c888dcfb5cc1e53dfa54bad9b6561cb139a5018eb308458b9963db6135",
+    "runtime.js": "738b684920c0451823a2ff0e4eb68247d5a1b7d8895d21de4e762fab1ba71641",
+    "refiner.js": "93937906f5e18cd142f25073cf33882720bbea30a8ab4ee0fa571b355a9db19c",
+    "benchmark-geometry-tuning.browser.js": "9cd47b9e6a50dd59ed1b44eebd462dff975ced529dfb6821ded90fe0b64f6343",
+    "profile-geometry.browser.js": "3539244e7f9e3cf58feb432995183de86fe16cf6b1aaebcad4e11ae646719f3d"
+  },
+  "pairedGpuMetricsIdentical": true,
+  "accuracyPower": {
+    "samples": 74,
+    "allAc": true,
+    "first": 1793629425.249619,
+    "last": 1793630159.545986
+  },
+  "timingPower": {
+    "samples": 35,
+    "allAc": true,
+    "first": 1793630293.99108,
+    "last": 1793630637.169933
+  },
+  "worstGpuPointNrmse": 0.0009430724351113234,
+  "firefox": {
+    "cases": 18,
+    "passed": 18,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:158.0) Gecko/20100101 Firefox/158.0",
+    "poolAfterUnload": []
+  }
+}

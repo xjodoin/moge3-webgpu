@@ -1,0 +1,20 @@
+{
+  "validated": false,
+  "passed": null,
+  "steps": 3,
+  "variant": "optimized",
+  "maps": 1,
+  "events": [
+    {
+      "pass": 1,
+      "total": 3,
+      "validated": false
+    },
+    {
+      "pass": 2,
+      "total": 3,
+      "validated": false
+    }
+  ],
+  "pool": []
+}

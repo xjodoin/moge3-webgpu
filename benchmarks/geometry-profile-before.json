@@ -1,0 +1,1189 @@
+{
+  "done": true,
+  "report": {
+    "started": 1793629116767,
+    "runs": [
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 0,
+        "enqueueMs": 0.10499989986419678,
+        "readbackWaitMs": 1.9100000858306885,
+        "unpackMs": 5.824999928474426,
+        "totalMs": 7.84499990940094,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 1,
+        "enqueueMs": 0.12000000476837158,
+        "readbackWaitMs": 1.8550000190734863,
+        "unpackMs": 5.559999942779541,
+        "totalMs": 7.534999966621399,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 2,
+        "enqueueMs": 0.6899999380111694,
+        "readbackWaitMs": 8.800000071525574,
+        "unpackMs": 5.924999952316284,
+        "totalMs": 15.419999957084656,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 3,
+        "enqueueMs": 0.15500009059906006,
+        "readbackWaitMs": 7.434999942779541,
+        "unpackMs": 5.185000061988831,
+        "totalMs": 12.775000095367432,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 4,
+        "enqueueMs": 0.12000000476837158,
+        "readbackWaitMs": 5.625,
+        "unpackMs": 5.554999947547913,
+        "totalMs": 11.299999952316284,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 5,
+        "enqueueMs": 0.1549999713897705,
+        "readbackWaitMs": 6.245000004768372,
+        "unpackMs": 9.414999961853027,
+        "totalMs": 15.81499993801117,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 6,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 194.58000004291534,
+        "unpackMs": 5.224999904632568,
+        "totalMs": 199.91499996185303,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 7,
+        "enqueueMs": 0.09999990463256836,
+        "readbackWaitMs": 6.080000042915344,
+        "unpackMs": 9.394999980926514,
+        "totalMs": 15.574999928474426,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 8,
+        "enqueueMs": 0.125,
+        "readbackWaitMs": 5.235000014305115,
+        "unpackMs": 5.060000061988831,
+        "totalMs": 10.420000076293945,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "repeat": 9,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 2.0600000619888306,
+        "unpackMs": 5,
+        "totalMs": 7.170000076293945,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.0001544952392578125,
+          "nrmse": 4.6526360199802344e-06,
+          "p99Abs": 0.0001220703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 0,
+        "enqueueMs": 0.07499992847442627,
+        "readbackWaitMs": 1.2450000047683716,
+        "unpackMs": 5.065000057220459,
+        "totalMs": 6.384999990463257,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 1,
+        "enqueueMs": 0.07500004768371582,
+        "readbackWaitMs": 1.274999976158142,
+        "unpackMs": 4.985000014305115,
+        "totalMs": 6.335000038146973,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 2,
+        "enqueueMs": 0.13499999046325684,
+        "readbackWaitMs": 1.159999966621399,
+        "unpackMs": 4.894999980926514,
+        "totalMs": 6.194999933242798,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 3,
+        "enqueueMs": 0.08999991416931152,
+        "readbackWaitMs": 1.590000033378601,
+        "unpackMs": 5.054999947547913,
+        "totalMs": 6.734999895095825,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 4,
+        "enqueueMs": 0.10500001907348633,
+        "readbackWaitMs": 1.340000033378601,
+        "unpackMs": 7.609999895095825,
+        "totalMs": 9.054999947547913,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 5,
+        "enqueueMs": 0.08999991416931152,
+        "readbackWaitMs": 1.1150000095367432,
+        "unpackMs": 4.820000052452087,
+        "totalMs": 6.024999976158142,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 6,
+        "enqueueMs": 0.09499990940093994,
+        "readbackWaitMs": 1.350000023841858,
+        "unpackMs": 5.190000057220459,
+        "totalMs": 6.634999990463257,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 7,
+        "enqueueMs": 0.1099998950958252,
+        "readbackWaitMs": 1.2300000190734863,
+        "unpackMs": 5.0350000858306885,
+        "totalMs": 6.375,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 8,
+        "enqueueMs": 0.09999990463256836,
+        "readbackWaitMs": 1,
+        "unpackMs": 7.620000004768372,
+        "totalMs": 8.71999990940094,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "repeat": 9,
+        "enqueueMs": 0.09000003337860107,
+        "readbackWaitMs": 1.6899999380111694,
+        "unpackMs": 5.075000047683716,
+        "totalMs": 6.855000019073486,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 5.701339973481175e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 0,
+        "enqueueMs": 0.0849999189376831,
+        "readbackWaitMs": 1.3300000429153442,
+        "unpackMs": 5.085000038146973,
+        "totalMs": 6.5,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 1,
+        "enqueueMs": 0.09500002861022949,
+        "readbackWaitMs": 1.4649999141693115,
+        "unpackMs": 5.1600000858306885,
+        "totalMs": 6.7200000286102295,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 2,
+        "enqueueMs": 0.07499992847442627,
+        "readbackWaitMs": 1.090000033378601,
+        "unpackMs": 7.919999957084656,
+        "totalMs": 9.089999914169312,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 3,
+        "enqueueMs": 0.09500002861022949,
+        "readbackWaitMs": 2.509999990463257,
+        "unpackMs": 5.120000004768372,
+        "totalMs": 7.725000023841858,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 4,
+        "enqueueMs": 0.09499990940093994,
+        "readbackWaitMs": 1.100000023841858,
+        "unpackMs": 5.134999990463257,
+        "totalMs": 6.329999923706055,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 5,
+        "enqueueMs": 0.09500002861022949,
+        "readbackWaitMs": 3.475000023841858,
+        "unpackMs": 5.134999990463257,
+        "totalMs": 8.705000042915344,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 6,
+        "enqueueMs": 0.13999998569488525,
+        "readbackWaitMs": 1.475000023841858,
+        "unpackMs": 4.899999976158142,
+        "totalMs": 6.514999985694885,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 7,
+        "enqueueMs": 0.09499990940093994,
+        "readbackWaitMs": 2.200000047683716,
+        "unpackMs": 5,
+        "totalMs": 7.294999957084656,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 8,
+        "enqueueMs": 0.125,
+        "readbackWaitMs": 1.4549999237060547,
+        "unpackMs": 7.8450000286102295,
+        "totalMs": 9.429999947547913,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "repeat": 9,
+        "enqueueMs": 0.08500003814697266,
+        "readbackWaitMs": 1.3350000381469727,
+        "unpackMs": 5.099999904632568,
+        "totalMs": 6.519999980926514,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 4.510404823861899e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 0,
+        "enqueueMs": 0.06500005722045898,
+        "readbackWaitMs": 2.875,
+        "unpackMs": 11.615000009536743,
+        "totalMs": 14.555000066757202,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 1,
+        "enqueueMs": 0.10499989986419678,
+        "readbackWaitMs": 2.0500000715255737,
+        "unpackMs": 11.72000002861023,
+        "totalMs": 13.875,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 2,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 3.325000047683716,
+        "unpackMs": 11.855000019073486,
+        "totalMs": 15.290000081062317,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 3,
+        "enqueueMs": 0.125,
+        "readbackWaitMs": 4.304999947547913,
+        "unpackMs": 14.340000033378601,
+        "totalMs": 18.769999980926514,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 4,
+        "enqueueMs": 0.125,
+        "readbackWaitMs": 4.350000023841858,
+        "unpackMs": 11.605000019073486,
+        "totalMs": 16.080000042915344,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 5,
+        "enqueueMs": 0.125,
+        "readbackWaitMs": 3.009999990463257,
+        "unpackMs": 11.730000019073486,
+        "totalMs": 14.865000009536743,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 6,
+        "enqueueMs": 0.12000000476837158,
+        "readbackWaitMs": 3.075000047683716,
+        "unpackMs": 11.664999961853027,
+        "totalMs": 14.860000014305115,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 7,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 1.9149999618530273,
+        "unpackMs": 11.639999985694885,
+        "totalMs": 13.664999961853027,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 8,
+        "enqueueMs": 0.1549999713897705,
+        "readbackWaitMs": 3.5049999952316284,
+        "unpackMs": 11.504999995231628,
+        "totalMs": 15.164999961853027,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "repeat": 9,
+        "enqueueMs": 0.125,
+        "readbackWaitMs": 1.9300000667572021,
+        "unpackMs": 12,
+        "totalMs": 14.055000066757202,
+        "metric": {
+          "finite": true,
+          "maxAbs": 5.7220458984375e-06,
+          "nrmse": 1.1913569101688313e-07,
+          "p99Abs": 3.814697265625e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 0,
+        "enqueueMs": 0.06499993801116943,
+        "readbackWaitMs": 1.7400000095367432,
+        "unpackMs": 11.230000019073486,
+        "totalMs": 13.034999966621399,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 1,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 1.5399999618530273,
+        "unpackMs": 11.125,
+        "totalMs": 12.774999976158142,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 2,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 1.4449999332427979,
+        "unpackMs": 11.620000004768372,
+        "totalMs": 13.174999952316284,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 3,
+        "enqueueMs": 0.13499999046325684,
+        "readbackWaitMs": 1.1449999809265137,
+        "unpackMs": 11.690000057220459,
+        "totalMs": 12.97000002861023,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 4,
+        "enqueueMs": 0.10000002384185791,
+        "readbackWaitMs": 1.5449999570846558,
+        "unpackMs": 11.775000095367432,
+        "totalMs": 13.420000076293945,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 5,
+        "enqueueMs": 0.12000000476837158,
+        "readbackWaitMs": 3.134999990463257,
+        "unpackMs": 11.355000019073486,
+        "totalMs": 14.610000014305115,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 6,
+        "enqueueMs": 0.10500001907348633,
+        "readbackWaitMs": 1.3499999046325684,
+        "unpackMs": 11.490000009536743,
+        "totalMs": 12.944999933242798,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 7,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 1.7949999570846558,
+        "unpackMs": 11.485000014305115,
+        "totalMs": 13.389999985694885,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 8,
+        "enqueueMs": 0.11500000953674316,
+        "readbackWaitMs": 2.8600000143051147,
+        "unpackMs": 11.139999985694885,
+        "totalMs": 14.115000009536743,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "repeat": 9,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 1.409999966621399,
+        "unpackMs": 11.705000042915344,
+        "totalMs": 13.230000019073486,
+        "metric": {
+          "finite": true,
+          "maxAbs": 3.814697265625e-06,
+          "nrmse": 6.135804503202931e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 0,
+        "enqueueMs": 0.10000002384185791,
+        "readbackWaitMs": 2.5749999284744263,
+        "unpackMs": 11.790000081062317,
+        "totalMs": 14.465000033378601,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 1,
+        "enqueueMs": 0.11000001430511475,
+        "readbackWaitMs": 1.7899999618530273,
+        "unpackMs": 11.149999976158142,
+        "totalMs": 13.049999952316284,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 2,
+        "enqueueMs": 0.11500000953674316,
+        "readbackWaitMs": 3.8450000286102295,
+        "unpackMs": 11.480000019073486,
+        "totalMs": 15.440000057220459,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 3,
+        "enqueueMs": 0.12000000476837158,
+        "readbackWaitMs": 3.2450000047683716,
+        "unpackMs": 11.554999947547913,
+        "totalMs": 14.919999957084656,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 4,
+        "enqueueMs": 0.18000006675720215,
+        "readbackWaitMs": 3.0649999380111694,
+        "unpackMs": 11.18500006198883,
+        "totalMs": 14.430000066757202,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 5,
+        "enqueueMs": 0.13499999046325684,
+        "readbackWaitMs": 3.305000066757202,
+        "unpackMs": 11.125,
+        "totalMs": 14.570000052452087,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 6,
+        "enqueueMs": 0.125,
+        "readbackWaitMs": 2.350000023841858,
+        "unpackMs": 11.315000057220459,
+        "totalMs": 13.790000081062317,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 7,
+        "enqueueMs": 0.13499999046325684,
+        "readbackWaitMs": 4.039999961853027,
+        "unpackMs": 11.105000019073486,
+        "totalMs": 15.27999997138977,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 8,
+        "enqueueMs": 0.125,
+        "readbackWaitMs": 1.4299999475479126,
+        "unpackMs": 11.730000019073486,
+        "totalMs": 13.284999966621399,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "repeat": 9,
+        "enqueueMs": 0.12000000476837158,
+        "readbackWaitMs": 1.5700000524520874,
+        "unpackMs": 11.204999923706055,
+        "totalMs": 12.894999980926514,
+        "metric": {
+          "finite": true,
+          "maxAbs": 0.000102996826171875,
+          "nrmse": 1.8483299726813392e-06,
+          "p99Abs": 5.91278076171875e-05,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        }
+      }
+    ],
+    "traces": [
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "gpu": [
+          {
+            "name": "geometry/camera",
+            "gpuMs": 1.572864
+          },
+          {
+            "name": "geometry/project",
+            "gpuMs": 0.065536
+          }
+        ],
+        "linear": [],
+        "instrumented": true
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "gpu": [
+          {
+            "name": "geometry/camera",
+            "gpuMs": 0.32768
+          },
+          {
+            "name": "geometry/project",
+            "gpuMs": 0.262144
+          }
+        ],
+        "linear": [],
+        "instrumented": true
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "gpu": [
+          {
+            "name": "geometry/camera",
+            "gpuMs": 0.32768
+          },
+          {
+            "name": "geometry/project",
+            "gpuMs": 0.196608
+          }
+        ],
+        "linear": [],
+        "instrumented": true
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "gpu": [
+          {
+            "name": "geometry/camera",
+            "gpuMs": 0.393216
+          },
+          {
+            "name": "geometry/project",
+            "gpuMs": 0.131072
+          }
+        ],
+        "linear": [],
+        "instrumented": true
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "gpu": [
+          {
+            "name": "geometry/camera",
+            "gpuMs": 0.32768
+          },
+          {
+            "name": "geometry/project",
+            "gpuMs": 0.131072
+          }
+        ],
+        "linear": [],
+        "instrumented": true
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "gpu": [
+          {
+            "name": "geometry/camera",
+            "gpuMs": 0.917504
+          },
+          {
+            "name": "geometry/project",
+            "gpuMs": 0.131072
+          }
+        ],
+        "linear": [],
+        "instrumented": true
+      }
+    ],
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "complete": true,
+    "finished": 1793629124718
+  }
+}

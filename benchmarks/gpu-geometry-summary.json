@@ -1,0 +1,151 @@
+{
+  "gpuCases": 54,
+  "cpuCases": 54,
+  "stageChecks": {
+    "checks": [
+      {
+        "kind": "known-camera",
+        "metric": {
+          "finite": true,
+          "maxAbs": 1.9073486328125e-06,
+          "nrmse": 5.240606218000476e-08,
+          "p99Abs": 1.9073486328125e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "camera": {
+          "finite": true,
+          "maxAbs": 5.960464477539063e-08,
+          "nrmse": 4.91610821727032e-08,
+          "p99Abs": 5.960464477539063e-08,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "passed": true
+      },
+      {
+        "kind": "empty-mask",
+        "metric": {
+          "finite": true,
+          "maxAbs": 0,
+          "nrmse": 0,
+          "p99Abs": 0,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "camera": {
+          "finite": true,
+          "maxAbs": 5.960464477539063e-08,
+          "nrmse": 5.331201536195896e-08,
+          "p99Abs": 5.960464477539063e-08,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "passed": true
+      },
+      {
+        "kind": "single-sample",
+        "metric": {
+          "finite": true,
+          "maxAbs": 0,
+          "nrmse": 0,
+          "p99Abs": 0,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "camera": {
+          "finite": true,
+          "maxAbs": 5.960464477539063e-08,
+          "nrmse": 5.331201536195896e-08,
+          "p99Abs": 5.960464477539063e-08,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "passed": true
+      },
+      {
+        "kind": "depth-add",
+        "passed": true
+      },
+      {
+        "kind": "odd-grid-remap",
+        "metric": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-07,
+          "nrmse": 6.834555698952798e-08,
+          "p99Abs": 1.1920928955078125e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "passed": true
+      }
+    ]
+  },
+  "worstGpuPointNrmse": 0.0009430724351113234,
+  "allGpuRefinementFeatureReadbacksZero": true,
+  "poolAfterUnload": [],
+  "sourceSha256": {
+    "main.js": "b6efcbaf0eac11a3de7f635ebafad0f1ca81a11462df420bec5c1840a775e23b",
+    "runtime.js": "738b684920c0451823a2ff0e4eb68247d5a1b7d8895d21de4e762fab1ba71641",
+    "refiner.js": "93937906f5e18cd142f25073cf33882720bbea30a8ab4ee0fa571b355a9db19c",
+    "gpu-geometry.js": "f49096fc0ff198356acbb060a3dab5c2f6baf600d43b6ac864192cbaaa4ca3bb",
+    "gpu-ops.js": "6d9d70c888dcfb5cc1e53dfa54bad9b6561cb139a5018eb308458b9963db6135",
+    "geometry.js": "08234010360dfcffdfb5b98173535dffd96cea6788a347100a975a12f4d8837a",
+    "benchmark-geometry.browser.js": "4bb1ed36f3ad7981d988f33b6ca2d80f7ca0bfa6b08fd6729b4fc2ea1ca9ef39"
+  },
+  "timings": [
+    {
+      "profile": "fast",
+      "steps": 1,
+      "cpu": 931.4250000715256,
+      "gpu": 941.7949999570847
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "cpu": 1179.0750000476837,
+      "gpu": 1167.3650000095367
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "cpu": 1478.0499999523163,
+      "gpu": 1403.454999923706
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "cpu": 1505.8400000333786,
+      "gpu": 1550
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "cpu": 2516.310000061989,
+      "gpu": 2671.9049999713898
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "cpu": 3271.235000014305,
+      "gpu": 3074.899999976158
+    }
+  ],
+  "firefox": {
+    "cases": 18,
+    "passed": 18,
+    "poolAfterUnload": []
+  },
+  "compact": {
+    "cases": 18,
+    "passed": 18,
+    "poolAfterUnload": []
+  }
+}

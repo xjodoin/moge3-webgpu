@@ -1,0 +1,4149 @@
+{
+  "done": true,
+  "report": {
+    "started": 1793630298392,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "runs": [
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 804.8100000619888,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 4.075000047683716
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 805.0349999666214,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 229.25499999523163,
+          "unpackMs": 5.195000052452087,
+          "totalMs": 234.47500002384186,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 554.3650000095367
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 802.1599999666214,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 228.79499995708466,
+          "unpackMs": 0.2799999713897705,
+          "totalMs": 229.09499990940094,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 556.8249999284744
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 841.1950000524521,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 4.399999976158142
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 829.1349999904633,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.015000104904174805,
+          "readbackWaitMs": 248.82499992847443,
+          "unpackMs": 6.100000023841858,
+          "totalMs": 254.94000005722046,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 555.5049999952316
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 826.4950000047684,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 251.72000002861023,
+          "unpackMs": 0.1950000524520874,
+          "totalMs": 251.93500006198883,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 556.8250000476837
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 885.2249999046326,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 4.924999952316284
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 880.6150000095367,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 298.8250000476837,
+          "unpackMs": 5.199999928474426,
+          "totalMs": 304.039999961853,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 559.8700000047684
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 872.329999923706,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 298.77999997138977,
+          "unpackMs": 0.21500003337860107,
+          "totalMs": 299.0149999856949,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 556.3349999189377
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 810.2549999952316,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 227.34500002861023,
+          "unpackMs": 5.425000071525574,
+          "totalMs": 232.79000008106232,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 560.295000076294
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 801.0750000476837,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 227.42500007152557,
+          "unpackMs": 0.28999996185302734,
+          "totalMs": 227.73500001430511,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 556.1349999904633
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 808.7749999761581,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 4.735000014305115
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 823.7400000095367,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 248.3550000190735,
+          "unpackMs": 5.485000014305115,
+          "totalMs": 253.86500000953674,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 552.3249999284744
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 820.6399999856949,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 250.36500000953674,
+          "unpackMs": 0.21000003814697266,
+          "totalMs": 250.59500002861023,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 553.9850000143051
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 830.4299999475479,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 4.430000066757202
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 877.7949999570847,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 298.27999997138977,
+          "unpackMs": 5.930000066757202,
+          "totalMs": 304.2300000190735,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 556.9449999332428
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 875.2400000095367,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 297.625,
+          "unpackMs": 0.2749999761581421,
+          "totalMs": 297.91999995708466,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 560.6549999713898
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 887.6399999856949,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 4.269999980926514
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 802.2000000476837,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 227.25999999046326,
+          "unpackMs": 0.3400000333786011,
+          "totalMs": 227.62000000476837,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 558.039999961853
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 808.2599999904633,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 3.8899999856948853
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 805.6200000047684,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.020000100135803223,
+          "readbackWaitMs": 229.55999994277954,
+          "unpackMs": 5.179999947547913,
+          "totalMs": 234.75999999046326,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 554.5949999094009
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 826.0899999141693,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 253.8949999809265,
+          "unpackMs": 0.23500001430511475,
+          "totalMs": 254.14999997615814,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 555.7149999141693
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 833.2999999523163,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 4.434999942779541
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 833.4700000286102,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.009999990463256836,
+          "readbackWaitMs": 254.06000006198883,
+          "unpackMs": 5.965000033378601,
+          "totalMs": 260.0350000858307,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 556.1449999809265
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 887.0999999046326,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 307.84500002861023,
+          "unpackMs": 0.25,
+          "totalMs": 308.11500000953674,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 562.1200000047684
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 900.7449998855591,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1204224,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 4.795000076293945
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 894.3899999856949,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 307.30999994277954,
+          "unpackMs": 5.600000023841858,
+          "totalMs": 312.93999993801117,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 563.7999999523163
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1084.085000038147,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 10.410000085830688
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1073.2399998903275,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 231.2849999666214,
+          "unpackMs": 5.679999947547913,
+          "totalMs": 236.98499989509583,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 816.0600000619888
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1075.7649999856949,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 233.89999997615814,
+          "unpackMs": 0.25,
+          "totalMs": 234.16999995708466,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 820.6050000190735
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1130.1849999427795,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 11.450000047683716
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1119.7149999141693,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 250.81500005722046,
+          "unpackMs": 5.819999933242798,
+          "totalMs": 256.65499997138977,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 842.4649999141693
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1114.295000076294,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.015000104904174805,
+          "readbackWaitMs": 249.68499994277954,
+          "unpackMs": 0.21000003814697266,
+          "totalMs": 249.9100000858307,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 841.4900000095367
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1222.3949999809265,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 9.90499997138977
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1210.8400000333786,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 287.8700000047684,
+          "unpackMs": 5.575000047683716,
+          "totalMs": 293.4650000333786,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 895.7649999856949
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1208.1100000143051,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.09500002861022949,
+          "readbackWaitMs": 287.5499999523163,
+          "unpackMs": 0.24500000476837158,
+          "totalMs": 287.8899999856949,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 899.0499999523163
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1084.7599999904633,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 232.4100000858307,
+          "unpackMs": 5.5299999713897705,
+          "totalMs": 237.9650000333786,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 827.0349999666214
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1081.6849999427795,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.020000100135803223,
+          "readbackWaitMs": 234.74500000476837,
+          "unpackMs": 0.434999942779541,
+          "totalMs": 235.20000004768372,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 824.9499998092651
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1091.1849999427795,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 8.894999980926514
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1137.585000038147,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 254.1600000858307,
+          "unpackMs": 6.024999976158142,
+          "totalMs": 260.210000038147,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 855.5249999761581
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1134.1899999380112,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 253.9450000524521,
+          "unpackMs": 0.29499995708465576,
+          "totalMs": 254.26499998569489,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 856.0750000476837
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1141.3400000333786,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 10.269999980926514
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1213.3600000143051,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 288.3400000333786,
+          "unpackMs": 5.5950000286102295,
+          "totalMs": 293.9500000476837,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 898.414999961853
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1214.789999961853,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 288.2000000476837,
+          "unpackMs": 0.2049999237060547,
+          "totalMs": 288.4299999475479,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 903.3600001335144
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1230.1299999952316,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 10.569999933242798
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1083.3799999952316,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 235.38499999046326,
+          "unpackMs": 0.30000007152557373,
+          "totalMs": 235.70500004291534,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 826.4949998855591
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1087.125,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 8.894999980926514
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1089.3999999761581,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 234.56000006198883,
+          "unpackMs": 6.409999966621399,
+          "totalMs": 240.99000000953674,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 828.1650000810623
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1123.1200000047684,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.03000009059906006,
+          "readbackWaitMs": 252.7300000190735,
+          "unpackMs": 0.2999999523162842,
+          "totalMs": 253.06000006198883,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 847.9099999666214
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1130.0550000667572,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 8.684999942779541
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1146.7200000286102,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 265.5049999952316,
+          "unpackMs": 5.740000009536743,
+          "totalMs": 271.2649999856949,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 851.2449998855591
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1335.554999947548,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 300.0199999809265,
+          "unpackMs": 0.3049999475479126,
+          "totalMs": 300.3549998998642,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1010.8199999332428
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1335.7200000286102,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 2408448,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 10.865000009536743
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1269.1650000810623,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.020000100135803223,
+          "readbackWaitMs": 298.81499993801117,
+          "unpackMs": 5.440000057220459,
+          "totalMs": 304.28000009059906,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 942.7400000095367
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1329.530000090599,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 16.929999828338623
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1319.9449999332428,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 231.03000009059906,
+          "unpackMs": 5.799999952316284,
+          "totalMs": 236.85000002384186,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1057.1699999570847
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1316.1399999856949,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 230.6800000667572,
+          "unpackMs": 0.24500000476837158,
+          "totalMs": 230.95000004768372,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1056.9900000095367
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1388.8149999380112,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 17.18500006198883
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1376.710000038147,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 246.10000002384186,
+          "unpackMs": 7.044999957084656,
+          "totalMs": 253.16499996185303,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1096.8849999904633
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1366.7799999713898,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.029999971389770508,
+          "readbackWaitMs": 245.38499999046326,
+          "unpackMs": 0.26999998092651367,
+          "totalMs": 245.68499994277954,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1094.7300001382828
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1570.1050000190735,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 18.15499997138977
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1695.3849999904633,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.029999971389770508,
+          "readbackWaitMs": 310.9650000333786,
+          "unpackMs": 5.304999947547913,
+          "totalMs": 316.2999999523163,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1355.2399998903275
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1607.9950000047684,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.029999971389770508,
+          "readbackWaitMs": 296.0500000715256,
+          "unpackMs": 0.2799999713897705,
+          "totalMs": 296.3600000143051,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1288.2050000429153
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1387.1150000095367,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.015000104904174805,
+          "readbackWaitMs": 240.54999995231628,
+          "unpackMs": 5.909999966621399,
+          "totalMs": 246.47500002384186,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1113.9199999570847
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1359.5499999523163,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 241.7150000333786,
+          "unpackMs": 0.25999999046325684,
+          "totalMs": 241.99500000476837,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1092.7749999761581
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1387.7450000047684,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 15.570000052452087
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1457.7549999952316,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 264.1950000524521,
+          "unpackMs": 5.235000014305115,
+          "totalMs": 269.45500004291534,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1159.5150001049042
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1466.1849999427795,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 261.74000000953674,
+          "unpackMs": 0.24000000953674316,
+          "totalMs": 262,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1179.0699999332428
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1457.9350000619888,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 17.244999885559082
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1530.0599999427795,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 279.85000002384186,
+          "unpackMs": 5.424999952316284,
+          "totalMs": 285.29499995708466,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1216.6799998283386
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1517.8000000715256,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.009999990463256836,
+          "readbackWaitMs": 283.2649999856949,
+          "unpackMs": 0.28000009059906006,
+          "totalMs": 283.5550000667572,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1208.0650000572205
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1509.920000076294,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 15.769999861717224
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1317.8399999141693,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 228.63499999046326,
+          "unpackMs": 0.48500001430511475,
+          "totalMs": 229.13999998569489,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1063.1399998664856
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1325.4900000095367,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 16.200000047683716
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1298.554999947548,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 228.52499997615814,
+          "unpackMs": 5.825000047683716,
+          "totalMs": 234.37000000476837,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1038.8500001430511
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1349.664999961853,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 243.25499999523163,
+          "unpackMs": 0.25,
+          "totalMs": 243.5199999809265,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1078.7649999856949
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1367.625,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 12.745000004768372
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1380.2000000476837,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 245.0699999332428,
+          "unpackMs": 6.315000057220459,
+          "totalMs": 251.40499997138977,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1101.2750000953674
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1528.9700000286102,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.04500007629394531,
+          "readbackWaitMs": 309.8899999856949,
+          "unpackMs": 0.2049999237060547,
+          "totalMs": 310.1399999856949,
+          "readbackMaps": 1,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1191.4999998807907
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1702.1050000190735,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 3612672,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 13.674999952316284
+        }
+      },
+      {
+        "profile": "fast",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1593.164999961853,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 289.9500000476837,
+          "unpackMs": 5.889999985694885,
+          "totalMs": 295.86500000953674,
+          "readbackMaps": 2,
+          "readbackBytes": 2818064
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1270.3849997520447
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1258.0049999952316,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 6.509999990463257
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1264.3250000476837,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 330.0550000667572,
+          "unpackMs": 13.339999914169312,
+          "totalMs": 343.4250000715256,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 904.7749999761581
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1250.6349999904633,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 328.3250000476837,
+          "unpackMs": 0.6799999475479126,
+          "totalMs": 329.0199999809265,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 904.6449999809265
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1293.460000038147,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 6.435000061988831
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1292.5299999713898,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 352.27499997615814,
+          "unpackMs": 12.680000066757202,
+          "totalMs": 364.97500002384186,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 910.2749999761581
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1282.0049999952316,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.020000100135803223,
+          "readbackWaitMs": 354.9099999666214,
+          "unpackMs": 0.6100000143051147,
+          "totalMs": 355.5400000810623,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 910.6900000572205
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1372.0900000333786,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 6.674999952316284
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1384.5800000429153,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02500009536743164,
+          "readbackWaitMs": 438.1949999332428,
+          "unpackMs": 13.894999980926514,
+          "totalMs": 452.11500000953674,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 915.1450001001358
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1373.210000038147,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 434.9300000667572,
+          "unpackMs": 0.7300000190734863,
+          "totalMs": 435.6800000667572,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 919.9750000238419
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1280.3149999380112,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02500009536743164,
+          "readbackWaitMs": 330.9249999523163,
+          "unpackMs": 13.610000014305115,
+          "totalMs": 344.56500005722046,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 917.539999961853
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1264.195000052452,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 330.79499995708466,
+          "unpackMs": 0.5500000715255737,
+          "totalMs": 331.3700000047684,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 915.8050000667572
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1291.8700000047684,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 6.540000081062317
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1317.8349999189377,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 361.54500007629395,
+          "unpackMs": 13.684999942779541,
+          "totalMs": 375.25,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 926.0749999284744
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1313.3149999380112,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 370.36500000953674,
+          "unpackMs": 0.8650000095367432,
+          "totalMs": 371.25,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 919.420000076294
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1320.5049999952316,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 6.125
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1392.0099999904633,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 433.5400000810623,
+          "unpackMs": 14.924999952316284,
+          "totalMs": 448.4850000143051,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 925.2400000095367
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1384.6050000190735,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 440.7150000333786,
+          "unpackMs": 0.5399999618530273,
+          "totalMs": 441.27499997615814,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 925.1200000047684
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1400.8150000572205,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 7.229999899864197
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1279.7799999713898,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.03000009059906006,
+          "readbackWaitMs": 334.625,
+          "unpackMs": 0.6399999856948853,
+          "totalMs": 335.29500007629395,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 924.8449999094009
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1299.9249999523163,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 6.769999980926514
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1314.3999999761581,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02500009536743164,
+          "readbackWaitMs": 345.3949999809265,
+          "unpackMs": 12.509999990463257,
+          "totalMs": 357.9300000667572,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 939.0349999666214
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1316.8899999856949,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02500009536743164,
+          "readbackWaitMs": 361.27499997615814,
+          "unpackMs": 0.8400000333786011,
+          "totalMs": 362.1400001049042,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 934.0800000429153
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1329.9049999713898,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 5.079999923706055
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1329.7350000143051,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.10000002384185791,
+          "readbackWaitMs": 362.6200000047684,
+          "unpackMs": 12.989999890327454,
+          "totalMs": 375.7099999189377,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 936.3849999904633
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1392.5849999189377,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 437.89999997615814,
+          "unpackMs": 0.5149999856948853,
+          "totalMs": 438.43999993801117,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 935.625
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1413.9249999523163,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 1,
+          "featureReadbackBytes": 1775616,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 7.069999933242798
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 1,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1409.539999961853,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 437.8049999475479,
+          "unpackMs": 12.115000009536743,
+          "totalMs": 449.93999993801117,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 10,
+          "indexParameterUploadBytes": 964,
+          "indexShapeReadbacks": 4,
+          "indexShapeReadbackBytes": 16,
+          "gpuIndexingPreparationMs": 942.1850000619888
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1780.445000052452,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 12.424999952316284
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1777.0650000572205,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.03000009059906006,
+          "readbackWaitMs": 354.1399999856949,
+          "unpackMs": 12.839999914169312,
+          "totalMs": 367.00999999046326,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1389.179999947548
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1743.7400000095367,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.039999961853027344,
+          "readbackWaitMs": 351.95499992370605,
+          "unpackMs": 0.5700000524520874,
+          "totalMs": 352.56499993801117,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1371.9950000047684
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1790.0299999713898,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 13.174999952316284
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1767.8700000047684,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.029999971389770508,
+          "readbackWaitMs": 362.30999994277954,
+          "unpackMs": 11.730000019073486,
+          "totalMs": 374.0699999332428,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1372.8399999141693
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1742.3400000333786,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 359.56500005722046,
+          "unpackMs": 0.6549999713897705,
+          "totalMs": 360.2350000143051,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1361.085000038147
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1906.4349999427795,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 12.924999952316284
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1929.4950000047684,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 429.44000005722046,
+          "unpackMs": 12.355000019073486,
+          "totalMs": 441.8200000524521,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1465.8000000715256
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1930.164999961853,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 433.47000002861023,
+          "unpackMs": 0.6699999570846558,
+          "totalMs": 434.1599999666214,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1473.7300000190735
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1779.4499999284744,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.020000100135803223,
+          "readbackWaitMs": 351.09499990940094,
+          "unpackMs": 17.375,
+          "totalMs": 368.49000000953674,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1384.6699999570847
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1707.0449999570847,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 343.13499999046326,
+          "unpackMs": 0.5750000476837158,
+          "totalMs": 343.7300000190735,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1339.1850000619888
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1700.5199999809265,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 12.785000085830688
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1729.445000052452,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 363.9800000190735,
+          "unpackMs": 11.97000002861023,
+          "totalMs": 375.97000002861023,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1331.0049999952316
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1720.4449999332428,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.039999961853027344,
+          "readbackWaitMs": 359.0750000476837,
+          "unpackMs": 0.5399999618530273,
+          "totalMs": 359.65499997138977,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1339.0550000667572
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1737.3949999809265,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 12.975000023841858
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1878.8450000286102,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 416.6799999475479,
+          "unpackMs": 13.315000057220459,
+          "totalMs": 430.0149999856949,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1426.6050000190735
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1898.8700000047684,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 426.875,
+          "unpackMs": 0.6150000095367432,
+          "totalMs": 427.5149999856949,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1448.8099999427795
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1909.1549999713898,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 11.820000052452087
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 1714.6850000619888,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 344.625,
+          "unpackMs": 0.6999999284744263,
+          "totalMs": 345.3399999141693,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1347.6399999856949
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 1714.7000000476837,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 10.485000014305115
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 1713.5950000286102,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 348.1299999952316,
+          "unpackMs": 12.565000057220459,
+          "totalMs": 360.7150000333786,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1328.3499999046326
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 1747.125,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 361.97500002384186,
+          "unpackMs": 0.5349999666213989,
+          "totalMs": 362.5349999666214,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1362.8899999856949
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 1760.3849999904633,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 13.714999914169312
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 1778.2200000286102,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 363.789999961853,
+          "unpackMs": 12.700000047683716,
+          "totalMs": 376.50999999046326,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1377.3650000095367
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 1912.8100000619888,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 439.13499999046326,
+          "unpackMs": 0.5200001001358032,
+          "totalMs": 439.6800000667572,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1452.6100000143051
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 1979.5,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 2,
+          "featureReadbackBytes": 3551232,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 16.695000171661377
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 2,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 1936.5249999761581,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 420.28000009059906,
+          "unpackMs": 12.759999990463257,
+          "totalMs": 433.06500005722046,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 20,
+          "indexParameterUploadBytes": 1928,
+          "indexShapeReadbacks": 8,
+          "indexShapeReadbackBytes": 32,
+          "gpuIndexingPreparationMs": 1481.429999947548
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 2102.445000052452,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 20.135000109672546
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 2088.5999999046326,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.029999971389770508,
+          "readbackWaitMs": 346.1799999475479,
+          "unpackMs": 12.879999995231628,
+          "totalMs": 359.0899999141693,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1704.2500001192093
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 2089.8400000333786,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.020000100135803223,
+          "readbackWaitMs": 351.0749999284744,
+          "unpackMs": 0.6050000190734863,
+          "totalMs": 351.70500004291534,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1712.094999909401
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 2172.460000038147,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 20.28499984741211
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 2173.4499999284744,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 371.09500002861023,
+          "unpackMs": 11.889999985694885,
+          "totalMs": 383,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1765.2250000238419
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 2151.899999976158,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.029999971389770508,
+          "readbackWaitMs": 368.0049999952316,
+          "unpackMs": 0.5549999475479126,
+          "totalMs": 368.5899999141693,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1757.3050000667572
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 2345.2000000476837,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 23.959999918937683
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 2370.6749999523163,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 420,
+          "unpackMs": 12.46999990940094,
+          "totalMs": 432.4849998950958,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1910.835000038147
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 0,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 2372.1449999809265,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.034999966621398926,
+          "readbackWaitMs": 430.83000004291534,
+          "unpackMs": 0.6449999809265137,
+          "totalMs": 431.5149999856949,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1912.070000052452
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 2175.1150000095367,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 358,
+          "unpackMs": 16.99500000476837,
+          "totalMs": 375.00999999046326,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1772.6449999809265
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 2112.764999985695,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 351.38499999046326,
+          "unpackMs": 0.5400000810623169,
+          "totalMs": 351.9450000524521,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1734.9799998998642
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 2132.125,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 20.855000019073486
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 2176.969999909401,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.014999985694885254,
+          "readbackWaitMs": 366.5549999475479,
+          "unpackMs": 12.625,
+          "totalMs": 379.1949999332428,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1770.7250000238419
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 2157.680000066757,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 369.5849999189377,
+          "unpackMs": 0.5350000858306885,
+          "totalMs": 370.1449999809265,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1762.2050001621246
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 2185.2050000429153,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 26.289999961853027
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 2404.1650000810623,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 430.3900001049042,
+          "unpackMs": 11.994999885559082,
+          "totalMs": 442.40499997138977,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1934.1200000047684
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 2389.2949999570847,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 426.25,
+          "unpackMs": 0.5700000524520874,
+          "totalMs": 426.84500002861023,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1934.4950001239777
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 1,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 2423.399999976158,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 20.739999890327454
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "optimized-gpu",
+        "computeMs": 2197.929999947548,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.03000009059906006,
+          "readbackWaitMs": 374.6399999856949,
+          "unpackMs": 0.5349999666213989,
+          "totalMs": 375.20500004291534,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1796.2000000476837
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "cpu",
+        "computeMs": 2322.3349999189377,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 23.554999828338623
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "sample-backyard",
+        "mode": "previous-gpu",
+        "computeMs": 2205.9900000095367,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02500009536743164,
+          "readbackWaitMs": 363.59499990940094,
+          "unpackMs": 11.639999985694885,
+          "totalMs": 375.25999999046326,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1801.2300000190735
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "optimized-gpu",
+        "computeMs": 2264.7150000333786,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.029999971389770508,
+          "readbackWaitMs": 391.2549999952316,
+          "unpackMs": 0.565000057220459,
+          "totalMs": 391.85000002384186,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1846.420000076294
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "cpu",
+        "computeMs": 2319.274999976158,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 21.889999985694885
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "brick-ranch",
+        "mode": "previous-gpu",
+        "computeMs": 2333.280000090599,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.019999980926513672,
+          "readbackWaitMs": 396.18999993801117,
+          "unpackMs": 12.160000085830688,
+          "totalMs": 408.3700000047684,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 1899.7849999666214
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "optimized-gpu",
+        "computeMs": 2503.8550000190735,
+        "geometryTimings": {
+          "variant": "optimized",
+          "enqueueMs": 0.020000100135803223,
+          "readbackWaitMs": 446.2450000047684,
+          "unpackMs": 0.6099998950958252,
+          "totalMs": 446.875,
+          "readbackMaps": 1,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 2030.929999947548
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "cpu",
+        "computeMs": 2503.8649998903275,
+        "geometryTimings": null,
+        "transfers": {
+          "featureReadbacks": 3,
+          "featureReadbackBytes": 5326848,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 20.544999957084656
+        }
+      },
+      {
+        "profile": "detail",
+        "steps": 3,
+        "repeat": 2,
+        "photo": "raised-deck",
+        "mode": "previous-gpu",
+        "computeMs": 2542.390000104904,
+        "geometryTimings": {
+          "variant": "baseline",
+          "enqueueMs": 0.02499997615814209,
+          "readbackWaitMs": 457.81499993801117,
+          "unpackMs": 14.370000004768372,
+          "totalMs": 472.2099999189377,
+          "readbackMaps": 2,
+          "readbackBytes": 6291472
+        },
+        "transfers": {
+          "featureReadbacks": 0,
+          "featureReadbackBytes": 0,
+          "indexUploadBytes": 0,
+          "coordinateMs": 0,
+          "sparseKernelBlocks": 30,
+          "indexParameterUploadBytes": 2892,
+          "indexShapeReadbacks": 12,
+          "indexShapeReadbackBytes": 48,
+          "gpuIndexingPreparationMs": 2042.0999999046326
+        }
+      }
+    ],
+    "inputs": [
+      {
+        "profile": "fast",
+        "photo": "sample-backyard",
+        "sha256": "68c33262cbecb05c256cdb18237e35c774d4c56f1016054fdad87d0737db2409"
+      },
+      {
+        "profile": "fast",
+        "photo": "brick-ranch",
+        "sha256": "72a78a720f90ed9ba2bf92f3f49d612eaffdfdf8ba0c0b5bc95e341614322b30"
+      },
+      {
+        "profile": "fast",
+        "photo": "raised-deck",
+        "sha256": "5e5af95d50002943f38b904ced5a1851be626349d6b7e9f73e44520d5a170ce3"
+      },
+      {
+        "profile": "detail",
+        "photo": "sample-backyard",
+        "sha256": "9d4637de0fbcd650c92795c6a39ee0594f4faf29dad162838b8835c19941580d"
+      },
+      {
+        "profile": "detail",
+        "photo": "brick-ranch",
+        "sha256": "33fb61ebee682a850ca02e6962196a5f8026766ad80ad143722379ec28762331"
+      },
+      {
+        "profile": "detail",
+        "photo": "raised-deck",
+        "sha256": "097b32552a691a76279b552fa0ff9ab05521e8ac2f055c2db8f6049c1e929a38"
+      }
+    ],
+    "complete": true,
+    "validationDuringTiming": false,
+    "pool": [],
+    "finished": 1793630601283
+  }
+}

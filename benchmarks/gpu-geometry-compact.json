@@ -1,0 +1,726 @@
+{
+  "runs": [
+    {
+      "profile": "fast",
+      "steps": 1,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.020212173461914062,
+          "nrmse": 2.6008421873969246e-05,
+          "p99Abs": 0.0004925727844238281,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 4.172325134277344e-07,
+          "nrmse": 3.3592426040137265e-07,
+          "p99Abs": 4.172325134277344e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 10,
+        "indexParameterUploadBytes": 964,
+        "indexShapeReadbacks": 4,
+        "indexShapeReadbackBytes": 16,
+        "gpuIndexingPreparationMs": 565.9950000047684
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.24267578125,
+          "nrmse": 0.00015412407638680715,
+          "p99Abs": 0.0027141571044921875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.2649765014648438e-06,
+          "nrmse": 1.56296168981203e-06,
+          "p99Abs": 2.2649765014648438e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 10,
+        "indexParameterUploadBytes": 964,
+        "indexShapeReadbacks": 4,
+        "indexShapeReadbackBytes": 16,
+        "gpuIndexingPreparationMs": 610.1650000810623
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 1,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.385040283203125,
+          "nrmse": 0.0002859396043506633,
+          "p99Abs": 0.0009927749633789062,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 4.76837158203125e-07,
+          "nrmse": 3.1098254653524284e-07,
+          "p99Abs": 4.76837158203125e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 10,
+        "indexParameterUploadBytes": 964,
+        "indexShapeReadbacks": 4,
+        "indexShapeReadbackBytes": 16,
+        "gpuIndexingPreparationMs": 588.8550000190735
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.07467842102050781,
+          "nrmse": 8.302693346381383e-05,
+          "p99Abs": 0.0014557838439941406,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.0132789611816406e-06,
+          "nrmse": 8.12574658225384e-07,
+          "p99Abs": 1.0132789611816406e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 20,
+        "indexParameterUploadBytes": 1928,
+        "indexShapeReadbacks": 8,
+        "indexShapeReadbackBytes": 32,
+        "gpuIndexingPreparationMs": 831.6599999666214
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.4029884338378906,
+          "nrmse": 0.000359954492555096,
+          "p99Abs": 0.0073337554931640625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.0265579223632812e-06,
+          "nrmse": 1.3915258668730694e-06,
+          "p99Abs": 2.0265579223632812e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 20,
+        "indexParameterUploadBytes": 1928,
+        "indexShapeReadbacks": 8,
+        "indexShapeReadbackBytes": 32,
+        "gpuIndexingPreparationMs": 845.4000000953674
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 2,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.0489349365234375,
+          "nrmse": 0.0005591319176342883,
+          "p99Abs": 0.003620147705078125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-07,
+          "nrmse": 6.592757824662616e-08,
+          "p99Abs": 1.1920928955078125e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 20,
+        "indexParameterUploadBytes": 1928,
+        "indexShapeReadbacks": 8,
+        "indexShapeReadbackBytes": 32,
+        "gpuIndexingPreparationMs": 922.7549999952316
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.13080978393554688,
+          "nrmse": 0.00015012097450541918,
+          "p99Abs": 0.002765655517578125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.086162567138672e-06,
+          "nrmse": 1.6354112419102354e-06,
+          "p99Abs": 2.086162567138672e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 30,
+        "indexParameterUploadBytes": 2892,
+        "indexShapeReadbacks": 12,
+        "indexShapeReadbackBytes": 48,
+        "gpuIndexingPreparationMs": 1046.1349999904633
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.42118072509765625,
+          "nrmse": 0.0005335588623866227,
+          "p99Abs": 0.0125885009765625,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.0265579223632812e-06,
+          "nrmse": 1.4104897094405225e-06,
+          "p99Abs": 2.0265579223632812e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 30,
+        "indexParameterUploadBytes": 2892,
+        "indexShapeReadbacks": 12,
+        "indexShapeReadbackBytes": 48,
+        "gpuIndexingPreparationMs": 1084.6499999761581
+      }
+    },
+    {
+      "profile": "fast",
+      "steps": 3,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.23394775390625,
+          "nrmse": 0.0008067218348673029,
+          "p99Abs": 0.0073757171630859375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 3.5762786865234375e-07,
+          "nrmse": 2.2112580604515787e-07,
+          "p99Abs": 3.5762786865234375e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 30,
+        "indexParameterUploadBytes": 2892,
+        "indexShapeReadbacks": 12,
+        "indexShapeReadbackBytes": 48,
+        "gpuIndexingPreparationMs": 1200.5800000429153
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.05535697937011719,
+          "nrmse": 3.3007343654135196e-05,
+          "p99Abs": 0.0004723072052001953,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.384185791015625e-07,
+          "nrmse": 1.9519801031572916e-07,
+          "p99Abs": 2.384185791015625e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 10,
+        "indexParameterUploadBytes": 964,
+        "indexShapeReadbacks": 4,
+        "indexShapeReadbackBytes": 16,
+        "gpuIndexingPreparationMs": 1273.5149999856949
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.5801124572753906,
+          "nrmse": 0.00011509035849340376,
+          "p99Abs": 0.0019283294677734375,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.9802322387695312e-06,
+          "nrmse": 2.0724680127125513e-06,
+          "p99Abs": 2.9802322387695312e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 10,
+        "indexParameterUploadBytes": 964,
+        "indexShapeReadbacks": 4,
+        "indexShapeReadbackBytes": 16,
+        "gpuIndexingPreparationMs": 996.8400000333786
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 1,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.11645984649658203,
+          "nrmse": 6.040179898129174e-05,
+          "p99Abs": 0.0012073516845703125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 1.1920928955078125e-07,
+          "nrmse": 7.435175800994743e-08,
+          "p99Abs": 1.1920928955078125e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 10,
+        "indexParameterUploadBytes": 964,
+        "indexShapeReadbacks": 4,
+        "indexShapeReadbackBytes": 16,
+        "gpuIndexingPreparationMs": 982.8799999952316
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.9704475402832031,
+          "nrmse": 0.0005021615915752873,
+          "p99Abs": 0.0019450187683105469,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 5.960464477539063e-08,
+          "nrmse": 5.520979287954417e-08,
+          "p99Abs": 5.960464477539063e-08,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 20,
+        "indexParameterUploadBytes": 1928,
+        "indexShapeReadbacks": 8,
+        "indexShapeReadbackBytes": 32,
+        "gpuIndexingPreparationMs": 1332.2799999713898
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.3650035858154297,
+          "nrmse": 0.0003747445059583837,
+          "p99Abs": 0.00727081298828125,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.86102294921875e-06,
+          "nrmse": 1.9767044167760384e-06,
+          "p99Abs": 2.86102294921875e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 20,
+        "indexParameterUploadBytes": 1928,
+        "indexShapeReadbacks": 8,
+        "indexShapeReadbackBytes": 32,
+        "gpuIndexingPreparationMs": 1364.5199999809265
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 2,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.2969017028808594,
+          "nrmse": 0.00028531423696428256,
+          "p99Abs": 0.0063610076904296875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 3.5762786865234375e-07,
+          "nrmse": 2.39773381669739e-07,
+          "p99Abs": 3.5762786865234375e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 20,
+        "indexParameterUploadBytes": 1928,
+        "indexShapeReadbacks": 8,
+        "indexShapeReadbackBytes": 32,
+        "gpuIndexingPreparationMs": 1565.1349999904633
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "photo": "sample-backyard",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 2.1416893005371094,
+          "nrmse": 0.00065775994092815,
+          "p99Abs": 0.004192352294921875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 8.940696716308594e-07,
+          "nrmse": 7.037831398266585e-07,
+          "p99Abs": 8.940696716308594e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 30,
+        "indexParameterUploadBytes": 2892,
+        "indexShapeReadbacks": 12,
+        "indexShapeReadbackBytes": 48,
+        "gpuIndexingPreparationMs": 1665.119999885559
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "photo": "brick-ranch",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 1.7392520904541016,
+          "nrmse": 0.0006684128830853933,
+          "p99Abs": 0.013042449951171875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 2.7418136596679688e-06,
+          "nrmse": 1.8998253346355409e-06,
+          "p99Abs": 2.7418136596679688e-06,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 30,
+        "indexParameterUploadBytes": 2892,
+        "indexShapeReadbacks": 12,
+        "indexShapeReadbackBytes": 48,
+        "gpuIndexingPreparationMs": 1827.9199998378754
+      }
+    },
+    {
+      "profile": "detail",
+      "steps": 3,
+      "photo": "raised-deck",
+      "passed": true,
+      "original": {
+        "points": {
+          "finite": true,
+          "maxAbs": 0.5515174865722656,
+          "nrmse": 0.0004822397104324246,
+          "p99Abs": 0.01091766357421875,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "intrinsics": {
+          "finite": true,
+          "maxAbs": 5.960464477539062e-07,
+          "nrmse": 3.8776039716704753e-07,
+          "p99Abs": 5.960464477539062e-07,
+          "maskMismatches": 0,
+          "maskMismatchFraction": 0,
+          "unexplainedMaskMismatches": 0
+        },
+        "maskMismatches": 0,
+        "unexplainedMaskMismatches": 0,
+        "passed": true
+      },
+      "transfers": {
+        "featureReadbacks": 0,
+        "featureReadbackBytes": 0,
+        "indexUploadBytes": 0,
+        "coordinateMs": 0,
+        "sparseKernelBlocks": 30,
+        "indexParameterUploadBytes": 2892,
+        "indexShapeReadbacks": 12,
+        "indexShapeReadbackBytes": 48,
+        "gpuIndexingPreparationMs": 1812.5349999666214
+      }
+    }
+  ],
+  "done": true,
+  "pool": []
+}

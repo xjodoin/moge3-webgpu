@@ -50,7 +50,7 @@ export async function denseSession(profile, meta, log,backend='wgsl') {
       ...gpuOptions,
       enableGraphCapture:denseGraphCapture,
       graphOptimizationLevel:'all',
-      preferredOutputLocation:denseGraphCapture?'gpu-buffer':{encoder_feature:'gpu-buffer',points:'gpu-buffer',normal:'gpu-buffer'},
+      preferredOutputLocation:'gpu-buffer',
     });
     try {
       const device=await ort.env.webgpu.device,ops=gpuOps(device);

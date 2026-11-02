@@ -1,3 +1,4 @@
+import {gpuGeometry} from './gpu-geometry.js';
 // MoGe-3 sparse UNet: CPU coordinate maps, GPU-resident learned feature tensors.
 import * as ort from 'onnxruntime-web/webgpu';
 import {sparseSession,directSparseBlock} from './runtime.js';
@@ -38,13 +39,13 @@ export async function refine(raw,encoder,log=()=>{},options={}) {
   };
   const [H,W]=options.grid??[272,272],n=H*W,encoderW=W/16;
   let t=performance.now(),coords,shape;
-  if(!useGpu){({coords,shape}=voxelize(raw,H,W));stats.coordinateMs+=performance.now()-t;}
+  if(!useGpu){({coords,shape}=voxelize(ArrayBuffer.isView(raw)?raw:await raw.getData(),H,W));stats.coordinateMs+=performance.now()-t;}
   const skips=[],maps=[],parents=[];
   try {
-    const rawGpu=upload(raw,[n,3],'float32');
+    const rawGpu=ArrayBuffer.isView(raw)?upload(raw,[n,3],'float32'):ort.Tensor.fromGpuBuffer(raw.gpuBuffer,{dataType:'float32',dims:[n,3]});
     let plan;
     if(useGpu){t=performance.now();plan=await builder.build(rawGpu,H,W);stats.gpuIndexingPreparationMs=performance.now()-t;}
-    let data=await linear('input_proj',rawGpu);drop(rawGpu);
+    let data=await linear('input_proj',rawGpu);
     for(let level=0;level<5;level++) {
       log(`Refinement: encoder level ${level+1}/5 (${useGpu?plan.sizes[level]:coords.length/3} voxels)`);
       let map;
@@ -91,7 +92,8 @@ export async function refine(raw,encoder,log=()=>{},options={}) {
       next=await block(`up_stages.${i}.0`,data,maps[level]);drop(data);drop(maps[level]);data=next;
     }
     const deltaTensor=await linear('out_proj',data);drop(data);
-    // The only feature readback: final depth correction needed by CPU geometry.
+    if(options.gpuPostprocess)return gpuGeometry(device).add(rawGpu,deltaTensor,n);
+    // CPU comparison path.
     const delta=await deltaTensor.getData();stats.featureReadbacks++;stats.featureReadbackBytes+=delta.byteLength;
     const result=new Float32Array(raw);
     for(let i=0;i<n;i++)result[i*3+2]+=delta[i];

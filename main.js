@@ -1,3 +1,4 @@
+import {gpuGeometry} from './gpu-geometry.js';
 import * as ort from 'onnxruntime-web/webgpu';
 import wasmUrl from 'onnxruntime-web/ort-wasm-simd-threaded.asyncify.wasm?url';
 import mjsUrl from 'onnxruntime-web/ort-wasm-simd-threaded.asyncify.mjs?url';
@@ -10,7 +11,7 @@ import {denseSession,releaseSessions,sessionStats,setPrecision as selectPrecisio
 import {trackGpuBuffers} from './gpu-memory.js';
 import {gpuOps,gpuBufferStats,setBufferReuse} from './gpu-ops.js';
 import {GpuProfiler} from './gpu-profiler.js';
-import {modelDownloadStats,clearModelCache,setWeightScreen,setWeightMode} from './model-package.js';
+import {modelDownloadStats,clearModelCache,setLayerScreen,setWeightScreen,setWeightMode} from './model-package.js';
 const memory=globalThis.GPUDevice?trackGpuBuffers():null;
 ort.env.wasm.wasmPaths={wasm:wasmUrl,mjs:mjsUrl};
 ort.env.wasm.numThreads=1;
@@ -24,7 +25,7 @@ document.querySelector('#profile').onchange=showFixture;
 window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=null,profile='fast',sparseBackend='wgsl',refineSteps=1,validateOriginal=true,diagnostics={})=>{
  if(running)throw Error('Inference is already running');
  running=true;for(const id of ['run','case','upload','profile','steps','weights','unload','clear-cache'])document.querySelector('#'+id).disabled=true;
- let inputTensor,out,profiler,ops,failed=true;
+ let inputTensor,out,profiler,ops,failed=true;const geometryOwned=new Set();
  try{
   const adapter=await navigator.gpu?.requestAdapter();if(!adapter)throw Error('This browser has no WebGPU adapter. Try a current Chrome browser on a supported computer.');
   memory?.reset();
@@ -51,8 +52,11 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   if(diagnostics.profileGpu){profiler=new GpuProfiler(await ort.env.webgpu.device);ops.profiler=profiler;options.profiler=profiler;}
   const t=performance.now();
   out=await session.run({image:inputTensor});
+  const gpuPostprocess=diagnostics.postprocess!=='cpu';options.gpuPostprocess=gpuPostprocess;
+  const geo=gpuGeometry(await ort.env.webgpu.device);if(gpuPostprocess)await geo.prepare();
+  const keepGeometry=t=>{geometryOwned.add(t);return t;};
   const cpuOutputs=['raw_coord','mask','metric_scale'];
-  const values=await Promise.all(cpuOutputs.map(name=>out[name].getData()));
+  const values=gpuPostprocess?[]:await Promise.all(cpuOutputs.map(name=>out[name].getData()));
   const data=Object.fromEntries(cpuOutputs.map((name,i)=>[name,values[i]]));
   // Include required CPU output readbacks in both paths for comparable timing.
   const inferenceMs=performance.now()-t;
@@ -61,25 +65,35 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
    const path=steps>1&&/^(refined-|projected-|native-)/.test(name)?`${fixture}/passes/${steps}`:fixture;
    if(!customInput)outputs[name]=compare(actual,new Float32Array(await read(`${path}/reference-${name}.f32`)),name==='native-points'?{boundaryMask:data.mask}:{});
   }
-  let refinementMs=0,points,raw=data.raw_coord;
-  const transfers={},perPassTransfers=[];
+  let refinementMs=0,points,raw=gpuPostprocess?out.raw_coord:data.raw_coord;
+  const transfers={},perPassTransfers=[];let previewMs=0;
   if(withRefinement){
    const t=performance.now();
    for(let step=0;step<steps;step++){
-    options.pass=step+1;if(profiler)profiler.prefix=`pass${step+1}/`;options.telemetry={};raw=await refine(raw,out.encoder_feature,log,options);
+    options.pass=step+1;if(profiler)profiler.prefix=`pass${step+1}/`;options.telemetry={};const previousRaw=raw;raw=await refine(raw,out.encoder_feature,log,options);if(gpuPostprocess){keepGeometry(raw);if(geometryOwned.delete(previousRaw))previousRaw.dispose();}
     perPassTransfers.push(options.telemetry);
     for(const [key,value] of Object.entries(options.telemetry))transfers[key]=(transfers[key]??0)+value;
+    if(diagnostics.progressive&&step<steps-1){
+     const previewStart=performance.now();
+     let preview;if(gpuPostprocess){const mapped=geo.remap(raw,options);try{preview=await geo.project(mapped,out.mask,out.metric_scale,width,height,{variant:diagnostics.geometryVariant??'optimized'});}finally{mapped.dispose();}}else preview=project(remap(raw,options),data.mask,data.metric_scale[0],width,height);
+     render(preview.points,preview.mask,input,preview.intrinsics,n);
+     log(`Preview: refinement ${step+1}/${steps}. Continuing…`);
+     window.dispatchEvent(new CustomEvent('moge-progress',{detail:{pass:step+1,total:steps,validated:false}}));
+     await new Promise(resolve=>requestAnimationFrame(()=>setTimeout(resolve,0)));
+     previewMs+=performance.now()-previewStart;
+    }
    }
-   points=remap(raw,options);refinementMs=performance.now()-t;
-  }else points=await out.points.getData();
-  const cameraStart=performance.now(),geometry=project(points,data.mask,data.metric_scale[0],width,height);
+   points=gpuPostprocess?keepGeometry(geo.remap(raw,options)):remap(raw,options);refinementMs=performance.now()-t-previewMs;
+  }else points=gpuPostprocess?out.points:await out.points.getData();
+  const cameraStart=performance.now(),geometry=gpuPostprocess?await geo.project(points,out.mask,out.metric_scale,width,height,{variant:diagnostics.geometryVariant??'optimized'}):project(points,data.mask,data.metric_scale[0],width,height);
   const cameraMs=performance.now()-cameraStart;
   // Validation downloads are outside compute timings and never run for uploads.
   const gpuProfile=profiler?await profiler.finish():undefined;
   const validationStart=performance.now();
+  if(gpuPostprocess&&!customInput)data.mask=await out.mask.getData();
   if(!customInput){
    for(const [name,tensor] of Object.entries(out))await check(name,await tensor.getData());
-   if(withRefinement){await check('refined-raw',raw);await check('refined-points',points);}
+   if(withRefinement){await check('refined-raw',gpuPostprocess?await raw.getData():raw);await check('refined-points',gpuPostprocess?await points.getData():points);}
   }
   if(withRefinement){
    await check('projected-points',geometry.points);
@@ -108,19 +122,21 @@ window.runTest=async(withRefinement=true,caseName='sample-backyard',customInput=
   const densePassed=denseNames.every(name=>outputs[name]&&passes(outputs[name]));
   const diagnosticPassed=!customInput&&Object.values(outputs).every(passes);
   const after=sessionStats();
-  const result={profile,downloads:{before:downloadsBefore,after:modelDownloadStats()},gpuProfile,buffers:{before:bufferBefore,after:gpuBufferStats()},sessions:{...after,createdThisRun:after.created-before.created},transfers,perPassTransfers,original,validationMs:performance.now()-validationStart,gpuMemory:memory?.report(),caseName:customInput?'uploaded-photo':caseName,loadMs,inferenceMs,refinementMs,cameraMs,outputs,
+  const result={profile,geometryVariant:diagnostics.geometryVariant??'optimized',geometryTimings:gpuPostprocess?{...geo.lastTimings}:null,postprocess:gpuPostprocess?'gpu':'cpu',timingSemantics:gpuPostprocess?'Stage enqueue times; camera includes queued GPU work and final readback':'CPU stages synchronized by readbacks',previewMs,downloads:{before:downloadsBefore,after:modelDownloadStats()},gpuProfile,buffers:{before:bufferBefore,after:gpuBufferStats()},sessions:{...after,createdThisRun:after.created-before.created},transfers,perPassTransfers,original,validationMs:performance.now()-validationStart,gpuMemory:memory?.report(),caseName:customInput?'uploaded-photo':caseName,loadMs,inferenceMs,refinementMs,cameraMs,outputs,
    refineSteps:withRefinement?steps:0,numTokens:meta.numTokens,inputShape:meta.inputShape,backend:'webgpu',sparseBackend,cpuLearnedFallback:false,
    camera:{focal:geometry.focal,shift:geometry.shift,intrinsics:geometry.intrinsics},
    validationReference:customInput?null:original?'original-cuda-strict-fp32':'pytorch-mlx-diagnostics',diagnosticPassed,
    validated:!customInput,passed:customInput?null:original?(original.passed&&densePassed):diagnosticPassed};
-  failed=false;window.lastResult=result;log(JSON.stringify(result,null,2));render(geometry.points,geometry.mask,input,geometry.intrinsics,n);return result;
+  failed=false;window.lastResult=result;log(JSON.stringify(result,null,2));if(diagnostics.render!==false)render(geometry.points,geometry.mask,input,geometry.intrinsics,n);return result;
  }finally{
   if(ops)ops.profiler=null;profiler?.dispose();
+  for(const tensor of geometryOwned)tensor.dispose();
   inputTensor?.dispose();if(out)for(const tensor of Object.values(out))tensor.dispose();
   try{if(failed)await releaseSessions();}finally{running=false;for(const id of ['run','case','upload','profile','steps','weights','unload','clear-cache'])document.querySelector('#'+id).disabled=false;}
  }
 };
 window.releaseModels=async()=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();log('Model unloaded. GPU sessions released.');return sessionStats();}finally{running=false;}};
+window.setLayerScreen=async value=>{if(running)throw Error('Inference is already running');await releaseSessions();setLayerScreen(value);};
 window.modelDownloadStats=modelDownloadStats;
 window.setWeightScreen=async enabled=>{if(running)throw Error('Inference is already running');await releaseSessions();setWeightScreen(enabled);};
 window.setWeightMode=async mode=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();setWeightMode(mode);document.querySelector('#weights').value=mode;return sessionStats();}finally{running=false;}};
@@ -138,7 +154,7 @@ window.bufferPoolStats=gpuBufferStats;
 window.setBufferReuse=async enabled=>{if(running)throw Error('Inference is already running');running=true;try{await releaseSessions();setBufferReuse(Boolean(enabled));return gpuBufferStats();}finally{running=false;}};
 document.querySelector('#unload').onclick=()=>window.releaseModels().catch(e=>log(String(e)));
 if(import.meta.hot)import.meta.hot.dispose(()=>{disposePreview();void releaseSessions();});
-document.querySelector('#run').onclick=()=>window.runTest(true,document.querySelector('#case').value,upload,document.querySelector('#profile').value,'wgsl',Number(document.querySelector('#steps').value),true).catch(e=>{window.lastError=String(e);log(String(e));});
+document.querySelector('#run').onclick=()=>window.runTest(true,document.querySelector('#case').value,upload,document.querySelector('#profile').value,'wgsl',Number(document.querySelector('#steps').value),true,{progressive:true}).catch(e=>{window.lastError=String(e);log(String(e));});
 document.querySelector('#case').onchange=showFixture;
 document.querySelector('#upload').onchange=async event=>{
  try{
@@ -168,3 +184,7 @@ function render(points,mask,rgb,intrinsics,n){
  const controls=new OrbitControls(camera,canvas);controls.target.set(0,0,-distance);controls.update();renderer.setAnimationLoop(()=>renderer.render(scene,camera));
  disposePreview=()=>{renderer.setAnimationLoop(null);controls.dispose();g.dispose();cloud.material.dispose();renderer.dispose();};
 }
+
+// Explicit local benchmark build; excluded from ordinary production builds.
+if(import.meta.env.VITE_GEOMETRY_BENCHMARK==='1')window.runGeometryTuning=async()=>{const {benchmarkGeometryTuning}=await import('./benchmark-geometry-tuning.browser.js');return benchmarkGeometryTuning();};
+if(import.meta.env.VITE_GEOMETRY_BENCHMARK==='1')window.runGeometryTiming=async()=>{const {benchmarkGeometryTiming}=await import('./benchmark-geometry-tuning.browser.js');return benchmarkGeometryTiming();};
