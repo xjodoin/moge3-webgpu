@@ -1,0 +1,12 @@
+{
+  "name": "@xjodoin/moge3-webgpu",
+  "version": "0.2.0-experimental.0",
+  "url": "https://www.npmjs.com/package/@xjodoin/moge3-webgpu",
+  "registryTarball": "https://registry.npmjs.org/@xjodoin/moge3-webgpu/-/moge3-webgpu-0.2.0-experimental.0.tgz",
+  "integrity": "sha512-Ql1KW53nr8uFDL9Ts7w9R7yS8x21e64Z+ld8myGtV6YqA9M4QTgUkANBooFkcC1RcybF1C5oF6MOucsVNx82ag==",
+  "sha1": "a579b354d4ac3d05afb39784e6ecaea87becd1a8",
+  "matchesTestedArchive": true,
+  "cleanRegistryInstall": true,
+  "typescript": true,
+  "viteBuild": true
+}
