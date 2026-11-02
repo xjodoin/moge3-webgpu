@@ -6,7 +6,7 @@ import {validatePackage,decodeChunk,boundedBody,sha256} from './model-cache.js';
 export class BundledModelPackage {
  constructor(manifest,baseUrl,cache,concurrency=4){
   this.manifest=validatePackage(manifest);
-  if(manifest.format!==2)throw Error('Expected a bundled model package');
+  if(![2,3].includes(manifest.format))throw Error('Expected a bundled model package');
   if(!Number.isInteger(concurrency)||concurrency<1||concurrency>8)throw Error('Invalid download concurrency');
   Object.assign(this,{baseUrl:baseUrl.replace(/\/$/,''),cache,concurrency});this.bundleJobs=new Map();
  }

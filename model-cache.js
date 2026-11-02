@@ -75,15 +75,19 @@ export class VerifiedModelCache {
 }
 
 export function validatePackage(manifest){
- if(!((manifest?.format===1&&manifest.codec==='zlib-byte-shuffle-v1')||(manifest?.format===2&&manifest.codec==='adaptive-bundles-v2'))||!manifest.files||!manifest.chunks)throw Error('Unsupported model package');
+ if(!((manifest?.format===1&&manifest.codec==='zlib-byte-shuffle-v1')||(manifest?.format===2&&manifest.codec==='adaptive-bundles-v2')||(manifest?.format===3&&manifest.codec==='progressive-fp24-v1'&&manifest.policy==='encoder-matmul-fp24-half-up-v1'))||!manifest.files||!manifest.chunks)throw Error('Unsupported model package');
  for(const [hash,c] of Object.entries(manifest.chunks)){
-  if(!hashPattern.test(hash)||!hashPattern.test(c.rawSha256)||!integer(c.bytes)||c.bytes<1||c.bytes>64*1024*1024||!integer(c.rawBytes)||c.rawBytes<1||c.rawBytes>64*1024*1024||!['identity','shuffle4','exponent4','bitplane4'].includes(c.encoding)||(c.encoding!=='identity'&&c.rawBytes%4)||(c.encoding==='bitplane4'&&c.rawBytes%32)||!['deflate','zstd'].includes(c.codec??'deflate'))throw Error('Invalid model chunk');
-  if(manifest.format===2){
+  if(!hashPattern.test(hash)||!hashPattern.test(c.rawSha256)||!integer(c.bytes)||c.bytes<1||c.bytes>64*1024*1024||!integer(c.rawBytes)||c.rawBytes<1||c.rawBytes>64*1024*1024||!['identity','shuffle4','exponent4','bitplane4','fp24'].includes(c.encoding)||(c.encoding!=='identity'&&c.rawBytes%4)||(c.encoding==='bitplane4'&&c.rawBytes%32)||!['deflate','zstd'].includes(c.codec??'deflate'))throw Error('Invalid model chunk');
+  if(c.encoding==='fp24'){
+   const o=c.original,correction=manifest.chunks[c.correction];
+   if(manifest.format!==3||c.encodedBytes!==c.rawBytes/4*3||!correction||correction.encoding!=='identity'||correction.rawBytes!==c.rawBytes/4||!o||!hashPattern.test(o.sha256)||!hashPattern.test(o.rawSha256)||o.rawBytes!==c.rawBytes||!integer(o.bytes)||o.bytes<1||o.bytes>64*1024*1024||!['deflate','zstd'].includes(o.codec)||!['identity','shuffle4','exponent4','bitplane4'].includes(o.encoding)||!Array.isArray(o.legacy))throw Error('Invalid progressive weight chunk');
+  }else if(c.encodedBytes!==undefined&&c.encodedBytes!==c.rawBytes)throw Error('Invalid encoded model length');
+  if(manifest.format>=2){
    if(!hashPattern.test(c.bundle)||!integer(c.offset)||!Array.isArray(c.legacy))throw Error('Invalid model bundle reference');
    for(const old of c.legacy)if(!hashPattern.test(old.sha256)||!integer(old.bytes)||old.bytes<1||old.bytes>64*1024*1024||old.codec!=='deflate'||!['identity','shuffle4'].includes(old.encoding))throw Error('Invalid legacy chunk');
   }
  }
- if(manifest.format===2){
+ if(manifest.format>=2){
   const seen=new Set();
   for(const [hash,b] of Object.entries(manifest.bundles??{})){
    if(!hashPattern.test(hash)||!integer(b.bytes)||b.bytes<1||b.bytes>64*1024*1024||!Array.isArray(b.members)||b.members.length===0)throw Error('Invalid model bundle');
@@ -100,6 +104,12 @@ export function validatePackage(manifest){
    offset+=p.length;
   }
   if(offset!==f.bytes)throw Error('Incomplete model piece layout');
+  if(manifest.format===3&&!hashPattern.test(f.exactSha256))throw Error('Invalid exact model checksum');
+  if(manifest.format===3)for(const p of f.pieces)if(manifest.chunks[p.chunk].encoding==='fp24'&&(p.sourceOffset!==0||p.length!==manifest.chunks[p.chunk].rawBytes))throw Error('Invalid progressive weight span');
+ }
+ if(manifest.format===3)for(const [key,c] of Object.entries(manifest.chunks))if(c.encoding==='fp24'){
+  const f=manifest.files[`__corrections/${key}`];
+  if(!f||f.pieces.length!==1||f.pieces[0].chunk!==c.correction||f.bytes!==c.rawBytes/4||f.sha256!==manifest.chunks[c.correction].rawSha256)throw Error('Missing progressive correction file');
  }
  return manifest;
 }

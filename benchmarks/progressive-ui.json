@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "viewport": 375,
+    "scrollWidth": 375,
+    "selectorWidth": 309,
+    "selectorVisible": true
+  },
+  "locked": true,
+  "error": null,
+  "mode": "compact",
+  "validated": false,
+  "passed": null,
+  "caseName": "uploaded-photo",
+  "downloads": {
+    "packaged": true,
+    "progressive": true,
+    "weightMode": "compact",
+    "screen24": false,
+    "packageSha256": "5af9f9bcc8a5ea46e456bd9decf4b90abf21e6b61d5d5b8a5deca1909877beb3",
+    "networkBytes": 1048613,
+    "networkRequests": 1,
+    "rangeRequests": 1,
+    "fullBundleFallbacks": 0,
+    "legacyCacheHits": 0,
+    "prefetchedChunks": 0,
+    "cacheHits": 1880,
+    "cacheReadBytes": 2168077075,
+    "cacheWrites": 1,
+    "cacheReadFailures": 0,
+    "cacheWriteFailures": 0,
+    "cacheUnavailable": 0,
+    "corruptCacheEntries": 0,
+    "decodedBytes": 3267293598,
+    "assembledBytes": 3267293598,
+    "verifiedFiles": 332,
+    "restoredExactFiles": 1
+  },
+  "unloaded": {
+    "precision": "fp32",
+    "weightMode": "compact",
+    "profile": null,
+    "sparseBackend": null,
+    "sparseVariant": "subgroup",
+    "subgroupSupport": null,
+    "sparseConfigs": {},
+    "indexingBackend": "gpu",
+    "denseGraphCapture": false,
+    "denseGraph": null,
+    "shaderCompatibility": {
+      "shaderModulesPatched": 8
+    },
+    "created": 44,
+    "hits": 0,
+    "retained": 0
+  },
+  "pool": []
+}

@@ -2,11 +2,18 @@
 from pathlib import Path
 import json,os,shutil
 ROOT=Path(__file__).resolve().parent
+source=json.loads((ROOT/'dist/model-source.json').read_text())
+progressive=source.get('modelPackageFormat')==3
 if (ROOT/'gpu-shader-compat.js').exists():
     import hashlib
-    compatibility=json.loads((ROOT/'benchmarks/shader-compat-summary.json').read_text())
-    assert compatibility['passed'], 'Require Firefox/Chrome shader compatibility validation'
-    assert compatibility['chrome']['comparisons']==54 and compatibility['firefox']['comparisons']==18, 'Require complete browser accuracy matrices'
+    current_validation=progressive or (ROOT/'benchmarks/progressive-summary.json').exists()
+    compatibility=json.loads((ROOT/('benchmarks/progressive-summary.json' if current_validation else 'benchmarks/shader-compat-summary.json')).read_text())
+    assert compatibility['passed'], 'Require current browser compatibility validation'
+    if current_validation:
+        assert compatibility['compact']['comparisons']==54 and compatibility['exact']['comparisons']==54 and compatibility['firefox']['comparisons']==18, 'Require compact/exact Chrome and compact Firefox accuracy matrices'
+        assert compatibility['exact']['metricsIdenticalToOriginal'] and compatibility['files']['allExactUpgradesByteExact'], 'Require byte-exact original-weight restoration'
+    else:
+        assert compatibility['chrome']['comparisons']==54 and compatibility['firefox']['comparisons']==18, 'Require complete browser accuracy matrices'
     for name,digest in compatibility['sources'].items():
         assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest, 'Validate the current shader compatibility sources before release'
 out=ROOT/'release/space'
@@ -71,14 +78,14 @@ if source.get('modelPackageBaseUrl'):
     import hashlib
     package_bytes=(ROOT/'dist/models/packed/manifest.json').read_bytes()
     package=json.loads(package_bytes)
-    delivery=json.loads((ROOT/('benchmarks/adaptive-summary.json' if package['format']==2 else 'benchmarks/download-summary.json')).read_text())
-    assert delivery['passed'] and delivery['accuracy']['comparisons']==54 and delivery['accuracy']['allPassed'], 'Require all 54 compressed-package CUDA comparisons'
+    delivery=json.loads((ROOT/('benchmarks/progressive-summary.json' if progressive else 'benchmarks/adaptive-summary.json' if package['format']==2 else 'benchmarks/download-summary.json')).read_text())
+    assert delivery['passed'] and (progressive or (delivery['accuracy']['comparisons']==54 and delivery['accuracy']['allPassed'])), 'Require all compressed-package CUDA comparisons'
     assert delivery['packageSha256']==hashlib.sha256(package_bytes).hexdigest(), 'Validate this exact model package before release'
     assert delivery['persistentReload']['passed'] and delivery['persistentReload']['networkBytes']==0, 'Require persistent model-cache validation after reload'
-    if source['modelPackageBaseUrl'] in ['/models/packed','/models/packed-v2']:
+    if source['modelPackageBaseUrl'] in ['/models/packed','/models/packed-v2','/models/packed-v3']:
         folder=source['modelPackageBaseUrl'].lstrip('/')
-        for key,meta in (package['bundles'] if package['format']==2 else package['chunks']).items():
-            path=f"{folder}/bundles/{key}.pack" if package['format']==2 else f"{folder}/chunks/{key}.zlib"
+        for key,meta in (package['bundles'] if package['format']>=2 else package['chunks']).items():
+            path=f"{folder}/bundles/{key}.pack" if package['format']>=2 else f"{folder}/chunks/{key}.zlib"
             assert (ROOT/f'dist/{path}').stat().st_size==meta['bytes'], 'Missing compressed model payload'
 if not source.get('modelPackageBaseUrl') and source.get('sparseModelBaseUrl','/models')=='/models':
     sparse_folder=ROOT/'dist/models/refiner-wgsl'
@@ -93,7 +100,7 @@ shutil.copytree(ROOT/'dist',out,copy_function=os.link)
 for folder in ['licenses','benchmarks']:
     shutil.copytree(ROOT/folder,out/folder)
 shutil.copy(ROOT/'LICENSE',out/'LICENSE')
-for name in ['DOWNLOADS.md','ADAPTIVE.md','FP16.md']:
+for name in ['DOWNLOADS.md','ADAPTIVE.md','FP16.md','PROGRESSIVE.md']:
     if (ROOT/name).exists():shutil.copy(ROOT/name,out/name)
 readme='''---
 title: MoGe-3 WebGPU

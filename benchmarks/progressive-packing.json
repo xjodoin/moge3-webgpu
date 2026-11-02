@@ -1,0 +1,2603 @@
+{
+  "packageSha256": "5af9f9bcc8a5ea46e456bd9decf4b90abf21e6b61d5d5b8a5deca1909877beb3",
+  "sourcePackageSha256": "35476cef8e50d63106bd27cde63c5dbf34a45131eaa65b5582fd8ff3bd9ed615",
+  "policy": "encoder-matmul-fp24-half-up-v1",
+  "selectedUniqueChunks": 288,
+  "selectedUniqueRawBytes": 1207959552,
+  "allCorrectionsByteExact": true,
+  "rows": [
+    {
+      "source": "9c022f9106aa5e5fb64bb2d3559991cb935dc5c491c34ce57fc8a9fe4e5c348a",
+      "base": "e57b2e22ff1fe65f921ddb91a4bb0bd1dcd14be211a414e51ad1e819db39813a",
+      "correction": "e5f0be66b7f077058f0fdd9e10c7c7d3e26c9ede3e39d0339c5e48da6962ba33",
+      "originalBytes": 3532373,
+      "compactBytes": 2483758,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d08bc43cb3b412d90464843fb6b6813d9d6ca49b21ec9bfb0e9ec7ca87bc8797",
+      "base": "80d9538bf89ce59e2f55991073e009969b43dace089fc7e3ae179a4eb1278f9b",
+      "correction": "4f91383c86be840c765446ddec1c0fff8fd873ffa209ba224088c0ac30bd7bdc",
+      "originalBytes": 3533700,
+      "compactBytes": 2484966,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "82a87c7f911bf904051d9375d2cf6f5afe613cf62f2bce3f47e79c0a8ef7b9ca",
+      "base": "4edfc7f1781318dfd1ad1cf97fef412da866c608fe1f951303c90c524b394fda",
+      "correction": "30a2f32ce4aeb5565a1340b9f1e10eb615b3e910274f8553286d83c2e9bb359c",
+      "originalBytes": 3530654,
+      "compactBytes": 2481520,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e0aebdeeae8af2988448d820e3bee4106b82f8a6949201ef534436c9a0d2b584",
+      "base": "9f4d45448e59be329974b416ca655d066fe5715242a71ad088b1f4696c50f87f",
+      "correction": "46e35f7aa1a19fc4c3421a16e1a1a2d43c356680026a785209fb3060fe3923e2",
+      "originalBytes": 3514326,
+      "compactBytes": 2498357,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a08565ff61c308cbcf46a8b05052a13cae8d32feda5d63b9413ce2b3dbc44fd1",
+      "base": "48b53a40de1a886139309e7e90596a3c6957ab4fcb8a7c240b094d86ba8a0cc9",
+      "correction": "85b1507a28344fff057d7a5627376281625294659f938e61c24aa49867815343",
+      "originalBytes": 3540389,
+      "compactBytes": 2505289,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2d52732025311638e16aa19899b2a6e8811c420fb43325ffbb640398f15a1785",
+      "base": "49c063e874633b5f21e951c92ff525ae4e98471ce88085f68752d7f284ce9c95",
+      "correction": "88d45950f7ae0b8ce82fd881962d5ba890f520bb28f274dd1f141ff4d50ce39e",
+      "originalBytes": 3541844,
+      "compactBytes": 2503682,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "81359f8877f3482f62938adb0872c5da55929c59c8f306d9d0aff4e313c8ac46",
+      "base": "cd8fd851bfa8c6e0901d0c200e3ae0ffc14119ec43d99237d0066fc0c962cd18",
+      "correction": "c1d6f277ec8e661ddeda3abbaea0a877b41c62e03a9262405d7fa2eb926244ba",
+      "originalBytes": 3540851,
+      "compactBytes": 2504586,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d0c7d948949ac1bb3b9ef85df6fbb064479bc581c6330ea3ed30951092db385a",
+      "base": "a150390daae368df9121f76031183e78858eeba668f7efef4423bfb6878c19e0",
+      "correction": "6b9b3743df23b231ee22f141b230bb049a287d1e3fd2691a3aacf99c5f4a50a3",
+      "originalBytes": 3534666,
+      "compactBytes": 2498761,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "474cd8c6d55b14aeef14618396b880e63a90c0bb3abc358041e509f6705430ea",
+      "base": "a1d5f5977c7478fd364b227b350b05a082e6bf07648d7a4ec6344428970aa20a",
+      "correction": "ce6d673a6bb781c48a4cb996a8e59ce3a629dfc902d57b957bf09b99e99ade13",
+      "originalBytes": 3510630,
+      "compactBytes": 2462027,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5bf6689dd1e276771e2085a6ff86c74c62b15e7b7554dcb52ae0034d3b2a1de5",
+      "base": "7630113283a133068e66dd45ba2aa5f7f9f8a1bb426041dd4117f6ac37fc40f4",
+      "correction": "7f2f3acd77d170d27dfa9cf193d76ab15f90b452bde94a82c56994ec2ba0bfdd",
+      "originalBytes": 3510149,
+      "compactBytes": 2461551,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "140fca1c82edd5f51ef4ad88aae76014daea6ced5527461f5a20c228cfa30e96",
+      "base": "eab852c252b764a0ddc303371e2f1cfaf90de7e5146822613a7e00cce99778e7",
+      "correction": "ba69ed0c7a0c55aba5c3271df13e88ea58ea2518d1ceed26af36e1ff28697cc5",
+      "originalBytes": 3510580,
+      "compactBytes": 2461982,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "eda9805f1ede7d1941f4017524b87d76e178a1e05158b14f930ae6afdbc58507",
+      "base": "edd145c3faa6269f68bced32c2f5a01f2dcfa3c0c6b6670e3a99faebb6c89fca",
+      "correction": "b5c95f762635a132c2f19e1ef723fd8265783f486e7070871910cbe5dd4317a8",
+      "originalBytes": 3510564,
+      "compactBytes": 2461964,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a21e9beaf2a30a52d133f33882db9525bf2b33c28fd16ba7236a014b6e256ec1",
+      "base": "94d528013c427ff7ff1d01d1b5986e0ded20a103cc29b285ca78cb6c1e7e50eb",
+      "correction": "66e49af7652d03b407a8b8132c89c1f06a0729daebc6d5771eeed6c444fa913f",
+      "originalBytes": 3546874,
+      "compactBytes": 2503237,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4f934dd304ce1f8810d4e199a6cf77cf07bdb481836892eb8b2375dc5784a604",
+      "base": "d2dd4b8d1930697b17b68288cefa426d7819429987e8326b089e09214c72bd31",
+      "correction": "b392037fa293f0c7774ec6627be3d00529157b795b325e3f0ced5266d07dcf7c",
+      "originalBytes": 3554709,
+      "compactBytes": 2505906,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a0c3f7a4a41fab17b9007a7fb35c9729a02e55ddb74ba0cb5701eb1826024cf4",
+      "base": "3127034b52605c40da10a9aa6df76961f394d1ef16ef61c29ec2b13f13aae1a4",
+      "correction": "54174eaae8eed7d1e977f0de9fc7bd1240dcacb7f19a6b406292aea6f2d22946",
+      "originalBytes": 3553736,
+      "compactBytes": 2505037,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9ddf334eab61e88a593c70f19484be0dcbcec82abdcc612bbe5968c2c7c62832",
+      "base": "3dbc57356305b7f584d40854f7113aa91ae691c7e1dffc8c87cdde1cfc880e93",
+      "correction": "a4cce87b4d5257f2eb953e1e81aa153459916ca80d662c1e613233382ef3a8ef",
+      "originalBytes": 3518986,
+      "compactBytes": 2470219,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "cab71acb268f8ea9832227e29b4338a0031f5bc66bc843070e46342fc54b8c00",
+      "base": "6076545a413ec263df490ceaa912796b4e9df39d282c27633bbdaaf956dd5048",
+      "correction": "76562b425dc08990b3a29aa0662beff9bc09c420f2b48d279df9eafd476d2ad8",
+      "originalBytes": 3541244,
+      "compactBytes": 2492644,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2bcfc3a07acd12116ce974056fe49bf94500891885ab24850aecb27ba1836585",
+      "base": "36c321d39c0ed4a5a37637ba5626bf23a2586ac184284c575a578398672a7d67",
+      "correction": "cbcb92202c23fb43ec98a43a2819e3a9492c13e1b23d7905dd14a5634bb3edd1",
+      "originalBytes": 3544533,
+      "compactBytes": 2495933,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e4daddfa3e564d40931b07557ce0ddf088e507b90dc336c93251c5606a8aa253",
+      "base": "235d815fbe4cc3ac481dad263feab0bca4c4001b4737839fbe33bdefce0ed468",
+      "correction": "c666f19e45a77fcda4a1304ff01d9a34a75a43784eb12098fcb72218d56da95d",
+      "originalBytes": 3548203,
+      "compactBytes": 2498657,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "84917e3d19d406120622861c78743d06f4e8d9633af41fa049b69a2d022fcf44",
+      "base": "972865c8908334b4a5e53b4f79626a0f97910bec154697446ade77f1b182d735",
+      "correction": "c5193d09294d9c5bd5bb65658e77820dfe20cf3797781bcf40ffeb16affb7401",
+      "originalBytes": 3540065,
+      "compactBytes": 2491499,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7a27e367c0e7c507aab490cec9972de14cb1d736f243982c89d10f3cbae3c4a6",
+      "base": "4c40bf575e5034c8b41363c06956a1a8e2d5dc5a4ecec269e6f0e22558272b73",
+      "correction": "65231c50d3012b22d45d81c1b8bd5421e7d0c3e9660b9c60c8ec5f1d27dcabed",
+      "originalBytes": 3512880,
+      "compactBytes": 2464264,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4ca908cdaa4522de4b47eb4bf638958227b631a86c8696e19eade5050cb79606",
+      "base": "66d5cf6777da74dca0ea693f57ea42548eff02eb4c5b01d797763e7bb65c6fca",
+      "correction": "96cf9a8a6e0ba23bfea230c727a9d6377416aaf88df5740824476ac20ab3497b",
+      "originalBytes": 3512554,
+      "compactBytes": 2463310,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a7a801d0fdc8d73e2b50d1b4d28d9bc651053f82727210d92340f7466dc5bdc5",
+      "base": "f6aec723563a7b2b3faa046e32862c33f256a4a8d71fa8ae92e633358f319171",
+      "correction": "6d545de42ae547bb354c4984d8abd30eea4d646bc4a1ff61897da9786f8edbb4",
+      "originalBytes": 3511521,
+      "compactBytes": 2462691,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2e95c3afbb8710c2448ee047e5cc20f1f2c691e7d909819d05651ada6a5162f0",
+      "base": "f15b5592e72c1ab1c4e59f676fa70df7f3ad3d72f88078daa56ebd2bf0296cf3",
+      "correction": "7559cc21ff6e5fc5e4b37b56785670fa70c6b774318b54c71dcb4cc31acc4367",
+      "originalBytes": 3510720,
+      "compactBytes": 2462153,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "330c14b1ff44821818ca25e7493b820e2dcb27dadecffc0be774d14b95081686",
+      "base": "04b8d47b9736f153bfd8c135fac7b180019ff65169dc6154784d998f4743ef3a",
+      "correction": "7412f211ea548bfd2cba6e9ebdb2626ec46c974fd2201052246a90074ece8d38",
+      "originalBytes": 3546319,
+      "compactBytes": 2499985,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "1caa40780a464077d1e0e7dc8cef61267b71a0796bc2de354baa36cf749089a4",
+      "base": "bd8e3b0f6b5b1d01ee187b29f83935e060b8cd874891958808dba23f4ccff2d6",
+      "correction": "2709a686c3ae3ae69574372a02889d6439cf3b705d9a147667cce15805179258",
+      "originalBytes": 3546702,
+      "compactBytes": 2505595,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0dbcfb795e9ffa431ca27297dff6d5c4b436762c41c6eae9e0eb433d99467ed3",
+      "base": "454f44413c29262baeaae744b51254da5070f7f4ea4d8c2f49dc291bc71c9d20",
+      "correction": "9f798e32483b2694e361b1f9c06cfcda16e120dae7bf366cdbc9a50a726d8285",
+      "originalBytes": 3544753,
+      "compactBytes": 2500175,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d5a57567c854f133bd8ccb3d3a51661b386b4951d2d050d3dec475adf5178ae5",
+      "base": "b9b23410fb7076c8ebf50370216afc5560233081e51ad3978946bbe657d1de1c",
+      "correction": "380f2f2d3838728b26b3a060d99cb04a56c83c0d8717c6f833c5495a5e08daf5",
+      "originalBytes": 3501839,
+      "compactBytes": 2453240,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "12baded3564e649c29051757445419fae62a78e955fdb1f17d9c6645403833a9",
+      "base": "65672bf9f4cb16bb35c5b2e3293bb5b0549fc0ed12eb6f49aa362f6768cf9d51",
+      "correction": "a8311049b48f21c8532c1ae346bfcdf3ae929a493505654e9c52495d0b8fb078",
+      "originalBytes": 3516284,
+      "compactBytes": 2467684,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d8f2bb0e5b8d5290b29a497e58209362985e0ec94f92ee3e45652aa9c7229d67",
+      "base": "7f5a817d043d5b4a960215dd733c51d83632634c8803d649ba8884d45043a679",
+      "correction": "2f86ef8dd19375d752434a8b34b53b7bb52d88e79e5e966ba3a676e5a9285009",
+      "originalBytes": 3520025,
+      "compactBytes": 2471417,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5206f390df05ac25652786ed74062f2201ce4c17bfb5a5c3a7ca0ec50e18c4b8",
+      "base": "4c2887fbccfecb7d9005a5072b1b3c7dcaba28dd281ea7bd21464e4b86f62570",
+      "correction": "377c4e1da979b564e1d57de79ff1f4bea3416752db53395b40ab023658bff675",
+      "originalBytes": 3548929,
+      "compactBytes": 2500346,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8d05b5d30cb316914d49905c3aa50f747d948b8da1ba10e931cc9f4b400c0791",
+      "base": "2b9cfa0c01f491ffa072716e7bf691c27bb219010ee58e4d98756fbc4a3a6af1",
+      "correction": "646dcb034b0090940d1beab86828706d11cae3694b4e07081a81e7987956c9de",
+      "originalBytes": 3518863,
+      "compactBytes": 2470265,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8aaef9d427ac2d79694ac44718700f66b02b51c818992e9186b14f690587e492",
+      "base": "b1b5e94a319f2cf5edf40c84fef642236dbf832adb3bf111e26202e1a1366aab",
+      "correction": "1eac6e38fa6b935d4195fe129219dc1ed2b89478272c143cfe9fe165d6503964",
+      "originalBytes": 3505669,
+      "compactBytes": 2457070,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "cfeb76d9c70b9a2c2a1745c8ae1fbc37749ee642c9e722554f1baebdb9a9721f",
+      "base": "db1b6c20c3d6ac0e011c3aded614ba56cd6bb92378dc234dd59c265e262e4001",
+      "correction": "1e438c888a870fc4e1a7accf72762a2b1ddd574e76fcb9cafa457ba8efeb976f",
+      "originalBytes": 3505912,
+      "compactBytes": 2457311,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3e60e77b3b42be48814c859bbe1b039587442bd73ddce01899e537a801a811ad",
+      "base": "9b4b76c007ad997e92c29c74ecfd6b204297583243e2d5a900ca50734f2372e6",
+      "correction": "e83d30b09c4d8f69a7ff96ccd3b1e6d67b8608b742047763ca66ceeeeed6dd7d",
+      "originalBytes": 3505738,
+      "compactBytes": 2457138,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "10ed257e907bf651a388b0c1634ac7b03e7c0f57bded80b5dbd83deee34f06be",
+      "base": "0138a14a72999d3a5f2ab07dc9e6c77a4fe5e0f4a945b2f281164fda0bdd60e6",
+      "correction": "8fa7f169eefb002f8ad3f63b52a3d65b67aec5fdf995cadb82b22dac7427880e",
+      "originalBytes": 3504919,
+      "compactBytes": 2456320,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "de4acbfc057db1a3d6173c6de1e37a7d1e113d2f57e321d7ef8c3d47f72d7842",
+      "base": "d0eca365b128c907d2b2b77c7fca0fa6a97ff9693fa6303372219ec078dca92a",
+      "correction": "23cfd7f5f4f9b586ad6219732d0eeac2b3a84c9118f16daf174d9c495f5b36e9",
+      "originalBytes": 3530331,
+      "compactBytes": 2481838,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5274707cf15c6ced6490df84b9f5bca1d77502506441bcee3f915ca69f440d99",
+      "base": "f81cc5eb565174a1bf8442bdbe8fc4372902f3cf9b79fc1e565099ad0b4903d8",
+      "correction": "ed98f96c5af133a4fff4d6d0c4ae4bd6f6376e4f197513a18f200cdff2e02fa3",
+      "originalBytes": 3524640,
+      "compactBytes": 2476017,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ea389a22bbb0dc3723ce18a21867cac70f8e60878a7d21652b9ad17a93edae1c",
+      "base": "94a49b704e975ccb22944578beee0f630b14f75a628f74f9cc98a1ce944cfcf3",
+      "correction": "1ea6ce92ce99df3d85da25c0be011f6b584ebecaac0920b42d6ca308ae8d2ce4",
+      "originalBytes": 3529458,
+      "compactBytes": 2492156,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5462576cb02d4d08ea1cfef6e31da35f80b804baf574743821ab5255a152068b",
+      "base": "0e96e358d160f56a03420f0aba0c08c181f1a8dc9ab464b235e91a390fbfbb40",
+      "correction": "294bd420ea624bbf1b9b9974f153412d712df2ff197d51eb657fc264d1a0f93a",
+      "originalBytes": 3502137,
+      "compactBytes": 2453537,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "19464e910767c0f433e973e560d9376a08a9d9311eee5c813f25c1e61ae656d9",
+      "base": "f00f087bdee30ee3efb92ace082cb36bdba676d4e2d1c7bb22918fc24fc5d15c",
+      "correction": "5defbd72a2dd16e666586cfd398a6d89be9be5e3de1cb151d5da01c699a70377",
+      "originalBytes": 3513519,
+      "compactBytes": 2464931,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ffd5b9b1308586df22a1b1a5e35b9ac7ef674a61673169318f6c8a1b04bd36f3",
+      "base": "2588e089365e241df5e33fcdd2b4925613cd81145ff8a25f1a157e36004c9352",
+      "correction": "ce3624c2258ead0168f299e6c5689da28885ec79ecf469a0fe3dd6310b8ac8ee",
+      "originalBytes": 3508804,
+      "compactBytes": 2460205,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f655552488e4b2be535d7b94e61b6ff061cef5e3be7c0c4cfae3c50c17dde79e",
+      "base": "18fd05d095ea966ad2272c5f9edb43250fbcc8a4ae442aa3cb283b81fdca127f",
+      "correction": "3a1433fef941246fb059e15e5b517d85b8b64e24c5ef471b96cef13a7ec67377",
+      "originalBytes": 3508258,
+      "compactBytes": 2459658,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "873903d48b95bbea2cdd1cbd067c1d5d534bc456ccc38fa4754653c8c6db9103",
+      "base": "5fb43b8857c87083bbf4e1bac441a804ed1578cb3574d9e8286f17e23d8b810d",
+      "correction": "610399c2d84368743bd81f2ebf36814bfd4dcaf62949808e83052e38546b09ea",
+      "originalBytes": 3507386,
+      "compactBytes": 2458786,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "fcb3069317c4ba2d121efa738ccaa4e89d7fe78c4bd579bbb52a3530fb620d06",
+      "base": "c2eaa9b70b7078eaea6eb4d4dc91087695b880ee82ff7ec1fae1493c293c4d8e",
+      "correction": "90e33ef55760a817f091c9684cdd539f313e4010b87af8ce0b5db73ba1c4b19c",
+      "originalBytes": 3501381,
+      "compactBytes": 2452781,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f0b3c190fd84b57da93bcbe10cdf5f8335ccb6fd2c6b8dd34c6ac93d7cd85b8a",
+      "base": "355132b22ba5b330d96a37fb2ba98057c519bf4b3af7dc1ddede2901323ef721",
+      "correction": "0c579ce124d0610bdfc8e976cdd5b929d3f65006461cc8fbac6aa4883aa2179e",
+      "originalBytes": 3501809,
+      "compactBytes": 2453208,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d35afc6432ffa2521bab9cf3f1c4d00779a904966ef2f9688249bb8b3952af39",
+      "base": "37308a7c9bc2802a2f1410bd3ffae87da0b42392c32815290cfde84637e792f5",
+      "correction": "60ca1d16210dbde0c50f1639c2e921a1c546f4cf448c44e992e6680bc9aced48",
+      "originalBytes": 3501684,
+      "compactBytes": 2453081,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ad99fd92ad0dafacb28834e372ffd81c97325d05dde4a8af02dce0a1b47a6592",
+      "base": "746cdb0097874f3db46f868fa257f3d3959369344b1f157523647ca0533d6775",
+      "correction": "5cc99660b7d9e72d3d8fad5c04733ca996a34918b869253f147ea24594f5e3d8",
+      "originalBytes": 3501091,
+      "compactBytes": 2452492,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "dcd38f9dbce6d755cad1b47407dbbad4aa0eb43034a2473dc7efc1e603627500",
+      "base": "3ff5a2b5a2ef560ddaa35ec56d10a44ec63efcc605f77b34548a8238bbda1528",
+      "correction": "ef82a7e9b80717e1cfc55626e75796e4d01f987e6c47a76379533600ffc0bbdb",
+      "originalBytes": 3510565,
+      "compactBytes": 2461969,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "012744efb29959554a253eb22a08a3857c4f9aa4f25840205930a36c3bec1c80",
+      "base": "aa49b5508dfedb05a8a8eed5885d6d2518380ba6fbe582ced059ee7524ed5be8",
+      "correction": "c559feed8f7fa17aee8b84bd6a6ab4549c06c327a28815adbeaf9d9865abc66d",
+      "originalBytes": 3519750,
+      "compactBytes": 2493141,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2eaa62fc85cf3e853006b4adbc7f2969c82c5b4115c0b309b6c11b0f338878fd",
+      "base": "e5b31b16fb2f08b2f7a4b5de989b7c7566e113de671c183d7ad7ede00cc817b3",
+      "correction": "f81a36175e73681af5e584960a36aa3eaf52b291b0371ea1e1daea0701b02b15",
+      "originalBytes": 3512587,
+      "compactBytes": 2464006,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4135942f74d5d6eff709f3dda65871aeb1559fa89e49b990c0e7a0eb81f3b322",
+      "base": "351a6f6447536851e1ea69e902410607a1cc29e70d12760434de43b09787a8b1",
+      "correction": "6427a4cb6c0905be134873cc363686f2a170f1e7527628d7c8b99b3aa82108fc",
+      "originalBytes": 3500527,
+      "compactBytes": 2451927,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e466c82d4aa4bae4c22eb18994daeb0e76b8439f0c7a4a4ea57dbb9be1dfcec1",
+      "base": "f72b0fbda62e8a9ad3d10ee72da1602d2c5f6dd323ecb42fa22b1141373b3efd",
+      "correction": "a943f808544cdfb53c33153f30f1fb3bc8a2bc2207d94c2a0eccf24cf4cc45d5",
+      "originalBytes": 3503855,
+      "compactBytes": 2455255,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c204f7808f641a9c6e5242c1555dc2d0016bdc53dffd9d19ee3e7616c539c1ed",
+      "base": "0073953942a9516b8babeb4ed40ea7d7a8f5214bba1cc9f492d6e6231ffd37c0",
+      "correction": "a31eb0b1e454196fe065760f3f5fa9bf2dbff036b39de82884aad6d71bf29d26",
+      "originalBytes": 3504176,
+      "compactBytes": 2455575,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a8c8e41815dd4539cd3c141f6201f454aa7dfafd25f09f69867340a47e5fa529",
+      "base": "af171879cdf597957601d0eea3c98b420d19d0c8d08d5311fd54518ae855cc46",
+      "correction": "1746ff4e6c1d387ac0b8cd38940890c4b589bd772c637ea1ac90f5c1dbf50164",
+      "originalBytes": 3505283,
+      "compactBytes": 2456684,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7c130a0d1a87d8e83e73859ea2682c3d4241d2337f828d3e1b5e3dfe73555ed1",
+      "base": "d0bc78e38634a6d17fa0da58815bc6f5a99b97bcfbb0d3f1ec51ccf7e57bb6c8",
+      "correction": "c5bd65cecfbed24ccceabb4725084b97138b3b4948921dde1781a5bca5b3871d",
+      "originalBytes": 3506516,
+      "compactBytes": 2457915,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ae0d3918a0443204751dd28b8d72ca8c628914cd0fab1e44e7b43c4d4acd7a43",
+      "base": "2efbf80bca658e25b199b3a54320ea51b82407c2dd6dd8c8515e35722c9d90b1",
+      "correction": "3f0c2e7a27d142936d25778d5d9329a3f84cdcae267e7e132fd7566fa76a7519",
+      "originalBytes": 3504397,
+      "compactBytes": 2455797,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "63bd7964cc22d003ff8e0df72fc3eaf22937060b9af3cabdebf8be89afd0d0da",
+      "base": "e68990fdf98b72fef72d82d60bfc81c3f468fe0f114bc3cdaf852c9ecb517cc2",
+      "correction": "18e7691ef779129332f7e1ebd0f1b1a5b2a96670d7fe472ffd224b4b805fab13",
+      "originalBytes": 3503713,
+      "compactBytes": 2455115,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "b20d0d7a53a9dbcff001ef960893e1201c24ff8b27db1d6d1d6108ad86011ad4",
+      "base": "5b64689459b9bd674b1b2ddcd72ec01c3279f901ff8428b3e7f19c06ee4530f8",
+      "correction": "6964d43fb4033bfe424e4337aa61b4e04601f8923b7af432350a98ba914bfdb4",
+      "originalBytes": 3503713,
+      "compactBytes": 2455112,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ba36c975df4e701ccc246def052871cf9588a33bdc33c13bd2dc8cbe450b14ab",
+      "base": "cc8e93b3ecf0dc8395afeb0058c8fe5c861cba3562c9cfb67c7b6f0491e29cf6",
+      "correction": "8b00ab516b6c4694bd92d6466baba34dd308cfeaa1341f818d430aba15afbf62",
+      "originalBytes": 3504145,
+      "compactBytes": 2455545,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7bb22c329b878f9eeac42b816d35f67e0de6267efd79ecc56893aa685ea208e1",
+      "base": "62114167d45feb22fb240fd6ad7a303c5605094f9238cd10c135331c96371e50",
+      "correction": "439765d78c691c0a20e17fb1b457eaf46c1dc02ef6b7a51edf26538e8cd0dc2b",
+      "originalBytes": 3506212,
+      "compactBytes": 2457445,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "b275336f9f47f7bfeac32d30d4f81e9369bdb91b93055de81a04b11a462e8de7",
+      "base": "bdfd5c725b92b7c74aa6e0aa7a57b8b8f7d461672b0bfc6c87d81c91f53e6ea2",
+      "correction": "1816f9f7d496d8f96f2866df794f5398408627818802c2caba112bb9faad7433",
+      "originalBytes": 3506134,
+      "compactBytes": 2457529,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "eec0214673a87f0488d77d8ad88a4e09021089bab1c9171fe78a579d1b10918e",
+      "base": "64b8c3e33188a3f1dca4c2eded1eae9de94b4cea4a255999bb22fcbe7379b6d8",
+      "correction": "c4485dd91079dd39c15325f4ec67d65b5bff4179e42a14956f178b20db644251",
+      "originalBytes": 3505948,
+      "compactBytes": 2457339,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d86f43b6903e3cecb181eac9232acd371bb6c0d7429365db2c9eeaba13d68ae3",
+      "base": "b5e91ec6cb498d20b7fa2923442ccfdf9ba3a65a645b31e41e366495327beb29",
+      "correction": "7e7cd36d992d6ee17decd69c703bac0761b68c79ec607a7ce538bfcf41836215",
+      "originalBytes": 3498264,
+      "compactBytes": 2449666,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "034cb66228213425eea5cbac248257bb4cac78f4c773449be4cafc61f448c53b",
+      "base": "f0c65fdcb0edf8cce6ef38c608e6e48ac7e72a6816c7454ce7e0dfd7a8787031",
+      "correction": "3a83445c5ef91f984fa58ef9e62a7dec4da1a18a4015e2c10eb52abd7f657d3b",
+      "originalBytes": 3504242,
+      "compactBytes": 2455648,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "00c9892683436ba7e93f373874aa17b7c51c16812fc6e4c0f4a226cccdf46d7e",
+      "base": "ae702622524702e645fc23cb82aaa43987b9045dcc0c9c699b6a9aa6b7a73008",
+      "correction": "c23a4c04bd55fb46c7d5da83cebb74a0db8484bffebf56d3b2dda2f17fc2cd48",
+      "originalBytes": 3504256,
+      "compactBytes": 2455654,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0df9b27713ecf4d55136fa96b55a4886a1b77a1fefe48319b7c9d790790f2807",
+      "base": "dde11ba265059f28916bebaa4291945e3a43e055fe16102cf245c670d2cbc207",
+      "correction": "16bb31cca0777f0e3f26bed220fd30ed524fa8cbed1c31ef4be72040fbd08140",
+      "originalBytes": 3504141,
+      "compactBytes": 2455541,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3bec5f3a341ca5dda56986001714a78d769b95406ea3732faf2ce2cf57b77cb7",
+      "base": "3a4e5c97d3836036332c1b845c14e93d4c6b926b6d1849af8e41827bc2b2b116",
+      "correction": "30f94e4aed0e56701f1eaebfe1aa8f876c9812fbef5ec270a555c5be5a50f227",
+      "originalBytes": 3504057,
+      "compactBytes": 2455458,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "679b9b96d7b6631a8dca0f561a907453805fa89e0f30f86fcf28c0e15557b5c6",
+      "base": "befe2ddd7a30e5032f285023b3c122e17a0b4e8f1088f3eb2c60915fc5a16fa5",
+      "correction": "02dd567babda20791d799d374d6caab78b038008ccd0f7e89d197fb6bec6c2d8",
+      "originalBytes": 3502184,
+      "compactBytes": 2453584,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "cd76c03f091a8a34d84eec62e657bfeadb71df9de5eaf6bacc35f6eaaec85750",
+      "base": "2fad65630c02dfce2f0e3428b6adb8da29a5e299b8b95c716035391858084c0e",
+      "correction": "d407a771476368ffe2b17d2307be2cedd3111ecc231b0a05ad0fe6fc2a8bd338",
+      "originalBytes": 3501100,
+      "compactBytes": 2452500,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "745c16916e563724381de8e5fb421ec0ddbc3bd1b6b807fb6b86b23097e8fa2a",
+      "base": "b601230492321bc96ce6863515973610315d4c369446348995aefc7d4ca9d891",
+      "correction": "243f9e041605f8d26d13229fa409223ba3357634bcfaee5f96a63a7243816fd6",
+      "originalBytes": 3501322,
+      "compactBytes": 2452725,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a77c374098ba88e8f03345b569a28afcf726f1ecd34d2b67e158f2347dd738fa",
+      "base": "1ba918d50c7e1ade1c7a2111e5517991b2c68e2357a1c6b33c3c7e74df9114d8",
+      "correction": "4b6f262dd3c5754669fda6383e6c0a2ecb1933e54baead4a0a8dcf032736f19b",
+      "originalBytes": 3500777,
+      "compactBytes": 2452109,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "efa748da9e53259a154d40216b46b6fc08fd84997a5d6c6f7eff6dd412d80c37",
+      "base": "dc8e24a5dee9377b0642c81552596358899b54c3e9d86f9d748cdb7a180fffd0",
+      "correction": "0a526b1bca5625a006d61a1a3f6bd3322f520fca076d2e108fa702f50c807d7d",
+      "originalBytes": 3507596,
+      "compactBytes": 2458449,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3481139c53b6e1e6f826e962cb7486a82fe63a728bced535f6bc54f1fd479b1c",
+      "base": "489cc0fef38843d3aeaa002e069eea7e71547fc5acb70b7cb1f1ab16f4f51f35",
+      "correction": "b719da564373dfe2a00bb8c42420ac6c6b00ede7f9297476f34b3526a175cbca",
+      "originalBytes": 3500638,
+      "compactBytes": 2452028,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2a042f6ba9205a0da6c33284157d60fc9dff75701bb99c926840d748156dfafc",
+      "base": "dc9fb43073197dd1d7bf11a4e19dbfa0396a1725ed0ba9b49b2ff9d630a612fd",
+      "correction": "fb06893761b29258378f60fe7fbcae26b93850258aed87ba022af4cb917eebda",
+      "originalBytes": 3510069,
+      "compactBytes": 2475714,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f601d7d03c557b430bba4db3ae761c12e3c775145df568e275e1cdf0664654e3",
+      "base": "0eac83511abc9d34d8e86983cf3f797afa2a938a07a7fa7f304515b9700292d4",
+      "correction": "4b2fc7d0a677c2a16729373c330625953d5660561a3c4171416fc4ddd5bfc897",
+      "originalBytes": 3495997,
+      "compactBytes": 2447398,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0db4f63783962b32aabaa42b5af23a8130a17b300e31793a4b91d40a3614b077",
+      "base": "e4c2b259454f9fcdbcbe19b1ae3f3e403267dc09cdcafbe0ecd71ffde5e2c14c",
+      "correction": "ada92a0ede126df0f32a96a344f35f19b728a1d94c4cffbaceef1e61d96c0325",
+      "originalBytes": 3498359,
+      "compactBytes": 2449756,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0ff03bfb3a8298045dca137c82b7889a75826f5aad979afe610630c320140e19",
+      "base": "fe79bff1125190ea9438e623969b01fb972a63be1dfb927650da9540bc7903fa",
+      "correction": "8378117c1c045f1fe65da2a666b48c458f63257b8fd41614dae05d7a30988d2f",
+      "originalBytes": 3497774,
+      "compactBytes": 2449174,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ea5a0440338cef92afc2bed68b64b820f306acee620763d71d562df414f368f5",
+      "base": "ba0b8eeb132b6f80d4d0e2a1bb1fef5a409df8c0d8d949ab60541244f49569dd",
+      "correction": "772d0952ba0e991cc0f28f4cc963c31b73b715ee166a06fb68391399fd293a0e",
+      "originalBytes": 3498672,
+      "compactBytes": 2450072,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "055fdf77ea002f0ee83d6e0e3124e21b0adf270718764c58fb867c5ac3c8f1ff",
+      "base": "96cd055e983b97ca3020f69582c546615c4838b45a1c1184d27aef470d2a27f3",
+      "correction": "e7eee24042d02171e7384e27ab9ff8303c12d095a2365712fcec516d363715a7",
+      "originalBytes": 3499027,
+      "compactBytes": 2450428,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2649fa398ef3f0e299abb38e21781740dfd1d14cc93cf066f01fa4d99955bbcd",
+      "base": "4d82f33547ef74f88a1bd7a35913249d458da24893008e038e150881fd38f7de",
+      "correction": "ac733f5c35b6277625c31c187adaaed2b6378874941fcb8a9973ed93d7515fed",
+      "originalBytes": 3500311,
+      "compactBytes": 2451746,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "35f44e52f2e4be850c951113af5951294b84ae9a41df4eca1ab30e112c849088",
+      "base": "11975a303c3065bf06a66bb4629fc369d2f90c9706015eb7a9e1a03814e0a3e8",
+      "correction": "92fbab51e502d326e772033f07264d2bb9d34dc5b5ab8849eedca02db844ce84",
+      "originalBytes": 3500540,
+      "compactBytes": 2451940,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "dcf5c1a084c5e0e78fa23f2a29181758f8cc84762177578964e8cf67b8913af6",
+      "base": "9d5d421600b3894e9226b0d94d00def581562999cece77149b70f27ed73c3dbc",
+      "correction": "1209c2c407688161c7c1a233c561206e71392e2f931c85948d1e48bff527734e",
+      "originalBytes": 3500189,
+      "compactBytes": 2451588,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "33bbb87213583bff090356ba18ff851892d5aeb89a9d95f39845ad5b71471ffb",
+      "base": "fd4f27d50c20683a66735b5cb5908fd9ff99abffdd9cf36b4e56d5d69f02776b",
+      "correction": "c09390ec7e76bc67d4950d3bf3e7221a2aca4c56ef1b45fe8d87ed7cb23e4421",
+      "originalBytes": 3500167,
+      "compactBytes": 2451571,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "676ead23fd0ad67675214d37d165e0cbdedcaa4680d1ee0cc6296b9f7cfc334a",
+      "base": "1f55f9f17c7702ed8945a73dee1a2127effa7fea99730ef867cd28ae07b0188b",
+      "correction": "8bc601a7d7e84e22e31cb853d364d57303dd96379cfeda8ec96660660d8e4398",
+      "originalBytes": 3504661,
+      "compactBytes": 2456060,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a33a2253d1f0398deb45cb2409ea25f6547e8f70ee7ffa6abda687d59f879ae6",
+      "base": "e2217ea577500b684b827591a86144f345feeefe4e864aaefb83a3bdd2f1c2c3",
+      "correction": "ad97dd3cb4cf79e81a6e40984b4976d196ce6af1ef6d007a92566c93a87895bd",
+      "originalBytes": 3504005,
+      "compactBytes": 2455407,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4d8d5c63ef626e86ac9d76710ed858d2f66990aabcdf51bff3e4f787e2b9043d",
+      "base": "b9e6b781247a87f98144f167eeec6d642b467de5954f388d57d62293c1bdaf32",
+      "correction": "874a6a6a14c72a58bbbc97b86920b1f9f7e0a2082b87ed463f4b2029d622d4c7",
+      "originalBytes": 3504198,
+      "compactBytes": 2455643,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "184a2560da3e9df83f216f0905c4edb3a45fb9ee3af18629222faa0e9956254a",
+      "base": "b17be4b5f5e676ed2eed652bd1c78fa30f67874fe594b3eb165c368c074ee1c9",
+      "correction": "b32519c29cee2f9e79f23ed7bc35374a63ccbad9009aaf07bcca633843494cdd",
+      "originalBytes": 3499798,
+      "compactBytes": 2451198,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6a7a29821823627d350cc3e6528e1a6ada395a008ac9883149d5ceab346b82e6",
+      "base": "32b8eb1baaebf4e842361a2b26f34f8b24d7f1805e8422e5fc79e82a6076e7c5",
+      "correction": "bad5bc4e9cd546bb90d7bdb6b8a96e507df9f640cf30fb880c0828c26700da88",
+      "originalBytes": 3503650,
+      "compactBytes": 2455051,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e68985f9fada130dcb888470f0f490f38b4ce0e48a02325fec3311d00f5258aa",
+      "base": "5db915f3f24c8ef1d42c140ba0055f6fd0886a75fc1ffb2727727a8b92c009c7",
+      "correction": "893fe2d0ba9e60709a6c5cb7b76dea2aab5394fa0da2cb6cb34777f94f349243",
+      "originalBytes": 3503831,
+      "compactBytes": 2455231,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8c64bef1adc129aad8d1da24933362bd57b69c987f6c2f9ca77616e94d9c9662",
+      "base": "1e7d69d5a874fe59af81d0041a4ad2519b172889662842fef9d2daa213b95815",
+      "correction": "06cb7ede4eef64e0f6f387841e8c89b35df04da8ed1bc80bfcb14ebf870224a8",
+      "originalBytes": 3504891,
+      "compactBytes": 2456293,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "78481ecb75c3f0d4c0c80d73b2b8e1c2d5c7b7e13ae096f9f16e18f35a7f7798",
+      "base": "d862dfc63a0e5e2239074a9047a7bfba0fb9c6a1f39e318d6fb2b0982ec6d3ec",
+      "correction": "d86c0de43e5ed4c74f2f70cb6969d111b4195116e34f5286a12e2163b9e69cc4",
+      "originalBytes": 3503916,
+      "compactBytes": 2455315,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "943eaf82964007473971545bb05531af062be1a919e48f54908a00d443ea04ac",
+      "base": "068b20fa9bd80ba143d9f78e4552c4a8d7a46934ca2bc929d5eb1367282896bd",
+      "correction": "3cf4796ed4783de6bc1c61a2d450d33c616924d38c8597641dd2135e0ff6d73a",
+      "originalBytes": 3493885,
+      "compactBytes": 2445284,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d96c9f0f718d257eb734218ff5059d4ce82788bbfa70414e9a87f77f606da0c6",
+      "base": "4af18aad51ac69a9ec807ba6c67bf293a7182642d00aa321fd9a86bf8c14626f",
+      "correction": "0fe120d1aca26dafd191c7e9bbc5d7d485f604ce6aa024eda1498719adf4f49a",
+      "originalBytes": 3493342,
+      "compactBytes": 2444742,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "86d7f291efd241bb050e9251fac464d1739aa6e8a8090230709f202de42bb700",
+      "base": "bad91007b145e265295f5453c5a938d413dd758e3979345a384a27605267f01c",
+      "correction": "ae8e654e3a0b51d0796d9b8d26621e576ec2435f4565e206039194c603ccbd03",
+      "originalBytes": 3493710,
+      "compactBytes": 2445110,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6a4131cab358590a5ae0c1367ed3288a0186d4452bca317240f171e45f119ef1",
+      "base": "df292b18373f6a5c81ddbe9a979fd3feee131e50867c71dce91511cc10682427",
+      "correction": "4ecfb8bcd2afe96ab2cb748aa86cf513b121ef4758af14ee2d29684ff1e6afd1",
+      "originalBytes": 3493782,
+      "compactBytes": 2445182,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "54cc2a866c2e89ec7078e739d3705ce830c76f4a4754fa0f5a5b9b385e0c0bb0",
+      "base": "59a610e6d16df22a3939bfdb7ae6c49aade25a31ee1f10424f3e46c65448b10f",
+      "correction": "a125569580d6b3d0f8c87ffaf4050395b5dc0687683782437156153c4e1d60a5",
+      "originalBytes": 3497767,
+      "compactBytes": 2449166,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c8aa90647bc5336525b26c39d8b095043f4caf83daebb6d9ed8b099ce8f47282",
+      "base": "5a851756bd850c9fa2cc16b390ceb6c812d7c65a5962b3d497538bb432beda52",
+      "correction": "3adb431baf13f074dc84d94d4c9e80d6b4e158090825dc72452644a653b714c3",
+      "originalBytes": 3497074,
+      "compactBytes": 2448493,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3bca23cfe5fee2498023f97a06c13fdf423e02aae22cee81cb133e2f27023ba2",
+      "base": "0fe57223b6c37b12c2511d375af0b0a6a31e1ae6fdd92a3386f92b468dc8a660",
+      "correction": "e4b5ac3c1fd9ce125ce086b8ade614fe947d64ff6aefbae3d2961fa3a1ddb9c4",
+      "originalBytes": 3497256,
+      "compactBytes": 2448655,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "09842c4be6259fe78f38e2dd6766930eb3410df0fa55e1557c03767a6c4c3afb",
+      "base": "9f5e3e5e31c5661a743b7f0a6663bb1ff370dc09d5f021a57696fc15adb1c7fc",
+      "correction": "be8e9a97d388336755b2076619f0175839ba7fd2e60f2eb54420a8de052023f9",
+      "originalBytes": 3493340,
+      "compactBytes": 2444741,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7f8f83dba88d4bd085b8e83a2824af1c06dc73edacbb39fae4e861f84ec5d0f2",
+      "base": "190164a213d7bae5dddd67c2f0a9487ecd52e6d5e422e7b9cf1c684a0837e7b5",
+      "correction": "43a1bad3b1514882b27bba57f723ba852d192fe7f28391fbe30b25d84fe65a82",
+      "originalBytes": 3495828,
+      "compactBytes": 2447228,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "12de2a8253cd87c741a8f68489b6b453e4fa16bf3ed9d1876062e6ac83de9aa1",
+      "base": "7566aedbe3f07a61e8335affa6d683d35bfd1b1fbf2d96ed1dd2a33314d654e9",
+      "correction": "73cd641063e9f4751c005f3ca5b5cbac217337c0c7f0c9cc3d82612db20dff98",
+      "originalBytes": 3496746,
+      "compactBytes": 2448153,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5ef02a5338eac95188f6f48124834bfdea654d7df32e9a12d12b511eeaa7279b",
+      "base": "e3ba0c16849302eff4a53a767b875a62f9650dfb3b1cab3c441df5578728fd97",
+      "correction": "66cf499e60fe68e44f907165d4a435bc5fcbba13be75d1e19529cdb8afce15e6",
+      "originalBytes": 3497239,
+      "compactBytes": 2448640,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d6f390275f1796cc84531c07d5f515b34fba6feecb7f749583f6b56cd03a5cfe",
+      "base": "cae475bd731c6dbe64a5d490ecebab711ffba4495cb4078e1faf52800d066f0f",
+      "correction": "911fbe224df948973b3ae5b12568f9f0828cca92b45f5321cbcb3e530b60eba3",
+      "originalBytes": 3497112,
+      "compactBytes": 2448512,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c0a7738bad8c8b929dcd10fc7c7b93cc16782ba78591117f9a2b6bb1578cdc12",
+      "base": "00bd1690abd08f93c928afb40e57df5b5dc765935faec51fef4e1f6bc933cbf1",
+      "correction": "cc3d0d345283b1227689c0f09c6f6ee6e914d741fcae650b3a7e702cf69c8549",
+      "originalBytes": 3494847,
+      "compactBytes": 2446255,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9b6d177f7e81c9f0f5ac01ec0a6ca81b950dd2433334bb1f034c6412676db75e",
+      "base": "8df3ae8879fb5d83f1a59aa74e8b8c46b5ec8a885591345287c3faffeaada1b9",
+      "correction": "c36d6c9040cd9724d29caa995b2fa627542e64f46b77e89464fec5d793ff0f21",
+      "originalBytes": 3494247,
+      "compactBytes": 2445651,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "fc3f9cb2373e377698778f853862955a4a95c40c6e85e05a352a771d2a73e449",
+      "base": "3b166f83af53f6d7ea52a5cb952f57c213579e4a27a2a9ca4aeb6c478af922d2",
+      "correction": "54b136f4518059d9cd8dafadb4c994bc46e75bdb37bf4144e36350abb3852698",
+      "originalBytes": 3494370,
+      "compactBytes": 2445772,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "61811e98c4512597eb0b65dfed2699ce8478f894ba59fd79c078305395cd6764",
+      "base": "285e15e05bfedf175d8ca6a4e1475432c0103c9290b5bb927fc416367e8308d0",
+      "correction": "390aade2110d0d3bacbe8463a7232523088de9e616c339af889d60fad1c5a6cc",
+      "originalBytes": 3494564,
+      "compactBytes": 2445963,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6133c34faf945c797696463a206380feff9b45e2718c29c2a5c6d7e4185106ca",
+      "base": "a4d7774ab1fbcfaa3836d8667a33b70f1c40a016bae1c335d6593b2ae819e503",
+      "correction": "991fd3dceefe00badde07e837e60dc921f85dfa63b128f9716faba301d6a5fb1",
+      "originalBytes": 3499807,
+      "compactBytes": 2451206,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e91ddf726bd427a03ebb436e686a7bea34c182bd2cfe74205afef97bd2452490",
+      "base": "1dcf67d58f7c22d7a5e11ad2ac64a0265ff29ccbabd4c8fb3679d4ec7db27555",
+      "correction": "cb480aedecbae164e73b8207342b73580bd3bfd35e2107bfe6cc66f2b5e558d9",
+      "originalBytes": 3500079,
+      "compactBytes": 2451481,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d04fbd966e85003567268cf59d308c0694021e75592bda2be14ff8af4b65c3e5",
+      "base": "74e22d29a7fc7cbd58dcd3f3a0acccc2d0f23ae247d96a3d73f193702a59d92c",
+      "correction": "06c9c9901ccad0f5c8874e0d6bd0f66b3cfe20e0414221356d3b00cf1f7b70d2",
+      "originalBytes": 3499530,
+      "compactBytes": 2450844,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "57b6f2d93f645d411e7f65627c0e34f6cc4b758971ad751cc0d3431cd522da7e",
+      "base": "a8ae8fabd5c30cf5ca3b0da77a8908b23a23fea3c09c82cd1f803cf72d3a2269",
+      "correction": "cdc8bcd930dc8638e7a02263c65ee2d14d47876dddfcf82f6bff1f3af1c51730",
+      "originalBytes": 3495889,
+      "compactBytes": 2447288,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "925baa41334dcc4ef238b65fce450f9c6f6563b69e0f779f574adf475c29dfde",
+      "base": "6aa0d0e698babcc98f9514cc396f42f9ff183a647cbb6c42c5e149723bd761ca",
+      "correction": "001dd9cb0ec97e632ba63954d9d294adf274bfef659b031d5ab615d5529f42d8",
+      "originalBytes": 3493556,
+      "compactBytes": 2444957,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f0d16875e7d54ab7c50b97388a279de2904a0e2ada6a8578ca596a90be09b472",
+      "base": "6291ff23bc4bc27e34c307fbd8f849c4d339ac131434f3973fc5d2f6007db039",
+      "correction": "3152be418b57d53a89cacb3efe1ffb9ac880cf830ebc8231b7a846e94f9b0ce6",
+      "originalBytes": 3494278,
+      "compactBytes": 2445678,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "bed3f37557e32f5c9fc818ad99decd7073a25b617d5cf7cf97fd38f3e9d0584d",
+      "base": "669485698ae9194755f437edcc78deca98f5ebc3e59ccdcc610d0202c3669975",
+      "correction": "d6abb1b9e73daaf7b4a55fe5970bcbf0542566e84d91bf8ff990db4c4a1f20ab",
+      "originalBytes": 3494760,
+      "compactBytes": 2446160,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "38753edb7845bc04e69c39f884544667343d974198dadcd1790d74ef0f296f99",
+      "base": "3b058d029cfaae92b0a8f0d59081261eb92ab9247e869d4777b2da6ea578484f",
+      "correction": "3f1c4eefc9cbb28cd0afc37d3f11ced7a9ba1e4877b0cc1ee9cca43400a33f27",
+      "originalBytes": 3494217,
+      "compactBytes": 2445621,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "202fc1d811897f3f214fa3cf207866954fde5644f989afd70973f470e35d630a",
+      "base": "78ee751224bc111258dc1e1494602ee3b3aa7b23287673f6c10edef9727c04ee",
+      "correction": "b1d8b486b45f23e6c34c4a8a1e9ad71a0cb9ddc135c7437bfbfa81755df2df33",
+      "originalBytes": 3494259,
+      "compactBytes": 2445659,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "85be4ffd6bf511182830957f32e018d1432ea963365561e9466dcf0f3eeaa6b0",
+      "base": "d2c3869e0b021443f0098a157d86a7ab94aee85de07c06bbcfef2bd8c18e229c",
+      "correction": "1c4ac99b939a474592e9b6356a98397b3b5baffeb1133884fd414664abbc5bff",
+      "originalBytes": 3494427,
+      "compactBytes": 2445887,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "279bff07d5f6af878709005e37a8c1045621973da3fa0b0b9d0c1fd6473b473a",
+      "base": "2116fbe42424b63f8e0667178d5b3fe8c4a42cd10931960e963393feab62d4d4",
+      "correction": "d0943bae8362f57c2865cac045e4fb30a50585a11ccc5463b5b543834916d42a",
+      "originalBytes": 3494426,
+      "compactBytes": 2445825,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d494ba41eda5743d3afa6bb37b411b3f1ee265fc4d21b318a94fd1ed811fdffa",
+      "base": "70755799f5e6b776a9db837f9e545cd599b85b79f160fefb480fc04552f1c527",
+      "correction": "99797963fd5d896c581a9107c6de1ff7ae44f50a381fb45e1b611d20d8329353",
+      "originalBytes": 3494460,
+      "compactBytes": 2445860,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7f89b10af0358b6d5a3c6b27bd2dcae9969c66d5af5b65b9b24702c4627a668c",
+      "base": "1b895a4fadc9c380c5c3c27d19ce1c0c5935d06af743203f22759b430f7f2098",
+      "correction": "3309132f1e26548f930f1788a14e191dbe34d3cc295320681f52394fd0e7f8e0",
+      "originalBytes": 3496209,
+      "compactBytes": 2447646,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3ee4658068f9b357d48853c16e1090d113690a706f3aab586c733f46edefe737",
+      "base": "e5fc209a6410b2256eb11e6ff30801a8ad3006d520d85614b5d2fe503ffe83da",
+      "correction": "1339be3019414c9b29c4219d335bfb639e7f44e5b988a9090a8e09126030fb82",
+      "originalBytes": 3496198,
+      "compactBytes": 2447599,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "640c2574129b0e0e4cbd58c8c68877d86e0ee7cbb2f7e33c577da26b12dbbf5a",
+      "base": "b55e88da63e87b518751826a11329ff2cbf1fc35e8f849bc44355df0a090b7f5",
+      "correction": "1a2e3bb84074d7da5686dd5cba2dc7f19030bce2b835679a28821739e0156851",
+      "originalBytes": 3495401,
+      "compactBytes": 2446801,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4117e6a96cb282c1beec982f2a603e2efe94f1ea7ca0c41e072b65c002ed0533",
+      "base": "b12bca51760e8f3788208089b37e7e4703c8b5692cc7700fc84e6b2f89ebf5a9",
+      "correction": "55deabae6eb430d29228e7552d3e3fbd1b516450b83f83e1ebef4653d5ce722c",
+      "originalBytes": 3489809,
+      "compactBytes": 2441207,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "504e30cafd0a189d76f9c91469e66e80af98c9e88d3bb5cf143e7a3e2ed76656",
+      "base": "1a27507572d2ce77dfeaca41e96c5c10c8f22375da94ba6c3bb191e5b3d407ac",
+      "correction": "1296977ecd756be31a746e33617cac4d59fb9fc7d21c357fa1acbc3387349486",
+      "originalBytes": 3493012,
+      "compactBytes": 2444413,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5c1a085054726a182d241031c558d53dc4bed17b84c112a31dcbf05c98008754",
+      "base": "27ff98767e7e8352a122cdd288beede0906d6d217eebe6cfbfa338c4eb5b049e",
+      "correction": "04f8b4e6b8a161684ffbd708f9be4445ba52dcfa7c59e9795c1ee10dfc846d69",
+      "originalBytes": 3493958,
+      "compactBytes": 2445358,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e8386f16a1ee778df4a1e8dafc84c348aef5531c485a2c365ec6fd1e5d45c3e1",
+      "base": "ee2b6995335b6c36b4c13b761b5cb9fecd7310781d25c28cc8d52bcdb661682c",
+      "correction": "5e294c6ba9cdff970f4f0d54305ba9c0eff83756f302c3b5d4a2618d924bc618",
+      "originalBytes": 3493505,
+      "compactBytes": 2444904,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "26eab8e14689511f792aff4a4bf55d89fc55fc820470e3cde04f3b56f817a911",
+      "base": "95a22fc2a2a9c4a0aa4eba0c2204e804217593e4d341d76d1d90cb7a487cb0ae",
+      "correction": "30c29bc0171132bffb46e02b8decc16aae083103d95da6c635e9f3b5e3c30d81",
+      "originalBytes": 3494133,
+      "compactBytes": 2445537,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "798b7a494a7280ae7d0423d8a402c7234bd867ba83d689d84ef275b8f97f994c",
+      "base": "00f2c8f367e817e8620c05eebb413b0613720b52adfbd608ee1dc2589a5e6dfb",
+      "correction": "f5107d025259acd3628e9b84ce2d02868d768e4a539335df566cc87ba58c7a2c",
+      "originalBytes": 3493590,
+      "compactBytes": 2444987,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "b830559c6a7294552538460d2deb0f46a34014bdf297262d2d0f5fc22d7b45c4",
+      "base": "f4b2d4534f483cbc2230a163de25c2d99b5774bf6c2bf44b95613c7c437db886",
+      "correction": "6bdbd2800fc2adc6b5622a7f9d7db6b10986c11f5a6c28cd15f2cfd118407dfe",
+      "originalBytes": 3494170,
+      "compactBytes": 2445574,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f70258beaf4ea8b47a8884e650b066cbe34c578e8720841aaf193b2f107e238a",
+      "base": "e5970c5ee3f85107eaa1c0c5192f3f2822fe61e2f1fe089f7ecf33d3bac6804a",
+      "correction": "b63b7f88d18e2ba70bfcd8e5df5a4f0efcf4aa77f7f98023b5b297e123cccd2f",
+      "originalBytes": 3493888,
+      "compactBytes": 2445287,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "db0e3c9d69f33af4f1535838c3cc807133abd890a4cb2a1429a3d4dffbff0b25",
+      "base": "6d674e59fbb1dece1fb1ca2057986983a48273ab202bbc2a5b9a2e0f724ebcd5",
+      "correction": "7152b43549f43e02a663792c05ba330f285cfc684a63683bef648d8c6b7c89e6",
+      "originalBytes": 3493557,
+      "compactBytes": 2444958,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "dcc033764f123ed029ae28240e6c77d4d0f6a9e5e47644130036dd9ba655494f",
+      "base": "e58f60edfb6d2213fddb425f0a4ee64c42b391298cc712b13565557173d453a1",
+      "correction": "b0a37795689353a7f314f4f69ac0acb42980a4b74f93718756b666ee68cbc349",
+      "originalBytes": 3493689,
+      "compactBytes": 2445091,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5dc1fbd1fcf27a286cc6ab1625045630a3dac73d2a6d66590c0b44cc1a0a7c05",
+      "base": "107b1250b1db0f82c9c7eaafb0ac609ed76b88b4f4d16027eaf00bb4db9182b0",
+      "correction": "b53bf8fcdd6e237c0818b6a6fae19b2f634e26150674160dd03dcd04b3c1c2de",
+      "originalBytes": 3492497,
+      "compactBytes": 2443898,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "10e1d649263d23a60c270feb8f0edda44041dda5c6b0c3692160f13cd9eba23d",
+      "base": "f61dfdd1dd73e507db953ac00ccdc3a39d48229df282112b111456e80f63a985",
+      "correction": "bc8949cb0bf144a437455629967b76585a698c1b099df1b9d1e6dbcc86c07e42",
+      "originalBytes": 3492302,
+      "compactBytes": 2443702,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "fb60a0e1deb44bbf75c1b95f53a16b6940831288d3fe9815cd5c27f2c0ac3d15",
+      "base": "81171a90178e6143d1f546b5f0b954e02f8c117c7c6dbad8a252a46a9c0cf9d4",
+      "correction": "a3e48a84881e66137dcca64201c660cec23d3e6dfc73c0581ebfcd0e3395d207",
+      "originalBytes": 3487237,
+      "compactBytes": 2438637,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "669bce9d81bcf58d616b0d0a0101763ddd64eb82ff7d2ad7da5351fb1ced1d5b",
+      "base": "3daa12490dfa253f6bca8c4974e2354b9106141584b1cd0b9c71848e21980cfe",
+      "correction": "4fb175865dd0265ce7720e82ae4e5039844a772cf0cc8b883122c1fd711452d7",
+      "originalBytes": 3491821,
+      "compactBytes": 2443225,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7883f811c4c65a9289babfae82a2a9951d84e17824acd8b16bd066c548d6ccdd",
+      "base": "0ce950e010e849ded2a5b0634ad956a1c6dd8123ea51232b3b4d45df0f33e179",
+      "correction": "3dfa27fd9e1b34b3e85f82b804047a33075b889440c62646012df69e8bc8139c",
+      "originalBytes": 3492788,
+      "compactBytes": 2444189,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3f19d99d37e40d413f244bd3534da7469a7da3950d74bb54e758ac94b1237cee",
+      "base": "009f9d71842b6b4b267d7a6e6eb0da754a5537117b5942f7e5ef0b543bf8e858",
+      "correction": "d84def9bbea322a288f751444a12b4697a53d609bcebe460086d9cf771624dcb",
+      "originalBytes": 3492319,
+      "compactBytes": 2443719,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6f6ba3239379adcacf192fafa8ba26d2d4d74c3eb4d0b67080fd277f5ef8912f",
+      "base": "f79f8b9a9d57b632432a458aa7b2c3ad988710c874ae4480fd095e55b1fac927",
+      "correction": "cb730ed2369a2d03f966c82b89a5b2f92b4119763c44ec85a17ba04dff1c45ee",
+      "originalBytes": 3492781,
+      "compactBytes": 2444180,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "aa82bb530df412720ca2b4f06381105a0a6880b1ce0c6ec805f37e816605a0de",
+      "base": "55071c6a63eed65ac224d97494d29182c2660e647bb34a58bc7a18f0b01240ca",
+      "correction": "2d22da1440402d115485c3d413114ce7f3c3e2f732b83459f4b785f6c4e8dc32",
+      "originalBytes": 3493146,
+      "compactBytes": 2444544,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "042593820cadb0fdb316cf1f321e07fcc672ba1d4f61de0710297caba4a566ad",
+      "base": "0abe9a2785615403f2ffd68736193af07df2e040cf725153116e6df3af81b03c",
+      "correction": "5a5939c86a7688a2183bb52f12c1119d3ef809990451e4e26036af6f8320ac18",
+      "originalBytes": 3493368,
+      "compactBytes": 2444537,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "27642b7e1e43e1a24513a65c677bb37b32bb6e3ed77a71c084e856c24f94a44a",
+      "base": "6787a647acd3e0084ed3930c9754f186f8d0f83ff6e5d82208ed75fe16f40628",
+      "correction": "9e55e1bf09785862f63bb27cc6a3f26a89b02a15003cf43405ece06b5538efae",
+      "originalBytes": 3493079,
+      "compactBytes": 2444480,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "76d8d552929cec83fef368bfaa9f25c06db0c98fbe4999324da4137ad648caaa",
+      "base": "65f304f46b0152357934786e91b0de8f9b234b7866bce1c80e7d090ce9586aa6",
+      "correction": "26cad2622328de1c2e42cc83e782e6af7540677bb8729e0241b04eb2f799ba3d",
+      "originalBytes": 3492980,
+      "compactBytes": 2444381,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "932850fbb0f9457c6e85aa81234b4fd2dc686e63f80fee5b4a7913f0fe3d36d4",
+      "base": "216bd4463770008f06aab3c4b88bfa74bd0290fda958fc40001cb7854c9eb7b5",
+      "correction": "9035b9e91fde9301c2269fd21e5027a5f7494c86f495de225d03872c1b2bed66",
+      "originalBytes": 3492657,
+      "compactBytes": 2444103,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e4599a4eadeae0c5dd0c33a449cbecf4f3f17ee95ba03d9faefb69ed9fc4856a",
+      "base": "201719cd535baa243620c6b77c398817db0a6469901bfdfa90fb27cb386ca050",
+      "correction": "416f32786c050b20829a067ae104002b0257605214a9fe2831b0db51bff230e7",
+      "originalBytes": 3493939,
+      "compactBytes": 2445338,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "570e0396f6d0ebd9376cd1067e4fe9f363b28b4aa218a07bdf4e207cacec9361",
+      "base": "d24279a18b4a31d56017806f8d6a853ab2482032a43638352be2572f507fc76b",
+      "correction": "3184e1ca922b286eba3521357effb04c7bab94a19bef71abd2e5310bb5b6af34",
+      "originalBytes": 3493052,
+      "compactBytes": 2444451,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c26c044efc5e7be47c4ffdb815dacb244c169c1258acff14aa492fbf79349f5a",
+      "base": "a144b5e9ad416c68c9a68dd85e8f67168fe34faf24efb6357fea644044ad6657",
+      "correction": "488828f3f182ad49573babe23c4508324f22b8438224e557d30005a333173b4c",
+      "originalBytes": 3489759,
+      "compactBytes": 2441097,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0a514aa21fbfacd462ad014501a5ada7f5b2ce03116f1bfb565f54be44774674",
+      "base": "13f0ab3a2bcf294427deb332ba7205a7e270afe287c608b7d4e9e08ae5dc3723",
+      "correction": "a9a24dd7b771970970c822af5c50d3bedcf0ad2e48eb1a4c880c792a351bf555",
+      "originalBytes": 3492313,
+      "compactBytes": 2443713,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "05fab30fa3b6817c6ba4dfad4d81b45fda5985d03dee9be27abf0c505cf46815",
+      "base": "129aed7bc9ed77b2eae1842f1b6c0877eb2ae09e5b02a090b6b8053002d1b151",
+      "correction": "7894d72f56b0907a1caeb862fc7a6f63b154c4254e37d131b99230dc30493924",
+      "originalBytes": 3493641,
+      "compactBytes": 2445040,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f23fd3185b73cd7c2ce7f9412855d99eb9fcaaea413c85a583373b790fc3c64f",
+      "base": "9a6773752d85a69c2e14d74ed0ba848163730bf03e2f5f0b04e68431e4b56c85",
+      "correction": "0e53683c4b2451b50c85f12b10d470c970417624a38805e56b3f204da8771ca0",
+      "originalBytes": 3492159,
+      "compactBytes": 2443561,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "dcb3780610b5bf55cc2790d1532a460b3af98b6187acbd846e127293f7e41cca",
+      "base": "c4cba4c1246397e0388d91bd71b06c6b9ba6227ecf1ef2b5a3b6ba26a751cec2",
+      "correction": "35712d8bb4171f9343ded0e180d5ff4e1ace67a2db6374ca453e36c3612efa41",
+      "originalBytes": 3492186,
+      "compactBytes": 2443586,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0971d8e83c2b5b4b99a755b14794067506570b947065e643ade3f399bd6a3884",
+      "base": "888c17d99f431d922886840016a4e1a247a8b2752c19e0d8b63dd5d7141b7d1f",
+      "correction": "2a3c7386940d1f645f1f92b50c64b6020a61f4df58552c88689ad94c6bdc161c",
+      "originalBytes": 3494783,
+      "compactBytes": 2446185,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8b5b8a0c65a48788327c9c1ca00253ee1984e0913a01440f2706a6ebeb43b969",
+      "base": "c95470101758ba388663558ff0e7edceaebe6ccef8f1125c43c69ecbbe12d343",
+      "correction": "f4e2fd7a6456ad4bf87809b61da13fc354e13d991890678badcb4f95cb690bc1",
+      "originalBytes": 3494527,
+      "compactBytes": 2445927,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8471ec9b6d85e3772e812b34101a7c6fc87396ed5b4d745032afff76a9586b08",
+      "base": "44c44be6f593f3221bc3c93a3a6d22cc902a77c054dcefad7fc47656929b5ac8",
+      "correction": "092fdf64b595babf164d8c855aaf7d4682293580e8cae02d1237a74fad48bc59",
+      "originalBytes": 3495016,
+      "compactBytes": 2446416,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "351424e50bfa8b50849f1565e5ecaff9ffcd21c9445616ee5a92acdb4c21c949",
+      "base": "b3ef47748ba88a7d65faae0619de5ea589483fb11b7548ac351a25914581cb59",
+      "correction": "c0794cb981010865e873525cf2c9115ced2e464cc0507031c52781dd41ceeeaf",
+      "originalBytes": 3494394,
+      "compactBytes": 2445793,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9f591de9fa7d2aebce140bbab813126734ce16ecc8e642fba64d93fb42a8f352",
+      "base": "d4be7a76370e334e2cc9530954bd3930d404df75819d6b719779f38747006e95",
+      "correction": "a97413e78c839a64e5aba020d18021c62d61c5c060ad153698443246b9f89ae6",
+      "originalBytes": 3493471,
+      "compactBytes": 2444871,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0aff0d7383083f6853c18a45f9ce4c1eadd67df6d46eb7b603137e6e0fff1eb0",
+      "base": "69d006c7e28164ff3fa46bc4a6467490ab7e8108c610f7ed12f4e6cd46efd4ee",
+      "correction": "fa165512845dcb2238bdc0e210574beec3e6ba4b6d903b5d8547b3fc29cfa118",
+      "originalBytes": 3493264,
+      "compactBytes": 2444664,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3999c70a7596e48dea6a20045167d3dbdeeb825dd244cf32cd37ed7f26cba094",
+      "base": "2a6798064c9a0afb0219dacd8bb71c106dd05008681232dc3a47a8ee50c15db2",
+      "correction": "b054554a633c00b9b8558246d7e2eeb09c6270ec3e993922db7e8c14375d035b",
+      "originalBytes": 3492225,
+      "compactBytes": 2443625,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "cca0885c88f33b0fd285c5cd35b509fca696d670662c2d36ee213ef98d638229",
+      "base": "83d812372206c38d75c32b8fd5df7a6df9e2a70fb9d28afad65962fef488b93e",
+      "correction": "131c1ed6d7c7853a98637168b8b68b1e4efa50574e948d92cf5bf5e0efa158cc",
+      "originalBytes": 3488596,
+      "compactBytes": 2440005,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2e340016810229a9678603277cecac1a9a052d9a980d0f57e53da0e5d6080707",
+      "base": "d05b5d1ca438c025f77fa7be9294ff6b4dc2bb78d90799867adee93cb610cd5e",
+      "correction": "dad8daf7aa97c6e9a584ead7a01d63f2bdae9684a19c552ae0a0b55f61f56bd0",
+      "originalBytes": 3490804,
+      "compactBytes": 2442203,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "303262d9f49507e46874bf8ffb8ae272050b30af93c406aafe1229bddf401b36",
+      "base": "b4ebb797da1bb84ddab5d00459e8259d1fca322b581d28c9da211d4673d1f540",
+      "correction": "92cd2b074f6a90e9c5d93db168d68880c9fd3c346129328fb3c36a9fe11e5d75",
+      "originalBytes": 3491931,
+      "compactBytes": 2443333,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a5b69b1273d0f1721518d0f6e05589501d0b7c39006d5200e454373bcec39219",
+      "base": "4009a74c995a1bc3e50f5d768b8834100402985fa95b14a2aa2a2f00bd34f98d",
+      "correction": "dd11f36667846df9dfa9b8ab0c97221b12c1b094fbac524df2b1a33a8f348ab3",
+      "originalBytes": 3490974,
+      "compactBytes": 2442374,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "188beeb6f48f29d4fdd573d8f5389471f6f249beb78d17a11e5a51f72e226c89",
+      "base": "c23e3bb98fb513441708ecf3731b06e57856e75cc52b76ebb4e3c3d5b876026c",
+      "correction": "36e3663f858e9b924682fc7409cd1eb1d02e75ca3c7dc8ce84e6bc067a48cf82",
+      "originalBytes": 3490973,
+      "compactBytes": 2442374,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a2afff1f27770e13d57e9d9db99071e04890374594745d209f81c8394e3e2190",
+      "base": "e68f9bedebe858a6ac5b0525b55df14721209ce3c20ff688f7a37890fa7acd65",
+      "correction": "734978dcf878d26fb73757e07acb8bec5b89a96c8a4528e02f41e9dedce29cd1",
+      "originalBytes": 3491871,
+      "compactBytes": 2443272,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "eabb90034e90304146fd8d43bcff693e88b8ada70e5d615a65385f745b1ecc9e",
+      "base": "f28a48bffd8c648b25a4dc8c9235c2df544919a3302f9d1eefdf8b66af84f0da",
+      "correction": "d1c1000d66cd03a09a8c8744df1a6a3cf7aadabf8ed4318c8b8ca48033876688",
+      "originalBytes": 3493177,
+      "compactBytes": 2444577,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "1799787e5cab0fb6e2744ca98ebcd4e1ae9ade553f48333a7eed1d292d9c887b",
+      "base": "d75ec1dd7842dd4b469dd5f7b65f1a8aca56bdb3f4192b203bfd3bcea03f8132",
+      "correction": "b9d8db381f8efe769e103964c51e575dcb40ec2cf37613275ed803e003f07cc8",
+      "originalBytes": 3492412,
+      "compactBytes": 2443813,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d57b5c336a3d923ee944f908ac29ae3f553c61c374393cb997fa5ea3d005702a",
+      "base": "21de45690f997f19c3c9c5f763a2cc78321308653719f9159f00e8f0296de781",
+      "correction": "fc080b034ce2a7e37ab7cbf9a907028eec034c6a85a2f0cb0b9b8613891bb5ee",
+      "originalBytes": 3492421,
+      "compactBytes": 2443805,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ec4913c17656e451d460b8ef757eaebc40ec073e3ac1eccfc7f531ec1a76be6a",
+      "base": "ded758aa7b1e9e3ea5165524ce71be472d83f2f6bf310970e55d8fa2f35b414c",
+      "correction": "a52e3bd88ae8d1d2f0dcaef5970fc115b0a306228a7eedc4c170d2a0b142e869",
+      "originalBytes": 3491242,
+      "compactBytes": 2442641,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2ace4e4da7c1e4afc24d945d93b4aff758eceaa0ebfd414161956b5fca23656c",
+      "base": "0284092567fbdc2e1d89978f7d1fe741a1b472c23970f87057125c1fa5f51570",
+      "correction": "38808b2948e3bf9216f55277854a07153bca5c4d785f8cf6af0faeb5a98706fa",
+      "originalBytes": 3492159,
+      "compactBytes": 2443570,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "39e85ad4d36952da667e5eb80e4a3c211805d7ebcd045d156898c79ea253d699",
+      "base": "91786c56307b4fdcf44f2b6c268e830aeadadb420eabc5889576818d8da46c98",
+      "correction": "7feb8bcbc5ec135b594656fc9c208d626c0c7b862fef85139817f118ca9489e9",
+      "originalBytes": 3491072,
+      "compactBytes": 2442473,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "32d5f954aa66d22ad3f81360f8d2e50a900c5a679920c040220ab4239f04194e",
+      "base": "4582fb1037cbcff4afc3b61e0e0a008d2b07693d48faf43eb6f794ca29805796",
+      "correction": "08af6da266f8ece43dc0e895b278351363b6c207c60008ebb4c97d1ded0d5a35",
+      "originalBytes": 3488262,
+      "compactBytes": 2439663,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2f003037f9e6d6c0552931b887b8fe829d04c32ec261cfd30b7a64b31055bc48",
+      "base": "79eb0d481002079fc6882290f94ac717c19fb45f3c0c8b2f92acfba20d782c0f",
+      "correction": "a69d7803a353a19596efbe3e71a5963ebb1b43f3f207312de2ef393c8000c72b",
+      "originalBytes": 3491182,
+      "compactBytes": 2442581,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "df2be3839b7d268bf7cc45f18832afae83f73bb34048c0902222683034bb8323",
+      "base": "ad9f0a3d779d49ecb02eaf0117e2cdf52faad99d9e22bb9a1b30404e73528e2e",
+      "correction": "ce574ed17ac5878c09c5530252bce9278a8dc852c1c3b16773cf22fa361dc07a",
+      "originalBytes": 3492847,
+      "compactBytes": 2444249,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "008c856723c94078fac50d9c29810ec4ba966fe63e83c6d1b1e57bc467633492",
+      "base": "af04d7751bfe8fd20925d7a261cbca9d22af20805878bd99954c54fbdaa2e47d",
+      "correction": "6764e24d08ef80c073d6e05738df33a0fe9abd28c56e4055916e4460b261d43b",
+      "originalBytes": 3490762,
+      "compactBytes": 2442161,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "33e2efa3bb93a8174ac1e85fe43abc7c3369c5f734eed4fb4eade72e573d078c",
+      "base": "a5a4e4e8c1d886a6179e52a71e66fb1590c01aae9cc925239bd93700262dbb94",
+      "correction": "a0071bc96d4e6e67633cfac0e357387fa468b71141f0b7009a13c63721d58cfb",
+      "originalBytes": 3491966,
+      "compactBytes": 2443367,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4532751711e225ec83676cd17fbc9b9cbe519ad93c699f19169d79db295cd6bc",
+      "base": "180fb63d2591dfad7b550c86a8622b2c555cd6ecdb127e356ff0a1a09a9827b2",
+      "correction": "29574dcdd11e475a74afd1c0cc5a8fe3b55d57b6298831db963e49dc195a23e7",
+      "originalBytes": 3494903,
+      "compactBytes": 2446166,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e76af779a92481fc52f091f6de5d28be5ec545009fdbbaebb151833a8a354979",
+      "base": "cd57163c84dabb580384230aacd299df37f579382c1a5db11cbbb7f189097616",
+      "correction": "419fb6ec1d585f40dd14ef11fde6b527a52bade8f1553d9c007e79ae54086770",
+      "originalBytes": 3495036,
+      "compactBytes": 2446435,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c6abc6062e05fb8f98ef3a65e25c2e2fc1715261387966ef1f192438b64a7935",
+      "base": "808244626cf848a28b841e375a47338de4a0809e7bc65b299609eabf856d2d1e",
+      "correction": "c834bbf6270df2d2f19fd6cc1e6726423596b592099822545c9a592d54f9aa7c",
+      "originalBytes": 3494107,
+      "compactBytes": 2445507,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8b4ffa47a92012b52c0fad05ed4a420f1278c863adfdf437481607a70cd88d85",
+      "base": "cd2e7ffa472184e2a53444b86532aaae19f36baf66e850ab719c41bf08984041",
+      "correction": "451850bd20d98f79c850ab173105738732506b960622d71781e27e69526cee7d",
+      "originalBytes": 3494755,
+      "compactBytes": 2446220,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "62bc3c37177ed467a40aac376bdef981e61bb3bf3f192fb9ba612270ba326b50",
+      "base": "d1ae27f05a64dd847e946817d50c900332564186f15efdda5f3888441b27572c",
+      "correction": "e87c1f2077b9d0a752cb4870e446016e474db42ed7d34c3ca4ac8df7c096fef5",
+      "originalBytes": 3491926,
+      "compactBytes": 2443326,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "63c7b34126e00eacdf069d3d3d1ed21e3a87074688901e7b37023e9284e4ea7a",
+      "base": "654684a3992cdad6b0bc8362bb11f4804b7f805ecccadc98d425fe1a920c7f6b",
+      "correction": "1430266f3d8c2e3721d34fbb862f74d914ba4dfc02a107471beecabb5b994ff8",
+      "originalBytes": 3492104,
+      "compactBytes": 2443504,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6fc032240188f84c280aaa35d8913ce0e74269c7df61c426fea46806d2baac2b",
+      "base": "982b14940f1b4c0da5289b9c3dda768a30d1a1861f31ec2d8f3393da1333e9aa",
+      "correction": "3e210b17aec7a572e2543f7164775219cdecbdfe97846cb43b3e91a4b0bed84b",
+      "originalBytes": 3491642,
+      "compactBytes": 2443042,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ba4d0d692e3e146a3bda193e4b0cb7601c9d26d82b3f8d46cb9c475af3e4a132",
+      "base": "8c5a2b06cb56858aee2ceeab1ec38b70cb5bb75512a2ed2e9532e593a2993751",
+      "correction": "0e3f4e17b358328082c7097187dcbb8e5ee0cc0f96fa7b31aed0d423735f1a0c",
+      "originalBytes": 3488235,
+      "compactBytes": 2439584,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9df696afee01854814e4d7ed410855bbaf88640492cd8704c1fdc9082d81feac",
+      "base": "aba2a8b38e33de128c7e7159010e4baa21d1297d7fb55702b2b2b3f0e9f68f86",
+      "correction": "5107ba83974ce391568b9d7d1b534771cabd940683fcc95371cfb22ae95a35f1",
+      "originalBytes": 3489960,
+      "compactBytes": 2441359,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a15c80a892e3f1716c08477a68967edc3829ff2409ffd4adfebca6f758c875fb",
+      "base": "5e70222f2ca7f77a8b70c83d719e420f5ccaba3c4a9e36082316606b406d16ad",
+      "correction": "8057f606860f223e196659c9facbda883a2bb9bb0c3f24853b83cefeed6fe989",
+      "originalBytes": 3491801,
+      "compactBytes": 2443204,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a9e45a6eb3d3bbb83d714feb853c0126fe1a1df993d890ed9d80032c7b692157",
+      "base": "ce60b7d52a565d2dc199411e15dc6184ed8cfae77aee204a8894894f2994e273",
+      "correction": "b9da5c06a8c2e0882f6ee436b01b6352acb57c9d6d6258a07f75c321d25eff2b",
+      "originalBytes": 3490453,
+      "compactBytes": 2441878,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c8e5a798a4eea9a82a8af6514d01449bdd8deb29f0b6ccf3397344755a29008b",
+      "base": "fc82f0a61c6d8d07e2050612f94daa940680c1bf3e5c97f9a4d85f5e8b2a63f5",
+      "correction": "11630fd27fda74097d1e933b43f9d59023963c3d23a021cb1bf1a9ac9eb1801c",
+      "originalBytes": 3490083,
+      "compactBytes": 2441482,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7d6a82fdd0cdcc100d725bb490e1ba421fa5fbcaf7a98d6656e7b62fbfe4e0d4",
+      "base": "4d860554670d003a0e3539743c499885c5366b61d93fff2ba3a5e52691cb6bcd",
+      "correction": "311cd0a19e2b7f76e86f6cac4eeb886dd9d2ac7ee06a8c65181e91543e081da2",
+      "originalBytes": 3492709,
+      "compactBytes": 2444107,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "77a1dd85067bf495508f3844a3b9f5bf6087c02477d034865cffc1c0b96fbf9c",
+      "base": "66bdb922f3395381e947ab656eebf01bd952de531668e06c8118db1271b019bb",
+      "correction": "2647767c5728c33a54cf52f9b403b80087dbb5c8ecc0683b740423808ddd2195",
+      "originalBytes": 3492370,
+      "compactBytes": 2443770,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "414b5d97a68825935c7abc2f9d57f7b358cbe082b6040422f4ec92f1f0357685",
+      "base": "32915d3086f4259cb78b8763ba3506c0148570f34763925149b7be7e0cb4cb8f",
+      "correction": "8f85e531cf5aeb89a021e2179ff6a41bd4c830cd06038921266a72fb16a3a8c9",
+      "originalBytes": 3491966,
+      "compactBytes": 2443370,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9607690fe97a2e27518c2825626878f5f5afdcbde224c5460211cf070d3581ff",
+      "base": "8bdd14eb29851f687419d932d283feb0ccfb8ddd99b59f7c0418254ecaea9e34",
+      "correction": "8977f6b17cbd5bdaf031f36cf42e80a83c7b4022d3522c4790971bdc7fb072ad",
+      "originalBytes": 3492586,
+      "compactBytes": 2443984,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a0673003dc2ac81cecde431a74a635af9230c2ff0ddea6d33658640cd570e39b",
+      "base": "b19d128b4e23f85471aec4c8a882021beb967a991df44526e1ce2dc5d5ff38dd",
+      "correction": "e0b3337d4b13e3218d4e86e98a3275b02efc2460653ec920138e88fa82bf6892",
+      "originalBytes": 3491146,
+      "compactBytes": 2442543,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "17eacb00051e250e52aff6d484d5bf869d1b0b16f974d26a05394f065c34e4a0",
+      "base": "c16b052a6c5f6cb3b14a50da1f8c47780e5507e61cda4c15b4b7ec0793ee2c1c",
+      "correction": "d97b4c91b14d4ae364ba7eb7431a7bee7a93ce865d22df5d403fa6fb48f65756",
+      "originalBytes": 3492009,
+      "compactBytes": 2443409,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f4ff192588451e55bb3186f36e71281023828c78bc4b8b22d370454470ff519c",
+      "base": "5507916e55f4e7a90d2c34f2cef640cd71b55b5f8ce614e1bb45e979f44d1925",
+      "correction": "e8480013927de87c89ae4bcaca41bf75cd7b9b103140fe145f23cdf04ba4c5d5",
+      "originalBytes": 3490912,
+      "compactBytes": 2442312,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ea03b06a1e16a8fb229ee183b4cbafb6369a3ee7b73f875f1d391be9f1607779",
+      "base": "fc69a1b64fd7d6a746e6df2bda0bb416a27e1d9d42bd4ad00fe62b30d0f12700",
+      "correction": "927159f15a7019ffc31bf466cb096d4d174ee315700b56e2e7f11cd783a7d38d",
+      "originalBytes": 3488006,
+      "compactBytes": 2439405,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5961073c28fdb71ad2b90eb0d25391e6b16a18f217c5d51b6493ea1a048074e4",
+      "base": "37289ae1d53ad4d3bc1d629657c488534f9936aeb9c8f459c931e4d172ad0315",
+      "correction": "b8b460d4233870484578b8398605e62ba7c0ece58d2864eed51dad727189aa73",
+      "originalBytes": 3490513,
+      "compactBytes": 2441911,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "578b8ee03ff0fb55fa466171163354388d125834f344e14a6bcf92ffc78c7ed6",
+      "base": "0e3cbdac7ce8d5fdc180ea95e9db503d7b91eb6c9c19ae838ee2d9645fef9b43",
+      "correction": "bddb6efe77cf54f6a9b1b0f89fa861fd1ab1fa79ebaf2bee156d956e25c1cb79",
+      "originalBytes": 3490999,
+      "compactBytes": 2442400,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "49372621b676bf85de37abaea0dabf59b56c8a5ac9b315c64b04f7569934a82a",
+      "base": "7bf64bb22f31d8b853eea7f54e037f1938ff21e6c7ae03f8d6f386cbcd0943d0",
+      "correction": "bc62a9c1dce9bd235051f91e7db57b531f2567a51a41afdc738270890bb3c31d",
+      "originalBytes": 3490595,
+      "compactBytes": 2441991,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4834954de9716cdbe75d771cdf7c5a9e357bd057616e25b3fb6211aeb0b30318",
+      "base": "7c5b4f5c2eeba327ad330bb3cbfea7da64af40d1f804d8ff6c2f0b18b49b2647",
+      "correction": "39ab5c30075dc0e5943071d59f4a3dc196ca92f7ca5e6c1ddb345dcdac1851ac",
+      "originalBytes": 3490407,
+      "compactBytes": 2441807,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e382abf392e920973e4e908c93fba19613945e71b883f887ba09d58efa2186e0",
+      "base": "a1d3efed290319868d062871619e5333f11a4f8137f4d7d3c49b269a42319909",
+      "correction": "b585180cf87d3969708cf0d37b0fcc129d8c28aec34ec48d703bada9323a7e6f",
+      "originalBytes": 3497008,
+      "compactBytes": 2448553,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "60dff0a457ae590a17ade676699d6b126c980aa94a8dde20fe233cd404ebb48a",
+      "base": "cd2b3b6c86ea653525ff4f8dd080a3abd3fa05aebde4e9fa73fdddb6f9f30db7",
+      "correction": "29fad99a049058c1a56286d16c6d5e27c1853070bddc456a00daa3ee5c20903c",
+      "originalBytes": 3495471,
+      "compactBytes": 2446932,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "79c056b55a20089138b057f2713d8bcd2ff9812823ffcd50bf5f217be1fc7ccd",
+      "base": "1dd02335efc38eb8cfc554912d6c34e85592f1aabc8327df09498372d48e8110",
+      "correction": "6d33f28f817177511bd1ffea50db24ee7ff80120e20de25276efda0a8dfdffb3",
+      "originalBytes": 3495281,
+      "compactBytes": 2446678,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0bb273b6393af186cd58dc2422450896a864566bc5dafa6cf8557fb0ecbd54c9",
+      "base": "88936fcef91040d86936c26f504ae93d989412eade4034e30c8eaec3ba0b7466",
+      "correction": "36d78f540e1f640d422ea2b4f76837deb7928f4d7b8b1c2f02ff5e620696326e",
+      "originalBytes": 3494563,
+      "compactBytes": 2445964,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "685f60d168ff760182d80188f73ac5dcbd86f65fc365039e5dd405e868c5056b",
+      "base": "4f7fe4f390c799b5ada7be960e83724a16152ddb80b04cd56f4aaabaa44229a8",
+      "correction": "dd86877d09b4d355922e13cde98d27bc593b3fb9d7cfbdae0bfe137ff6c84149",
+      "originalBytes": 3491320,
+      "compactBytes": 2442720,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c38ef738fdfdcc65940dc28c10cef55b70205da932a0478f273c0413c3a18fb1",
+      "base": "6efbdf4e90e80f1ae511b2704f28cf5dd74a6f4ab0f937481ac638bc760917cd",
+      "correction": "b1c1dbe3a47e9d6dd1a5daf6d20b236d4059816fb54ee04bb30ad39768011603",
+      "originalBytes": 3491571,
+      "compactBytes": 2442976,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "bdf41e299cd14037b231aeebf5a2751c67b794c0f91ae023fe6ca0a61e765c3c",
+      "base": "e83bf6c9b62b388841a88eceed5928f48e827366dc2244c0cfddd304d9ea9f64",
+      "correction": "f39866e15819e08477b9ba1d7d9bc2960e96e97f6a326ae69dad931c226b384b",
+      "originalBytes": 3491069,
+      "compactBytes": 2442467,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "36c1865cead5e7b7157125a96093063767a8bed4c3bf1ff3a79fd3ead9bf65b0",
+      "base": "e0fda04a8037256e666d075d68cbccf3010a3012c12c85217c5af69592205e5e",
+      "correction": "1e4b7b6eb30fc55070d4b8c68dde5b9d169320152737cd6e7da89f4e17b6b9e4",
+      "originalBytes": 3487397,
+      "compactBytes": 2438799,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "07482031984a4254481e6340831bd965209c1ce1e4da5a6a57327e70e4cbb186",
+      "base": "255edf963e1579a4378970eeb8bb4af1534115911f0e07cfc2dd01232e5f15a5",
+      "correction": "32da538171301eaa7c0dece46bf5c395d0b262813e343dc8a8f789d6bc02b9d8",
+      "originalBytes": 3490356,
+      "compactBytes": 2441756,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2b33142cc22ad26398080efc48ef1453da7d5ffcc921e7f7b480a31059a0f5cc",
+      "base": "dc6533c23881d487f41863187ed4f2d1a5bfdb0011f373603fdedb6c12859ca9",
+      "correction": "2556764db26778965ad38ecc2e19b0ba11652808bf3dc968e04ac998af35f1a2",
+      "originalBytes": 3491038,
+      "compactBytes": 2442438,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5b19e9496d7c13bc194749e0ce4596913c4553c2eb0348a32cf61a714fd062ec",
+      "base": "b8fcfc32e8794899a1afc74d51aef2e02cb97498d3486cdc9ed8a0818e8dc5f9",
+      "correction": "de55ad514480a6b8df9a064209d1817c411dd1c6855e62c270f17df7b9daa740",
+      "originalBytes": 3490346,
+      "compactBytes": 2441746,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c6a45d679aa9a84ef5fe0a79bb4b0fcf3df01a991c8882ed8dbc18a0858252fe",
+      "base": "e924f0bbabadc38234d6d350b940cb5850c91a865a1a32419fca19882b9e38bd",
+      "correction": "737be5e8ca5e26717544faa40e561a1fa796649b0bf7984e44e090e32ad64748",
+      "originalBytes": 3490450,
+      "compactBytes": 2441852,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e8d224fa023073c5869173c85b7b7e3d0c38640f23ccedd87bdac2ad0edde7ae",
+      "base": "1fafdd23d250a6122f5901b40a3dff1ee7a78a08c22fd5efa229dc9dc8bd9ee4",
+      "correction": "9d673f0c10a57b86a25e7e8613fe4b31e4c0eb7033df861c7d9f3849924f1d12",
+      "originalBytes": 3493247,
+      "compactBytes": 2444647,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ba93d1fb85b72f84c8044dcab6634b5afb341a5dc0605045cac431b36696bc7b",
+      "base": "60d9bc41f1a8565e1517bb2a96dba6413b07c17ad3d1c3f8c67e8c6d048ad7fe",
+      "correction": "6c8cf44587c2c5ad0833b3b86c94b8f0c818ab6180aef4920735567d717591e0",
+      "originalBytes": 3493036,
+      "compactBytes": 2444421,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "b2b3ee2eedcc04b786dbeee4633b9e136eb0c96657427cad8a4040aabe059ba9",
+      "base": "a21abad19f32a7219df8f9e778ede15a1dad60de02c0200824f6bc61a5ffa3ee",
+      "correction": "1c5c30ebc4c5d6f9131d165061a7d8e52993326b480d33ec6f87c0c909d76765",
+      "originalBytes": 3493426,
+      "compactBytes": 2444826,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4810c01da3b69d3bf2870bcfb41ff0312fc35de91e761e7ad761a0ae8f243380",
+      "base": "8fede178c527687658b81b136fdbbe47c4d9852b62dbd69d44ac832d8eb25e30",
+      "correction": "fee1ff4018ba30b058a22303dcefe020e44ccb441416485c50083c56a0a30b4e",
+      "originalBytes": 3495687,
+      "compactBytes": 2447086,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2c5f13fd655f47f79a938f88536e273baaa7ec69af352a998c67ce467b016539",
+      "base": "8442a5a7e1dd436743a36d8a280058ce292810fe96cc8335fd620878785b10b4",
+      "correction": "caa3d0fe0f0402e9db5a4145b0580178ffa54f85d4cb7c25aae1d0efde250cd4",
+      "originalBytes": 3490833,
+      "compactBytes": 2442234,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "00015270b968eb46d69539cfd1d1f44a96b7f6b2835c1e5f32dd35bdd22dd5bc",
+      "base": "0d2ba4305b2730e623f4eae1fbf5e508031cc40ced30851e429a268c4e8d0dbd",
+      "correction": "0678dd66960608b7bdcba22d29fd0df00996f9e02df80e346de49fac2a4a99da",
+      "originalBytes": 3491582,
+      "compactBytes": 2442984,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "255277515e3a8207ff28ff770d24d0f409a9e8aa6e8fc2196e241ddb701e47eb",
+      "base": "bb6adfb86d553db8a7a748595cf13d06b55cfa38d7aba552cdf1a20606d0f491",
+      "correction": "b3b6e7a57a3b476bce0ee213d536e76d1d6b60682c3ce8965d58d984fe77defc",
+      "originalBytes": 3490520,
+      "compactBytes": 2441921,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4add2bf0e68a776a10a4adb608aaf88e1d576b7f269e434b01933fa531f0e378",
+      "base": "d11dc0e99bbb6aae0d141ae663c89ee198a40b2617503c7a2202d010232dd7a4",
+      "correction": "ee2bfc04708d076031de433d7e0c1313ca7c52bfb28c9dd9b032838c6cbc78c2",
+      "originalBytes": 3486883,
+      "compactBytes": 2438282,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "13446881f928f59920a5d36d0e085988ad58d70c801ecf7053880a66a55ce754",
+      "base": "9a221d58b3ebc7f13fa8004666689ec85279e13e10d3df89d5029b2803b886bb",
+      "correction": "64df3fef5e60f7a4c757a05135ba416613dc01ee4ac23264491cf93d04f0a134",
+      "originalBytes": 3489725,
+      "compactBytes": 2441139,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6ed9e32eff088eb8ea332d67c7d435b6a904517badc40be0690ed6fb6e5de3aa",
+      "base": "a911181e4d0b49bd7378071c72e8e4e4da6b3185207bc0883ad3815a98f82e52",
+      "correction": "46e20e4ec6888992470f0cb9c7da7a893358880a329babee88fff8362058cb7f",
+      "originalBytes": 3490071,
+      "compactBytes": 2441472,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f5b63e387b2f1c03b1f04b48e8731bfe77c513b0b2390d04377d5b30aef5ac69",
+      "base": "1acf3fd7891a59c1218e0025b5d5df11098a6ea79b6c21b7eddddde988a61503",
+      "correction": "040572d20fc639158a9a7cea326bf521e72c390e980c41845263a089a44a2625",
+      "originalBytes": 3489890,
+      "compactBytes": 2441290,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "b641a7ce00ff28960e7148e0f92954697b4bb375f43c9884c40b8a7b76143608",
+      "base": "0799b198adfecc5251a58a68aa6db8adbb23a8c8583a3989440b6a510f8eff23",
+      "correction": "b3d0ecfdbf5ff035d4448ddeeb2dafe938dde114bc27aa725ed27f768e9b51a0",
+      "originalBytes": 3490056,
+      "compactBytes": 2441455,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d6470c7194a00a507827c6a884ddb67467243dedc585ca700545d7e18c3b9d0b",
+      "base": "f9c7267edb190dc35320d9bc25a6d040cbfc7c75e748da6e9d9041d3a903719b",
+      "correction": "ad794f3dfac398c5528efb8f82cf42449ca844ca604ec0043bff48c03120d9b3",
+      "originalBytes": 3490327,
+      "compactBytes": 2441723,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a920a5269635293e6c15147dbf3356d88eff2e439243c96cd1d1e4f6b56751da",
+      "base": "e3b4fd27041af38af343bd4126c3c0827018266b56a4ab5de552ee27d98297e4",
+      "correction": "90d4f7a9b0eba6354df5c44cf3d3b2a72e887fc716081a0c34572fd6c5da2171",
+      "originalBytes": 3490606,
+      "compactBytes": 2442005,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7245b40ed0b0841dca6c072b25ffb57227ff4b54b7f1750d50c45b13dfe2a381",
+      "base": "50f31bab022ad2249b96badd19b0ffafde1279fa2025ba3e7d096381035f41d9",
+      "correction": "b15f5d135631c3578507aabce42b6bfe3b72a8e6ee6a2fff424f1853cae17ac2",
+      "originalBytes": 3490632,
+      "compactBytes": 2442037,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "423b386eafe37459cd16c9b8dc3610d2e70a6ce6be6e7d6a18d4a1d41fd97505",
+      "base": "cc58d7998405db8490ba1a9f2aec853e1df0f3420ae894e8de41f8c6981e43d9",
+      "correction": "9dcfda352ac1d97815135cf6869715312ea58fa55d2161a83ad93c1aa7c96aa6",
+      "originalBytes": 3490796,
+      "compactBytes": 2442197,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2168f6206fdd97ea29d9a1e116958a518d364bce9cfb1d85b3d9c82ff1e0a47f",
+      "base": "0eb970458ff830287fa0d4ed369d3b9a9022b66d5636cf8994451e17d9066549",
+      "correction": "c0df7b0ac300abf20ea9b3c520505268d2016454f2c2becd2154a5205787e79f",
+      "originalBytes": 3490231,
+      "compactBytes": 2441629,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "b0a17197f81ff48591490c6a508b2a2b3f0d2b5841b710626219b2d7d3526b49",
+      "base": "cee1b367b6443bda73a996675a512ad1026ccaa805c465c1f310c0e57b31d76b",
+      "correction": "2ca44eb563511b6cd3e5fcf90bee6a74e01a0b83f4d7619c7a68dca897f52737",
+      "originalBytes": 3490285,
+      "compactBytes": 2441672,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "93f45c8bcf1163833bb5e2b93f87309bbc59fc16a597973e2fe60d06e69d55f8",
+      "base": "e4f16552417c5bbd14db4bfc9fc67dc47fe38849753226d2fcd7eeb7ed4aedda",
+      "correction": "ea8395095185a438f7ff5022acedcce5798ae93c4702a4fa488dcd3b13c4d3ea",
+      "originalBytes": 3489552,
+      "compactBytes": 2440951,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "eee916bf80fc0039891ff0a37b84a998c198e0bd76e15e8d678947409d86acda",
+      "base": "892490b678a06ba744d26ae0af3e08785489b1cfdbdcc8129d19333f7e681dc6",
+      "correction": "cf83ffe61d174872f92e2881827c3feb24e941e1221ede5a4f269a41d6b45b3d",
+      "originalBytes": 3486963,
+      "compactBytes": 2438363,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "39fa043b64bb2a9595defba4064800e61367c418872bde4a77b7f9a098f2b86b",
+      "base": "d0c67dd36af956ce17306dbfb2aa12bdb453c20aa0875a3c38a7e22175392962",
+      "correction": "3f6b19ed7ffc2c3b1be211d5e5eea24e4392892dbd01bb5a3c0ad3ce9d64719f",
+      "originalBytes": 3488402,
+      "compactBytes": 2439879,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "0d677acb528e2880c60ba29348dfb233e3c98b7f33d56927312f14296907cd8c",
+      "base": "37d82f8a378ce97803cbf24540d6b808616b0f4b6a8a2b5f6a7ba025f8a46946",
+      "correction": "990a00534e75f89b189f8e1e5b2f59b90d7e729f49a456ca7c5c7c66c3c0af14",
+      "originalBytes": 3488246,
+      "compactBytes": 2439644,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5bfb344d5b9b9706647af5fa87705eeec115cf20049954a25fa22742334e8e50",
+      "base": "5aeb2003c2276b93dd1c38059b592d182ef66300aa7349caed2cc669a12156b5",
+      "correction": "9bb70d5442f4e2cdaf550ee0ff1c17f3ac4c5693313b2371cbea79af29b1e8c6",
+      "originalBytes": 3488207,
+      "compactBytes": 2439605,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "b859669ce1377bc22d7cd5384123c488998966a52069c87380ad4f9aa901ee3a",
+      "base": "ad175aa8e6e79d226b3087c9f816a90ca772a52e0c4beb897a32a7950f0380db",
+      "correction": "d40cfd95efb8f93f3dc1978aeee458d4cf6d0a1fd1b9fa480b98ba46d593a901",
+      "originalBytes": 3488331,
+      "compactBytes": 2439733,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "eb107b7e56ba37021c14260bc5d2ce762dada7b1c4596f4515cf30fedbc7d2c3",
+      "base": "f1c2797636c615ddcf816251cb335d7e65ef4d0b8aa88eadaf9948f3f22645b9",
+      "correction": "27eaa4f52cbeb412de5bed536f678c1cd154e5081c6d57f66358294dcd59ea05",
+      "originalBytes": 3491517,
+      "compactBytes": 2442916,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8e47a549ef71cbe2d1368bfbd130b37fb4483e45ca3ae5a8553f4a26ebd694c8",
+      "base": "0e79d4e9b0a937f227031717231549148fef0acb07c61f916b2f3fb8fd6e5e02",
+      "correction": "fed10248d1a5eaadca833feff01d97b4b3e3f4739c0e5878f7f781109b8a3801",
+      "originalBytes": 3490690,
+      "compactBytes": 2442090,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "b8bd9ff6d8c737aefdff329b734a5ce29a0f6e0eeb3fcb46d2753cdb1bb2dc4a",
+      "base": "d3ebab2dcf47a999bef86f6ce172c0cf6e180068c3a3c57064b941d3613bd327",
+      "correction": "496c127b59069821935803523b53beb657b664df7a43b2625b81b3fa44c2cb24",
+      "originalBytes": 3490848,
+      "compactBytes": 2442248,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "de0e7816dcb947c4ca4c8eccc7d0d1640cfe95d0fa6346f5b7e6b420e645f43c",
+      "base": "9bff9db76940252e9193ba98c5b94ef895d5bef6584c4ac9b5effa6e105f84e3",
+      "correction": "367a5e96b3fff87a0531f5580cc263a3ec97ab3a077335d27197f5e888221c20",
+      "originalBytes": 3491226,
+      "compactBytes": 2442629,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9da4b299bcaed84a6a57343df35c6f381f580ec1a95afeaa7c73f2ebb41e9072",
+      "base": "75692e0f05dd45a81c25b09f7410136ce794ff214eb19cf943ddca1254bb04ae",
+      "correction": "beb541571a6dae70012575251c8ed7eecbca6f91fc49f7f1d327a4cd919e119e",
+      "originalBytes": 3488879,
+      "compactBytes": 2440278,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7c44b3167959bbc5e4b6e46934966725f5868dd306a728f7a50f2e6c7d5fbcc7",
+      "base": "06955c5ac18230054865243e61832f474e3627189017b209e1d1696c02ca1148",
+      "correction": "d68d3aabb75431351e2cfed6b8802f397fcf76907b19f2e2c81fbe804974a9cf",
+      "originalBytes": 3489339,
+      "compactBytes": 2440738,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c0bd0932df3220e23c6ed16d335e06efda184e78773b931a5fbda1be9d0750e2",
+      "base": "3945417c8aafc72005964a3a3a818db338a13e88aef5c18fd076e7503b759de0",
+      "correction": "1c31bc13ffdcc1ea99fae9fc08e5bc9a1e6742d0e2c0d1ca547fef730bc86901",
+      "originalBytes": 3489270,
+      "compactBytes": 2440670,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "30f2a579eafb8b5b079aad9adee549ba720d6a63faad0ec7517d29ac1574502b",
+      "base": "cb3cf799799cd5ca1bf0625351728fffa5ff7accc53a29df6da88e4c735a0502",
+      "correction": "6dda663013d1fef639fb9a7d5bb65b8132cc1747f226b8af13c887c97bac144b",
+      "originalBytes": 3486657,
+      "compactBytes": 2438059,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8457823d07d50d778b9c9bafe763b0032faee258483e1cf89bfc5755850071b6",
+      "base": "335717feff8c8a9566722140190a6efabdccbb13e25199d04dbbe87f4d665f55",
+      "correction": "bd3e1a1d423b5499065817cc562ae5e3d740ea9754ab778cb587a4fed1e8cfaf",
+      "originalBytes": 3487886,
+      "compactBytes": 2439288,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a1a5eb9f088ca1c7a1dab7b2ec672e79732794bdbefba739007136552722b123",
+      "base": "e55a35101bc57741bdcd4fee8fec9f6b69ae5d3d13f786f076a2b52967be86d4",
+      "correction": "9e11457304242cef5ad090c02f5db69b48d3b7624d995d70eec756f98dd48292",
+      "originalBytes": 3488525,
+      "compactBytes": 2439925,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "28ad9447e2c3ccec1d829ef2458c0a20f3a90cb9021725e834b83495ab10f973",
+      "base": "381beedf4e89bfeed0b74b7dcac1f69340fe7e05b43eaf16917d5c7228dceb0c",
+      "correction": "5b9cd4bf3ca268f221121736c282839570b7eab3b994e2cf411afffc84644ddd",
+      "originalBytes": 3488119,
+      "compactBytes": 2439519,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3a7edff22a98d7a4cc3d93647572de2dfcd3e24d7d4cf138134c112faecf9d7c",
+      "base": "ae5c88affa82339db74eb02787502ba66a379460c384e633cf9a3bb4f3c60102",
+      "correction": "f197d58a06b061ebef746e933f908fb875139a7b060bfaf0ec8985b8cb993f63",
+      "originalBytes": 3488107,
+      "compactBytes": 2439506,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "c887a94cca197848397274ca88311bd8d6d438b3369c1b52f0deb0e322a48df5",
+      "base": "c6c87938bdd321dbbd9f224b9eefec42c358a15e23319a8b92e53ca0f304d65f",
+      "correction": "527dc4020d1f023f890fe2ae47e669ee4f56737190f524ab076c8b7c899eec1f",
+      "originalBytes": 3491767,
+      "compactBytes": 2443164,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7eb923872e104ce2c579390490c27f2beafda15559c6f8f5cc746a0e9cdef1c9",
+      "base": "27fd4b490935d8535f0312b0f004f8c2756171a87427c645d8eb7872e3376e5b",
+      "correction": "d4f3541c586432a6a7f16c92c3c8d21c6619d9f5a51ff3b6524f7cf8d331bcca",
+      "originalBytes": 3491700,
+      "compactBytes": 2443099,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a51377fc489744558679afec01f48f94ccc597d94c0dcaafae2a4e478aae8aab",
+      "base": "667a8d391f6b48ed09e5a42ddb77f8c4978105cd5eafaf2c7605bc7a659cf560",
+      "correction": "20d75b78a80993099bb865fdcbe7694d264d39d48705f580ec5f66b3035ad823",
+      "originalBytes": 3492323,
+      "compactBytes": 2443722,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2177f6014924752b57da7c4e3baf0d00474bbcb6b28df7cc39ace16b27f68820",
+      "base": "d856828f1c608aa37e865f5765f9c85650a353a4fdb0020ffe7ddab116db4838",
+      "correction": "3f926ae4db1f40fef8fd85a29c8fa62f4388692eeac6f5deaaa11ef26d75fb5a",
+      "originalBytes": 3491970,
+      "compactBytes": 2443372,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "981123dabfd97b776bef5a7a1e1254978a9e94ec6a9b2c9d27a45425ffc632ec",
+      "base": "a13739ba33f3180980980d0d23c950bae7b7976934226f111a2d3d759f4030c8",
+      "correction": "024b8b8c661f4e7a38356470c1ea73b7f09f4e124b7fdb874a0e6d6e240b9265",
+      "originalBytes": 3489577,
+      "compactBytes": 2440989,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "f09e8a0926b26b42687891ab1928b001b73a216cf131be701fa9961597aab4b6",
+      "base": "4748bd216dbd2d71a2841776d440d1db3ab181439376f4ecbc67ae5dfb543e42",
+      "correction": "e4e5b204efe5451d1b6831166b9a0f6a758b9d53b6f03d82cfd8c716709d991f",
+      "originalBytes": 3489867,
+      "compactBytes": 2441267,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9cce3f61e5ac59cf98a4dda4adc98ba228acebd54b780dfc941af7aadf10736e",
+      "base": "75ec035a61272199618381a0fa4381ac71cb18ce10d010f0e4ccc101bca762c5",
+      "correction": "26851aec07a3b19d704277212e86f2642f6690ea00903a3b8a91c0e419fa0474",
+      "originalBytes": 3489096,
+      "compactBytes": 2440498,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5c65bd657ed660216c56e5edfa981766a8432bb1bafa3016ef8e5538ddd77f66",
+      "base": "7e1cb8baf928a8f4db6b8a4536df2878a226d1c66af2c147eddaae1f567f91c0",
+      "correction": "4aa3899fd29a2571bac89bb6fd27273445bc9490bbc4699cb5ae6bb29cb74572",
+      "originalBytes": 3486327,
+      "compactBytes": 2437728,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e6028687f4ca74324ccd467f67ac2f5496c1f0a2e7d0650d7dd870cc45c2787c",
+      "base": "40f6144f60c9d64fdb0b867a0dac03f87b2ad8531e7cb574ec158922e6eabad3",
+      "correction": "49090d56a45fd2c855a1808a2d5277305c8ee73d6deaebefc81832dbb4ab0995",
+      "originalBytes": 3488840,
+      "compactBytes": 2440240,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4cbad5ee4e652f4149e2a9f6ec266ff2b719744a69c676c4cb018b19d422707c",
+      "base": "d18a10388361ac012c46b6ea654835cbd2b0ae5959c9c2e9b4995ff6a671dc20",
+      "correction": "ba8a121491438497385cef3244f8e1342ca7218947b1062341937ea1af97f92a",
+      "originalBytes": 3489577,
+      "compactBytes": 2440981,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8c4bacf8455f166c2ba37b1faa0193f020d2435959ab6075078db89ce30f6721",
+      "base": "32eb26de3d67d0abdb9f8e255b166d525f2f8ea816b40b67baa2462045e7cac3",
+      "correction": "28aabe235545bd9dc10d3d4e7ac4ec6ea1e89c4beb397831192f03a40f2ee7c3",
+      "originalBytes": 3489325,
+      "compactBytes": 2440724,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6f0da4cb5a4fcc3abb52b7229c5d0015a8888dc8159cf4359b916b15e3da6ad8",
+      "base": "f1fe042ed958181ce568b8d45fb0ecd892bb249c75cea6088ad8193199ffa314",
+      "correction": "b3b1fd7c8deb48216cef06e2acb39c4cf86d340212a51103d95d3ab7f42de9e2",
+      "originalBytes": 3488680,
+      "compactBytes": 2440081,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "cdc0da0faf6fac301b5a4c07555aeb54e24521cac25319ce83c3502ee09c41ed",
+      "base": "72d1de8d9cb7e9b4aaa79e999848e923d880e79e19f158dedb522b5f9b1b6143",
+      "correction": "706c2dfdbb6a759a7cfa6815e35363f62ff65f732d63f8560dfa7721da5b3d33",
+      "originalBytes": 3494343,
+      "compactBytes": 2445743,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "544205c9b34c027691e6e532b195f0423ecb14bc6fca83cb8dd3845cee83f513",
+      "base": "92ec6b63b039a2ae3e6f35af54468e94726bc1ce2a39bbf4004fc6c284750279",
+      "correction": "0fa2f7f066dfb89c49dc483c9326bb5c75665e5994de5d1066742d19187cda3e",
+      "originalBytes": 3495366,
+      "compactBytes": 2446757,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2fa87b0dfcd400406a7d812332991645a4499377786a607ec9df5c078efeea63",
+      "base": "39ae886132788898f3a3cb6f543c8757a481ce5d33201ea387de2b118cdaa6c0",
+      "correction": "a01c2adff2a2281f0ed64eca43c588c319f09abd1d0d9275d8fe971163972933",
+      "originalBytes": 3494331,
+      "compactBytes": 2445731,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "288d74e5db49e27d2fed6602b9cd0b82b10fec181558808f6a60551b28365c36",
+      "base": "2843e4b66eca5e7e8d9c6a1300d48e6226bdf42c7882785164777834693372ca",
+      "correction": "0c319bd774229e5f314704a4d920bc1ed9e47133cb8e6c5e70ef1526d5497a1b",
+      "originalBytes": 3495427,
+      "compactBytes": 2446795,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "4bee047890da1f398ef9af070b9055c289102c54f8a07bbb642bd3bf146bece3",
+      "base": "051e63db0654015369f707b9153076abad7e60cea418bcc34cf8e2e680c1ffb0",
+      "correction": "9e31bc302522710a5e5accab6b70d3dca1b2f7f067d5d7b2b5e6b60fe9ad69bf",
+      "originalBytes": 3489589,
+      "compactBytes": 2440987,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9bcd70f0be04888d07d59b05d9a153a3fc1f051df80064732af8af54c8b4b403",
+      "base": "c92f8f035f118019fc87e47ee8fea51c8daa7f645bcb4d484469552f9bd70c08",
+      "correction": "545adcc99fd9922349b0a8e6f892cc1114fe672116b4976e4e4f62b20888224b",
+      "originalBytes": 3489993,
+      "compactBytes": 2441393,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "3c3f184ca51b2713d5dec517094ead4a03b267abe687b0ded4be2d8692c5d047",
+      "base": "9644fd53e00de71379cebed195968d757bad2390b076cc755e0075c97962765f",
+      "correction": "9c4f6cb242b125e8b3df52752cd7904236fce25142477caef7d11e2fe0867825",
+      "originalBytes": 3489554,
+      "compactBytes": 2440954,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d9b5708e674669be1d3edb889fc4f3a3bfe7e9c7e7fd736223854ece9a475468",
+      "base": "c739330d4b9f8e2ea85bee8945b690a158e67d0af0244386acd2aa5436a085c3",
+      "correction": "bfdc6156ef212f6dd95af9fb96400d789f215a66e9d09e6055778ab2f8992805",
+      "originalBytes": 3487252,
+      "compactBytes": 2438653,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "8aa77b67a6dafb87eb649ed07550f7af1e824f4388f0dc26ed91c32dee9957bc",
+      "base": "449f1a377d7043ad664e5bac7ced75fe4ad943855034a7e0a5339171fca4dcc3",
+      "correction": "af95ec5e8ce75386e17546fddaf79593d2b7e617c0f687cc5b781a9d3ea2dd33",
+      "originalBytes": 3488048,
+      "compactBytes": 2439448,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "5d4abd79a77f020d28732014d06d1f56f403333b4471ab374c549af489bb861e",
+      "base": "7cb0ba04cba5803659916a56fcf9ccb06c20645cd22a2cfea513978d881a4805",
+      "correction": "911ff7927a139540dd11d756a368aaff5b4bd30305e7ac558eb6c2844eb7c476",
+      "originalBytes": 3488955,
+      "compactBytes": 2440354,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "2f8eb017aa0da906d272790b7a56b8e3210d9e60256759a6477f5cc240dee5c6",
+      "base": "5fb3d87f7e5d6e3de2f21e1ce0f6ed09235341617002a47487f71a1630be688c",
+      "correction": "0bfb7f9f882d3620f1220c8f7fc9c21cdb7f66ffd11f266ce45b590a5beedaf9",
+      "originalBytes": 3488898,
+      "compactBytes": 2440298,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "d26f5bbbf655a23a96c9515017111a548e8f0555f2242a61d3a3ad6bb3ed807b",
+      "base": "2fb7741de9262bd98cd3431f41f86b72c46d7374d3dc87230f5763cc2322917f",
+      "correction": "326ba7ec19f6c632ef85bba4df4c39ea8da1e4200b124fce7fb43151f30c4827",
+      "originalBytes": 3488594,
+      "compactBytes": 2439993,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "1322a971514a1d28e43f142bb0dcc4539a22df736d1e4242b1acda126c9cd245",
+      "base": "45bb6d4be297cea2c0a64f7ddd84976b73fcb6718bc39d9cb686bc1c7f30788c",
+      "correction": "72831441a9dd31471494d795c2da302470b076796078090f3c9852c1e01103ad",
+      "originalBytes": 3491884,
+      "compactBytes": 2443205,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "9a17df22fd19dbd117415658ece86f6604cd2a129fff6e654adcea53a79010f1",
+      "base": "0a091cd9260047f555032b6f747a2cb091a597ef82237ef7a10753ffc29ecca1",
+      "correction": "3a14f4c7800cae503835f9521cb677ff369fb9b56bb37fed553510f48eec1713",
+      "originalBytes": 3492011,
+      "compactBytes": 2443410,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "a6be8cc489aa30c60083cd83b50246af4681399a96bf82903cbf09b021ccf56f",
+      "base": "0ba838dd511e382cd11e8aa11a1b03d9731588e878bdcc75d35551e14cb8f7a1",
+      "correction": "6b3b1f24130d85db1b381f6a5188e0805c769987810892a5374704b8539f832a",
+      "originalBytes": 3491880,
+      "compactBytes": 2443280,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7ea43c5149ae164b11a813a700972b6431a575c84ac012379cea770345a8a37c",
+      "base": "317ad5edea02fca0bb8ccb373f2a20e0b693fb258edf045c81a87ec74f522e93",
+      "correction": "8947b7afce53dd5ead627d938e365d4a5d8709d0fc2702fc4636e9ee46e63883",
+      "originalBytes": 3491557,
+      "compactBytes": 2442957,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "cbe1eb4e8a299ad3d224e894ce3d233f09bd2aa2ee0123d9fe1af8e338780cb6",
+      "base": "f30308dfcd8997e7ab4f8b97e7b69374cf50512c9a2cb68b4c04b0b9c1a2193c",
+      "correction": "64db206b2fd1104290244f8aa8d518ad4e06b4b9cde41d4ff0a22637aa7bd693",
+      "originalBytes": 3489490,
+      "compactBytes": 2440890,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "28cd3945733b0d40d12d151b309caf08ba0a861f980d0809002db3934fbb7611",
+      "base": "a5609308bf467ccda521e0eded152c4da784e98a8ae821e0ba7eda1115ced71d",
+      "correction": "3c10a359e14430a593bb637db43b8a70ad118248d410adf847fff662967fcf9c",
+      "originalBytes": 3490493,
+      "compactBytes": 2441894,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "47f95effbab9b8bb0caa4da0253292527e89a838bde0bbdd86b07fd73a8cd634",
+      "base": "9e28afca84d8cff8de5eac3f47cb0ac5550ae380f8307538409ff2f5d9b3f59f",
+      "correction": "d9e53f726239358f36e0c56b5d9f46dbfff276872ac9a8a55712de49793c3376",
+      "originalBytes": 3489055,
+      "compactBytes": 2440456,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6281c98cc1f8384670638f1653fd28e9d8a7edc620be34a2d9c9cb52184f4ac1",
+      "base": "b1dd5c3ed81fab2519da92fea51b551438a8e9d15ef05dabc457fc071067e395",
+      "correction": "65f6ce78c1fbde9bccf0386a2a701e243bced7ebce853f026acafad0d29d4604",
+      "originalBytes": 3488082,
+      "compactBytes": 2439479,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7a181bd23fffb95b5bb6cfc63b7b33305fae067a81c6a9e50dedfa745f40844d",
+      "base": "da70ef24c020a762b0eea8b9cfbde1b7291bd684d9254d05a883a173851d26a2",
+      "correction": "59b339d1ac1f7a67f4cb52d75d0badbabdfa7aa79f05e9c3a6560470f613422d",
+      "originalBytes": 3486264,
+      "compactBytes": 2437665,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "6af9533b900e6bceef095b8d4f55671633cc876ba916cb66932091b1d5c1b57b",
+      "base": "64af53fad6cee65b58697dedb1e92a211f27815c0a4db89044df617642f137e3",
+      "correction": "3eddf0067d634fa0078ac269f90af5a90c5034a5477edb28e9083e13138a798c",
+      "originalBytes": 3486578,
+      "compactBytes": 2437982,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "e0481a8406502fba83958f9b18c7abb90553f8a77f6c0ba8cd05c059537abaa6",
+      "base": "d61362e239ea8eaca1368a05b557d44dfd117f0c81be24c7d63b7a96dd7896b1",
+      "correction": "a5b99d9ca8b3a37a3f8aca696b6b011ae3fcc983cf29b288188dc54cb41c4b09",
+      "originalBytes": 3486682,
+      "compactBytes": 2438083,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "550810864d8288c4fd5df082212b3e029bea52ede32db5499ea4b724e208b480",
+      "base": "672d7fad13f896322f1a6f043e4c846179c2a86823d44a2b4703ebc9fc1147e3",
+      "correction": "d40dbf7173a234cf8a10dcc9bfcd25cd1d286ea2f7231b68c8150f26743b8fc4",
+      "originalBytes": 3485903,
+      "compactBytes": 2437303,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "ad6a6377853ba3ca8621a3211252d55358f0e977fbbb3f507abea02d204c68bc",
+      "base": "f5ae38376beefa49fb52258917a5bacc9a99cc6443355caf0c6d73c7db7a7178",
+      "correction": "fc6b6b9e9fe42854944766ab389f61ba6a27520af6090d5cf49d1dfeec7926a6",
+      "originalBytes": 3487980,
+      "compactBytes": 2439381,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "7a14f43907783a844385fca4d9c3a692001bd79c535906ed7da74b7c3ab76afb",
+      "base": "260b805f79412314a8f881f48a41d0f943feed38a960e5fb285c7070dafc2dea",
+      "correction": "df25e54f01d39110343cdfd05c5e8efd5d4e05b45efc2a759004c453b208b964",
+      "originalBytes": 3488048,
+      "compactBytes": 2439448,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "bc3f392f1c41190a68315614b4ffe32698a1bc1272219739242c091bb057b766",
+      "base": "716ad3df12bd1366949ef249e03906103836eeadfeb6dd686edf6eeb81333d7a",
+      "correction": "547b1b8cc51e792160368c8674d7c3cd735e851f6bdc0eda462e2a765a8d9538",
+      "originalBytes": 3487738,
+      "compactBytes": 2439138,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    },
+    {
+      "source": "144b91889740f5f03f451ad1409972aebbaef219956436adac85a904038dbb9c",
+      "base": "7a738e8f42b82f8ae97f630cd9ae71e7be95e371ed25dc69053415ea5320c8a1",
+      "correction": "70d99822eca9f93f3e50de752116299920a0efb92086283428959c93a7dce141",
+      "originalBytes": 3488318,
+      "compactBytes": 2439716,
+      "correctionBytes": 1048613,
+      "byteExactUpgrade": true
+    }
+  ],
+  "seconds": 30.084905862808228
+}
